@@ -1,0 +1,43 @@
+{
+    "type": "practice_test_question_review",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "video/ru/video.mp4",
+            "type": "video",
+            "lang": "ru"
+        },
+        {
+            "path": "presentation/presentation.en.pptx",
+            "type": "presentation",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_service": [
+        "bucket",
+        "S3",
+        "Amazon Redshift"
+    ],
+    "aws_group": [
+        "Analytics",
+        "Storage"
+    ],
+    "id": "301",
+    "title": {
+        "ru": "Practice test quesion review",
+        "en": "Practice test quesion review",
+        "kk": "Practice test quesion review"
+    },
+    "content_type": "video"
+}

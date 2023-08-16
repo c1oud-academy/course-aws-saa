@@ -1,0 +1,52 @@
+{
+    "type": "practice_test_question_review",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "video/ru/video.mp4",
+            "type": "video",
+            "lang": "ru"
+        },
+        {
+            "path": "presentation/presentation.en.pptx",
+            "type": "presentation",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_service": [
+        "Lambda",
+        "EC2",
+        "RDS",
+        "Aurora",
+        "ECS",
+        "Elastic Container Service",
+        "DynamoDB",
+        "S3",
+        "CloudFront"
+    ],
+    "aws_group": [
+        "Storage",
+        "Compute",
+        "Database",
+        "Containers",
+        "Networking & Content Delivery"
+    ],
+    "id": "519",
+    "title": {
+        "ru": "Practice test quesion review",
+        "en": "Practice test quesion review",
+        "kk": "Practice test quesion review"
+    },
+    "content_type": "video"
+}

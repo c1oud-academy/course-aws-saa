@@ -1,0 +1,54 @@
+{
+    "type": "practice_test_question_review",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "video/ru/video.mp4",
+            "type": "video",
+            "lang": "ru"
+        },
+        {
+            "path": "presentation/presentation.en.pptx",
+            "type": "presentation",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_service": [
+        "AWS Application Migration Service",
+        "Database Migration Service",
+        "EKS",
+        "RDS",
+        "DMS",
+        "ECS",
+        "EC2",
+        "Elastic Kubernetes Service",
+        "Elastic Beanstalk",
+        "Elastic Container Service",
+        "Availability Zone"
+    ],
+    "aws_group": [
+        "Compute",
+        "Database",
+        "AWS Global Infrastructure",
+        "Migration & Transfer",
+        "Containers"
+    ],
+    "id": "57",
+    "title": {
+        "ru": "Practice test quesion review",
+        "en": "Practice test quesion review",
+        "kk": "Practice test quesion review"
+    },
+    "content_type": "video"
+}
