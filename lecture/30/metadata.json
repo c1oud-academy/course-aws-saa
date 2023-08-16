@@ -1,0 +1,28 @@
+{
+	"type": "lecture",
+	"id": "30",
+	"content_type": "video",
+	"property_keys": ["type", "id", "content_type"],
+	"title": {
+		"ru": "Module 2: Introducing Cloud Architecting",
+		"kk": "Module 2: Introducing Cloud Architecting",
+		"en": "Module 2: Introducing Cloud Architecting"
+	},
+	"files_list": [
+		{
+			"path": "metadata.json",
+			"type": "metadata",
+			"lang": "en"
+		},
+		{
+			"path": "video/ru/video.mp4",
+			"type": "video",
+			"lang": "ru"
+		},
+		{
+			"path": "presentation/presentation.en.pptx",
+			"type": "presentation",
+			"lang": "en"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"type": "lecture",
+	"id": "60",
+	"content_type": "video",
+	"property_keys": ["type", "id", "content_type"],
+	"title": {
+		"ru": "Module 4: Adding a Compute Layer (part 1)",
+		"kk": "Module 4: Adding a Compute Layer (part 1)",
+		"en": "Module 4: Adding a Compute Layer (part 1)"
+	},
+	"files_list": [
+		{
+			"path": "metadata.json",
+			"type": "metadata",
+			"lang": "en"
+		},
+		{
+			"path": "video/ru/video.mp4",
+			"type": "video",
+			"lang": "ru"
+		},
+		{
+			"path": "presentation/presentation.en.pptx",
+			"type": "presentation",
+			"lang": "en"
+		}
+	]
+}
