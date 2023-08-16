@@ -1,0 +1,18 @@
+{
+    "text": "A company deployed a high-performance computing (HPC) cluster that spans multiple EC2 instances across multiple Availability Zones and processes various wind simulation models. Currently, the Solutions Architect is experiencing a slowdown in their applications and upon further investigation, it was discovered that it was due to latency issues.\nWhich is the MOST suitable solution that the Solutions Architect should implement to provide low-latency network performance necessary for tightly-coupled node-to-node communication of the HPC cluster?",
+    "answers": [
+        {
+            "text": "Use EC2 Dedicated Instances."
+        },
+        {
+            "text": "Set up AWS Direct Connect connections across multiple Availability Zones for increased bandwidth throughput and more consistent network experience."
+        },
+        {
+            "text": "Set up a spread placement group across multiple Availability Zones in multiple AWS Regions."
+        },
+        {
+            "text": "Set up a cluster placement group within a single Availability Zone in the same AWS Region.",
+            "right_answer": true
+        }
+    ]
+}

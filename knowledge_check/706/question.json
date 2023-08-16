@@ -1,0 +1,21 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "No Upfront Reserved Instance"
+        },
+        {
+            "text": "No Unreserved Regular Instance"
+        },
+        {
+            "text": "Nominal Upfront Reserved Instance"
+        },
+        {
+            "text": "Nominal Unreserved Regular Instance"
+        },
+        {
+            "text": "Other"
+        }
+    ],
+    "text": "What does NURI stand for?"
+}

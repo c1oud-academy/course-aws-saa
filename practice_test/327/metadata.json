@@ -1,0 +1,42 @@
+{
+    "aws_service": [
+        "VPC",
+        "ElastiCache",
+        "CloudFront",
+        "EC2",
+        "Storage Gateway"
+    ],
+    "aws_group": [
+        "Database",
+        "Storage",
+        "Compute",
+        "Networking & Content Delivery"
+    ],
+    "content_type": "test",
+    "id": "327",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 327",
+        "kk": "Practice test quesion 327",
+        "ru": "Practice test quesion 327"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

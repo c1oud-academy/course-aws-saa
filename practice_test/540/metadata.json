@@ -1,0 +1,43 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "Simple Notification Service",
+        "RDS",
+        "SWF",
+        "Simple Queue Service",
+        "CloudWatch",
+        "Route 53"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "540",
+    "aws_group": [
+        "Database",
+        "Application Integration",
+        "Networking & Content Delivery",
+        "Management & Governance"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 540",
+        "ru": "Practice test quesion 540",
+        "en": "Practice test quesion 540"
+    }
+}

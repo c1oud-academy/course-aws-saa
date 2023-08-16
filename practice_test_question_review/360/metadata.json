@@ -1,0 +1,49 @@
+{
+    "type": "practice_test_question_review",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "video/ru/video.mp4",
+            "type": "video",
+            "lang": "ru"
+        },
+        {
+            "path": "presentation/presentation.en.pptx",
+            "type": "presentation",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_service": [
+        "Athena",
+        "bucket",
+        "Route 53",
+        "Lambda",
+        "Kinesis",
+        "CloudFront",
+        "S3"
+    ],
+    "aws_group": [
+        "Analytics",
+        "Storage",
+        "Compute",
+        "Networking & Content Delivery"
+    ],
+    "id": "360",
+    "title": {
+        "ru": "Practice test quesion review",
+        "en": "Practice test quesion review",
+        "kk": "Practice test quesion review"
+    },
+    "content_type": "video"
+}

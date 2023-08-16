@@ -1,0 +1,39 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Management & Governance",
+        "Database",
+        "Containers"
+    ],
+    "id": "11",
+    "title": {
+        "kk": "Practice test quesion 11",
+        "ru": "Practice test quesion 11",
+        "en": "Practice test quesion 11"
+    },
+    "aws_service": [
+        "CloudWatch",
+        "RDS",
+        "ECS"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

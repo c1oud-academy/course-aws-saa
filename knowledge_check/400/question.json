@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "Amazon S3"
+        },
+        {
+            "text": "Amazon EFS"
+        },
+        {
+            "text": "Amazon EBS"
+        },
+        {
+            "text": "Amazon FSx"
+        }
+    ],
+    "text": "Select an object storage service:"
+}

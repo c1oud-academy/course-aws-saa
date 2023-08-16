@@ -1,0 +1,18 @@
+{
+    "text": "A company plans to set up a cloud infrastructure in AWS. In the planning, it was discussed that you need to deploy two EC2 instances that should continuously run for three years. The CPU utilization of the EC2 instances is also expected to be stable and predictable.\nWhich is the most cost-efficient Amazon EC2 Pricing type that is most appropriate for this scenario?",
+    "answers": [
+        {
+            "text": "On-Demand instances"
+        },
+        {
+            "text": "Dedicated Hosts"
+        },
+        {
+            "text": "Spot instances"
+        },
+        {
+            "text": "Reserved Instances",
+            "right_answer": true
+        }
+    ]
+}

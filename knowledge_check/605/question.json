@@ -1,0 +1,19 @@
+{
+    "text": "What are valid AMI sources?",
+    "answers": [
+        {
+            "text": "AWS Marketplace",
+            "right_answer": true
+        },
+        {
+            "text": "Community AMIs",
+            "right_answer": true
+        },
+        {
+            "text": "AWS AMI Store"
+        },
+        {
+            "text": "Company AMIs"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A company is hosting its web application in an Auto Scaling group of EC2 instances behind an Application Load Balancer. Recently, the Solutions Architect identified a series of SQL injection attempts and cross-site scripting attacks to the application, which had adversely affected their production data.\nWhich of the following should the Architect implement to mitigate this kind of attack?",
+    "answers": [
+        {
+            "text": "Set up security rules that block SQL injection and cross-site scripting attacks in AWS Web Application Firewall (WAF). Associate the rules to the Application Load Balancer.",
+            "right_answer": true
+        },
+        {
+            "text": "Block all the IP addresses where the SQL injection and cross-site scripting attacks originated using the Network Access Control List."
+        },
+        {
+            "text": "Using AWS Firewall Manager, set up security rules that block SQL injection and cross-site scripting attacks. Associate the rules to the Application Load Balancer."
+        },
+        {
+            "text": "Use Amazon GuardDuty to prevent any further SQL injection and cross-site scripting attacks in your application."
+        }
+    ]
+}

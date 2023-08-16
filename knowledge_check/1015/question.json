@@ -1,0 +1,21 @@
+{
+    "answers": [
+        {
+            "text": "Amazon RDS"
+        },
+        {
+            "text": "Amazon Redshift"
+        },
+        {
+            "text": "Amazon Aurora"
+        },
+        {
+            "text": "Amazon DynamoDB",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon ElastiCache"
+        }
+    ],
+    "text": "What is the AWS service that provides non-relational key-value database?"
+}

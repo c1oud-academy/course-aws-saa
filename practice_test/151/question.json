@@ -1,0 +1,22 @@
+{
+    "text": "A software company has resources hosted in AWS and on-premises servers. You have been requested to create a decoupled architecture for applications which make use of both resources.\nWhich of the following options are valid?",
+    "answers": [
+        {
+            "text": "Use RDS to utilize both on-premises servers and EC2 instances for your decoupled application"
+        },
+        {
+            "text": "Use VPC peering to connect both on-premises servers and EC2 instances for your decoupled application"
+        },
+        {
+            "text": "Use SQS to utilize both on-premises servers and EC2 instances for your decoupled application",
+            "right_answer": true
+        },
+        {
+            "text": "Use DynamoDB to utilize both on-premises servers and EC2 instances for your decoupled application"
+        },
+        {
+            "text": "Use SWF to utilize both on-premises servers and EC2 instances for your decoupled application",
+            "right_answer": true
+        }
+    ]
+}

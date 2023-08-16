@@ -1,0 +1,40 @@
+{
+    "text": "Select the AWS Well-Architected Framework pillars:",
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "Operational Excellence"
+        },
+        {
+            "right_answer": true,
+            "text": "Security"
+        },
+        {
+            "right_answer": true,
+            "text": "Reliability"
+        },
+        {
+            "right_answer": true,
+            "text": "Performance Efficiency"
+        },
+        {
+            "right_answer": true,
+            "text": "Cost Optimization"
+        },
+        {
+            "text": "Diaster Recovery"
+        },
+        {
+            "text": "High avalability"
+        },
+        {
+            "text": "Planning"
+        },
+        {
+            "text": "Forecasting"
+        },
+        {
+            "text": "Guessing capacity"
+        }
+    ]
+}

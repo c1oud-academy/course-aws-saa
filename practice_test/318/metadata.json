@@ -1,0 +1,38 @@
+{
+    "aws_service": [
+        "Step Functions",
+        "Amazon MQ",
+        "SWF",
+        "SNS"
+    ],
+    "aws_group": [
+        "Application Integration"
+    ],
+    "content_type": "test",
+    "id": "318",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 318",
+        "kk": "Practice test quesion 318",
+        "ru": "Practice test quesion 318"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

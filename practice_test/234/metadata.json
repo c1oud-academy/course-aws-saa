@@ -1,0 +1,39 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 234",
+        "kk": "Practice test quesion 234",
+        "ru": "Practice test quesion 234"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "234",
+    "aws_service": [
+        "Amazon Redshift",
+        "Aurora",
+        "DynamoDB",
+        "RDS"
+    ],
+    "aws_group": [
+        "Analytics",
+        "Database"
+    ]
+}

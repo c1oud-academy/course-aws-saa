@@ -1,0 +1,42 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "Kinesis",
+        "DynamoDB",
+        "Amazon Redshift",
+        "Lambda",
+        "Simple Queue Service"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "536",
+    "aws_group": [
+        "Database",
+        "Analytics",
+        "Compute",
+        "Application Integration"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 536",
+        "ru": "Practice test quesion 536",
+        "en": "Practice test quesion 536"
+    }
+}

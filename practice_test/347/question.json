@@ -1,0 +1,18 @@
+{
+    "text": "A company needs to integrate the Lightweight Directory Access Protocol (LDAP) directory service from the on-premises data center to the AWS VPC using IAM. The identity store which is currently being used is not compatible with SAML.\nWhich of the following provides the most valid approach to implement the integration?",
+    "answers": [
+        {
+            "text": "Develop an on-premises custom identity broker application and use STS to issue short-lived AWS credentials.",
+            "right_answer": true
+        },
+        {
+            "text": "Use IAM roles to rotate the IAM credentials whenever LDAP credentials are updated."
+        },
+        {
+            "text": "Use an IAM policy that references the LDAP identifiers and AWS credentials."
+        },
+        {
+            "text": "Use AWS Single Sign-On (SSO) service to enable single sign-on between AWS and your LDAP."
+        }
+    ]
+}

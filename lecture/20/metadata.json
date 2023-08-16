@@ -1,0 +1,28 @@
+{
+	"type": "lecture",
+	"id": "20",
+	"content_type": "video",
+	"property_keys": ["type", "id", "content_type"],
+	"title": {
+		"ru": "Module 1: Welcome to AWS Academy Cloud Architecting",
+		"kk": "Module 1: Welcome to AWS Academy Cloud Architecting",
+		"en": "Module 1: Welcome to AWS Academy Cloud Architecting"
+	},
+	"files_list": [
+		{
+			"path": "metadata.json",
+			"type": "metadata",
+			"lang": "en"
+		},
+		{
+			"path": "video/ru/video.mp4",
+			"type": "video",
+			"lang": "ru"
+		},
+		{
+			"path": "presentation/presentation.en.pptx",
+			"type": "presentation",
+			"lang": "en"
+		}
+	]
+}

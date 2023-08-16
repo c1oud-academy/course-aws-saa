@@ -1,0 +1,18 @@
+{
+    "text": "A company plans to build a web architecture using On-Demand EC2 instances and a database in AWS. However, due to budget constraints, the company instructed the Solutions Architect to choose a database service in which they no longer need to worry about database management tasks such as hardware or software provisioning, setup, configuration, scaling, and backups.\nWhich of the following services should the Solutions Architect recommend?",
+    "answers": [
+        {
+            "text": "Amazon RDS"
+        },
+        {
+            "text": "Amazon Redshift"
+        },
+        {
+            "text": "Amazon ElastiCache"
+        },
+        {
+            "text": "Amazon DynamoDB",
+            "right_answer": true
+        }
+    ]
+}

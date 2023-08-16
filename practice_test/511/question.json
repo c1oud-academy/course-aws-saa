@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect is trying to enable Cross-Region Replication to an S3 bucket but this option is disabled. Which of the following options is a valid reason for this?",
+    "answers": [
+        {
+            "text": "This is a premium feature which is only for AWS Enterprise accounts."
+        },
+        {
+            "text": "The Cross-Region Replication feature is only available for Amazon S3 - One Zone-IA"
+        },
+        {
+            "text": "In order to use the Cross-Region Replication feature in S3, you need to first enable versioning on the bucket.",
+            "right_answer": true
+        },
+        {
+            "text": "The Cross-Region Replication feature is only available for Amazon S3 - Infrequent Access."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "Bucket configurations have an strongly consistent model"
+        },
+        {
+            "text": "Strongly consistent for all new objects in all Regions"
+        },
+        {
+            "text": "Strongly consistent for all existing objects in all Regions"
+        },
+        {
+            "text": "Bucket configurations have an eventually consistent model"
+        }
+    ],
+    "text": "Select FALSE statement regarding Amazon S3 data consistency model:"
+}

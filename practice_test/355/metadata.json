@@ -1,0 +1,43 @@
+{
+    "aws_service": [
+        "X-Ray",
+        "CloudWatch",
+        "CloudTrail",
+        "API Gateway",
+        "Lambda",
+        "VPC"
+    ],
+    "aws_group": [
+        "Management & Governance",
+        "Developer Tools",
+        "Compute",
+        "Networking & Content Delivery"
+    ],
+    "content_type": "test",
+    "id": "355",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 355",
+        "kk": "Practice test quesion 355",
+        "ru": "Practice test quesion 355"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

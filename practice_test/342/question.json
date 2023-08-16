@@ -1,0 +1,18 @@
+{
+    "text": "A company launched an EC2 instance in the newly created VPC. They noticed that the generated instance does not have an associated DNS hostname.\nWhich of the following options could be a valid reason for this issue?",
+    "answers": [
+        {
+            "text": "The security group of the EC2 instance needs to be modified."
+        },
+        {
+            "text": "The DNS resolution and DNS hostname of the VPC configuration should be enabled.",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon Route53 is not enabled."
+        },
+        {
+            "text": "The newly created VPC has an invalid CIDR block."
+        }
+    ]
+}

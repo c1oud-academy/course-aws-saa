@@ -1,0 +1,18 @@
+{
+    "text": "There are a lot of outages in the Availability Zone of your RDS database instance to the point that you have lost access to the database. What could you do to prevent losing access to your database in case that this event happens again?",
+    "answers": [
+        {
+            "text": "Enabled Multi-AZ failover",
+            "right_answer": true
+        },
+        {
+            "text": "Make a snapshot of the database"
+        },
+        {
+            "text": "Increase the database instance size"
+        },
+        {
+            "text": "Create a read replica"
+        }
+    ]
+}

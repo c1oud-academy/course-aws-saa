@@ -1,0 +1,18 @@
+{
+    "text": "An application that records weather data every minute is deployed in a fleet of Spot EC2 instances and uses a MySQL RDS database instance. Currently, there is only one RDS instance running in one Availability Zone. You plan to improve the database to ensure high availability by synchronous data replication to another RDS instance.\nWhich of the following performs synchronous data replication in RDS?",
+    "answers": [
+        {
+            "text": "RDS DB instance running as a Multi-AZ deployment",
+            "right_answer": true
+        },
+        {
+            "text": "RDS Read Replica"
+        },
+        {
+            "text": "DynamoDB Read Replica"
+        },
+        {
+            "text": "CloudFront running as a Multi-AZ deployment"
+        }
+    ]
+}

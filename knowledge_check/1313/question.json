@@ -1,0 +1,21 @@
+{
+    "text": "What is the service that connects resources in VPC with other AWS Services?",
+    "answers": [
+        {
+            "text": "AWS Site-to-Site VPN"
+        },
+        {
+            "text": "AWS Direct Connect (DX)"
+        },
+        {
+            "text": "VPC Peering"
+        },
+        {
+            "text": "AWS Transit Gateway"
+        },
+        {
+            "text": "VPC Endpoints",
+            "right_answer": true
+        }
+    ]
+}

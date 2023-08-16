@@ -1,0 +1,18 @@
+{
+    "text": "A company developed a web application and deployed it on a fleet of EC2 instances that uses Amazon SQS. The requests are saved as messages in the SQS queue, which is configured with the maximum message retention period. However, after thirteen days of operation, the web application suddenly crashed and there are 10,000 unprocessed messages that are still waiting in the queue. Since they developed the application, they can easily resolve the issue but they need to send a communication to the users on the issue.\nWhat information should they provide and what will happen to the unprocessed messages?",
+    "answers": [
+        {
+            "text": "Tell the users that the application will be operational shortly however, requests sent over three days ago will need to be resubmitted."
+        },
+        {
+            "text": "Tell the users that unfortunately, they have to resubmit all the requests again."
+        },
+        {
+            "text": "Tell the users that unfortunately, they have to resubmit all of the requests since the queue would not be able to process the 10,000 messages together."
+        },
+        {
+            "text": "Tell the users that the application will be operational shortly and all received requests will be processed after the web application is restarted.",
+            "right_answer": true
+        }
+    ]
+}

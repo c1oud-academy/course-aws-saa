@@ -1,0 +1,22 @@
+{
+    "text": "A company has a static corporate website hosted in a standard S3 bucket and a new web domain name that was registered using Route 53. You are instructed by your manager to integrate these two services in order to successfully launch their corporate website.\nWhat are the prerequisites when routing traffic using Amazon Route 53 to a website that is hosted in an Amazon S3 Bucket?",
+    "answers": [
+        {
+            "text": "The S3 bucket name must be the same as the domain name",
+            "right_answer": true
+        },
+        {
+            "text": "A registered domain name",
+            "right_answer": true
+        },
+        {
+            "text": "The record set must be of type 'MX'"
+        },
+        {
+            "text": "The Cross-Origin Resource Sharing (CORS) option should be enabled in the S3 bucket"
+        },
+        {
+            "text": "The S3 bucket must be in the same region as the hosted zone"
+        }
+    ]
+}

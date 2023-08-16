@@ -1,0 +1,18 @@
+{
+    "text": "A solutions architect is formulating a strategy for a startup that needs to transfer 50 TB of on-premises data to Amazon S3. The startup has a slow network transfer speed between its data center and AWS which causes a bottleneck for data migration.\nWhich of the following should the solutions architect implement?",
+    "answers": [
+        {
+            "text": "Enable Amazon S3 Transfer Acceleration on the target S3 bucket."
+        },
+        {
+            "text": "Deploy an AWS Migration Hub Discovery agent in the on-premises data center."
+        },
+        {
+            "text": "Request an Import Job to Amazon S3 using a Snowball device in the AWS Snowball Console.",
+            "right_answer": true
+        },
+        {
+            "text": "Integrate AWS Storage Gateway File Gateway with the on-premises data center."
+        }
+    ]
+}

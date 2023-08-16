@@ -1,0 +1,18 @@
+{
+    "text": "A Docker application, which is running on an Amazon ECS cluster behind a load balancer, is heavily using DynamoDB. You are instructed to improve the database performance by distributing the workload evenly and using the provisioned throughput efficiently.\nWhich of the following would you consider to implement for your DynamoDB table?",
+    "answers": [
+        {
+            "text": "Use partition keys with high-cardinality attributes, which have a large number of distinct values for each item.",
+            "right_answer": true
+        },
+        {
+            "text": "Use partition keys with low-cardinality attributes, which have a few number of distinct values for each item."
+        },
+        {
+            "text": "Avoid using a composite primary key, which is composed of a partition key and a sort key."
+        },
+        {
+            "text": "Reduce the number of partition keys in the DynamoDB table."
+        }
+    ]
+}

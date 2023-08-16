@@ -1,0 +1,18 @@
+{
+    "text": "A company needs to launch an Amazon EC2 instance with persistent block storage to host its application. The stored data must be encrypted at rest.\nWhich of the following is the most suitable storage solution in this scenario?",
+    "answers": [
+        {
+            "text": "Amazon EC2 Instance Store with SSL encryption."
+        },
+        {
+            "text": "Encrypted Amazon EC2 Instance Store using AWS KMS."
+        },
+        {
+            "text": "Encrypted Amazon EBS volume using AWS KMS.",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon EBS volume with server-side encryption (SSE) enabled."
+        }
+    ]
+}

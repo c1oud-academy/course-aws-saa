@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "5 TB"
+        },
+        {
+            "text": "5 GB"
+        },
+        {
+            "text": "5 PB"
+        },
+        {
+            "text": "5 MB"
+        }
+    ],
+    "text": "What is the maximum file size of a single object in Amazon S3?"
+}

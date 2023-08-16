@@ -1,0 +1,24 @@
+{
+    "answers": [
+        {
+            "text": "AWS Management Console",
+            "right_answer": true
+        },
+        {
+            "text": "AWS SLI"
+        },
+        {
+            "text": "AWS CLI"
+        },
+        {
+            "text": "CDK"
+        },
+        {
+            "text": "SDK"
+        },
+        {
+            "text": "Amazon Management Console"
+        }
+    ],
+    "text": "What is the way of interaction with AWS with UI interface?"
+}

@@ -1,0 +1,22 @@
+{
+    "text": "Select main cosiderations when choosing AWS Region:",
+    "answers": [
+        {
+            "text": "End-user device OS distribution"
+        },
+        {
+            "text": "Server availabilty"
+        },
+        {
+            "text": "Service availability",
+            "right_answer": true
+        },
+        {
+            "text": "Cost",
+            "right_answer": true
+        },
+        {
+            "text": "End-user age distribution"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "What is the instance type generation part for instance type m5d.xlarge?",
+    "answers": [
+        {
+            "text": "m"
+        },
+        {
+            "text": "5",
+            "right_answer": true
+        },
+        {
+            "text": "d"
+        },
+        {
+            "text": "xlarge"
+        }
+    ]
+}

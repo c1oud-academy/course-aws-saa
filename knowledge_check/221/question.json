@@ -1,0 +1,26 @@
+{
+    "answers": [
+        {
+            "text": "AWS Management Console",
+            "right_answer": true
+        },
+        {
+            "text": "AWS SLI"
+        },
+        {
+            "text": "AWS CLI",
+            "right_answer": true
+        },
+        {
+            "text": "CDK"
+        },
+        {
+            "text": "SDK",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon Management Console"
+        }
+    ],
+    "text": "What are the ways of interaction with AWS?"
+}

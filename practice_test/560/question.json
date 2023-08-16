@@ -1,0 +1,18 @@
+{
+    "text": "A web application is hosted on a fleet of EC2 instances inside an Auto Scaling Group with a couple of Lambda functions for ad hoc processing. Whenever you release updates to your application every week, there are inconsistencies where some resources are not updated properly. You need a way to group the resources together and deploy the new version of your code consistently among the groups with minimal downtime.\nWhich among these options should you do to satisfy the given requirement with the least effort?",
+    "answers": [
+        {
+            "text": "Create OpsWorks recipes that will automatically launch resources containing the latest version of the code."
+        },
+        {
+            "text": "Use CodeCommit to publish your code quickly in a private repository and push them to your resources for fast updates."
+        },
+        {
+            "text": "Create CloudFormation templates that have the latest configurations and code in them."
+        },
+        {
+            "text": "Use deployment groups in CodeDeploy to automate code deployments in a consistent manner.",
+            "right_answer": true
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect needs to create a publicly accessible EC2 instance by using an Elastic IP (EIP) address and generate a report on how much it will cost to use that EIP.\nWhich of the following statements is correct regarding the pricing of EIP?",
+    "answers": [
+        {
+            "text": "There is no cost if the instance is terminated and it has only one associated EIP."
+        },
+        {
+            "text": "There is no cost if the instance is running and it has only one associated EIP.",
+            "right_answer": true
+        },
+        {
+            "text": "There is no cost if the instance is stopped and it has only one associated EIP."
+        },
+        {
+            "text": "There is no cost if the instance is running and it has at least two associated EIP."
+        }
+    ]
+}

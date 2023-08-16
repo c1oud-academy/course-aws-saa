@@ -1,0 +1,44 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 245",
+        "kk": "Practice test quesion 245",
+        "ru": "Practice test quesion 245"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "245",
+    "aws_service": [
+        "VPC",
+        "Availability Zone",
+        "IAM",
+        "EC2",
+        "Lambda",
+        "EFS"
+    ],
+    "aws_group": [
+        "AWS Global Infrastructure",
+        "Networking & Content Delivery",
+        "Security, Identity, & Compliance",
+        "Compute",
+        "Storage"
+    ]
+}

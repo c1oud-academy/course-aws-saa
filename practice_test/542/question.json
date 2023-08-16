@@ -1,0 +1,22 @@
+{
+    "text": "An intelligence agency is currently hosting a learning and training portal in AWS. Your manager instructed you to launch a large EC2 instance with an attached EBS Volume and enable Enhanced Networking. What are the valid case scenarios in using Enhanced Networking?",
+    "answers": [
+        {
+            "text": "When you need a dedicated connection to your on-premises data center"
+        },
+        {
+            "text": "When you need a higher packet per second (PPS) performance",
+            "right_answer": true
+        },
+        {
+            "text": "When you need a consistently lower inter-instance latencies",
+            "right_answer": true
+        },
+        {
+            "text": "When you need a low packet-per-second performance"
+        },
+        {
+            "text": "When you need high latency networking"
+        }
+    ]
+}

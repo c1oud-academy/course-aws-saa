@@ -1,0 +1,19 @@
+{
+    "text": "What are the EBS volume types that can not be used for root volume?",
+    "answers": [
+        {
+            "text": "General Purpose SSD (gp2)"
+        },
+        {
+            "text": "Provisioned IOPS SSD (io1)"
+        },
+        {
+            "text": "Throughput Optimized HDD (st1)",
+            "right_answer": true
+        },
+        {
+            "text": "Cold HDD (sc1)",
+            "right_answer": true
+        }
+    ]
+}

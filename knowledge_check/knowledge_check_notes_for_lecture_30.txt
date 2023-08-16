@@ -1,0 +1,255 @@
+300
+Select the AWS Well-Architected Framework pillars:
++A) Operational Excellence
++B) Security
++C) Reliability
++D) Performance Efficiency
++E) Cost Optimization
+A) Diaster Recovery
+B) High avalability
+C) Planning
+D) Forecasting
+E) Guessing capacity
+
+301
+Which option is one of the AWS Well-Architected Framework pillars:
++A) Operational Excellence
+A) Diaster Recovery
+B) High avalability
+C) Planning
+D) Forecasting
+E) Guessing capacity
+
+302
+Which option is one of the AWS Well-Architected Framework pillars:
++B) Security
+A) Diaster Recovery
+B) High avalability
+C) Planning
+D) Forecasting
+E) Guessing capacity
+
+303
+Which option is one of the AWS Well-Architected Framework pillars:
++C) Reliability
+A) Diaster Recovery
+B) High avalability
+C) Planning
+D) Forecasting
+E) Guessing capacity
+
+304
+Which option is one of the AWS Well-Architected Framework pillars:
++D) Performance Efficiency
+A) Diaster Recovery
+B) High avalability
+C) Planning
+D) Forecasting
+E) Guessing capacity
+
+305
+Which option is one of the AWS Well-Architected Framework pillars:
++E) Cost Optimization
+A) Diaster Recovery
+B) High avalability
+C) Planning
+D) Forecasting
+E) Guessing capacity
+
+306
+Which option is NOT one of the AWS Well-Architected Framework pillars:
++A) Diaster Recovery
+A) Operational Excellence
+B) Security
+C) Reliability
+D) Performance Efficiency
+E) Cost Optimization
+
+307
+Which option is NOT one of the AWS Well-Architected Framework pillars:
++B) High avalability
+A) Operational Excellence
+B) Security
+C) Reliability
+D) Performance Efficiency
+E) Cost Optimization
+
+308
+Which option is NOT one of the AWS Well-Architected Framework pillars:
++C) Planning
+A) Operational Excellence
+B) Security
+C) Reliability
+D) Performance Efficiency
+E) Cost Optimization
+
+309
+Which option is NOT one of the AWS Well-Architected Framework pillars:
++D) Forecasting
+A) Operational Excellence
+B) Security
+C) Reliability
+D) Performance Efficiency
+E) Cost Optimization
+
+310
+Which option is NOT one of the AWS Well-Architected Framework pillars:
++E) Guessing capacity
+A) Operational Excellence
+B) Security
+C) Reliability
+D) Performance Efficiency
+E) Cost Optimization
+
+311
+Which AWS Well-Architected Framework pillars addresses the ability to run and monitor systems:
++A) Operational Excellence
+B) Security
+C) Reliability
+D) Performance Efficiency
+E) Cost Optimization
+
+312
+Which AWS Well-Architected Framework pillar is about recovering quickly from infrastructure or service disruptions:
+A) Operational Excellence
+B) Security
++C) Reliability
+D) Performance Efficiency
+E) Cost Optimization
+
+313
+Which AWS Well-Architected Framework pillar is about dynamically acquiring computing resources to meet demand:
+A) Operational Excellence
+B) Security
++C) Reliability
+D) Performance Efficiency
+E) Cost Optimization
+
+314
+Which AWS Well-Architected Framework pillar is about measuring efficiency:
+A) Operational Excellence
+B) Security
+C) Reliability
+D) Performance Efficiency
++E) Cost Optimization
+
+315
+Which AWS Well-Architected Framework pillar is about eliminating unneeded expense:
+A) Operational Excellence
+B) Security
+C) Reliability
+D) Performance Efficiency
++E) Cost Optimization
+
+316
+Which AWS Well-Architected Framework pillar is about considering using managed services:
+A) Operational Excellence
+B) Security
+C) Reliability
+D) Performance Efficiency
++E) Cost Optimization
+
+317
+What is the mininun amount of availability zones in AWS Region?
+A) 1
++A) 2
+A) 3
+A) 4
+A) 5
+
+318
+What is the mininun amount of data centers in AWS Availailty Zone?
++A) 1
+A) 2
+A) 3
+A) 4
+A) 5
+
+319
+What are the components of Amazon CloudFront infrastructure?
+A) Region
+A) Availability Zone
++A) Edge locations
++A) Regional edge cache
+A) Data centers
+
+320
+Select matching description for best practice 'Enable scalability':
++A) Ensure that your architecture can handle changes in demand.
+A) Where possible, automate the provisioning, termination, and configuration of resources.
+A) Take advantage of the dynamically provisioned nature of cloud computing.
+A) Design architectures with independent components.
+A) Use the breadth of AWS services. Don't limit your infrastructure to servers.
+
+321
+Select matching description for best practice 'Automate your environment':
+A) Ensure that your architecture can handle changes in demand.
++A) Where possible, automate the provisioning, termination, and configuration of resources.
+A) Take advantage of the dynamically provisioned nature of cloud computing.
+A) Design architectures with independent components.
+A) Use the breadth of AWS services. Don't limit your infrastructure to servers.
+
+322
+Select matching description for best practice 'Treat resources as disposable':
+A) Ensure that your architecture can handle changes in demand.
+A) Where possible, automate the provisioning, termination, and configuration of resources.
++A) Take advantage of the dynamically provisioned nature of cloud computing.
+A) Design architectures with independent components.
+A) Use the breadth of AWS services. Don't limit your infrastructure to servers.
+
+323
+Select matching description for best practice 'Use loosely coupled components':
+A) Ensure that your architecture can handle changes in demand.
+A) Where possible, automate the provisioning, termination, and configuration of resources.
+A) Take advantage of the dynamically provisioned nature of cloud computing.
++A) Design architectures with independent components.
+A) Use the breadth of AWS services. Don't limit your infrastructure to servers.
+
+324
+Select matching description for best practice 'Design services, not servers':
+A) Ensure that your architecture can handle changes in demand.
+A) Where possible, automate the provisioning, termination, and configuration of resources.
+A) Take advantage of the dynamically provisioned nature of cloud computing.
+A) Design architectures with independent components.
++A) Use the breadth of AWS services. Don't limit your infrastructure to servers.
+
+325
+Select matching description for best practice 'Choose the right database solution':
++A) Match technology to the workload, not the other way around.
+A) Assume everything fails. Then, design backward.
+A) Take advantage of the flexibility of AWS to increase your cost efficiency.
+A) Caching minimizes redundant data retrieval operations, improving performance and cost.
+A) Build security into every layer of your infrastructure.
+
+326
+Select matching description for best practice 'Avoid single points of failure':
+A) Match technology to the workload, not the other way around.
++A) Assume everything fails. Then, design backward.
+A) Take advantage of the flexibility of AWS to increase your cost efficiency.
+A) Caching minimizes redundant data retrieval operations, improving performance and cost.
+A) Build security into every layer of your infrastructure.
+
+327
+Select matching description for best practice 'Optimize for cost':
+A) Match technology to the workload, not the other way around.
+A) Assume everything fails. Then, design backward.
++A) Take advantage of the flexibility of AWS to increase your cost efficiency.
+A) Caching minimizes redundant data retrieval operations, improving performance and cost.
+A) Build security into every layer of your infrastructure.
+
+328
+Select matching description for best practice 'Use caching':
+A) Match technology to the workload, not the other way around.
+A) Assume everything fails. Then, design backward.
+A) Take advantage of the flexibility of AWS to increase your cost efficiency.
++A) Caching minimizes redundant data retrieval operations, improving performance and cost.
+A) Build security into every layer of your infrastructure.
+
+329
+Select matching description for best practice 'Secure your entire infrastructure':
+A) Match technology to the workload, not the other way around.
+A) Assume everything fails. Then, design backward.
+A) Take advantage of the flexibility of AWS to increase your cost efficiency.
+A) Caching minimizes redundant data retrieval operations, improving performance and cost.
++A) Build security into every layer of your infrastructure.
+

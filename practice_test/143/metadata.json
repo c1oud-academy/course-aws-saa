@@ -1,0 +1,45 @@
+{
+    "aws_service": [
+        "Amazon Redshift",
+        "S3",
+        "DynamoDB",
+        "AWS Glue",
+        "EMR",
+        "EBS",
+        "Kinesis",
+        "EC2"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 143",
+        "en": "Practice test quesion 143",
+        "kk": "Practice test quesion 143"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Storage",
+        "Analytics",
+        "Compute",
+        "Database"
+    ],
+    "id": "143"
+}

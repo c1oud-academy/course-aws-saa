@@ -1,0 +1,18 @@
+{
+    "text": "A data analytics company has been building its new generation big data and analytics platform on their AWS cloud infrastructure. They need a storage service that provides the scale and performance that their big data applications require such as high throughput to compute nodes coupled with read-after-write consistency and low-latency file operations. In addition, their data needs to be stored redundantly across multiple AZs and allows concurrent connections from multiple EC2 instances hosted on multiple AZs.\nWhich of the following AWS storage services will you use to meet this requirement?",
+    "answers": [
+        {
+            "text": "Glacier"
+        },
+        {
+            "text": "EBS"
+        },
+        {
+            "text": "S3"
+        },
+        {
+            "text": "EFS",
+            "right_answer": true
+        }
+    ]
+}

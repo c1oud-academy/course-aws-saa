@@ -1,0 +1,18 @@
+{
+    "text": "A company has a cloud architecture that is composed of Linux and Windows EC2 instances that process high volumes of financial data 24 hours a day, 7 days a week. To ensure high availability of the systems, the Solutions Architect needs to create a solution that allows them to monitor the memory and disk utilization metrics of all the instances.\nWhich of the following is the most suitable monitoring solution to implement?",
+    "answers": [
+        {
+            "text": "Use the default CloudWatch configuration to EC2 instances where the memory and disk utilization metrics are already available. Install the AWS Systems Manager (SSM) Agent to all the EC2 instances."
+        },
+        {
+            "text": "Use Amazon Inspector and install the Inspector agent to all EC2 instances."
+        },
+        {
+            "text": "Install the CloudWatch agent to all the EC2 instances that gathers the memory and disk utilization data. View the custom metrics in the Amazon CloudWatch console.",
+            "right_answer": true
+        },
+        {
+            "text": "Enable the Enhanced Monitoring option in EC2 and install CloudWatch agent to all the EC2 instances to be able to view the memory and disk utilization in the CloudWatch dashboard."
+        }
+    ]
+}

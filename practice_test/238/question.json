@@ -1,0 +1,22 @@
+{
+    "text": "A company is generating confidential data that is saved on their on-premises data center. As a backup solution, the company wants to upload their data to an Amazon S3 bucket. In compliance with its internal security mandate, the encryption of the data must be done before sending it to Amazon S3. The company must spend time managing and rotating the encryption keys as well as controlling who can access those keys.\nWhich of the following methods can achieve this requirement?",
+    "answers": [
+        {
+            "text": "Set up Client-Side Encryption with Amazon S3 managed encryption keys."
+        },
+        {
+            "text": "Set up Server-Side Encryption with keys stored in a separate S3 bucket."
+        },
+        {
+            "text": "Set up Client-Side Encryption with a customer master key stored in AWS Key Management Service (AWS KMS).",
+            "right_answer": true
+        },
+        {
+            "text": "Set up Server-Side Encryption (SSE) with EC2 key pair."
+        },
+        {
+            "text": "Set up Client-Side Encryption using a client-side master key.",
+            "right_answer": true
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 262",
+        "kk": "Practice test quesion 262",
+        "ru": "Practice test quesion 262"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "262",
+    "aws_service": [
+        "RDS",
+        "EC2",
+        "EBS",
+        "S3"
+    ],
+    "aws_group": [
+        "Compute",
+        "Database",
+        "Storage"
+    ]
+}

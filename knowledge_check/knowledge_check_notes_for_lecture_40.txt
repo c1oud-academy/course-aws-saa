@@ -1,0 +1,128 @@
+400
+Select an object storage service:
++A) Amazon S3
+C) Amazon EFS
+D) Amazon EBS
+E) Amazon FSx
+
+401
+What is the correct description of Amazon S3?
++A) object storage service
+C) serverless, fully elastic file storage
+D) easy-to-use, scalable, high-performance block-storage service
+E) managed service to launch, run, and scale feature-rich, high-performance file systems
+
+402
+What is the maximum file size of a single object in Amazon S3?
++A) 5 TB
+C) 5 GB
+C) 5 PB
+C) 5 MB
+
+403
+What is the maximum file size of a single object in Amazon S3?
++A) 5 TB
+C) 1 TB
+C) 2 TB
+C) 3 TB
+C) 4 TB
+
+404
+What is the maximum file size of a single object in Amazon S3?
++A) 5 TB
+C) 1 TB
+C) 10 TB
+C) 50 TB
+C) 100 TB
+
+405
+What is the durabilty Amazon S3 provides?
++A) 11 9s
+C) 10 9s
+C) 12 9s
+C) 13 9s
+
+406
+What is the durabilty Amazon S3 provides?
++A) 11 9s
+C) 4 9s
+C) 3 9s
+C) 7 9s
+
+407
+What is the availability Amazon S3 provides?
++A) 4 9s
+C) 11 9s
+C) 2 9s
+C) 8 9s
+
+408
+What is the availability Amazon S3 provides?
++A) 4 9s
+C) 5 9s
+C) 2 9s
+C) 3 9s
+
+409
+What feature is enabled on new buckets by default to block public access in a simple way?
++A) Block Public Access
+C) IAM policies
+C) Bucket policies
+C) Access control lists (ACLs)
+
+410
+What feature helps to authenticate user using IAM?
+A) Block Public Access
++C) IAM policies
+C) Bucket policies
+C) Access control lists (ACLs)
+
+411
+What feature helps to apply access policy on a bucket or object level?
+A) Block Public Access
+C) IAM policies
++C) Bucket policies
+C) Access control lists (ACLs)
+
+412
+What is a legacy access control mechanism?
+A) Block Public Access
+C) IAM policies
+C) Bucket policies
++C) Access control lists (ACLs)
+
+413
+What is a feature to configure access with names and permissions specific to each application?
++A) S3 Access Points
+C) IAM policies
+C) Presigned URLs
+C) Access control lists (ACLs)
+
+414
+What is a feature to grant time-limited access to others with temporary URLs?
+A) S3 Access Points
+C) IAM policies
++C) Presigned URLs
+C) Access control lists (ACLs)
+
+415
+Select non-existing ecncryption option?
+A) SSE-S3
+C) SSE KMS
+C) CSE
++C) CSE KMS
+
+416
+What CORS stands for?
++A) Cross-Origin Resource Sharing
+C) Cross-Origin Region Sharing
+C) Cross-Origin Resource Security
+C) Cross-Origin Region Security
+
+417
+Select FALSE statement regarding Amazon S3 data consistency model:
++A) Bucket configurations have an strongly consistent model
+C) Strongly consistent for all new objects in all Regions
+C) Strongly consistent for all existing objects in all Regions
+C) Bucket configurations have an eventually consistent model
+

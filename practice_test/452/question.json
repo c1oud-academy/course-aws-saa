@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Create a CNAME record pointing to the load balancer DNS name."
+        },
+        {
+            "text": "Create an A record aliased to the load balancer DNS name.",
+            "right_answer": true
+        },
+        {
+            "text": "Create an alias for CNAME record to the load balancer DNS name."
+        },
+        {
+            "text": "Create an A record pointing to the IP address of the load balancer."
+        }
+    ],
+    "text": "A client is hosting their company website on a cluster of web servers that are behind a public-facing load balancer. The client also uses Amazon Route 53 to manage their public DNS.\nHow should the client configure the DNS zone apex record to point to the load balancer?"
+}

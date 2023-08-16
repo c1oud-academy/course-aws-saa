@@ -1,0 +1,22 @@
+{
+    "text": "A FinTech startup deployed an application on an Amazon EC2 instance with attached Instance Store volumes and an Elastic IP address. The server is only accessed from 8 AM to 6 PM and can be stopped from 6 PM to 8 AM for cost efficiency using Lambda with the script that automates this based on tags.\nWhich of the following will occur when the EC2 instance is stopped and started?",
+    "answers": [
+        {
+            "text": "The Elastic IP address is disassociated with the instance."
+        },
+        {
+            "text": "The underlying host for the instance is possibly changed.",
+            "right_answer": true
+        },
+        {
+            "text": "All data on the attached instance-store devices will be lost.",
+            "right_answer": true
+        },
+        {
+            "text": "The ENI (Elastic Network Interface) is detached."
+        },
+        {
+            "text": "There will be no changes."
+        }
+    ]
+}

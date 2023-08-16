@@ -1,0 +1,22 @@
+{
+    "text": "A Solutions Architect created a new Standard-class S3 bucket to store financial reports that are not frequently accessed but should immediately be available when an auditor requests them. To save costs, the Architect changed the storage class of the S3 bucket from Standard to Infrequent Access storage class.\nIn Amazon S3 Standard - Infrequent Access storage class, which of the following statements are true?",
+    "answers": [
+        {
+            "text": "Ideal to use for data archiving."
+        },
+        {
+            "text": "It is designed for data that requires rapid access when needed.",
+            "right_answer": true
+        },
+        {
+            "text": "It provides high latency and low throughput performance"
+        },
+        {
+            "text": "It is designed for data that is accessed less frequently.",
+            "right_answer": true
+        },
+        {
+            "text": "It automatically moves data to the most cost-effective access tier without any operational overhead."
+        }
+    ]
+}

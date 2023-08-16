@@ -1,0 +1,38 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Storage",
+        "Networking & Content Delivery"
+    ],
+    "id": "48",
+    "title": {
+        "kk": "Practice test quesion 48",
+        "ru": "Practice test quesion 48",
+        "en": "Practice test quesion 48"
+    },
+    "aws_service": [
+        "CloudFront",
+        "bucket",
+        "S3"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

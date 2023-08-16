@@ -1,0 +1,18 @@
+{
+    "text": "The company that you are working for has a highly available architecture consisting of an elastic load balancer and several EC2 instances configured with auto-scaling in three Availability Zones. You want to monitor your EC2 instances based on a particular metric, which is not readily available in CloudWatch.\nWhich of the following is a custom metric in CloudWatch which you have to manually set up?",
+    "answers": [
+        {
+            "text": "Memory Utilization of an EC2 instance",
+            "right_answer": true
+        },
+        {
+            "text": "CPU Utilization of an EC2 instance"
+        },
+        {
+            "text": "Disk Reads activity of an EC2 instance"
+        },
+        {
+            "text": "Network packets out of an EC2 instance"
+        }
+    ]
+}

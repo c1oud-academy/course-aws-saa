@@ -1,0 +1,42 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Compute",
+        "Storage",
+        "Networking & Content Delivery",
+        "Database"
+    ],
+    "id": "35",
+    "title": {
+        "kk": "Practice test quesion 35",
+        "ru": "Practice test quesion 35",
+        "en": "Practice test quesion 35"
+    },
+    "aws_service": [
+        "EC2",
+        "S3",
+        "Direct Connect",
+        "DynamoDB",
+        "VPC"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

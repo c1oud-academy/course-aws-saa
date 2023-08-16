@@ -1,0 +1,37 @@
+{
+    "aws_service": [
+        "RDS",
+        "Availability Zone"
+    ],
+    "aws_group": [
+        "AWS Global Infrastructure",
+        "Database"
+    ],
+    "content_type": "test",
+    "id": "322",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 322",
+        "kk": "Practice test quesion 322",
+        "ru": "Practice test quesion 322"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

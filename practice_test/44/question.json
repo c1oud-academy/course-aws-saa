@@ -1,0 +1,18 @@
+{
+    "text": "A company hosted an e-commerce website on an Auto Scaling group of EC2 instances behind an Application Load Balancer. The Solutions Architect noticed that the website is receiving a large number of illegitimate external requests from multiple systems with IP addresses that constantly change. To resolve the performance issues, the Solutions Architect must implement a solution that would block the illegitimate requests with minimal impact on legitimate traffic.\nWhich of the following options fulfills this requirement?",
+    "answers": [
+        {
+            "text": "Create a custom network ACL and associate it with the subnet of the Application Load Balancer to block the offending requests."
+        },
+        {
+            "text": "Create a regular rule in AWS WAF and associate the web ACL to an Application Load Balancer."
+        },
+        {
+            "text": "Create a custom rule in the security group of the Application Load Balancer to block the offending requests."
+        },
+        {
+            "text": "Create a rate-based rule in AWS WAF and associate the web ACL to an Application Load Balancer.",
+            "right_answer": true
+        }
+    ]
+}

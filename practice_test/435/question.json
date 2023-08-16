@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Amazon DynamoDB"
+        },
+        {
+            "text": "Amazon Redshift"
+        },
+        {
+            "text": "Amazon Aurora",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon RDS"
+        }
+    ],
+    "text": "A company has recently adopted a hybrid cloud architecture and is planning to migrate a database hosted on-premises to AWS. The database currently has over 50 TB of consumer data, handles highly transactional (OLTP) workloads, and is expected to grow. The Solutions Architect should ensure that the database is ACID-compliant and can handle complex queries of the application.\nWhich type of database service should the Architect use?"
+}

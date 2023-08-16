@@ -1,0 +1,38 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "AWS Auto Scaling",
+        "ECS",
+        "CloudWatch"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "559",
+    "aws_group": [
+        "Containers",
+        "Management & Governance"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 559",
+        "ru": "Practice test quesion 559",
+        "en": "Practice test quesion 559"
+    }
+}

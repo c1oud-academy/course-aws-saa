@@ -1,0 +1,39 @@
+{
+    "aws_service": [
+        "SQS",
+        "API Gateway",
+        "DynamoDB"
+    ],
+    "aws_group": [
+        "Database",
+        "Application Integration",
+        "Networking & Content Delivery"
+    ],
+    "content_type": "test",
+    "id": "328",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 328",
+        "kk": "Practice test quesion 328",
+        "ru": "Practice test quesion 328"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect is working for a large IT consulting firm. One of the clients is launching a file sharing web application in AWS which requires a durable storage service for hosting their static contents such as PDFs, Word Documents, high-resolution images, and many others.\nWhich type of storage service should the Architect use to meet this requirement?",
+    "answers": [
+        {
+            "text": "Amazon EBS volume"
+        },
+        {
+            "text": "Amazon RDS instance"
+        },
+        {
+            "text": "Amazon EC2 instance store"
+        },
+        {
+            "text": "Amazon S3",
+            "right_answer": true
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 202",
+        "kk": "Practice test quesion 202",
+        "ru": "Practice test quesion 202"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "202",
+    "aws_service": [
+        "VPC",
+        "EC2",
+        "Availability Zone"
+    ],
+    "aws_group": [
+        "AWS Global Infrastructure",
+        "Networking & Content Delivery",
+        "Compute"
+    ]
+}

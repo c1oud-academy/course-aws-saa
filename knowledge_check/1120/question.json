@@ -1,0 +1,18 @@
+{
+    "text": "Select true statement about default NACLs:",
+    "answers": [
+        {
+            "text": "Block all inboud and allow all outbound traffic"
+        },
+        {
+            "text": "Block all inboud and block all outbound traffic"
+        },
+        {
+            "text": "Allow all inboud and block all outbound traffic"
+        },
+        {
+            "text": "Allow all inboud and allow all outbound traffic",
+            "right_answer": true
+        }
+    ]
+}

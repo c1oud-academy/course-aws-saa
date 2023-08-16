@@ -1,0 +1,18 @@
+{
+    "text": "A manufacturing company launched a new type of IoT sensor. The sensor will be used to collect large streams of data records. You need to create a solution that can ingest and analyze the data in real-time with millisecond response times.\nWhich of the following is the best option that you should implement in this scenario?",
+    "answers": [
+        {
+            "text": "Ingest the data using Amazon Simple Queue Service and create an AWS Lambda function to store the data in Amazon Redshift."
+        },
+        {
+            "text": "Ingest the data using Amazon Kinesis Data Streams and create an AWS Lambda function to store the data in Amazon DynamoDB.",
+            "right_answer": true
+        },
+        {
+            "text": "Ingest the data using Amazon Kinesis Data Streams and create an AWS Lambda function to store the data in Amazon Redshift."
+        },
+        {
+            "text": "Ingest the data using Amazon Kinesis Data Firehose and create an AWS Lambda function to store the data in Amazon DynamoDB."
+        }
+    ]
+}

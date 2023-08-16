@@ -1,0 +1,35 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "Misc"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "556",
+    "aws_group": [
+        "Misc"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 556",
+        "ru": "Practice test quesion 556",
+        "en": "Practice test quesion 556"
+    }
+}

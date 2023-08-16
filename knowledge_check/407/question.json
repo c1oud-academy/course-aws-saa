@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "4 9s"
+        },
+        {
+            "text": "11 9s"
+        },
+        {
+            "text": "2 9s"
+        },
+        {
+            "text": "8 9s"
+        }
+    ],
+    "text": "What is the availability Amazon S3 provides?"
+}

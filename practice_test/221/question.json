@@ -1,0 +1,18 @@
+{
+    "text": "A company has a global online trading platform in which the users from all over the world regularly upload terabytes of transactional data to a centralized S3 bucket.\nWhat AWS feature should you use in your present system to improve throughput and ensure consistently fast data transfer to the Amazon S3 bucket, regardless of your user's location?",
+    "answers": [
+        {
+            "text": "Amazon S3 Transfer Acceleration",
+            "right_answer": true
+        },
+        {
+            "text": "FTP"
+        },
+        {
+            "text": "AWS Direct Connect"
+        },
+        {
+            "text": "Use CloudFront Origin Access Identity"
+        }
+    ]
+}

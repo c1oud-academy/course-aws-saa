@@ -1,0 +1,21 @@
+{
+    "text": "Which AWS Well-Architected Framework pillar is about dynamically acquiring computing resources to meet demand:",
+    "answers": [
+        {
+            "text": "Operational Excellence"
+        },
+        {
+            "text": "Security"
+        },
+        {
+            "right_answer": true,
+            "text": "Reliability"
+        },
+        {
+            "text": "Performance Efficiency"
+        },
+        {
+            "text": "Cost Optimization"
+        }
+    ]
+}

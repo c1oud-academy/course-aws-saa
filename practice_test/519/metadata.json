@@ -1,0 +1,47 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "Lambda",
+        "EC2",
+        "RDS",
+        "Aurora",
+        "ECS",
+        "Elastic Container Service",
+        "DynamoDB",
+        "S3",
+        "CloudFront"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "519",
+    "aws_group": [
+        "Storage",
+        "Compute",
+        "Database",
+        "Containers",
+        "Networking & Content Delivery"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 519",
+        "ru": "Practice test quesion 519",
+        "en": "Practice test quesion 519"
+    }
+}

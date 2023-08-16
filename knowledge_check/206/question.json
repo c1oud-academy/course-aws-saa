@@ -1,0 +1,24 @@
+{
+    "answers": [
+        {
+            "text": "Traditional computing model"
+        },
+        {
+            "text": "Cloud computing model",
+            "right_answer": true
+        },
+        {
+            "text": "Modern computing model"
+        },
+        {
+            "text": "Ancient computing model"
+        },
+        {
+            "text": "Rain computing model"
+        },
+        {
+            "text": "Foreign computing model"
+        }
+    ],
+    "text": "Which computing model gives an opportunity to stop guessing theoretical maximum peaks of loads on your infrastructure?"
+}

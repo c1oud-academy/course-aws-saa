@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Add an Amazon CloudWatch Logs agent on the application load balancer."
+        },
+        {
+            "text": "Enable access logs on the application load balancer.",
+            "right_answer": true
+        },
+        {
+            "text": "Enable Amazon CloudWatch metrics on the application load balancer."
+        },
+        {
+            "text": "Enable AWS CloudTrail for their application load balancer."
+        }
+    ],
+    "text": "The social media company that you are working for needs to capture the detailed information of all HTTP requests that went through their public-facing application load balancer every five minutes. They want to use this data for analyzing traffic patterns and for troubleshooting their web applications in AWS.\nWhich of the following options meet the customer requirements?"
+}

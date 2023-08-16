@@ -1,0 +1,18 @@
+{
+    "text": "An online trading platform with thousands of clients across the globe is hosted in AWS. To reduce latency, you have to direct user traffic to the nearest application endpoint to the client. The traffic should be routed to the closest edge location via an Anycast static IP address. AWS Shield should also be integrated into the solution for DDoS protection.\nWhich of the following is the MOST suitable service that the Solutions Architect should use to satisfy the above requirements?",
+    "answers": [
+        {
+            "text": "AWS PrivateLink"
+        },
+        {
+            "text": "Amazon CloudFront"
+        },
+        {
+            "text": "AWS Global Accelerator",
+            "right_answer": true
+        },
+        {
+            "text": "AWS WAF"
+        }
+    ]
+}

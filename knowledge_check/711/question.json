@@ -1,0 +1,24 @@
+{
+    "answers": [
+        {
+            "text": "AURI 3-year contract"
+        },
+        {
+            "text": "PURI 3-year contract"
+        },
+        {
+            "text": "NURI 3-year contract"
+        },
+        {
+            "text": "AURI 1-year contract"
+        },
+        {
+            "text": "PURI 1-year contract"
+        },
+        {
+            "right_answer": true,
+            "text": "NURI 1-year contract"
+        }
+    ],
+    "text": "What is the RI option that gives minimum discounts?"
+}

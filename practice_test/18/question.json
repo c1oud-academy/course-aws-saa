@@ -1,0 +1,18 @@
+{
+    "text": "A company collects atmospheric data such as temperature, air pressure, and humidity from different countries. Each site location is equipped with various weather instruments and a high-speed Internet connection. The average collected data in each location is around 500 GB and will be analyzed by a weather forecasting application hosted in Northern Virginia. As the Solutions Architect, you need to aggregate all the data in the fastest way.\nWhich of the following options can satisfy the given requirement?",
+    "answers": [
+        {
+            "text": "Upload the data to the closest S3 bucket. Set up a cross-region replication and copy the objects to the destination bucket."
+        },
+        {
+            "text": "Use AWS Snowball Edge to transfer large amounts of data."
+        },
+        {
+            "text": "Enable Transfer Acceleration in the destination bucket and upload the collected data using Multipart Upload.",
+            "right_answer": true
+        },
+        {
+            "text": "Set up a Site-to-Site VPN connection."
+        }
+    ]
+}

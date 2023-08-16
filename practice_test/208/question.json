@@ -1,0 +1,18 @@
+{
+    "text": "An on-premises server is using an SMB network file share to store application data. The application produces around 50 MB of data per day but it only needs to access some of it for daily processes. To save on storage costs, the company plans to copy all the application data to AWS, however, they want to retain the ability to retrieve data with the same low-latency access as the local file share. The company does not have the capacity to develop the needed tool for this operation.\nWhich AWS service should the company use?",
+    "answers": [
+        {
+            "text": "AWS Virtual Private Network (VPN)"
+        },
+        {
+            "text": "Amazon FSx for Windows File Server"
+        },
+        {
+            "text": "AWS Snowball Edge"
+        },
+        {
+            "text": "AWS Storage Gateway",
+            "right_answer": true
+        }
+    ]
+}

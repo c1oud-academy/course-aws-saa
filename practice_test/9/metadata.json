@@ -1,0 +1,40 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Compute",
+        "AWS Global Infrastructure",
+        "Networking & Content Delivery"
+    ],
+    "id": "9",
+    "title": {
+        "kk": "Practice test quesion 9",
+        "ru": "Practice test quesion 9",
+        "en": "Practice test quesion 9"
+    },
+    "aws_service": [
+        "EC2",
+        "AWS Region",
+        "Availability Zone",
+        "VPC"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

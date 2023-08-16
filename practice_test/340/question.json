@@ -1,0 +1,18 @@
+{
+    "text": "A company is using an Auto Scaling group which is configured to launch new t2.micro EC2 instances when there is a significant load increase in the application. To cope with the demand, you now need to replace those instances with a larger t2.2xlarge instance type.\nHow would you implement this change?",
+    "answers": [
+        {
+            "text": "Create a new launch configuration with the new instance type and update the Auto Scaling Group.",
+            "right_answer": true
+        },
+        {
+            "text": "Just change the instance type to t2.2xlarge in the current launch configuration"
+        },
+        {
+            "text": "Create another Auto Scaling Group and attach the new instance type."
+        },
+        {
+            "text": "Change the instance type of each EC2 instance manually."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A company needs to design an online analytics application that uses Redshift Cluster for its data warehouse. Which of the following services allows them to monitor all API calls in Redshift instance and can also provide secured data for auditing and compliance purposes?",
+    "answers": [
+        {
+            "text": "AWS CloudTrail",
+            "right_answer": true
+        },
+        {
+            "text": "AWS X-Ray"
+        },
+        {
+            "text": "Amazon CloudWatch"
+        },
+        {
+            "text": "Amazon Redshift Spectrum"
+        }
+    ]
+}

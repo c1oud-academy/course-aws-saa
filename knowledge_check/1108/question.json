@@ -1,0 +1,12 @@
+{
+    "text": "Is it possible to create resources on several Availability Zones within one VPC?",
+    "answers": [
+        {
+            "text": "Yes",
+            "right_answer": true
+        },
+        {
+            "text": "No"
+        }
+    ]
+}

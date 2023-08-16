@@ -1,0 +1,43 @@
+{
+    "aws_group": [
+        "Application Integration",
+        "Management & Governance",
+        "AWS Global Infrastructure",
+        "Compute"
+    ],
+    "type": "practice_test",
+    "id": "449",
+    "title": {
+        "ru": "Practice test quesion 449",
+        "kk": "Practice test quesion 449",
+        "en": "Practice test quesion 449"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "path": "metadata.json",
+            "lang": "en"
+        },
+        {
+            "type": "question",
+            "path": "question.json",
+            "lang": "en"
+        }
+    ],
+    "aws_service": [
+        "CloudWatch",
+        "EC2",
+        "Systems Manager",
+        "Step Functions",
+        "Availability Zone",
+        "Lambda"
+    ]
+}

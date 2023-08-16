@@ -1,0 +1,18 @@
+{
+    "text": "A financial application is composed of an Auto Scaling group of EC2 instances, an Application Load Balancer, and a MySQL RDS instance in a Multi-AZ Deployments configuration. To protect the confidential data of your customers, you have to ensure that your RDS database can only be accessed using the profile credentials specific to your EC2 instances via an authentication token.\nAs the Solutions Architect of the company, which of the following should you do to meet the above requirement?",
+    "answers": [
+        {
+            "text": "Use a combination of IAM and STS to restrict access to your RDS instance via a temporary token."
+        },
+        {
+            "text": "Create an IAM Role and assign it to your EC2 instances which will grant exclusive access to your RDS instance."
+        },
+        {
+            "text": "Enable the IAM DB Authentication.",
+            "right_answer": true
+        },
+        {
+            "text": "Configure SSL in your application to encrypt the database connection to RDS."
+        }
+    ]
+}

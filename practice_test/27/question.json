@@ -1,0 +1,18 @@
+{
+    "text": "A company has a web application that uses Internet Information Services (IIS) for Windows Server. A file share is used to store the application data on the network-attached storage of the company\u2019s on-premises data center. To achieve a highly available system, they plan to migrate the application and file share to AWS.\nWhich of the following can be used to fulfill this requirement?",
+    "answers": [
+        {
+            "text": "Migrate the existing file share configuration to Amazon EFS."
+        },
+        {
+            "text": "Migrate the existing file share configuration to Amazon FSx for Windows File Server.",
+            "right_answer": true
+        },
+        {
+            "text": "Migrate the existing file share configuration to Amazon EBS."
+        },
+        {
+            "text": "Migrate the existing file share configuration to AWS Storage Gateway."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A company has 3 DevOps engineers that are handling its software development and infrastructure management processes. One of the engineers accidentally deleted a file hosted in Amazon S3 which has caused disruption of service.\nWhat can the DevOps engineers do to prevent this from happening again?",
+    "answers": [
+        {
+            "text": "Create an IAM bucket policy that disables delete operation."
+        },
+        {
+            "text": "Use S3 Infrequently Accessed storage to store the data."
+        },
+        {
+            "text": "Set up a signed URL for all users."
+        },
+        {
+            "text": "Enable S3 Versioning and Multi-Factor Authentication Delete on the bucket.",
+            "right_answer": true
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "text": "A global IT company with offices around the world has multiple AWS accounts. To improve efficiency and drive costs down, the Chief Information Officer (CIO) wants to set up a solution that centrally manages their AWS resources. This will allow them to procure AWS resources centrally and share resources such as AWS Transit Gateways, AWS License Manager configurations, or Amazon Route 53 Resolver rules across their various accounts.\nAs the Solutions Architect, which combination of options should you implement in this scenario?",
+    "answers": [
+        {
+            "text": "Use AWS Control Tower to easily and securely share your resources with your AWS accounts."
+        },
+        {
+            "text": "Use the AWS Identity and Access Management service to set up cross-account access that will easily and securely share your resources with your AWS accounts."
+        },
+        {
+            "text": "Use the AWS Resource Access Manager (RAM) service to easily and securely share your resources with your AWS accounts.",
+            "right_answer": true
+        },
+        {
+            "text": "Consolidate all of the company's accounts using AWS ParallelCluster."
+        },
+        {
+            "text": "Consolidate all of the company's accounts using AWS Organizations.",
+            "right_answer": true
+        }
+    ]
+}

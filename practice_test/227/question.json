@@ -1,0 +1,18 @@
+{
+    "text": "A company is hosting EC2 instances that are on non-production environment and processing non-priority batch loads, which can be interrupted at any time.\nWhat is the best instance purchasing option which can be applied to your EC2 instances in this case?",
+    "answers": [
+        {
+            "text": "Spot Instances",
+            "right_answer": true
+        },
+        {
+            "text": "On-Demand Capacity Reservations"
+        },
+        {
+            "text": "Reserved Instances"
+        },
+        {
+            "text": "On-Demand Instances"
+        }
+    ]
+}

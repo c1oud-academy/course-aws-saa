@@ -1,0 +1,18 @@
+{
+    "text": "A customer is transitioning their ActiveMQ messaging broker service onto the AWS cloud in which they require an alternative asynchronous service that supports NMS and MQTT messaging protocol. The customer does not have the time and resources needed to recreate their messaging service in the cloud. The service has to be highly available and should require almost no management overhead.\nWhich of the following is the most suitable service to use to meet the above requirement?",
+    "answers": [
+        {
+            "text": "Amazon MQ",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Step Functions"
+        },
+        {
+            "text": "Amazon SWF"
+        },
+        {
+            "text": "Amazon SNS"
+        }
+    ]
+}

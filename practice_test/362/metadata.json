@@ -1,0 +1,37 @@
+{
+    "aws_service": [
+        "SQS",
+        "RDS"
+    ],
+    "aws_group": [
+        "Database",
+        "Application Integration"
+    ],
+    "content_type": "test",
+    "id": "362",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 362",
+        "kk": "Practice test quesion 362",
+        "ru": "Practice test quesion 362"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "aws_service": [
+        "CloudWatch",
+        "EC2",
+        "SNS",
+        "Lambda"
+    ],
+    "aws_group": [
+        "Management & Governance",
+        "Application Integration",
+        "Compute"
+    ],
+    "content_type": "test",
+    "id": "309",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 309",
+        "kk": "Practice test quesion 309",
+        "ru": "Practice test quesion 309"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

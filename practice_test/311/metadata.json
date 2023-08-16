@@ -1,0 +1,44 @@
+{
+    "aws_service": [
+        "RDS",
+        "CloudTrail",
+        "Amazon Redshift",
+        "VPC",
+        "S3",
+        "DynamoDB"
+    ],
+    "aws_group": [
+        "Management & Governance",
+        "Analytics",
+        "Database",
+        "Networking & Content Delivery",
+        "Storage"
+    ],
+    "content_type": "test",
+    "id": "311",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 311",
+        "kk": "Practice test quesion 311",
+        "ru": "Practice test quesion 311"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

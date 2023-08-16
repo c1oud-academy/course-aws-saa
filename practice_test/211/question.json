@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect is working for a financial company. The manager wants to have the ability to automatically transfer obsolete data from their S3 bucket to a low-cost storage system in AWS.\nWhat is the best solution that the Architect can provide to them?",
+    "answers": [
+        {
+            "text": "Use an EC2 instance and a scheduled job to transfer the obsolete data from their S3 location to Amazon S3 Glacier."
+        },
+        {
+            "text": "Use Amazon SQS."
+        },
+        {
+            "text": "Use Lifecycle Policies in S3 to move obsolete data to Glacier.",
+            "right_answer": true
+        },
+        {
+            "text": "Use CloudEndure Migration."
+        }
+    ]
+}

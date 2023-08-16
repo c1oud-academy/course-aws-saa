@@ -1,0 +1,18 @@
+{
+    "text": "Select true statement about NACLs:",
+    "answers": [
+        {
+            "text": "NACLs act on instance level and stateful"
+        },
+        {
+            "text": "NACLs act on instance level and stateless"
+        },
+        {
+            "text": "NACLs act on subnet level and stateful"
+        },
+        {
+            "text": "NACLs act on subnet level and stateless",
+            "right_answer": true
+        }
+    ]
+}

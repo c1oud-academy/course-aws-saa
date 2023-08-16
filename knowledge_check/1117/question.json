@@ -1,0 +1,18 @@
+{
+    "text": "Select true statement about Security groups:",
+    "answers": [
+        {
+            "text": "Security groups act on instance level and stateful",
+            "right_answer": true
+        },
+        {
+            "text": "Security groups act on instance level and stateless"
+        },
+        {
+            "text": "Security groups act on subnet level and stateful"
+        },
+        {
+            "text": "Security groups act on subnet level and stateless"
+        }
+    ]
+}

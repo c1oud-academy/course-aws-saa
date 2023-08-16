@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Pay only for what you want"
+        },
+        {
+            "text": "Pay only for what you used",
+            "right_answer": true
+        },
+        {
+            "text": "Pay before you start using"
+        },
+        {
+            "text": "No need to pay"
+        }
+    ],
+    "text": "What is pay-as-you-go pricing?"
+}

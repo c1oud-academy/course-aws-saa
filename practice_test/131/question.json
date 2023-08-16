@@ -1,0 +1,18 @@
+{
+    "text": "A website that consists of HTML, CSS, and other client-side Javascript will be hosted on the AWS environment. Several high-resolution images will be displayed on the webpage. The website and the photos should have the optimal loading response times as possible, and should also be able to scale to high request rates.\nWhich of the following architectures can provide the most cost-effective and fastest loading experience?",
+    "answers": [
+        {
+            "text": "Create a Nginx web server in an EC2 instance to host the HTML, CSS, and Javascript files then enable caching. Upload the images in an S3 bucket. Use CloudFront as a CDN to deliver the images closer to your end-users."
+        },
+        {
+            "text": "Launch an Auto Scaling Group using an AMI that has a pre-configured Apache web server, then configure the scaling policy accordingly. Store the images in an Elastic Block Store. Then, point your instance\u2019s endpoint to AWS Global Accelerator."
+        },
+        {
+            "text": "Create a Nginx web server in an Amazon LightSail instance to host the HTML, CSS, and Javascript files then enable caching. Upload the images in an S3 bucket. Use CloudFront as a CDN to deliver the images closer to your end-users."
+        },
+        {
+            "text": "Upload the HTML, CSS, Javascript, and the images in a single bucket. Then enable website hosting. Create a CloudFront distribution and point the domain on the S3 website endpoint.",
+            "right_answer": true
+        }
+    ]
+}

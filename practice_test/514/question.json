@@ -1,0 +1,18 @@
+{
+    "text": "A large Philippine-based Business Process Outsourcing company is building a two-tier web application in their VPC to serve dynamic transaction-based content. The data tier is leveraging an Online Transactional Processing (OLTP) database but for the web tier, they are still deciding what service they will use.\nWhat AWS services should you leverage to build an elastic and scalable web tier?",
+    "answers": [
+        {
+            "text": "Amazon EC2, Amazon DynamoDB, and Amazon S3"
+        },
+        {
+            "text": "Elastic Load Balancing, Amazon RDS with Multi-AZ, and Amazon S3"
+        },
+        {
+            "text": "Elastic Load Balancing, Amazon EC2, and Auto Scaling",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon RDS with Multi-AZ and Auto Scaling"
+        }
+    ]
+}

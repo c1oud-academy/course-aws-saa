@@ -1,0 +1,21 @@
+{
+    "text": "Which resource is being used in case we need to direct traffic between resources in VPC?",
+    "answers": [
+        {
+            "text": "Internet Gateway"
+        },
+        {
+            "text": "Route Table",
+            "right_answer": true
+        },
+        {
+            "text": "Elastic IP address"
+        },
+        {
+            "text": "NAT Gateway"
+        },
+        {
+            "text": "Bastion host"
+        }
+    ]
+}

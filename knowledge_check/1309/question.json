@@ -1,0 +1,33 @@
+{
+    "text": "Select statements that are true regarding VPC Peering connection",
+    "answers": [
+        {
+            "text": "Deal with private IP addresses",
+            "right_answer": true
+        },
+        {
+            "text": "Deal with public IP addresses"
+        },
+        {
+            "text": "Supports cross-account connections",
+            "right_answer": true
+        },
+        {
+            "text": "Do not support cross-account connections"
+        },
+        {
+            "text": "Support cross-region connections",
+            "right_answer": true
+        },
+        {
+            "text": "Do not support cross-region connections"
+        },
+        {
+            "text": "Support of transitive peering relationships"
+        },
+        {
+            "text": "No support of transitive peering relationships",
+            "right_answer": true
+        }
+    ]
+}

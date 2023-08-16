@@ -1,0 +1,49 @@
+{
+    "type": "practice_test_question_review",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "video/ru/video.mp4",
+            "type": "video",
+            "lang": "ru"
+        },
+        {
+            "path": "presentation/presentation.en.pptx",
+            "type": "presentation",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_service": [
+        "EC2",
+        "Storage Gateway",
+        "ECS",
+        "EFS",
+        "Elastic Container Service",
+        "DynamoDB",
+        "FSx"
+    ],
+    "aws_group": [
+        "Storage",
+        "Compute",
+        "Database",
+        "Containers"
+    ],
+    "id": "516",
+    "title": {
+        "ru": "Practice test quesion review",
+        "en": "Practice test quesion review",
+        "kk": "Practice test quesion review"
+    },
+    "content_type": "video"
+}

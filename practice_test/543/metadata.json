@@ -1,0 +1,35 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "EC2"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "543",
+    "aws_group": [
+        "Compute"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 543",
+        "ru": "Practice test quesion 543",
+        "en": "Practice test quesion 543"
+    }
+}

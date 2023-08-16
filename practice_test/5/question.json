@@ -1,0 +1,18 @@
+{
+    "text": "A pharmaceutical company has resources hosted on both their on-premises network and in AWS cloud. They want all of their Software Architects to access resources on both environments using their on-premises credentials, which is stored in Active Directory.\nIn this scenario, which of the following can be used to fulfill this requirement?",
+    "answers": [
+        {
+            "text": "Set up SAML 2.0-Based Federation by using a Microsoft Active Directory Federation Service (AD FS).",
+            "right_answer": true
+        },
+        {
+            "text": "Set up SAML 2.0-Based Federation by using a Web Identity Federation."
+        },
+        {
+            "text": "Use Amazon VPC"
+        },
+        {
+            "text": "Use IAM users"
+        }
+    ]
+}

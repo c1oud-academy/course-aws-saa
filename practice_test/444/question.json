@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "S3 Select"
+        },
+        {
+            "text": "AWS Glue",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Step Functions"
+        },
+        {
+            "text": "Redshift Spectrum"
+        }
+    ],
+    "text": "A data analytics startup is collecting clickstream data and stores them in an S3 bucket. You need to launch an AWS Lambda function to trigger the ETL jobs to run as soon as new data becomes available in Amazon S3.\nWhich of the following services can you use as an extract, transform, and load (ETL) service in this scenario?"
+}

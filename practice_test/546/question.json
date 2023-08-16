@@ -1,0 +1,18 @@
+{
+    "text": "There is a technical requirement by a financial firm that does online credit card processing to have a secure application environment on AWS. They are trying to decide on whether to use KMS or CloudHSM.\nWhich of the following statements is right when it comes to CloudHSM and KMS?",
+    "answers": [
+        {
+            "text": "If you want a managed service for creating and controlling your encryption keys but don't want or need to operate your own HSM, consider using AWS CloudHSM."
+        },
+        {
+            "text": "No major difference. They both do the same thing."
+        },
+        {
+            "text": "AWS CloudHSM should always be used for any payment transactions."
+        },
+        {
+            "text": "You should consider using AWS CloudHSM over AWS KMS if you require your keys stored in dedicated, third-party validated hardware security modules under your exclusive control.",
+            "right_answer": true
+        }
+    ]
+}

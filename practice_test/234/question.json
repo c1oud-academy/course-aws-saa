@@ -1,0 +1,18 @@
+{
+    "text": "A company generates large financial datasets with millions of rows. The Solutions Architect needs to store all the data in a columnar fashion to reduce the number of disk I/O requests and reduce the amount of data needed to load from the disk. The bank has an existing third-party business intelligence application that will connect to the storage service and then generate daily and monthly financial reports for its clients around the globe.\nIn this scenario, which is the best storage service to use to meet the requirement?",
+    "answers": [
+        {
+            "text": "Amazon DynamoDB"
+        },
+        {
+            "text": "Amazon Redshift",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon Aurora"
+        },
+        {
+            "text": "Amazon RDS"
+        }
+    ]
+}

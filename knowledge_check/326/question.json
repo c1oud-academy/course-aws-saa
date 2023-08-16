@@ -1,0 +1,21 @@
+{
+    "text": "Select matching description for best practice 'Avoid single points of failure':",
+    "answers": [
+        {
+            "text": "Match technology to the workload, not the other way around."
+        },
+        {
+            "right_answer": true,
+            "text": "Assume everything fails. Then, design backward."
+        },
+        {
+            "text": "Take advantage of the flexibility of AWS to increase your cost efficiency."
+        },
+        {
+            "text": "Caching minimizes redundant data retrieval operations, improving performance and cost."
+        },
+        {
+            "text": "Build security into every layer of your infrastructure."
+        }
+    ]
+}

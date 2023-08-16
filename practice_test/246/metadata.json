@@ -1,0 +1,38 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 246",
+        "kk": "Practice test quesion 246",
+        "ru": "Practice test quesion 246"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "246",
+    "aws_service": [
+        "EKS",
+        "EBS",
+        "EFS"
+    ],
+    "aws_group": [
+        "Storage",
+        "Containers"
+    ]
+}

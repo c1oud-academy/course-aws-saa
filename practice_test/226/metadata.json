@@ -1,0 +1,43 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 226",
+        "kk": "Practice test quesion 226",
+        "ru": "Practice test quesion 226"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "226",
+    "aws_service": [
+        "Amazon Redshift",
+        "MSK",
+        "EC2",
+        "S3",
+        "Kinesis",
+        "DynamoDB"
+    ],
+    "aws_group": [
+        "Database",
+        "Analytics",
+        "Compute",
+        "Storage"
+    ]
+}

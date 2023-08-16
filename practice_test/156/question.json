@@ -1,0 +1,22 @@
+{
+    "text": "A media company has two VPCs: VPC-1 and VPC-2 with peering connection between each other. VPC-1 only contains private subnets while VPC-2 only contains public subnets. The company uses a single AWS Direct Connect connection and a virtual interface to connect their on-premises network with VPC-1.\nWhich of the following options increase the fault tolerance of the connection to VPC-1?",
+    "answers": [
+        {
+            "text": "Establish a hardware VPN over the Internet between VPC-2 and the on-premises network."
+        },
+        {
+            "text": "Use the AWS VPN CloudHub to create a new AWS Direct Connect connection and private virtual interface in the same region as VPC-2."
+        },
+        {
+            "text": "Establish a new AWS Direct Connect connection and private virtual interface in the same region as VPC-2."
+        },
+        {
+            "text": "Establish a hardware VPN over the Internet between VPC-1 and the on-premises network.",
+            "right_answer": true
+        },
+        {
+            "text": "Establish another AWS Direct Connect connection and private virtual interface in the same AWS region as VPC-1.",
+            "right_answer": true
+        }
+    ]
+}

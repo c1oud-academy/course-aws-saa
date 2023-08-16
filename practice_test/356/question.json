@@ -1,0 +1,18 @@
+{
+    "text": "A company plans to migrate a NoSQL database to an EC2 instance. The database is configured to replicate the data automatically to keep multiple copies of data for redundancy. The Solutions Architect needs to launch an instance that has a high IOPS and sequential read/write access.\nWhich of the following options fulfills the requirement if I/O throughput is the highest priority?",
+    "answers": [
+        {
+            "text": "Use Storage optimized instances with instance store volume.",
+            "right_answer": true
+        },
+        {
+            "text": "Use Compute optimized instance with instance store volume."
+        },
+        {
+            "text": "Use General purpose instances with EBS volume."
+        },
+        {
+            "text": "Use Memory optimized instances with EBS volume."
+        }
+    ]
+}

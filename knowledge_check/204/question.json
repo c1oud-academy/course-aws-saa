@@ -1,0 +1,24 @@
+{
+    "answers": [
+        {
+            "text": "Traditional computing model",
+            "right_answer": true
+        },
+        {
+            "text": "Cloud computing model"
+        },
+        {
+            "text": "Modern computing model"
+        },
+        {
+            "text": "Ancient computing model"
+        },
+        {
+            "text": "Rain computing model"
+        },
+        {
+            "text": "Foreign computing model"
+        }
+    ],
+    "text": "Which computing model usually deals with long hardware procurement cycle?"
+}

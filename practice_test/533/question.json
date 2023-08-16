@@ -1,0 +1,18 @@
+{
+    "text": "A startup is building a microservices architecture in which the software is composed of small independent services that communicate over well-defined APIs. In building large-scale systems, fine-grained decoupling of microservices is a recommended practice to implement. The decoupled services should scale horizontally from each other to improve scalability.\nWhat is the difference between Horizontal scaling and Vertical scaling?",
+    "answers": [
+        {
+            "text": "Vertical scaling means running the same software on bigger machines which is limited by the capacity of the individual server. Horizontal scaling is adding more servers to the existing pool and doesn\u2019t run into limitations of individual servers.",
+            "right_answer": true
+        },
+        {
+            "text": "Horizontal scaling means running the same software on smaller containers such as Docker and Kubernetes using ECS or EKS. Vertical scaling is adding more servers to the existing pool and doesn\u2019t run into limitations of individual servers."
+        },
+        {
+            "text": "Vertical scaling means running the same software on a fully serverless architecture using Lambda. Horizontal scaling means adding more servers to the existing pool and it doesn\u2019t run into limitations of individual servers."
+        },
+        {
+            "text": "Horizontal scaling means running the same software on bigger machines which is limited by the capacity of individual servers. Vertical scaling is adding more servers to the existing pool and doesn\u2019t run into limitations of individual servers."
+        }
+    ]
+}

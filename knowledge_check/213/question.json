@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Infrastructure as a Service",
+            "right_answer": true
+        },
+        {
+            "text": "Internet as a Service"
+        },
+        {
+            "text": "Intranet as a Service"
+        },
+        {
+            "text": "Implementation as a Service"
+        }
+    ],
+    "text": "What does IaaS stand for?"
+}

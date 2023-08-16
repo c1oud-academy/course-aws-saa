@@ -1,0 +1,39 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "EC2",
+        "RDS",
+        "Redis",
+        "ElastiCache"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "530",
+    "aws_group": [
+        "Compute",
+        "Database"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 530",
+        "ru": "Practice test quesion 530",
+        "en": "Practice test quesion 530"
+    }
+}

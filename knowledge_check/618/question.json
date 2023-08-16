@@ -1,0 +1,19 @@
+{
+    "text": "What are the storage options that used to share data among multiple EC2 intances?",
+    "answers": [
+        {
+            "text": "Instance Store"
+        },
+        {
+            "text": "Amazon EBS"
+        },
+        {
+            "text": "Amazon EFS",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon FSx",
+            "right_answer": true
+        }
+    ]
+}

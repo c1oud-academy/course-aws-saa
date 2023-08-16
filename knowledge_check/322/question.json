@@ -1,0 +1,21 @@
+{
+    "text": "Select matching description for best practice 'Treat resources as disposable':",
+    "answers": [
+        {
+            "text": "Ensure that your architecture can handle changes in demand."
+        },
+        {
+            "text": "Where possible, automate the provisioning, termination, and configuration of resources."
+        },
+        {
+            "right_answer": true,
+            "text": "Take advantage of the dynamically provisioned nature of cloud computing."
+        },
+        {
+            "text": "Design architectures with independent components."
+        },
+        {
+            "text": "Use the breadth of AWS services. Don't limit your infrastructure to servers."
+        }
+    ]
+}

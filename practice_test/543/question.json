@@ -1,0 +1,18 @@
+{
+    "text": "A tech company is having an issue whenever they try to connect to the newly created EC2 instance using a Remote Desktop connection from a computer. Upon checking, the Solutions Architect has verified that the instance has a public IP and the Internet gateway and route tables are in place.\nWhat else should he do to resolve this issue?",
+    "answers": [
+        {
+            "text": "You should restart the EC2 instance since there might be some issue with the instance"
+        },
+        {
+            "text": "You should create a new instance since there might be some issue with the instance"
+        },
+        {
+            "text": "Adjust the security group to allow inbound traffic on port 3389 from the company\u2019s IP address.",
+            "right_answer": true
+        },
+        {
+            "text": "Adjust the security group to allow inbound traffic on port 22 from the company\u2019s IP address."
+        }
+    ]
+}

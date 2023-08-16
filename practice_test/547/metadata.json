@@ -1,0 +1,41 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "EC2",
+        "VPC",
+        "Availability Zone",
+        "Direct Connect",
+        "Amazon VPC IP Address Manager"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "547",
+    "aws_group": [
+        "AWS Global Infrastructure",
+        "Compute",
+        "Networking & Content Delivery"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 547",
+        "ru": "Practice test quesion 547",
+        "en": "Practice test quesion 547"
+    }
+}

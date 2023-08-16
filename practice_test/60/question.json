@@ -1,0 +1,18 @@
+{
+    "text": "An AI-powered Forex trading application consumes thousands of data sets to train its machine learning model. The application\u2019s workload requires a high-performance, parallel hot storage to process the training datasets concurrently. It also needs cost-effective cold storage to archive those datasets that yield low profit.\nWhich of the following Amazon storage services should the developer use?",
+    "answers": [
+        {
+            "text": "Use Amazon FSx For Lustre and Amazon EBS Provisioned IOPS SSD (io1) volumes for hot and cold storage respectively."
+        },
+        {
+            "text": "Use Amazon Elastic File System and Amazon S3 for hot and cold storage respectively."
+        },
+        {
+            "text": "Use Amazon FSx For Windows File Server and Amazon S3 for hot and cold storage respectively."
+        },
+        {
+            "text": "Use Amazon FSx For Lustre and Amazon S3 for hot and cold storage respectively.",
+            "right_answer": true
+        }
+    ]
+}

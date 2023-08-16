@@ -1,0 +1,18 @@
+{
+    "text": "You have built a web application that checks for new items in an S3 bucket once every hour. If new items exist, a message is added to an SQS queue. You have a fleet of EC2 instances which retrieve messages from the SQS queue, process the file, and finally, send you and the user an email confirmation that the item has been successfully processed. Your officemate uploaded one test file to the S3 bucket and after a couple of hours, you noticed that you and your officemate have 50 emails from your application with the same message.\nWhich of the following is most likely the root cause why the application has sent you and the user multiple emails?",
+    "answers": [
+        {
+            "text": "Your application does not issue a delete command to the SQS queue after processing the message, which is why this message went back to the queue and was processed multiple times.",
+            "right_answer": true
+        },
+        {
+            "text": "By default, SQS automatically deletes the messages that were processed by the consumers. It might be possible that your officemate has submitted the request 50 times which is why you received a lot of emails."
+        },
+        {
+            "text": "The sqsSendEmailMessage attribute of the SQS queue is configured to 50."
+        },
+        {
+            "text": "There is a bug in the application."
+        }
+    ]
+}

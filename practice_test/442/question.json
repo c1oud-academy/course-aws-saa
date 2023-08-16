@@ -1,0 +1,25 @@
+{
+    "answers": [
+        {
+            "text": "By using your own keys in AWS Key Management Service (KMS).",
+            "right_answer": true
+        },
+        {
+            "text": "By using S3 Client-Side Encryption."
+        },
+        {
+            "text": "By using Amazon-managed keys in AWS Key Management Service (KMS).",
+            "right_answer": true
+        },
+        {
+            "text": "By using the SSL certificates provided by the AWS Certificate Manager (ACM)."
+        },
+        {
+            "text": "By using a password stored in CloudHSM."
+        },
+        {
+            "text": "By using S3 Server-Side Encryption."
+        }
+    ],
+    "text": "A health organization is using a large Dedicated EC2 instance with multiple EBS volumes to host its health records web application. The EBS volumes must be encrypted due to the confidentiality of the data that they are handling and also to comply with the HIPAA (Health Insurance Portability and Accountability Act) standard.\nIn EBS encryption, what service does AWS use to secure the volume's data at rest?"
+}

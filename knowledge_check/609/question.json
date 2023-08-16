@@ -1,0 +1,33 @@
+{
+    "text": "Which statements are true regarding Instance Store-backed instances comparing EBS-backed instances?",
+    "answers": [
+        {
+            "text": "Boots faster"
+        },
+        {
+            "text": "Root device max size up to 16 TiB"
+        },
+        {
+            "text": "Instance can be stopped"
+        },
+        {
+            "text": "Can change instance type"
+        },
+        {
+            "text": "Boots slower",
+            "right_answer": true
+        },
+        {
+            "text": "Root device max size up to 10 GiB",
+            "right_answer": true
+        },
+        {
+            "text": "Instance can not be stopped",
+            "right_answer": true
+        },
+        {
+            "text": "Can not change instance type",
+            "right_answer": true
+        }
+    ]
+}

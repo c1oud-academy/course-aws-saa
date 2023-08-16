@@ -1,0 +1,21 @@
+{
+    "answers": [
+        {
+            "text": "Amazon RDS"
+        },
+        {
+            "text": "AWS SCT"
+        },
+        {
+            "text": "Amazon Aurora"
+        },
+        {
+            "text": "AWS DMS",
+            "right_answer": true
+        },
+        {
+            "text": "AWS S3"
+        }
+    ],
+    "text": "What is the AWS service that helps migrate on-premise DB to AWS?"
+}

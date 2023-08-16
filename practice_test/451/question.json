@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "File Gateway"
+        },
+        {
+            "text": "Tape Gateway"
+        },
+        {
+            "text": "Volume Gateway in stored mode"
+        },
+        {
+            "text": "Volume Gateway in cached mode",
+            "right_answer": true
+        }
+    ],
+    "text": "A data analytics company keeps a massive volume of data that they store in their on-premises data center. To scale their storage systems, they are looking for cloud-backed storage volumes that they can mount using Internet Small Computer System Interface (iSCSI) devices from their on-premises application servers. They have an on-site data analytics application that frequently accesses the latest data subsets locally while the older data are rarely accessed. You are required to minimize the need to scale the on-premises storage infrastructure while still providing their web application with low-latency access to the data.\nWhich type of AWS Storage Gateway service will you use to meet the above requirements?"
+}

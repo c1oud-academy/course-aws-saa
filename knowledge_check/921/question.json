@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "text": "Amazon RDS",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon Redshift"
+        },
+        {
+            "text": "Amazon Aurora",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon DynamoDB"
+        },
+        {
+            "text": "Amazon ElastiCache"
+        }
+    ],
+    "text": "Select relational database AWS service that best suits for OLTP workloads:"
+}

@@ -1,0 +1,43 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 236",
+        "kk": "Practice test quesion 236",
+        "ru": "Practice test quesion 236"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "236",
+    "aws_service": [
+        "Cognito",
+        "Lambda",
+        "CloudFront",
+        "ElastiCache",
+        "API Gateway",
+        "DynamoDB"
+    ],
+    "aws_group": [
+        "Security, Identity, & Compliance",
+        "Networking & Content Delivery",
+        "Compute",
+        "Database"
+    ]
+}

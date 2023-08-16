@@ -1,0 +1,18 @@
+{
+    "text": "A major TV network has a web application running on eight Amazon T3 EC2 instances. The number of requests that the application processes are consistent and do not experience spikes. To ensure that eight instances are running at all times, the Solutions Architect should create an Auto Scaling group and distribute the load evenly between all instances.\nWhich of the following options can satisfy the given requirements?",
+    "answers": [
+        {
+            "text": "Deploy four EC2 instances with Auto Scaling in one Availability Zone and four in another availability zone in the same region behind an Amazon Elastic Load Balancer.",
+            "right_answer": true
+        },
+        {
+            "text": "Deploy two EC2 instances with Auto Scaling in four regions behind an Amazon Elastic Load Balancer."
+        },
+        {
+            "text": "Deploy eight EC2 instances with Auto Scaling in one Availability Zone behind an Amazon Elastic Load Balancer."
+        },
+        {
+            "text": "Deploy four EC2 instances with Auto Scaling in one region and four in another region behind an Amazon Elastic Load Balancer."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A data analytics company is setting up an innovative checkout-free grocery store. Their Solutions Architect developed a real-time monitoring application that uses smart sensors to collect the items that the customers are getting from the grocery\u2019s refrigerators and shelves then automatically deduct it from their accounts. The company wants to analyze the items that are frequently being bought and store the results in S3 for durable storage to determine the purchase behavior of its customers.\nWhat service must be used to easily capture, transform, and load streaming data into Amazon S3, Amazon Elasticsearch Service, and Splunk?",
+    "answers": [
+        {
+            "text": "Amazon Kinesis"
+        },
+        {
+            "text": "Amazon Redshift"
+        },
+        {
+            "text": "Amazon Kinesis Data Firehose",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon SQS"
+        }
+    ]
+}

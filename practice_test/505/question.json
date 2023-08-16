@@ -1,0 +1,18 @@
+{
+    "text": "A mobile application stores pictures in Amazon Simple Storage Service (S3) and allows application sign-in using an OpenID Connect-compatible identity provider.\nWhich AWS Security Token Service approach to temporary access should you use for this scenario?",
+    "answers": [
+        {
+            "text": "Cross-Account Access"
+        },
+        {
+            "text": "AWS Identity and Access Management roles"
+        },
+        {
+            "text": "SAML-based Identity Federation"
+        },
+        {
+            "text": "Web Identity Federation",
+            "right_answer": true
+        }
+    ]
+}

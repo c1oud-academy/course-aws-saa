@@ -1,0 +1,22 @@
+{
+    "text": "A technology company is building a new cryptocurrency trading platform that allows the buying and selling of Bitcoin, Ethereum, Ripple, Tether, and many others. You were hired as a Cloud Engineer to build the required infrastructure needed for this new trading platform. On your first week at work, you started to create CloudFormation YAML scripts that define all of the needed AWS resources for the application. Your manager was shocked that you haven't created the EC2 instances, S3 buckets, and other AWS resources straight away. He does not understand the text-based scripts that you have done and has asked for your clarification.\nIn this scenario, what are the benefits of using the Amazon CloudFormation service that you should tell your manager to clarify his concerns?",
+    "answers": [
+        {
+            "text": "Enables modeling, provisioning, and version-controlling of your entire AWS infrastructure",
+            "right_answer": true
+        },
+        {
+            "text": "A storage location for the code of your application"
+        },
+        {
+            "text": "Provides highly durable and scalable data storage"
+        },
+        {
+            "text": "Allows you to model your entire infrastructure in a text file",
+            "right_answer": true
+        },
+        {
+            "text": "Using CloudFormation itself is free, including the AWS resources that have been created."
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "text": "A company has a top priority requirement to monitor a few database metrics and then afterward, send email notifications to the Operations team in case there is an issue. Which AWS services can accomplish this requirement?",
+    "answers": [
+        {
+            "text": "Amazon EC2 Instance with a running Berkeley Internet Name Domain (BIND) Server."
+        },
+        {
+            "text": "Amazon Simple Notification Service (SNS)",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon CloudWatch",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon Simple Queue Service (SQS)"
+        },
+        {
+            "text": "Amazon Simple Email Service"
+        }
+    ]
+}

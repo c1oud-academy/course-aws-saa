@@ -1,0 +1,21 @@
+{
+    "answers": [
+        {
+            "text": "Global Table"
+        },
+        {
+            "text": "AWS SCT",
+            "right_answer": true
+        },
+        {
+            "text": "Multi-AZ deployment"
+        },
+        {
+            "text": "Read Replica"
+        },
+        {
+            "text": "AWS S3"
+        }
+    ],
+    "text": "What is the tool used with AWS DMS that supports database engine change during DB migration?"
+}

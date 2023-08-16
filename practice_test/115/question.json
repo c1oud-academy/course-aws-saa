@@ -1,0 +1,18 @@
+{
+    "text": "A company is building a transcription service in which a fleet of EC2 worker instances processes an uploaded audio file and generates a text file as an output. They must store both of these frequently accessed files in the same durable storage until the text file is retrieved by the uploader. Due to an expected surge in demand, they have to ensure that the storage is scalable and can be retrieved within minutes.\nWhich storage option in AWS can they use in this situation, which is both cost-efficient and scalable?",
+    "answers": [
+        {
+            "text": "A single Amazon S3 bucket",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon S3 Glacier Deep Archive"
+        },
+        {
+            "text": "Multiple Amazon EBS volume with snapshots"
+        },
+        {
+            "text": "Multiple instance stores"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "text": "All data moving between the volume and the instance are encrypted.",
+            "right_answer": true
+        },
+        {
+            "text": "The volumes created from the encrypted snapshot are not encrypted."
+        },
+        {
+            "text": "Snapshots are automatically encrypted.",
+            "right_answer": true
+        },
+        {
+            "text": "Snapshots are not automatically encrypted."
+        },
+        {
+            "text": "Only the data in the volume is encrypted and not all the data moving between the volume and the instance."
+        }
+    ],
+    "text": "An application is hosted on an EC2 instance with multiple EBS Volumes attached and uses Amazon Neptune as its database. To improve data security, you encrypted all of the EBS volumes attached to the instance to protect the confidential data stored in the volumes.\nWhich of the following statements are true about encrypted Amazon Elastic Block Store volumes?"
+}

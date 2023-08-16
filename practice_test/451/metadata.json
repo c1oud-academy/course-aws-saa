@@ -1,0 +1,35 @@
+{
+    "aws_group": [
+        "Storage"
+    ],
+    "type": "practice_test",
+    "id": "451",
+    "title": {
+        "ru": "Practice test quesion 451",
+        "kk": "Practice test quesion 451",
+        "en": "Practice test quesion 451"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "path": "metadata.json",
+            "lang": "en"
+        },
+        {
+            "type": "question",
+            "path": "question.json",
+            "lang": "en"
+        }
+    ],
+    "aws_service": [
+        "Storage Gateway"
+    ]
+}

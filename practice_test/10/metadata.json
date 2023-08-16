@@ -1,0 +1,40 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Developer Tools",
+        "Management & Governance",
+        "Analytics"
+    ],
+    "id": "10",
+    "title": {
+        "kk": "Practice test quesion 10",
+        "ru": "Practice test quesion 10",
+        "en": "Practice test quesion 10"
+    },
+    "aws_service": [
+        "X-Ray",
+        "CloudWatch",
+        "Amazon Redshift",
+        "CloudTrail"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

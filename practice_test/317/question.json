@@ -1,0 +1,18 @@
+{
+    "text": "A company plans to develop a custom messaging service that will also be used to train their AI for an automatic response feature which they plan to implement in the future. Based on their research and tests, the service can receive up to thousands of messages a day, and all of these data are to be sent to Amazon EMR for further processing. It is crucial that none of the messages are lost, no duplicates are produced, and that they are processed in EMR in the same order as their arrival.\nWhich of the following options can satisfy the given requirement?",
+    "answers": [
+        {
+            "text": "Set up a default Amazon SQS queue to handle the messages."
+        },
+        {
+            "text": "Set up an Amazon SNS Topic to handle the messages."
+        },
+        {
+            "text": "Create an Amazon Kinesis Data Stream to collect the messages.",
+            "right_answer": true
+        },
+        {
+            "text": "Create a pipeline using AWS Data Pipeline to handle the messages."
+        }
+    ]
+}

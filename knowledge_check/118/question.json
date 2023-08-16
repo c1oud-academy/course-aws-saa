@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "AWS Documentation",
+            "right_answer": true
+        },
+        {
+            "text": "StackOverflow"
+        },
+        {
+            "text": "Meduim"
+        },
+        {
+            "text": "Other"
+        }
+    ],
+    "text": "What is the knowledge source where you can find answers for the most of AWS related questions?"
+}

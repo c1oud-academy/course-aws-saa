@@ -1,0 +1,531 @@
+QUESTION_ID_PLACEHOLDER
+A company is running a multi-tier web application farm in a virtual private cloud (VPC) that is not connected to their corporate network. They are connecting to the VPC over the Internet to manage the fleet of Amazon EC2 instances running in both the public and private subnets. The Solutions Architect has added a bastion host with Microsoft Remote Desktop Protocol (RDP) access to the application instance security groups, but the company wants to further limit administrative access to all of the instances in the VPC.
+Which of the following bastion host deployment options will meet this requirement?
+B) Deploy a Windows Bastion host with an Elastic IP address in the public subnet and allow SSH access to the bastion from anywhere.
+B) Deploy a Windows Bastion host with an Elastic IP address in the private subnet, and restrict RDP access to the bastion from only the corporate public IP addresses.
++A) Deploy a Windows Bastion host with an Elastic IP address in the public subnet and allow RDP access to bastion only from the corporate IP addresses.
+B) Deploy a Windows Bastion host on the corporate network that has RDP access to all EC2 instances in the VPC.
+
+QUESTION_ID_PLACEHOLDER
+A company has a data analytics application that updates a real-time, foreign exchange dashboard and another separate application that archives data to Amazon Redshift. Both applications are configured to consume data from the same stream concurrently and independently by using Amazon Kinesis Data Streams. However, they noticed that there are a lot of occurrences where a shard iterator expires unexpectedly. Upon checking, they found out that the DynamoDB table used by Kinesis does not have enough capacity to store the lease data.
+Which of the following is the most suitable solution to rectify this issue?
++A) Increase the write capacity assigned to the shard table.
+B) Upgrade the storage capacity of the DynamoDB table.
+B) Enable In-Memory Acceleration with DynamoDB Accelerator (DAX).
+B) Use Amazon Kinesis Data Analytics to properly support the data analytics application instead of Kinesis Data Stream.
+
+QUESTION_ID_PLACEHOLDER
+A commercial bank has a forex trading application. They created an Auto Scaling group of EC2 instances that allow the bank to cope with the current traffic and achieve cost-efficiency. They want the Auto Scaling group to behave in such a way that it will follow a predefined set of parameters before it scales down the number of EC2 instances, which protects the system from unintended slowdown or unavailability.
+Which of the following statements are true regarding the cooldown period?
+B) It ensures that the Auto Scaling group launches or terminates additional EC2 instances without any downtime.
+B) It ensures that before the Auto Scaling group scales out, the EC2 instances have ample time to cooldown.
++A) Its default value is 300 seconds.
+B) Its default value is 600 seconds.
++A) It ensures that the Auto Scaling group does not launch or terminate additional EC2 instances before the previous scaling activity takes effect.
+
+QUESTION_ID_PLACEHOLDER
+For data privacy, a healthcare company has been asked to comply with the Health Insurance Portability and Accountability Act (HIPAA). The company stores all its backups on an Amazon S3 bucket. It is required that data stored on the S3 bucket must be encrypted.
+What is the best option to do this?
++A) Before sending the data to Amazon S3 over HTTPS, encrypt the data locally first using your own encryption keys.
+B) Store the data on EBS volumes with encryption enabled instead of using Amazon S3.
++A) Enable Server-Side Encryption on an S3 bucket to make use of AES-256 encryption.
+B) Store the data in encrypted EBS snapshots.
+B) Enable Server-Side Encryption on an S3 bucket to make use of AES-128 encryption.
+
+QUESTION_ID_PLACEHOLDER
+An insurance company utilizes SAP HANA for its day-to-day ERP operations. Since they can’t migrate this database due to customer preferences, they need to integrate it with the current AWS workload in the VPC in which they are required to establish a site-to-site VPN connection.
+What needs to be configured outside of the VPC for them to have a successful site-to-site VPN connection?
+B) An EIP to the Virtual Private Gateway
++A) An Internet-routable IP address (static) of the customer gateway's external interface for the on-premises network
+B) A dedicated NAT instance in a public subnet
+B) The main route table in your VPC to route traffic through a NAT instance
+
+QUESTION_ID_PLACEHOLDER
+A digital media company shares static content to its premium users around the world and also to their partners who syndicate their media files. The company is looking for ways to reduce its server costs and securely deliver their data to their customers globally with low latency.
+Which combination of services should be used to provide the MOST suitable and cost-effective architecture?
++A) Amazon CloudFront
+B) AWS Global Accelerator
++A) Amazon S3
+B) AWS Lambda
+B) AWS Fargate
+
+QUESTION_ID_PLACEHOLDER
+A company is building an internal application that serves as a repository for images uploaded by a couple of users. Whenever a user uploads an image, it would be sent to Kinesis Data Streams for processing before it is stored in an S3 bucket. If the upload was successful, the application will return a prompt informing the user that the operation was successful. The entire processing typically takes about 5 minutes to finish.
+Which of the following options will allow you to asynchronously process the request to the application from upload request to Kinesis, S3, and return a reply in the most cost-effective manner?
+B) Use a combination of SQS to queue the requests and then asynchronously process them using On-Demand EC2 Instances.
+B) Use a combination of Lambda and Step Functions to orchestrate service components and asynchronously process the requests.
+B) Use a combination of SNS to buffer the requests and then asynchronously process them using On-Demand EC2 Instances.
++A) Replace the Kinesis Data Streams with an Amazon SQS queue. Create a Lambda function that will asynchronously process the requests.
+
+QUESTION_ID_PLACEHOLDER
+An accounting application uses an RDS database configured with Multi-AZ deployments to improve availability. What would happen to RDS if the primary database instance fails?
++A) The canonical name record (CNAME) is switched from the primary to standby instance.
+B) The primary database instance will reboot.
+B) A new database instance is created in the standby Availability Zone.
+B) The IP address of the primary DB instance is switched to the standby DB instance.
+
+QUESTION_ID_PLACEHOLDER
+A Solutions Architect is working for an online hotel booking firm with terabytes of customer data coming from the websites and applications. There is an annual corporate meeting where the Architect needs to present the booking behavior and acquire new insights from the customers’ data. The Architect is looking for a service to perform super-fast analytics on massive data sets in near real-time.
+Which of the following services gives the Architect the ability to store huge amounts of data and perform quick and flexible queries on it?
+B) Amazon ElastiCache
+B) Amazon DynamoDB
+B) Amazon RDS
++A) Amazon Redshift
+
+QUESTION_ID_PLACEHOLDER
+An insurance company plans to implement a message filtering feature in their web application. To implement this solution, they need to create separate Amazon SQS queues for each type of quote request. The entire message processing should not exceed 24 hours.
+As the Solutions Architect of the company, which of the following should you do to meet the above requirement?
+B) Create one Amazon SNS topic and configure the Amazon SQS queues to subscribe to the SNS topic. Publish the same messages to all SQS queues. Filter the messages in each queue based on the quote request type.
+B) Create a data stream in Amazon Kinesis Data Streams. Use the Amazon Kinesis Client Library to deliver all the records to the designated SQS queues based on the quote request type.
+B) Create multiple Amazon SNS topics and configure the Amazon SQS queues to subscribe to the SNS topics. Publish the message to the designated SQS queue based on the quote request type.
++A) Create one Amazon SNS topic and configure the Amazon SQS queues to subscribe to the SNS topic. Set the filter policies in the SNS subscriptions to publish the message to the designated SQS queue based on its quote request type.
+
+QUESTION_ID_PLACEHOLDER
+A company has multiple VPCs with IPv6 enabled for its suite of web applications. The Solutions Architect tried to deploy a new Amazon EC2 instance but she received an error saying that there is no IP address available on the subnet.
+How should the Solutions Architect resolve this problem?
+B) Ensure that the VPC has IPv6 CIDRs only. Remove any IPv4 CIDRs associated with the VPC.
++A) Set up a new IPv4 subnet with a larger CIDR range. Associate the new subnet with the VPC and then launch the instance.
+B) Set up a new IPv6-only subnet with a large CIDR range. Associate the new subnet with the VPC then launch the instance.
+B) Disable the IPv4 support in the VPC and use the available IPv6 addresses.
+
+QUESTION_ID_PLACEHOLDER
+An organization is currently using a tape backup solution to store its application data on-premises. They plan to use a cloud storage service to preserve the backup data for up to 10 years that may be accessed about once or twice a year.
+Which of the following is the most cost-effective option to implement this solution?
++A) Use AWS Storage Gateway to backup the data directly to Amazon S3 Glacier Deep Archive.
+B) Use AWS Storage Gateway to backup the data directly to Amazon S3 Glacier.
+B) Order an AWS Snowball Edge appliance to import the backup directly to Amazon S3 Glacier.
+B) Use Amazon S3 to store the backup data and add a lifecycle rule to transition the current version to Amazon S3 Glacier.
+
+QUESTION_ID_PLACEHOLDER
+An online events registration system is hosted in AWS and uses ECS to host its front-end tier and an RDS configured with Multi-AZ for its database tier. What are the events that will make Amazon RDS automatically perform a failover to the standby replica?
+B) Compute unit failure on secondary DB instance
++A) Loss of availability in primary Availability Zone
++A) Storage failure on primary
+B) In the event of Read Replica failure
+B) Storage failure on secondary DB instance
+
+QUESTION_ID_PLACEHOLDER
+One of your EC2 instances is reporting an unhealthy system status check. The operations team is looking for an easier way to monitor and repair these instances instead of fixing them manually.
+How will you automate the monitoring and repair of the system status check failure in an AWS environment?
+B) Buy and implement a third party monitoring tool.
++A) Create CloudWatch alarms that stop and start the instance based on status check alarms.
+B) Write a python script that queries the EC2 API for each instance status check
+B) Write a shell script that periodically shuts down and starts instances based on certain stats.
+
+QUESTION_ID_PLACEHOLDER
+A company is building a transcription service in which a fleet of EC2 worker instances processes an uploaded audio file and generates a text file as an output. They must store both of these frequently accessed files in the same durable storage until the text file is retrieved by the uploader. Due to an expected surge in demand, they have to ensure that the storage is scalable and can be retrieved within minutes.
+Which storage option in AWS can they use in this situation, which is both cost-efficient and scalable?
++A) A single Amazon S3 bucket
+B) Amazon S3 Glacier Deep Archive
+B) Multiple Amazon EBS volume with snapshots
+B) Multiple instance stores
+
+QUESTION_ID_PLACEHOLDER
+A DevOps Engineer is required to design a cloud architecture in AWS. The Engineer is planning to develop a highly available and fault-tolerant architecture that is composed of an Elastic Load Balancer and an Auto Scaling group of EC2 instances deployed across multiple Availability Zones. This will be used by an online accounting application that requires path-based routing, host-based routing, and bi-directional communication channels using WebSockets.
+Which is the most suitable type of Elastic Load Balancer that will satisfy the given requirement?
+B) Classic Load Balancer
++A) Application Load Balancer
+B) Network Load Balancer
+B) Gateway Load Balancer
+
+QUESTION_ID_PLACEHOLDER
+A company has a requirement to move 80 TB data warehouse to the cloud. It would take 2 months to transfer the data given their current bandwidth allocation.
+Which is the most cost-effective service that would allow you to quickly upload their data into AWS?
+B) AWS Snowmobile
+B) AWS Direct Connect
+B) Amazon S3 Multipart Upload
++A) AWS Snowball Edge
+
+QUESTION_ID_PLACEHOLDER
+A Solutions Architect is working for a company that uses Chef Configuration management in their data center. She needs to leverage their existing Chef recipes in AWS.
+Which of the following services should she use?
+B) AWS Elastic Beanstalk
+B) Amazon Simple Workflow Service
++A) AWS OpsWorks
+B) AWS CloudFormation
+
+QUESTION_ID_PLACEHOLDER
+A company launched a website that accepts high-quality photos and turns them into a downloadable video montage. The website offers a free and a premium account that guarantees faster processing. All requests by both free and premium members go through a single SQS queue and then processed by a group of EC2 instances that generate the videos. The company needs to ensure that the premium users who paid for the service have higher priority than the free members.
+How should the company re-design its architecture to address this requirement?
+B) Use Amazon Kinesis to process the photos and generate the video montage in real-time.
++A) Create an SQS queue for free members and another one for premium members. Configure your EC2 instances to consume messages from the premium queue first and if it is empty, poll from the free members' SQS queue.
+B) Use Amazon S3 to store and process the photos and then generate the video montage afterward.
+B) For the requests made by premium members, set a higher priority in the SQS queue so it will be processed first compared to the requests made by free members.
+
+QUESTION_ID_PLACEHOLDER
+A company runs a messaging application in the ap-northeast-1 and ap-southeast-2 region. A Solutions Architect needs to create a routing policy wherein a larger portion of traffic from the Philippines and North India will be routed to the resource in the ap-northeast-1 region.
+Which Route 53 routing policy should the Solutions Architect use?
+B) Latency Routing
++A) Geoproximity Routing
+B) Weighted Routing
+B) Geolocation Routing
+
+QUESTION_ID_PLACEHOLDER
+You have built a web application that checks for new items in an S3 bucket once every hour. If new items exist, a message is added to an SQS queue. You have a fleet of EC2 instances which retrieve messages from the SQS queue, process the file, and finally, send you and the user an email confirmation that the item has been successfully processed. Your officemate uploaded one test file to the S3 bucket and after a couple of hours, you noticed that you and your officemate have 50 emails from your application with the same message.
+Which of the following is most likely the root cause why the application has sent you and the user multiple emails?
++A) Your application does not issue a delete command to the SQS queue after processing the message, which is why this message went back to the queue and was processed multiple times.
+B) By default, SQS automatically deletes the messages that were processed by the consumers. It might be possible that your officemate has submitted the request 50 times which is why you received a lot of emails.
+B) The sqsSendEmailMessage attribute of the SQS queue is configured to 50.
+B) There is a bug in the application.
+
+QUESTION_ID_PLACEHOLDER
+A company is working with a government agency to improve traffic planning and maintenance of roadways to prevent accidents. The proposed solution is to manage the traffic infrastructure in real-time, alert traffic engineers and emergency response teams when problems are detected, and automatically change traffic signals to get emergency personnel to accident scenes faster by using sensors and smart devices.
+Which AWS service will allow the developers of the agency to connect the smart devices to the cloud-based applications?
+B) AWS Elastic Beanstalk
+B) AWS CloudFormation
++A) AWS IoT Core
+B) Amazon Elastic Container Service
+
+QUESTION_ID_PLACEHOLDER
+A company has a dynamic web app written in MEAN stack that is going to be launched in the next month. There is a probability that the traffic will be quite high in the first couple of weeks. In the event of a load failure, how can you set up DNS failover to a static website?
+B) Duplicate the exact application architecture in another region and configure DNS weight-based routing.
+B) Add more servers in case the application fails.
++A) Use Route 53 with the failover option to a static S3 website bucket or CloudFront distribution.
+B) Enable failover to an application hosted in an on-premises data center.
+
+QUESTION_ID_PLACEHOLDER
+A company has an enterprise web application hosted on Amazon ECS Docker containers that use an Amazon FSx for Lustre filesystem for its high-performance computing workloads. A warm standby environment is running in another AWS region for disaster recovery. A Solutions Architect was assigned to design a system that will automatically route the live traffic to the disaster recovery (DR) environment only in the event that the primary application stack experiences an outage.
+What should the Architect do to satisfy this requirement?
+B) Set up a CloudWatch Events rule to monitor the primary Route 53 DNS endpoint and create a custom Lambda function. Execute the ChangeResourceRecordSets API call using the function to initiate the failover to the secondary DNS record.
+B) Set up a Weighted routing policy configuration in Route 53 by adding health checks on both the primary stack and the DR environment. Configure the network access control list and the route table to allow Route 53 to send requests to the endpoints specified in the health checks. Enable the Evaluate Target Health option by setting it to Yes.
++A) Set up a failover routing policy configuration in Route 53 by adding a health check on the primary service endpoint. Configure Route 53 to direct the DNS queries to the secondary record when the primary resource is unhealthy. Configure the network access control list and the route table to allow Route 53 to send requests to the endpoints specified in the health checks. Enable the Evaluate Target Health option by setting it to Yes.
+B) Set up a CloudWatch Alarm to monitor the primary Route 53 DNS endpoint and create a custom Lambda function. Execute the ChangeResourceRecordSets API call using the function to initiate the failover to the secondary DNS record.
+
+QUESTION_ID_PLACEHOLDER
+A Solutions Architect is building a cloud infrastructure where EC2 instances require access to various AWS services such as S3 and Redshift. The Architect will also need to provide access to system administrators so they can deploy and test their changes.
+Which configuration should be used to ensure that the access to the resources is secured and not compromised?
+B) Assign an IAM user for each Amazon EC2 Instance.
+B) Store the AWS Access Keys in ACM.
++A) Enable Multi-Factor Authentication.
++A) Assign an IAM role to the Amazon EC2 instance.
+B) Store the AWS Access Keys in the EC2 instance.
+
+QUESTION_ID_PLACEHOLDER
+A company is hosting its web application in an Auto Scaling group of EC2 instances behind an Application Load Balancer. Recently, the Solutions Architect identified a series of SQL injection attempts and cross-site scripting attacks to the application, which had adversely affected their production data.
+Which of the following should the Architect implement to mitigate this kind of attack?
++A) Set up security rules that block SQL injection and cross-site scripting attacks in AWS Web Application Firewall (WAF). Associate the rules to the Application Load Balancer.
+B) Block all the IP addresses where the SQL injection and cross-site scripting attacks originated using the Network Access Control List.
+B) Using AWS Firewall Manager, set up security rules that block SQL injection and cross-site scripting attacks. Associate the rules to the Application Load Balancer.
+B) Use Amazon GuardDuty to prevent any further SQL injection and cross-site scripting attacks in your application.
+
+QUESTION_ID_PLACEHOLDER
+A media company hosts large volumes of archive data that are about 250 TB in size on their internal servers. They have decided to move these data to S3 because of its durability and redundancy. The company currently has a 100 Mbps dedicated line connecting their head office to the Internet.
+Which of the following is the FASTEST and the MOST cost-effective way to import all these data to Amazon S3?
+B) Use AWS Snowmobile to transfer the data over to S3.
+B) Establish an AWS Direct Connect connection then transfer the data over to S3.
++A) Order multiple AWS Snowball devices to upload the files to Amazon S3.
+B) Upload it directly to S3
+
+QUESTION_ID_PLACEHOLDER
+A Network Architect developed a food ordering application. The Architect needs to retrieve the instance ID, public keys, and public IP address of the EC2 server made for tagging and grouping the attributes into the internal application running on-premises.
+Which of the following options fulfills this requirement?
++A) Instance metadata
+B) Amazon Machine Image
+B) Resource tags
+B) Instance user data
+
+QUESTION_ID_PLACEHOLDER
+A company needs to assess and audit all the configurations in their AWS account. It must enforce strict compliance by tracking all configuration changes made to any of its Amazon S3 buckets. Publicly accessible S3 buckets should also be identified automatically to avoid data breaches.
+Which of the following options will meet this requirement?
++A) Use AWS Config to set up a rule in your AWS account.
+B) Use AWS CloudTrail and review the event history of your AWS account.
+B) Use AWS IAM to generate a credential report.
+B) Use AWS Trusted Advisor to analyze your AWS environment.
+
+QUESTION_ID_PLACEHOLDER
+A company developed a meal planning application that provides meal recommendations for the week as well as the food consumption of the users. The application resides on an EC2 instance which requires access to various AWS services for its day-to-day operations.
+Which of the following is the best way to allow the EC2 instance to access the S3 bucket and other AWS services?
+B) Store the API credentials in a bastion host.
+B) Store the API credentials in the EC2 instance.
++A) Create a role in IAM and assign it to the EC2 instance.
+B) Add the API Credentials in the Security Group and assign it to the EC2 instance.
+
+QUESTION_ID_PLACEHOLDER
+A website that consists of HTML, CSS, and other client-side Javascript will be hosted on the AWS environment. Several high-resolution images will be displayed on the webpage. The website and the photos should have the optimal loading response times as possible, and should also be able to scale to high request rates.
+Which of the following architectures can provide the most cost-effective and fastest loading experience?
+B) Create a Nginx web server in an EC2 instance to host the HTML, CSS, and Javascript files then enable caching. Upload the images in an S3 bucket. Use CloudFront as a CDN to deliver the images closer to your end-users.
+B) Launch an Auto Scaling Group using an AMI that has a pre-configured Apache web server, then configure the scaling policy accordingly. Store the images in an Elastic Block Store. Then, point your instance’s endpoint to AWS Global Accelerator.
+B) Create a Nginx web server in an Amazon LightSail instance to host the HTML, CSS, and Javascript files then enable caching. Upload the images in an S3 bucket. Use CloudFront as a CDN to deliver the images closer to your end-users.
++A) Upload the HTML, CSS, Javascript, and the images in a single bucket. Then enable website hosting. Create a CloudFront distribution and point the domain on the S3 website endpoint.
+
+QUESTION_ID_PLACEHOLDER
+A solutions architect is designing a cost-efficient, highly available storage solution for company data. One of the requirements is to ensure that the previous state of a file is preserved and retrievable if a modified version of it is uploaded. Also, to meet regulatory compliance, data over 3 years must be retained in an archive and will only be accessible once a year.
+How should the solutions architect build the solution?
+B) Create an S3 Standard bucket and enable S3 Object Lock in governance mode.
+B) Create an S3 Standard bucket with S3 Object Lock in compliance mode enabled then configure a lifecycle rule that transfers files to Amazon S3 Glacier Deep Archive after 3 years.
++A) Create an S3 Standard bucket with object-level versioning enabled and configure a lifecycle rule that transfers files to Amazon S3 Glacier Deep Archive after 3 years.
+B) Create a One-Zone-IA bucket with object-level versioning enabled and configure a lifecycle rule that transfers files to Amazon S3 Glacier Deep Archive after 3 years.
+
+QUESTION_ID_PLACEHOLDER
+A company has a static corporate website hosted in a standard S3 bucket and a new web domain name that was registered using Route 53. You are instructed by your manager to integrate these two services in order to successfully launch their corporate website.
+What are the prerequisites when routing traffic using Amazon Route 53 to a website that is hosted in an Amazon S3 Bucket?
++A) The S3 bucket name must be the same as the domain name
++A) A registered domain name
+B) The record set must be of type 'MX'
+B) The Cross-Origin Resource Sharing (CORS) option should be enabled in the S3 bucket
+B) The S3 bucket must be in the same region as the hosted zone
+
+QUESTION_ID_PLACEHOLDER
+An organization needs to control the access for several S3 buckets. They plan to use a gateway endpoint to allow access to trusted buckets.
+Which of the following could help you achieve this requirement?
+B) Generate an endpoint policy for trusted VPCs.
+B) Generate a bucket policy for trusted S3 buckets.
++A) Generate an endpoint policy for trusted S3 buckets.
+B) Generate a bucket policy for trusted VPCs.
+
+QUESTION_ID_PLACEHOLDER
+A company has a top priority requirement to monitor a few database metrics and then afterward, send email notifications to the Operations team in case there is an issue. Which AWS services can accomplish this requirement?
+B) Amazon EC2 Instance with a running Berkeley Internet Name Domain (BIND) Server.
++A) Amazon Simple Notification Service (SNS)
++A) Amazon CloudWatch
+B) Amazon Simple Queue Service (SQS)
+B) Amazon Simple Email Service
+
+QUESTION_ID_PLACEHOLDER
+An organization stores and manages financial records of various companies in its on-premises data center, which is almost out of space. The management decided to move all of their existing records to a cloud storage service. All future financial records will also be stored in the cloud. For additional security, all records must be prevented from being deleted or overwritten.
+Which of the following should you do to meet the above requirement?
+B) Use AWS Storage Gateway to establish hybrid cloud storage. Store all of your data in Amazon EBS and enable object lock.
++A) Use AWS DataSync to move the data. Store all of your data in Amazon S3 and enable object lock.
+B) Use AWS DataSync to move the data. Store all of your data in Amazon EFS and enable object lock.
+B) Use AWS Storage Gateway to establish hybrid cloud storage. Store all of your data in Amazon S3 and enable object lock.
+
+QUESTION_ID_PLACEHOLDER
+A start-up company that offers an intuitive financial data analytics service has consulted you about their AWS architecture. They have a fleet of Amazon EC2 worker instances that process financial data and then outputs reports which are used by their clients. You must store the generated report files in a durable storage. The number of files to be stored can grow over time as the start-up company is expanding rapidly overseas and hence, they also need a way to distribute the reports faster to clients located across the globe. 
+Which of the following is a cost-efficient and scalable storage option that you should use for this scenario?
+B) Use Amazon Glacier as the data storage and ElastiCache as the CDN.
++A) Use Amazon S3 as the data storage and CloudFront as the CDN.
+B) Use Amazon Redshift as the data storage and CloudFront as the CDN.
+B) Use multiple EC2 instance stores for data storage and ElastiCache as the CDN.
+
+QUESTION_ID_PLACEHOLDER
+A Solutions Architect of a multinational gaming company develops video games for PS4, Xbox One, and Nintendo Switch consoles, plus a number of mobile games for Android and iOS. Due to the wide range of their products and services, the architect proposed that they use API Gateway.
+What are the key features of API Gateway that the architect can tell to the client?
++A) Enables you to build RESTful APIs and WebSocket APIs that are optimized for serverless workloads.
++A) You pay only for the API calls you receive and the amount of data transferred out.
+B) It automatically provides a query language for your APIs similar to GraphQL.
+B) Provides you with static anycast IP addresses that serve as a fixed entry point to your applications hosted in one or more AWS Regions.
+B) Enables you to run applications requiring high levels of inter-node communications at scale on AWS through its custom-built operating system (OS) bypass hardware interface.
+
+QUESTION_ID_PLACEHOLDER
+A Data Engineer is working for a litigation firm for their case history application. The engineer needs to keep track of all the cases that the firm has handled. The static assets like .jpg, .png, and .pdf files are stored in S3 for cost efficiency and high durability. As these files are critical to the business, the engineer wants to keep track of what's happening in the S3 bucket. The engineer found out that S3 has an event notification whenever a delete or write operation happens within the S3 bucket.
+What are the possible Event Notification destinations available for S3 buckets?
++A) SQS
+B) SES
+B) SWF
++A) Lambda function
+B) Kinesis
+
+QUESTION_ID_PLACEHOLDER
+A company is running a custom application in an Auto Scaling group of Amazon EC2 instances. Several instances are failing due to insufficient swap space. The Solutions Architect has been instructed to troubleshoot the issue and effectively monitor the available swap space of each EC2 instance.
+Which of the following options fulfills this requirement?
+B) Create a new trail in AWS CloudTrail and configure Amazon CloudWatch Logs to monitor your trail logs.
+B) Enable detailed monitoring on each instance and monitor the SwapUtilization metric.
++A) Install the CloudWatch agent on each instance and monitor the SwapUtilization metric.
+B) Create a CloudWatch dashboard and monitor the SwapUsed metric.
+
+QUESTION_ID_PLACEHOLDER
+A Solutions Architect created a new Standard-class S3 bucket to store financial reports that are not frequently accessed but should immediately be available when an auditor requests them. To save costs, the Architect changed the storage class of the S3 bucket from Standard to Infrequent Access storage class.
+In Amazon S3 Standard - Infrequent Access storage class, which of the following statements are true?
+B) Ideal to use for data archiving.
++A) It is designed for data that requires rapid access when needed.
+B) It provides high latency and low throughput performance
++A) It is designed for data that is accessed less frequently.
+B) It automatically moves data to the most cost-effective access tier without any operational overhead.
+
+QUESTION_ID_PLACEHOLDER
+A company has two On-Demand EC2 instances inside the Virtual Private Cloud in the same Availability Zone but are deployed to different subnets. One EC2 instance is running a database and the other EC2 instance a web application that connects with the database. You need to ensure that these two instances can communicate with each other for the system to work properly.
+What are the things you have to check so that these EC2 instances can communicate inside the VPC?
+B) Ensure that the EC2 instances are in the same Placement Group.
+B) Check if the default route is set to a NAT instance or Internet Gateway (IGW) for them to communicate.
++A) Check the Network ACL if it allows communication between the two subnets.
++A) Check if all security groups are set to allow the application host to communicate to the database on the right port and protocol.
+B) Check if both instances are the same instance class.
+
+QUESTION_ID_PLACEHOLDER
+A company is receiving semi-structured and structured data from different sources every day. The Solutions Architect plans to use big data processing frameworks to analyze vast amounts of data and access it using various business intelligence tools and standard SQL queries.
+Which of the following provides the MOST high-performing solution that fulfills this requirement?
++A) Create an Amazon EMR cluster and store the processed data in Amazon Redshift.
+B) Create an Amazon EC2 instance and store the processed data in Amazon EBS.
+B) Use Amazon Kinesis Data Analytics and store the processed data in Amazon DynamoDB.
+B) Use AWS Glue and store the processed data in Amazon S3.
+
+QUESTION_ID_PLACEHOLDER
+A company is planning to launch an application which requires a data warehouse that will be used for their infrequently accessed data. You need to use an EBS Volume that can handle large, sequential I/O operations.
+Which of the following is the most cost-effective storage type that you should use to meet the requirement?
++A) Cold HDD (sc1)
+B) Provisioned IOPS SSD (io1)
+B) EBS General Purpose SSD (gp2)
+B) Throughput Optimized HDD (st1)
+
+QUESTION_ID_PLACEHOLDER
+A company developed a web application and deployed it on a fleet of EC2 instances that uses Amazon SQS. The requests are saved as messages in the SQS queue, which is configured with the maximum message retention period. However, after thirteen days of operation, the web application suddenly crashed and there are 10,000 unprocessed messages that are still waiting in the queue. Since they developed the application, they can easily resolve the issue but they need to send a communication to the users on the issue.
+What information should they provide and what will happen to the unprocessed messages?
+B) Tell the users that the application will be operational shortly however, requests sent over three days ago will need to be resubmitted.
+B) Tell the users that unfortunately, they have to resubmit all the requests again.
+B) Tell the users that unfortunately, they have to resubmit all of the requests since the queue would not be able to process the 10,000 messages together.
++A) Tell the users that the application will be operational shortly and all received requests will be processed after the web application is restarted.
+
+QUESTION_ID_PLACEHOLDER
+Both historical records and frequently accessed data are stored on an on-premises storage system. The amount of current data is growing at an exponential rate. As the storage’s capacity is nearing its limit, the company’s Solutions Architect has decided to move the historical records to AWS to free up space for the active data.
+Which of the following architectures deliver the best solution in terms of cost and operational management?
+B) Use AWS Storage Gateway to move the historical records from on-premises to AWS. Choose Amazon S3 Glacier Deep Archive to be the destination for the data.
+B) Use AWS DataSync to move the historical records from on-premises to AWS. Choose Amazon S3 Standard to be the destination for the data. Modify the S3 lifecycle configuration to move the data from the Standard tier to Amazon S3 Glacier Deep Archive after 30 days.
+B) Use AWS Storage Gateway to move the historical records from on-premises to AWS. Choose Amazon S3 Glacier to be the destination for the data. Modify the S3 lifecycle configuration to move the data from the Standard tier to Amazon S3 Glacier Deep Archive after 30 days.
++A) Use AWS DataSync to move the historical records from on-premises to AWS. Choose Amazon S3 Glacier Deep Archive to be the destination for the data.
+
+QUESTION_ID_PLACEHOLDER
+All objects uploaded to an Amazon S3 bucket must be encrypted for security compliance. The bucket will use server-side encryption with Amazon S3-Managed encryption keys (SSE-S3) to encrypt data using 256-bit Advanced Encryption Standard (AES-256) block cipher.
+Which of the following request headers must be used?
+B) x-amz-server-side-encryption-customer-key-MD5
++A) x-amz-server-side-encryption
+B) x-amz-server-side-encryption-customer-key
+B) x-amz-server-side-encryption-customer-algorithm
+
+QUESTION_ID_PLACEHOLDER
+A music publishing company is building a multitier web application that requires a key-value store which will save the document models. Each model is composed of band ID, album ID, song ID, composer ID, lyrics, and other data. The web tier will be hosted in an Amazon ECS cluster with AWS Fargate launch type.
+Which of the following is the MOST suitable setup for the database-tier?
+B) Launch an Amazon Aurora Serverless database.
++A) Launch a DynamoDB table.
+B) Use Amazon WorkDocs to store the document models.
+B) Launch an Amazon RDS database with Read Replicas.
+
+QUESTION_ID_PLACEHOLDER
+A web application, which is used by your clients around the world, is hosted in an Auto Scaling group of EC2 instances behind a Classic Load Balancer. You need to secure your application by allowing multiple domains to serve SSL traffic over the same IP address.
+Which of the following should you do to meet the above requirement?
+B) It is not possible to allow multiple domains to serve SSL traffic over the same IP address in AWS
+B) Use Server Name Indication (SNI) on your Classic Load Balancer by adding multiple SSL certificates to allow multiple domains to serve SSL traffic.
+B) Use an Elastic IP and upload multiple 3rd party certificates in your Classic Load Balancer using the AWS Certificate Manager.
++A) Generate an SSL certificate with AWS Certificate Manager and create a CloudFront web distribution. Associate the certificate with your web distribution and enable the support for Server Name Indication (SNI).
+
+QUESTION_ID_PLACEHOLDER
+A start-up company has an EC2 instance that is hosting a web application. The volume of users is expected to grow in the coming months and hence, you need to add more elasticity and scalability in your AWS architecture to cope with the demand. 
+Which of the following options can satisfy the above requirement for the given scenario?
+B) Set up two EC2 instances deployed using Launch Templates and integrated with AWS Glue.
+B) Set up an AWS WAF behind your EC2 Instance.
++A) Set up two EC2 instances and use Route 53 to route traffic based on a Weighted Routing Policy.
++A) Set up two EC2 instances and then put them behind an Elastic Load balancer (ELB).
+B) Set up an S3 Cache in front of the EC2 instance.
+
+QUESTION_ID_PLACEHOLDER
+A software company has resources hosted in AWS and on-premises servers. You have been requested to create a decoupled architecture for applications which make use of both resources.
+Which of the following options are valid?
+B) Use RDS to utilize both on-premises servers and EC2 instances for your decoupled application
+B) Use VPC peering to connect both on-premises servers and EC2 instances for your decoupled application
++A) Use SQS to utilize both on-premises servers and EC2 instances for your decoupled application
+B) Use DynamoDB to utilize both on-premises servers and EC2 instances for your decoupled application
++A) Use SWF to utilize both on-premises servers and EC2 instances for your decoupled application
+
+QUESTION_ID_PLACEHOLDER
+A Solutions Architect needs to set up a bastion host in Amazon VPC. It should only be accessed from the corporate data center via SSH. What is the best way to achieve this?
+B) Create a large EC2 instance with a security group which only allows access on port 22 using your own pre-configured password.
+B) Create a large EC2 instance with a security group which only allows access on port 22 via the IP address of the corporate data center. Use a private key (.pem) file to connect to the bastion host.
+B) Create a small EC2 instance with a security group which only allows access on port 22 using your own pre-configured password.
++A) Create a small EC2 instance with a security group which only allows access on port 22 via the IP address of the corporate data center. Use a private key (.pem) file to connect to the bastion host.
+
+QUESTION_ID_PLACEHOLDER
+A company recently adopted a hybrid architecture that integrates its on-premises data center to AWS cloud. You are assigned to configure the VPC and implement the required IAM users, IAM roles, IAM groups, and IAM policies.
+In this scenario, what is the best practice when creating IAM policies?
+B) Determine what users need to do and then craft policies for them that let the users perform those tasks including additional administrative operations.
+B) Grant all permissions to any EC2 user.
+B) Use the principle of least privilege which means granting only the least number of people with full root access.
++A) Use the principle of least privilege which means granting only the permissions required to perform a task.
+
+QUESTION_ID_PLACEHOLDER
+As part of the Business Continuity Plan of your company, your IT Director instructed you to set up an automated backup of all of the EBS Volumes for your EC2 instances as soon as possible. 
+What is the fastest and most cost-effective solution to automatically back up all of your EBS Volumes?
+B) Set your Amazon Storage Gateway with EBS volumes as the data source and store the backups in your on-premises servers through the storage gateway.
+B) Use an EBS-cycle policy in Amazon S3 to automatically back up the EBS volumes.
+B) For an automated solution, create a scheduled job that calls the 'create-snapshot' command via the AWS CLI to take a snapshot of production EBS volumes periodically. 
++A) Use Amazon Data Lifecycle Manager (Amazon DLM) to automate the creation of EBS snapshots.
+
+QUESTION_ID_PLACEHOLDER
+A media company is setting up an ECS batch architecture for its image processing application. It will be hosted in an Amazon ECS Cluster with two ECS tasks that will handle image uploads from the users and image processing. The first ECS task will process the user requests, store the image in an S3 input bucket, and push a message to a queue. The second task reads from the queue, parses the message containing the object name, and then downloads the object. Once the image is processed and transformed, it will upload the objects to the S3 output bucket. To complete the architecture, the Solutions Architect must create a queue and the necessary IAM permissions for the ECS tasks.
+Which of the following should the Architect do next?
++A) Launch a new Amazon SQS queue and configure the second ECS task to read from it. Create an IAM role that the ECS tasks can assume in order to get access to the S3 buckets and SQS queue. Declare the IAM Role (taskRoleArn) in the task definition.
+B) Launch a new Amazon MQ queue and configure the second ECS task to read from it. Create an IAM role that the ECS tasks can assume in order to get access to the S3 buckets and Amazon MQ queue. Set the (EnableTaskIAMRole) option to true in the task definition.
+B) Launch a new Amazon Kinesis Data Firehose and configure the second ECS task to read from it. Create an IAM role that the ECS tasks can assume in order to get access to the S3 buckets and Kinesis Data Firehose. Specify the ARN of the IAM Role in the (taskDefinitionArn) field of the task definition.
+B) Launch a new Amazon AppStream 2.0 queue and configure the second ECS task to read from it. Create an IAM role that the ECS tasks can assume in order to get access to the S3 buckets and AppStream 2.0 queue. Declare the IAM Role (taskRoleArn) in the task definition.
+
+QUESTION_ID_PLACEHOLDER
+A media company has two VPCs: VPC-1 and VPC-2 with peering connection between each other. VPC-1 only contains private subnets while VPC-2 only contains public subnets. The company uses a single AWS Direct Connect connection and a virtual interface to connect their on-premises network with VPC-1.
+Which of the following options increase the fault tolerance of the connection to VPC-1?
+B) Establish a hardware VPN over the Internet between VPC-2 and the on-premises network.
+B) Use the AWS VPN CloudHub to create a new AWS Direct Connect connection and private virtual interface in the same region as VPC-2.
+B) Establish a new AWS Direct Connect connection and private virtual interface in the same region as VPC-2.
++A) Establish a hardware VPN over the Internet between VPC-1 and the on-premises network.
++A) Establish another AWS Direct Connect connection and private virtual interface in the same AWS region as VPC-1.
+
+QUESTION_ID_PLACEHOLDER
+A company plans to conduct a network security audit. The web application is hosted on an Auto Scaling group of EC2 Instances with an Application Load Balancer in front to evenly distribute the incoming traffic. A Solutions Architect has been tasked to enhance the security posture of the company’s cloud infrastructure and minimize the impact of DDoS attacks on its resources.
+Which of the following is the most effective solution that should be implemented?
+B) Configure Amazon CloudFront distribution and set a Network Load Balancer as the origin. Use VPC Flow Logs to monitor abnormal traffic patterns. Set up a custom AWS Lambda function that processes the flow logs and invokes Amazon SNS for notification.
+B) Configure Amazon CloudFront distribution and set an Application Load Balancer as the origin. Create a security group rule and deny all the suspicious addresses. Use Amazon SNS for notification.
++A) Configure Amazon CloudFront distribution and set Application Load Balancer as the origin. Create a rate-based web ACL rule using AWS WAF and associate it with Amazon CloudFront.
+B) Configure Amazon CloudFront distribution and set a Network Load Balancer as the origin. Use Amazon GuardDuty to block suspicious hosts based on its security findings. Set up a custom AWS Lambda function that processes the security logs and invokes Amazon SNS for notification.
+
+QUESTION_ID_PLACEHOLDER
+A company has a cryptocurrency exchange portal that is hosted in an Auto Scaling group of EC2 instances behind an Application Load Balancer and is deployed across multiple AWS regions. The users can be found all around the globe, but the majority are from Japan and Sweden. Because of the compliance requirements in these two locations, you want the Japanese users to connect to the servers in the ap-northeast-1 Asia Pacific (Tokyo) region, while the Swedish users should be connected to the servers in the eu-west-1 EU (Ireland) region.
+Which of the following services would allow you to easily fulfill this requirement?
+B) Use Route 53 Weighted Routing policy.
++A) Use Route 53 Geolocation Routing policy.
+B) Set up a new CloudFront web distribution with the geo-restriction feature enabled.
+B) Set up an Application Load Balancers that will automatically route the traffic to the proper AWS region.
+
+QUESTION_ID_PLACEHOLDER
+A company plans to migrate its suite of containerized applications running on-premises to a container service in AWS. The solution must be cloud-agnostic and use an open-source platform that can automatically manage containerized workloads and services. It should also use the same configuration and tools across various production environments.
+What should the Solution Architect do to properly migrate and satisfy the given requirement?
+B) Migrate the application to Amazon Elastic Container Service with ECS tasks that use the AWS Fargate launch type.
++A) Migrate the application to Amazon Elastic Kubernetes Service with EKS worker nodes.
+B) Migrate the application to Amazon Elastic Container Service with ECS tasks that use the Amazon EC2 launch type.
+B) Migrate the application to Amazon Container Registry (ECR) with Amazon EC2 instance worker nodes.
+
+QUESTION_ID_PLACEHOLDER
+An application is hosted in AWS Fargate and uses RDS database in Multi-AZ Deployments configuration with several Read Replicas. A Solutions Architect was instructed to ensure that all of their database credentials, API keys, and other secrets are encrypted and rotated on a regular basis to improve data security. The application should also use the latest version of the encrypted credentials when connecting to the RDS database.
+Which of the following is the MOST appropriate solution to secure the credentials?
+B) Store the database credentials, API keys, and other secrets to AWS ACM.
+B) Store the database credentials, API keys, and other secrets to Systems Manager Parameter Store each with a SecureString data type. The credentials are automatically rotated by default.
+B) Store the database credentials, API keys, and other secrets in AWS KMS.
++A) Use AWS Secrets Manager to store and encrypt the database credentials, API keys, and other secrets. Enable automatic rotation for all of the credentials.
+
+QUESTION_ID_PLACEHOLDER
+An advertising company is currently working on a proof of concept project that automatically provides SEO analytics for its clients. Your company has a VPC in AWS that operates in a dual-stack mode in which IPv4 and IPv6 communication is allowed. You deployed the application to an Auto Scaling group of EC2 instances with an Application Load Balancer in front that evenly distributes the incoming traffic. You are ready to go live but you need to point your domain name (example.com) to the Application Load Balancer.
+In Route 53, which record types will you use to point the DNS name of the Application Load Balancer?
+B) Alias with a type 'CNAME' record set
++A) Alias with a type 'A' record set
+B) Alias with a type of “MX” record set
++A) Alias with a type 'AAAA' record set
+B) Non-Alias with a type 'A' record set
+
+QUESTION_ID_PLACEHOLDER
+One member of your DevOps team consulted you about a connectivity problem in one of your Amazon EC2 instances. The application architecture is initially set up with four EC2 instances, each with an EIP address that all belong to a public non-default subnet. You launched another instance to handle the increasing workload of your application. The EC2 instances also belong to the same security group. Everything works well as expected except for one of the EC2 instances which is not able to send nor receive traffic over the Internet.
+Which of the following is the MOST likely reason for this issue?
+B) The EC2 instance is running in an Availability Zone that is not connected to an Internet gateway.
+B) The EC2 instance does not have a private IP address associated with it.
++A) The EC2 instance does not have a public IP address associated with it.
+B) The route table is not properly configured to allow traffic to and from the Internet through the Internet gateway.
+
+QUESTION_ID_PLACEHOLDER
+A company plans to migrate all of their applications to AWS. The Solutions Architect suggested to store all the data to EBS volumes. The Chief Technical Officer is worried that EBS volumes are not appropriate for the existing workloads due to compliance requirements, downtime scenarios, and IOPS performance.
+Which of the following are valid points in proving that EBS is the best service to use for migration?
+B) EBS volumes can be attached to any EC2 Instance in any Availability Zone.
+B) When you create an EBS volume in an Availability Zone, it is automatically replicated on a separate AWS region to prevent data loss due to a failure of any single hardware component.
++A) An EBS volume is off-instance storage that can persist independently from the life of an instance.
+B) Amazon EBS provides the ability to create snapshots (backups) of any EBS volume and write a copy of the data in the volume to Amazon RDS, where it is stored redundantly in multiple Availability Zones
++A) EBS volumes support live configuration changes while in production which means that you can modify the volume type, volume size, and IOPS capacity without service interruptions.
+
+QUESTION_ID_PLACEHOLDER
+An Intelligence Agency developed a missile tracking application that is hosted on both development and production AWS accounts. The Intelligence agency’s junior developer only has access to the development account. She has received security clearance to access the agency’s production account but the access is only temporary and only write access to EC2 and S3 is allowed.
+Which of the following allows you to issue short-lived access tokens that act as temporary security credentials to allow access to your AWS resources?
+B) Use AWS Cognito to issue JSON Web Tokens (JWT)
+B) All of the given options are correct.
++A) Use AWS STS
+B) Use AWS SSO
+
+QUESTION_ID_PLACEHOLDER
+A company has developed public APIs hosted in Amazon EC2 instances behind an Elastic Load Balancer. The APIs will be used by various clients from their respective on-premises data centers. A Solutions Architect received a report that the web service clients can only access trusted IP addresses whitelisted on their firewalls.
+What should you do to accomplish the above requirement?
+B) Associate an Elastic IP address to an Application Load Balancer.
+B) Create a CloudFront distribution whose origin points to the private IP addresses of your web servers.
+B) Create an Alias Record in Route 53 which maps to the DNS name of the load balancer.
++A) Associate an Elastic IP address to a Network Load Balancer.
+

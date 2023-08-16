@@ -1,0 +1,12 @@
+{
+    "text": "Is it possible to create VPC cross-region?",
+    "answers": [
+        {
+            "text": "Yes"
+        },
+        {
+            "text": "No",
+            "right_answer": true
+        }
+    ]
+}

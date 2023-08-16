@@ -1,0 +1,18 @@
+{
+    "text": "A company has stored 200 TB of backup files in Amazon S3. The files are in a vendor-proprietary format. The Solutions Architect needs to use the vendor's proprietary file conversion software to retrieve the files from their Amazon S3 bucket, transform the files to an industry-standard format, and re-upload the files back to Amazon S3. The solution must minimize the data transfer costs.\nWhich of the following options can satisfy the given requirement?",
+    "answers": [
+        {
+            "text": "Export the data using AWS Snowball Edge device. Install the file conversion software on the device. Transform the data and re-upload it to Amazon S3."
+        },
+        {
+            "text": "Deploy the EC2 instance in a different Region. Install the conversion software on the instance. Perform data transformation and re-upload it to Amazon S3."
+        },
+        {
+            "text": "Deploy the EC2 instance in the same Region as Amazon S3. Install the file conversion software on the instance. Perform data transformation and re-upload it to Amazon S3.",
+            "right_answer": true
+        },
+        {
+            "text": "Install the file conversion software in Amazon S3. Use S3 Batch Operations to perform data transformation."
+        }
+    ]
+}

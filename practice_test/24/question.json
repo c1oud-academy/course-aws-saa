@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect needs to make sure that the On-Demand EC2 instance can only be accessed from this IP address (110.238.98.71) via an SSH connection. Which configuration below will satisfy this requirement?",
+    "answers": [
+        {
+            "text": "Security Group Inbound Rule: Protocol \u2013 TCP. Port Range \u2013 22, Source 110.238.98.71/32",
+            "right_answer": true
+        },
+        {
+            "text": "Security Group Inbound Rule: Protocol \u2013 UDP, Port Range \u2013 22, Source 110.238.98.71/32"
+        },
+        {
+            "text": "Security Group Inbound Rule: Protocol \u2013 TCP. Port Range \u2013 22, Source 110.238.98.71/0"
+        },
+        {
+            "text": "Security Group Inbound Rule: Protocol \u2013 UDP, Port Range \u2013 22, Source 110.238.98.71/0"
+        }
+    ]
+}

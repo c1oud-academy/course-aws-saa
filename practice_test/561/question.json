@@ -1,0 +1,18 @@
+{
+    "text": "A company plans to use a cloud storage service to temporarily store its log files. The number of files to be stored is still unknown, but it only needs to be kept for 12 hours.\nWhich of the following is the most cost-effective storage class to use in this scenario?",
+    "answers": [
+        {
+            "text": "Amazon S3 Glacier Deep Archive"
+        },
+        {
+            "text": "Amazon S3 Standard",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon S3 One Zone-IA"
+        },
+        {
+            "text": "Amazon S3 Standard-IA"
+        }
+    ]
+}

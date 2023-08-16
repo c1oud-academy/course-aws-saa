@@ -1,0 +1,18 @@
+{
+    "text": "Where VPC is being deployed?",
+    "answers": [
+        {
+            "text": "Region",
+            "right_answer": true
+        },
+        {
+            "text": "Availability Zone"
+        },
+        {
+            "text": "Edge Location"
+        },
+        {
+            "text": "Other"
+        }
+    ]
+}

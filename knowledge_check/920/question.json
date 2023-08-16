@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "text": "PostgreSQL",
+            "right_answer": true
+        },
+        {
+            "text": "MySQL",
+            "right_answer": true
+        },
+        {
+            "text": "Microsoft SQL Server"
+        },
+        {
+            "text": "Oracle Database"
+        },
+        {
+            "text": "MongoDB"
+        }
+    ],
+    "text": "Select DB engines which Amazon Aurora uses as a base:"
+}

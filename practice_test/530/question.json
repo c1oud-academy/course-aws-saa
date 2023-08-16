@@ -1,0 +1,21 @@
+{
+    "text": "An online stock trading system is hosted in AWS and uses an Auto Scaling group of EC2 instances, an RDS database, and an Amazon ElastiCache for Redis. You need to improve the data security of your in-memory data store by requiring the user to enter a password before they are granted permission to execute Redis commands.\nWhich of the following should you do to meet the above requirement?",
+    "answers": [
+        {
+            "text": "Create a new Redis replication group and set the AtRestEncryptionEnabled parameter to true."
+        },
+        {
+            "text": "None of the above."
+        },
+        {
+            "text": "Authenticate the users using Redis AUTH by creating a new Redis Cluster with both the --transit-encryption-enabled and --auth-token parameters enabled.",
+            "right_answer": true
+        },
+        {
+            "text": "Enable the in-transit encryption for Redis replication groups."
+        },
+        {
+            "text": "Do nothing. This feature is already enabled by default."
+        }
+    ]
+}

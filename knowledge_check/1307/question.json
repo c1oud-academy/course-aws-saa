@@ -1,0 +1,33 @@
+{
+    "text": "Select statements that are true regarding VPC Peering connection",
+    "answers": [
+        {
+            "text": "Deal with private IP addresses",
+            "right_answer": true
+        },
+        {
+            "text": "Deal with public IP addresses"
+        },
+        {
+            "text": "Support cross-region connections",
+            "right_answer": true
+        },
+        {
+            "text": "Do not support cross-region connections"
+        },
+        {
+            "text": "VPC CIDR blocks can be overlapped"
+        },
+        {
+            "text": "VPC CIDR blocks can not be overlapped",
+            "right_answer": true
+        },
+        {
+            "text": "Support of transitive peering relationships"
+        },
+        {
+            "text": "No support of transitive peering relationships",
+            "right_answer": true
+        }
+    ]
+}

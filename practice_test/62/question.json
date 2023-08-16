@@ -1,0 +1,18 @@
+{
+    "text": "A retail website has intermittent, sporadic, and unpredictable transactional workloads throughout the day that are hard to predict. The website is currently hosted on-premises and is slated to be migrated to AWS. A new relational database is needed that autoscales capacity to meet the needs of the application's peak load and scales back down when the surge of activity is over.\nWhich of the following option is the MOST cost-effective and suitable database setup in this scenario?",
+    "answers": [
+        {
+            "text": "Launch an Amazon Aurora Provisioned DB cluster with burstable performance DB instance class types."
+        },
+        {
+            "text": "Launch an Amazon Aurora Serverless DB cluster then set the minimum and maximum capacity for the cluster.",
+            "right_answer": true
+        },
+        {
+            "text": "Launch a DynamoDB Global table with Auto Scaling enabled."
+        },
+        {
+            "text": "Launch an Amazon Redshift data warehouse cluster with Concurrency Scaling."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect is working for a large global media company with multiple office locations all around the world. The Architect is instructed to build a system to distribute training videos to all employees.\nUsing CloudFront, what method would be used to serve content that is stored in S3, but not publicly accessible from S3 directly?",
+    "answers": [
+        {
+            "text": "Create an S3 bucket policy that lists the CloudFront distribution ID as the principal and the target bucket as the Amazon Resource Name (ARN)."
+        },
+        {
+            "text": "Create an Origin Access Identity (OAI) for CloudFront and grant access to the objects in your S3 bucket to that OAI.",
+            "right_answer": true
+        },
+        {
+            "text": "Create a web ACL in AWS WAF to block any public S3 access and attach it to the Amazon CloudFront distribution."
+        },
+        {
+            "text": "Create an Identity and Access Management (IAM) user for CloudFront and grant access to the objects in your S3 bucket to that IAM user."
+        }
+    ]
+}

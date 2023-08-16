@@ -1,0 +1,43 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Compute",
+        "Application Integration",
+        "Security, Identity, & Compliance",
+        "Analytics",
+        "Database"
+    ],
+    "id": "43",
+    "title": {
+        "kk": "Practice test quesion 43",
+        "ru": "Practice test quesion 43",
+        "en": "Practice test quesion 43"
+    },
+    "aws_service": [
+        "Lambda",
+        "SNS",
+        "DynamoDB",
+        "IAM",
+        "Kinesis"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

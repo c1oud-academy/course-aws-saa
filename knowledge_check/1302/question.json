@@ -1,0 +1,25 @@
+{
+    "text": "Select available routing options for AWS Site-to-Site VPN:",
+    "answers": [
+        {
+            "text": "Standard routing"
+        },
+        {
+            "text": "Static routing",
+            "right_answer": true
+        },
+        {
+            "text": "Dynamic routing",
+            "right_answer": true
+        },
+        {
+            "text": "Global routing"
+        },
+        {
+            "text": "Public routing"
+        },
+        {
+            "text": "Private routing"
+        }
+    ]
+}

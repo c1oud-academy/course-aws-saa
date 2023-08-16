@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "object storage service"
+        },
+        {
+            "text": "serverless, fully elastic file storage"
+        },
+        {
+            "text": "easy-to-use, scalable, high-performance block-storage service"
+        },
+        {
+            "text": "managed service to launch, run, and scale feature-rich, high-performance file systems"
+        }
+    ],
+    "text": "What is the correct description of Amazon S3?"
+}

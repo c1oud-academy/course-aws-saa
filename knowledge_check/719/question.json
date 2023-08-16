@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "Partition"
+        },
+        {
+            "right_answer": true,
+            "text": "Spread"
+        },
+        {
+            "text": "Shard"
+        },
+        {
+            "text": "Dedicated"
+        },
+        {
+            "text": "Standard"
+        }
+    ],
+    "text": "Select existing EC2 placement strategies:"
+}

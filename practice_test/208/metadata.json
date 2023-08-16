@@ -1,0 +1,38 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 208",
+        "kk": "Practice test quesion 208",
+        "ru": "Practice test quesion 208"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "208",
+    "aws_service": [
+        "FSx",
+        "Storage Gateway",
+        "AWS Snowball"
+    ],
+    "aws_group": [
+        "Migration & Transfer",
+        "Storage"
+    ]
+}

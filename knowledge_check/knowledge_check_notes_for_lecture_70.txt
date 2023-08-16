@@ -1,0 +1,187 @@
+700
+Select available Reserved Instances (RI) payment models:
++A) AURI
+B) BURI
+C) FURI
++D) PURI
++E) NURI
+F) MURI
+G) ZURI
+
+701
+Select available Reserved Instances (RI) payment models:
++A) AURI
+B) BURI
+C) FURI
++D) PURI
+F) MURI
+
+702
+Select available Reserved Instances (RI) payment models:
++A) AURI
+B) BURI
+C) FURI
++E) NURI
+F) MURI
+
+703
+Select available Reserved Instances (RI) payment models:
+B) BURI
+C) FURI
++D) PURI
++E) NURI
+F) MURI
+
+704
+What does AURI stand for?
++A) All Upfront Reserved Instance
+B) All Unreserved Regular Instance
+C) All Ultimately Reserved Instance
+D) AWS Unreserved Regular Instance
+E) Other
+
+705
+What does PURI stand for?
++A) Partial Upfront Reserved Instance
+A) Partial Unreserved Regular Instance
+A) Part-time Upfront Reserved Instance
+A) Part-time Unreserved Regular Instance
+E) Other
+
+706
+What does NURI stand for?
++A) No Upfront Reserved Instance
+A) No Unreserved Regular Instance
+A) Nominal Upfront Reserved Instance
+A) Nominal Unreserved Regular Instance
+E) Other
+
+707
+What is the RI payment model that gives maximum discounts?
++A) AURI
+D) PURI
+E) NURI
+D) Other
+
+708
+What is the RI payment model that gives minimum discounts?
+A) AURI
+D) PURI
++E) NURI
+D) Other
+
+709
+What are available RI contract periods?
++A) 1 year
+D) 2 years
++E) 3 years
+D) 4 years
+E) 5 years
+
+710
+What is the RI option that gives maximum discounts?
++A) AURI 3-year contract
+D) PURI 3-year contract
+E) NURI 3-year contract
+A) AURI 1-year contract
+D) PURI 1-year contract
+E) NURI 1-year contract
+
+711
+What is the RI option that gives minimum discounts?
+A) AURI 3-year contract
+D) PURI 3-year contract
+E) NURI 3-year contract
+A) AURI 1-year contract
+D) PURI 1-year contract
++E) NURI 1-year contract
+
+712
+Select NON-existent Amazon EC2 pricing model:
+B) On-Demand Instances
+C) Reserved Instances
+F) Spot Instances
++H) Open Instances
+
+713
+Select NON-existent Amazon EC2 pricing model:
+B) On-Demand Instances
+C) Reserved Instances
+F) Spot Instances
++H) Private Instances
+
+714
+Select NON-existent Amazon EC2 pricing model:
+B) On-Demand Instances
+C) Reserved Instances
+F) Spot Instances
++H) Public Instances
+
+715
+Select NON-existent Amazon EC2 pricing model:
+B) On-Demand Instances
+C) Reserved Instances
+F) Spot Instances
++H) Main Instances
+
+716
+Select Amazon EC2 pricing model that best suits for spiky workloads:
++B) On-Demand Instances
+C) Reserved Instances
+F) Spot Instances
+H) Dedicated Hosts
+
+717
+Select Amazon EC2 pricing model that best suits for predictable and steady workloads:
+B) On-Demand Instances
++C) Reserved Instances
+F) Spot Instances
+H) Dedicated Hosts
+
+718
+Select existing EC2 placement strategies:
++B) Cluster
++C) Partition
++B) Spread
+B) Shard
+B) Dedicated
+B) Standard
+
+719
+Select existing EC2 placement strategies:
++C) Partition
++B) Spread
+B) Shard
+B) Dedicated
+B) Standard
+
+720
+Select existing EC2 placement strategies:
++B) Cluster
++B) Spread
+B) Shard
+B) Dedicated
+B) Standard
+
+721
+Select existing EC2 placement strategies:
++B) Cluster
++C) Partition
+B) Shard
+B) Dedicated
+B) Standard
+
+722
+Which EC2 placement strategy provides low-latency and high packet-per-second network performance between instances?
++B) Cluster
+C) Partition
+B) Spread
+B) Standard
+
+723
+Which EC2 placement strategy reduces correlated hardware failure?
+B) Cluster
+C) Partition
++B) Spread
+B) Standard
+

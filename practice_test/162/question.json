@@ -1,0 +1,18 @@
+{
+    "text": "One member of your DevOps team consulted you about a connectivity problem in one of your Amazon EC2 instances. The application architecture is initially set up with four EC2 instances, each with an EIP address that all belong to a public non-default subnet. You launched another instance to handle the increasing workload of your application. The EC2 instances also belong to the same security group. Everything works well as expected except for one of the EC2 instances which is not able to send nor receive traffic over the Internet.\nWhich of the following is the MOST likely reason for this issue?",
+    "answers": [
+        {
+            "text": "The EC2 instance is running in an Availability Zone that is not connected to an Internet gateway."
+        },
+        {
+            "text": "The EC2 instance does not have a private IP address associated with it."
+        },
+        {
+            "text": "The EC2 instance does not have a public IP address associated with it.",
+            "right_answer": true
+        },
+        {
+            "text": "The route table is not properly configured to allow traffic to and from the Internet through the Internet gateway."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "What AMI stands for?",
+    "answers": [
+        {
+            "text": "Amazon Machine Instance"
+        },
+        {
+            "text": "Amazon Machine Image",
+            "right_answer": true
+        },
+        {
+            "text": "Apple Machine Instance"
+        },
+        {
+            "text": "Apple Machine Image"
+        }
+    ]
+}

@@ -1,0 +1,520 @@
+QUESTION_ID_PLACEHOLDER
+A company needs to use Amazon S3 to store irreproducible financial documents. For their quarterly reporting, the files are required to be retrieved after a period of 3 months. There will be some occasions when a surprise audit will be held, which requires access to the archived data that they need to present immediately.
+What will you do to satisfy this requirement in a cost-effective way?
++A) Use Amazon S3 Standard - Infrequent Access
+B) Use Amazon S3 Standard
+B) Use Amazon S3 -Intelligent Tiering
+B) Use Amazon Glacier Deep Archive
+
+QUESTION_ID_PLACEHOLDER
+A company has a web application hosted in their on-premises infrastructure that they want to migrate to AWS cloud. Your manager has instructed you to ensure that there is no downtime while the migration process is on-going. In order to achieve this, your team decided to divert 50% of the traffic to the new application in AWS and the other 50% to the application hosted in their on-premises infrastructure. Once the migration is over and the application works with no issues, a full diversion to AWS will be implemented. The company's VPC is connected to its on-premises network via an AWS Direct Connect connection.
+Which of the following are the possible solutions that you can implement to satisfy the above requirement?
+B) Use a Network Load balancer with Weighted Target Groups to divert the traffic between the on-premises and AWS-hosted application. Divert 50% of the traffic to the new application in AWS and the other 50% to the application hosted in their on-premises infrastructure.
++A) Use an Application Elastic Load balancer with Weighted Target Groups to divert and proportion the traffic between the on-premises and AWS-hosted application. Divert 50% of the traffic to the new application in AWS and the other 50% to the application hosted in their on-premises infrastructure.
+B) Use AWS Global Accelerator to divert and proportion the HTTP and HTTPS traffic between the on-premises and AWS-hosted application. Ensure that the on-premises network has an AnyCast static IP address and is connected to your VPC via a Direct Connect Gateway.
++A) Use Route 53 with Weighted routing policy to divert the traffic between the on-premises and AWS-hosted application. Divert 50% of the traffic to the new application in AWS and the other 50% to the application hosted in their on-premises infrastructure.
+B) Use Route 53 with Failover routing policy to divert and proportion the traffic between the on-premises and AWS-hosted application. Divert 50% of the traffic to the new application in AWS and the other 50% to the application hosted in their on-premises infrastructure.
+
+QUESTION_ID_PLACEHOLDER
+An organization created a new CloudFormation template that creates 4 EC2 instances that are connected to one Elastic Load Balancer (ELB). Which section of the template should be configured to get the Domain Name Server hostname of the ELB upon the creation of the AWS stack?
++A) Outputs
+B) Resources
+B) Parameters
+B) Mappings
+
+QUESTION_ID_PLACEHOLDER
+The start-up company that you are working for has a batch job application that is currently hosted on an EC2 instance. It is set to process messages from a queue created in SQS with default settings. You configured the application to process the messages once a week. After 2 weeks, you noticed that not all messages are being processed by the application.
+What is the root cause of this issue?
+B) The SQS queue is set to short-polling.
++A) Amazon SQS has automatically deleted the messages that have been in a queue for more than the maximum message retention period.
+B) Missing permissions in SQS.
+B) The batch job application is configured to long polling.
+
+QUESTION_ID_PLACEHOLDER
+An On-Demand EC2 instance is launched into a VPC subnet with the Network ACL configured to allow all inbound traffic and deny all outbound traffic. The instance’s security group has an inbound rule to allow SSH from any IP address and does not have any outbound rules. 
+In this scenario, what are the changes needed to allow SSH connection to the instance?
+B) No action needed. It can already be accessed from any IP address using SSH.
++A) The network ACL needs to be modified to allow outbound traffic.
+B) Both the outbound security group and outbound network ACL need to be modified to allow outbound traffic.
+B) The outbound security group needs to be modified to allow outbound traffic.
+
+QUESTION_ID_PLACEHOLDER
+A loan processing application is hosted in a single On-Demand EC2 instance in your VPC. To improve the scalability of your application, you have to use Auto Scaling to automatically add new EC2 instances to handle a surge of incoming requests.
+Which of the following items should be done in order to add an existing EC2 instance to an Auto Scaling group?
+B) You have to ensure that the AMI used to launch the instance no longer exists.
++A) You have to ensure that the AMI used to launch the instance still exists.
+B) You have to ensure that the instance is in a different Availability Zone as the Auto Scaling group.
++A) You have to ensure that the instance is launched in one of the Availability Zones defined in your Auto Scaling group.
+B) You must stop the instance first.
+
+QUESTION_ID_PLACEHOLDER
+A company has an application hosted in an Amazon ECS Cluster behind an Application Load Balancer. The Solutions Architect is building a sophisticated web filtering solution that allows or blocks web requests based on the country that the requests originate from. However, the solution should still allow specific IP addresses from that country.
+Which combination of steps should the Architect implement to satisfy this requirement?
+B) Set up a geo match condition in the Application Load Balancer that blocks requests from a specific country.
++A) Add another rule in the AWS WAF web ACL with a geo match condition that blocks requests that originate from a specific country.
++A) Using AWS WAF, create a web ACL with a rule that explicitly allows requests from approved IP addresses declared in an IP Set.
+B) Place a Transit Gateway in front of the VPC where the application is hosted and set up Network ACLs that block requests that originate from a specific country.
+B) In the Application Load Balancer, create a listener rule that explicitly allows requests from approved IP addresses.
+
+QUESTION_ID_PLACEHOLDER
+A company plans to migrate a MySQL database from an on-premises data center to the AWS Cloud. This database will be used by a legacy batch application that has steady-state workloads in the morning but has its peak load at night for the end-of-day processing. You need to choose an EBS volume that can handle a maximum of 450 GB of data and can also be used as the system boot volume for your EC2 instance.
+Which of the following is the most cost-effective storage type to use in this scenario?
++A) Amazon EBS General Purpose SSD (gp2)
+B) Amazon EBS Provisioned IOPS SSD (io1)
+B) Amazon EBS Throughput Optimized HDD (st1)
+B) Amazon EBS Cold HDD (sc1)
+
+QUESTION_ID_PLACEHOLDER
+An application is hosted on an EC2 instance with multiple EBS Volumes attached and uses Amazon Neptune as its database. To improve data security, you encrypted all of the EBS volumes attached to the instance to protect the confidential data stored in the volumes. 
+Which of the following statements are true about encrypted Amazon Elastic Block Store volumes?
++A) All data moving between the volume and the instance are encrypted.
+B) The volumes created from the encrypted snapshot are not encrypted.
++A) Snapshots are automatically encrypted.
+B) Snapshots are not automatically encrypted.
+B) Only the data in the volume is encrypted and not all the data moving between the volume and the instance.
+
+QUESTION_ID_PLACEHOLDER
+A news company is planning to use a Hardware Security Module (CloudHSM) in AWS for secure key storage of their web applications. You have launched the CloudHSM cluster but after just a few hours, a support staff mistakenly attempted to log in as the administrator three times using an invalid password in the Hardware Security Module. This has caused the HSM to be zeroized, which means that the encryption keys on it have been wiped. Unfortunately, you did not have a copy of the keys stored anywhere else.
+How can you obtain a new copy of the keys that you have stored on Hardware Security Module?
+B) Contact AWS Support and they will provide you a copy of the keys.
+B) Restore a snapshot of the Hardware Security Module.
++A) The keys are lost permanently if you did not have a copy.
+B) Use the Amazon CLI to get a copy of the keys.
+
+QUESTION_ID_PLACEHOLDER
+A company has an infrastructure that allows EC2 instances from a private subnet to fetch objects from Amazon S3 via a NAT Instance. The company’s Solutions Architect was instructed to lower down the cost incurred by the current solution.
+How should the Solutions Architect redesign the architecture in the most cost-efficient manner?
+B) Replace the NAT instance with NAT Gateway to access S3 objects.
+B) Use a smaller instance type for the NAT instance.
++A) Remove the NAT instance and create an S3 gateway endpoint to access S3 objects.
+B) Remove the NAT instance and create an S3 interface endpoint to access S3 objects.
+
+QUESTION_ID_PLACEHOLDER
+A company has multiple AWS Site-to-Site VPN connections placed between their VPCs and their remote network. During peak hours, many employees are experiencing slow connectivity issues, which limits their productivity. The company has asked a solutions architect to scale the throughput of the VPN connections.
+Which solution should the architect carry out?
+B) Re-route some of the VPN connections to a secondary customer gateway device on the remote network’s end.
++A) Associate the VPCs to an Equal Cost Multipath Routing (ECMR)-enabled transit gateway and attach additional VPN tunnels.
+B) Modify the VPN configuration by increasing the number of tunnels to scale the throughput.
+B) Add more virtual private gateways to a VPC and enable Equal Cost Multipath Routing (ECMR) to get higher VPN bandwidth.
+
+QUESTION_ID_PLACEHOLDER
+A company has an On-Demand EC2 instance with an attached EBS volume. There is a scheduled job that creates a snapshot of this EBS volume every midnight at 12 AM when the instance is not used. One night, there has been a production incident where you need to perform a change on both the instance and on the EBS volume at the same time when the snapshot is currently taking place.
+Which of the following scenario is true when it comes to the usage of an EBS volume while the snapshot is in progress?
++A) The EBS volume can be used while the snapshot is in progress.
+B) The EBS volume can be used in read-only mode while the snapshot is in progress.
+B) The EBS volume cannot be used until the snapshot completes.
+B) The EBS volume cannot be detached or attached to an EC2 instance until the snapshot completes
+
+QUESTION_ID_PLACEHOLDER
+A company deployed a web application that stores static assets in an Amazon Simple Storage Service (S3) bucket. The Solutions Architect expects the S3 bucket to immediately receive over 2000 PUT requests and 3500 GET requests per second at peak hour.
+What should the Solutions Architect do to ensure optimal performance?
+B) Add a random prefix to the key names.
++A) Do nothing. Amazon S3 will automatically manage performance at this scale.
+B) Use a predictable naming scheme in the key names such as sequential numbers or date time sequences.
+B) Use Byte-Range Fetches to retrieve multiple ranges of an object data per GET request.
+
+QUESTION_ID_PLACEHOLDER
+A company has several microservices that send messages to an Amazon SQS queue and a backend application that poll the queue to process the messages. The company also has a Service Level Agreement (SLA) which defines the acceptable amount of time that can elapse from the point when the messages are received until a response is sent. The backend operations are I/O-intensive as the number of messages is constantly growing, causing the company to miss its SLA. The Solutions Architect must implement a new architecture that improves the application's processing time and load management.
+Which of the following is the MOST effective solution that can satisfy the given requirement?
+B) Create an AMI of the backend application's EC2 instance and launch it to a cluster placement group.
++A) Create an AMI of the backend application's EC2 instance. Use the image to set up an Auto Scaling group and configure a target tracking scaling policy based on the ApproximateAgeOfOldestMessage metric.
+B) Create an AMI of the backend application's EC2 instance. Use the image to set up an Auto Scaling group and configure a target tracking scaling policy based on the CPUUtilization metric with a target value of 80%.
+B) Create an AMI of the backend application's EC2 instance and replace it with a larger instance size.
+
+QUESTION_ID_PLACEHOLDER
+A web application hosted in an Auto Scaling group of EC2 instances in AWS. The application receives a burst of traffic every morning, and a lot of users are complaining about request timeouts. The EC2 instance takes 1 minute to boot up before it can respond to user requests. The cloud architecture must be redesigned to better respond to the changing traffic of the application.
+How should the Solutions Architect redesign the architecture?
+B) Create a CloudFront distribution and set the EC2 instance as the origin.
+B) Create a new launch template and upgrade the size of the instance.
++A) Create a step scaling policy and configure an instance warm-up time condition.
+B) Create a Network Load Balancer with slow-start mode.
+
+QUESTION_ID_PLACEHOLDER
+A leading media company has recently adopted a hybrid cloud architecture which requires them to migrate their application servers and databases in AWS. One of their applications requires a heterogeneous database migration in which you need to transform your on-premises Oracle database to PostgreSQL in AWS. This entails a schema and code transformation before the proper data migration starts.   
+Which of the following options is the most suitable approach to migrate the database in AWS? 
+B) Configure a Launch Template that automatically converts the source schema and code to match that of the target database. Then, use the AWS Database Migration Service to migrate data from the source database to the target database. 
++A) First, use the AWS Schema Conversion Tool to convert the source schema and application code to match that of the target database, and then use the AWS Database Migration Service to migrate data from the source database to the target database.
+B) Use Amazon Neptune to convert the source schema and code to match that of the target database in RDS. Use the AWS Batch to effectively migrate the data from the source database to the target database in a batch process. 
+B) Heterogeneous database migration is not supported in AWS. You have to transform your database first to PostgreSQL and then migrate it to RDS. 
+
+QUESTION_ID_PLACEHOLDER
+A leading e-commerce company is in need of a storage solution that can be simultaneously accessed by 1000 Linux servers in multiple availability zones. The servers are hosted in EC2 instances that use a hierarchical directory structure via the NFSv4 protocol. The service should be able to handle the rapidly changing data at scale while still maintaining high performance. It should also be highly durable and highly available whenever the servers will pull data from it, with little need for management.
+As the Solutions Architect, which of the following services is the most cost-effective choice that you should use to meet the above requirement?
+B) Storage Gateway
+B) S3
+B) EBS
++A) EFS
+
+QUESTION_ID_PLACEHOLDER
+A company plans to deploy a Docker-based batch application in AWS. The application will be used to process both mission-critical data as well as non-essential batch jobs.
+Which of the following is the most cost-effective option to use in implementing this architecture?
+B) Use ECS as the container management service then set up On-Demand EC2 Instances for processing both mission-critical and non-essential batch jobs. 
+B) Use ECS as the container management service then set up Reserved EC2 Instances for processing both mission-critical and non-essential batch jobs. 
++A) Use ECS as the container management service then set up a combination of Reserved and Spot EC2 Instances for processing mission-critical and non-essential batch jobs respectively. 
+B) Use ECS as the container management service then set up Spot EC2 Instances for processing both mission-critical and non-essential batch jobs. 
+
+QUESTION_ID_PLACEHOLDER
+A company has a web application hosted on a fleet of EC2 instances located in two Availability Zones that are all placed behind an Application Load Balancer. As a Solutions Architect, you have to add a health check configuration to ensure your application is highly-available.
+Which health checks will you implement?
+B) ICMP health check
+B) TCP health check
+B) FTP health check
++A) HTTP or HTTPS health check
+
+QUESTION_ID_PLACEHOLDER
+A startup launched a fleet of on-demand EC2 instances to host a massively multiplayer online role-playing game (MMORPG). The EC2 instances are configured with Auto Scaling and AWS Systems Manager.
+What can be used to configure the EC2 instances without having to establish an RDP or SSH connection to each instance?
+B) EC2Config
++A) Run Command
+B) AWS CodePipeline
+B) AWS Config
+
+QUESTION_ID_PLACEHOLDER
+An e-commerce application is using a fanout messaging pattern for its order management system. For every order, it sends an Amazon SNS message to an SNS topic, and the message is replicated and pushed to multiple Amazon SQS queues for parallel asynchronous processing. A Spot EC2 instance retrieves the message from each SQS queue and processes the message. There was an incident that while an EC2 instance is currently processing a message, the instance was abruptly terminated, and the processing was not completed in time.
+In this scenario, what happens to the SQS message?
++A) When the message visibility timeout expires, the message becomes available for processing by other EC2 instances
+B) The message is deleted and becomes duplicated in the SQS when the EC2 instance comes online.
+B) The message will automatically be assigned to the same EC2 instance when it comes back online within or after the visibility timeout.
+B) The message will be sent to a Dead Letter Queue in AWS DataSync.
+
+QUESTION_ID_PLACEHOLDER
+A company is planning to launch a High Performance Computing (HPC) cluster in AWS that does Computational Fluid Dynamics (CFD) simulations. The solution should scale-out their simulation jobs to experiment with more tunable parameters for faster and more accurate results. The cluster is composed of Windows servers hosted on t3a.medium EC2 instances. As the Solutions Architect, you should ensure that the architecture provides higher bandwidth, higher packet per second (PPS) performance, and consistently lower inter-instance latencies.
+Which is the MOST suitable and cost-effective solution that the Architect should implement to achieve the above requirements?
+B) Enable Enhanced Networking with Intel 82599 Virtual Function (VF) interface on the Windows EC2 Instances.
++A) Enable Enhanced Networking with Elastic Network Adapter (ENA) on the Windows EC2 Instances.
+B) Use AWS ParallelCluster to deploy and manage the HPC cluster to provide higher bandwidth, higher packet per second (PPS) performance, and lower inter-instance latencies.
+B) Enable Enhanced Networking with Elastic Fabric Adapter (EFA) on the Windows EC2 Instances.
+
+QUESTION_ID_PLACEHOLDER
+A company needs secure access to its Amazon RDS for MySQL database that is used by multiple applications. Each IAM user must use a short-lived authentication token to connect to the database.
+Which of the following is the most suitable solution in this scenario?
+B) Use AWS SSO to access the RDS database.
+B) Use an MFA token to access and connect to a database.
+B) Use AWS Secrets Manager to generate and store short-lived authentication tokens.
++A) Use IAM DB Authentication and create database accounts using the AWS-provided AWSAuthenticationPlugin plugin in MySQL.
+
+QUESTION_ID_PLACEHOLDER
+A company has a running m5ad.large EC2 instance with a default attached 75 GB SSD instance-store backed volume. You shut it down and then start the instance. You noticed that the data which you have saved earlier on the attached volume is no longer available.
+What might be the cause of this?
+B) The EC2 instance was using EBS backed root volumes, which are ephemeral and only live for the life of the instance.
++A) The EC2 instance was using instance store volumes, which are ephemeral and only live for the life of the instance.
+B) The instance was hit by a virus that wipes out all data.
+B) The volume of the instance was not big enough to handle all of the processing data.
+
+QUESTION_ID_PLACEHOLDER
+An organization plans to run an application in a dedicated physical server that doesn’t use virtualization. The application data will be stored in a storage solution that uses an NFS protocol. To prevent data loss, you need to use a durable cloud storage service to store a copy of your data.
+Which of the following is the most suitable solution to meet the requirement?
+B) Use AWS Storage Gateway with a gateway VM appliance for your compute resources. Configure File Gateway to store the application data and backup data.
+B) Use an AWS Storage Gateway hardware appliance for your compute resources. Configure Volume Gateway to store the application data and backup data.
+B) Use an AWS Storage Gateway hardware appliance for your compute resources. Configure Volume Gateway to store the application data and create an Amazon S3 bucket to store a backup of your data.
++A) Use an AWS Storage Gateway hardware appliance for your compute resources. Configure File Gateway to store the application data and create an Amazon S3 bucket to store a backup of your data.
+
+QUESTION_ID_PLACEHOLDER
+An application is hosted in an On-Demand EC2 instance and is using Amazon SDK to communicate to other AWS services such as S3, DynamoDB, and many others. As part of the upcoming IT audit, you need to ensure that all API calls to your AWS resources are logged and durably stored. 
+Which is the most suitable service that you should use to meet this requirement?
+B) AWS X-Ray
+B) Amazon CloudWatch
+B) Amazon API Gateway
++A) AWS CloudTrail
+
+QUESTION_ID_PLACEHOLDER
+A company troubleshoots the operational issues of their cloud architecture by logging the AWS API call history of all AWS resources. The Solutions Architect must implement a solution to quickly identify the most recent changes made to resources in their environment, including creation, modification, and deletion of AWS resources. One of the requirements is that the generated log files should be encrypted to avoid any security issues.
+Which of the following is the most suitable approach to implement the encryption?
++A) Use CloudTrail with its default settings
+B) Use CloudTrail and configure the destination S3 bucket to use Server-Side Encryption (SSE).
+B) Use CloudTrail and configure the destination Amazon Glacier archive to use Server-Side Encryption (SSE).
+B) Use CloudTrail and configure the destination S3 bucket to use Server Side Encryption (SSE) with AES-128 encryption algorithm.
+
+QUESTION_ID_PLACEHOLDER
+A top investment bank is in the process of building a new Forex trading platform. To ensure high availability and scalability, you designed the trading platform to use an Elastic Load Balancer in front of an Auto Scaling group of On-Demand EC2 instances across multiple Availability Zones. For its database tier, you chose to use a single Amazon Aurora instance to take advantage of its distributed, fault-tolerant, and self-healing storage system.
+In the event of system failure on the primary database instance, what happens to Amazon Aurora during the failover?
+B) Aurora will first attempt to create a new DB Instance in a different Availability Zone of the original instance. If unable to do so, Aurora will attempt to create a new DB Instance in the original Availability Zone in which the instance was first launched.
++A) Aurora will attempt to create a new DB Instance in the same Availability Zone as the original instance and is done on a best-effort basis.
+B) Amazon Aurora flips the canonical name record (CNAME) for your DB Instance to point at the healthy replica, which in turn is promoted to become the new primary.
+B) Amazon Aurora flips the A record of your DB Instance to point at the healthy replica, which in turn is promoted to become the new primary.
+
+QUESTION_ID_PLACEHOLDER
+A company has a UAT and production EC2 instances running on AWS. They want to ensure that employees who are responsible for the UAT instances don’t have the access to work on the production instances to minimize security risks.
+Which of the following would be the best way to achieve this?
+B) Provide permissions to the users via the AWS Resource Access Manager (RAM) service to only access EC2 instances that are used for production or development.
++A) Define the tags on the UAT and production servers and add a condition to the IAM policy which allows access to specific tags.
+B) Launch the UAT and production instances in different Availability Zones and use Multi Factor Authentication.
+B) Launch the UAT and production EC2 instances in separate VPC's connected by VPC peering.
+
+QUESTION_ID_PLACEHOLDER
+A Solutions Architect is setting up configuration management in an existing cloud architecture. The Architect needs to deploy and manage the EC2 instances including the other AWS resources using Chef and Puppet.
+Which of the following is the most suitable service to use in this scenario?
+B) AWS Elastic Beanstalk
+B) AWS CloudFormation
+B) AWS CodeDeploy
++A) AWS OpsWorks
+
+QUESTION_ID_PLACEHOLDER
+A company plans to implement a hybrid architecture. They need to create a dedicated connection from their Amazon Virtual Private Cloud (VPC) to their on-premises network. The connection must provide high bandwidth throughput and a more consistent network experience than Internet-based solutions.
+Which of the following can be used to create a private connection between the VPC and the company's on-premises network?
+B) Transit VPC
+B) AWS Site-to-Site VPN
++A) AWS Direct Connect
+B) Transit Gateway with equal-cost multipath routing (ECMP)
+
+QUESTION_ID_PLACEHOLDER
+A company has both on-premises data center as well as AWS cloud infrastructure. They store their graphics, audios, videos, and other multimedia assets primarily in their on-premises storage server and use an S3 Standard storage class bucket as a backup. Their data is heavily used for only a week (7 days) but after that period, it will only be infrequently used by their customers. The Solutions Architect is instructed to save storage costs in AWS yet maintain the ability to fetch a subset of their media assets in a matter of minutes for a surprise annual data audit, which will be conducted on their cloud storage.
+Which of the following are valid options that the Solutions Architect can implement to meet the above requirement?
++A) Set a lifecycle policy in the bucket to transition to S3 - Standard IA after 30 days
+B) Set a lifecycle policy in the bucket to transition the data to S3 Glacier Deep Archive storage class after one week (7 days).
+B) Set a lifecycle policy in the bucket to transition the data to S3 - Standard IA storage class after one week (7 days).
++A) Set a lifecycle policy in the bucket to transition the data to Glacier after one week (7 days).
+B) Set a lifecycle policy in the bucket to transition the data to S3 - One Zone-Infrequent Access storage class after one week (7 days).
+
+QUESTION_ID_PLACEHOLDER
+An online shopping platform is hosted on an Auto Scaling group of On-Demand EC2 instances with a default Auto Scaling termination policy and no instance protection configured. The system is deployed across three Availability Zones in the US West region (us-west-1) with an Application Load Balancer in front to provide high availability and fault tolerance for the shopping platform. The us-west-1a, us-west-1b, and us-west-1c Availability Zones have 10, 8 and 7 running instances respectively. Due to the low number of incoming traffic, the scale-in operation has been triggered.   
+Which of the following will the Auto Scaling group do to determine which instance to terminate first in this scenario?
+B) Choose the Availability Zone with the least number of instances, which is the us-west-1c Availability Zone in this scenario.
++A) Select the instances with the oldest launch configuration.
+B) Select the instance that is farthest to the next billing hour.
++A) Choose the Availability Zone with the most number of instances, which is the us-west-1a Availability Zone in this scenario.
+B) Select the instances with the most recent launch configuration.
++A) Select the instance that is closest to the next billing hour.
+
+QUESTION_ID_PLACEHOLDER
+A company has recently adopted a hybrid cloud architecture and is planning to migrate a database hosted on-premises to AWS. The database currently has over 50 TB of consumer data, handles highly transactional (OLTP) workloads, and is expected to grow. The Solutions Architect should ensure that the database is ACID-compliant and can handle complex queries of the application.
+Which type of database service should the Architect use?
+B) Amazon DynamoDB
+B) Amazon Redshift
++A) Amazon Aurora
+B) Amazon RDS
+
+QUESTION_ID_PLACEHOLDER
+A Solutions Architect needs to ensure that all of the AWS resources in Amazon VPC don’t go beyond their respective service limits. The Architect should prepare a system that provides real-time guidance in provisioning resources that adheres to the AWS best practices.
+Which of the following is the MOST appropriate service to use to satisfy this task?
+B) AWS Cost Explorer
++A) AWS Trusted Advisor
+B) AWS Budgets
+B) Amazon Inspector
+
+QUESTION_ID_PLACEHOLDER
+The social media company that you are working for needs to capture the detailed information of all HTTP requests that went through their public-facing application load balancer every five minutes. They want to use this data for analyzing traffic patterns and for troubleshooting their web applications in AWS.
+Which of the following options meet the customer requirements?
+B) Add an Amazon CloudWatch Logs agent on the application load balancer.
++A) Enable access logs on the application load balancer.
+B) Enable Amazon CloudWatch metrics on the application load balancer.
+B) Enable AWS CloudTrail for their application load balancer.
+
+QUESTION_ID_PLACEHOLDER
+An operations team has an application running on EC2 instances inside two custom VPCs. The VPCs are located in the Ohio and N.Virginia Region respectively. The team wants to transfer data between the instances without traversing the public internet.
+Which combination of steps will achieve this?
+B) Launch a NAT Gateway in the public subnet of each VPC.
+B) Create an Egress-only Internet Gateway.
++A) Set up a VPC peering connection between the VPCs.
+B) Deploy a VPC endpoint on each region to enable a private connection.
++A) Re-configure the route table’s target and destination of the instances’ subnet.
+
+QUESTION_ID_PLACEHOLDER
+A company needs to set up a cost-effective architecture for a log processing application that has frequently accessed, throughput-intensive workloads with large, sequential I/O operations. The application should be hosted in an already existing On-Demand EC2 instance in the VPC. You have to attach a new EBS volume that will be used by the application.
+Which of the following is the most suitable EBS volume type that you should use in this scenario?
+B) EBS General Purpose SSD (gp2)
+B) EBS Provisioned IOPS SSD (io1)
+B) EBS Cold HDD (sc1)
++A) EBS Throughput Optimized HDD (st1)
+
+QUESTION_ID_PLACEHOLDER
+A company plans to use Route 53 instead of an ELB to load balance the incoming request to the web application. The system is deployed to two EC2 instances to which the traffic needs to be distributed. You want to set a specific percentage of traffic to go to each instance.
+Which routing policy would you use?
+B) Failover
+B) Latency
+B) Geolocation
++A) Weighted
+
+QUESTION_ID_PLACEHOLDER
+A financial analytics application that collects, processes and analyzes stock data in real-time is using Kinesis Data Streams. The producers continually push data to Kinesis Data Streams while the consumers process the data in real time. In Amazon Kinesis, where can the consumers store their results?
++A) Amazon Redshift
+B) Amazon Athena
+B) AWS Glue
+B) Glacier Select
++A) Amazon S3
+
+QUESTION_ID_PLACEHOLDER
+A health organization is using a large Dedicated EC2 instance with multiple EBS volumes to host its health records web application. The EBS volumes must be encrypted due to the confidentiality of the data that they are handling and also to comply with the HIPAA (Health Insurance Portability and Accountability Act) standard.   
+In EBS encryption, what service does AWS use to secure the volume's data at rest?
++A) By using your own keys in AWS Key Management Service (KMS).
+B) By using S3 Client-Side Encryption.
++A) By using Amazon-managed keys in AWS Key Management Service (KMS).
+B) By using the SSL certificates provided by the AWS Certificate Manager (ACM).
+B) By using a password stored in CloudHSM.
+B) By using S3 Server-Side Encryption.
+
+QUESTION_ID_PLACEHOLDER
+A company is running a batch job on an EC2 instance inside a private subnet. The instance gathers input data from an S3 bucket in the same region through a NAT Gateway. The company is looking for a solution that will reduce costs without imposing risks on redundancy or availability.
+Which solution will accomplish this?
+B) Deploy a Transit Gateway to peer connection between the instance and the S3 bucket.
++A) Remove the NAT Gateway and use a Gateway VPC endpoint to access the S3 bucket from the instance.
+B) Re-assign the NAT Gateway to a lower EC2 instance type.
+B) Replace the NAT Gateway with a NAT instance hosted on a burstable instance type.
+
+QUESTION_ID_PLACEHOLDER
+A data analytics startup is collecting clickstream data and stores them in an S3 bucket. You need to launch an AWS Lambda function to trigger the ETL jobs to run as soon as new data becomes available in Amazon S3.
+Which of the following services can you use as an extract, transform, and load (ETL) service in this scenario?
+B) S3 Select
++A) AWS Glue
+B) AWS Step Functions
+B) Redshift Spectrum
+
+QUESTION_ID_PLACEHOLDER
+A top IT Consultancy has a VPC with two On-Demand EC2 instances with Elastic IP addresses. You were notified that the EC2 instances are currently under SSH brute force attacks over the Internet. The IT Security team has identified the IP addresses where these attacks originated. You have to immediately implement a temporary fix to stop these attacks while the team is setting up AWS WAF, GuardDuty, and AWS Shield Advanced to permanently fix the security vulnerability.
+Which of the following provides the quickest way to stop the attacks to the instances?
+B) Assign a static Anycast IP address to each EC2 instance
+B) Place the EC2 instances into private subnets
++A) Block the IP addresses in the Network Access Control List
+B) Remove the Internet Gateway from the VPC
+
+QUESTION_ID_PLACEHOLDER
+An application is hosted in an Auto Scaling group of EC2 instances. To improve the monitoring process, you have to configure the current capacity to increase or decrease based on a set of scaling adjustments. This should be done by specifying the scaling metrics and threshold values for the CloudWatch alarms that trigger the scaling process.
+Which of the following is the most suitable type of scaling policy that you should use?
++A) Step scaling
+B) Target tracking scaling
+B) Simple scaling
+B) Scheduled Scaling
+
+QUESTION_ID_PLACEHOLDER
+In a startup company you are working for, you are asked to design a web application that requires a NoSQL database that has no limit on the storage size for a given table. The startup is still new in the market and it has very limited human resources who can take care of the database infrastructure.
+Which is the most suitable service that you can implement that provides a fully managed, scalable and highly available NoSQL service?
+B) Amazon Neptune
+B) Amazon Aurora
++A) DynamoDB
+B) SimpleDB
+
+QUESTION_ID_PLACEHOLDER
+A startup needs to use a shared file system for its .NET web application running on an Amazon EC2 Windows instance. The file system must provide a high level of throughput and IOPS that can also be integrated with Microsoft Active Directory.
+Which is the MOST suitable service that you should use to achieve this requirement?
+B) AWS Storage Gateway - File Gateway
++A) Amazon FSx for Windows File Server
+B) Amazon EBS Provisioned IOPS SSD volumes
+B) Amazon Elastic File System
+
+QUESTION_ID_PLACEHOLDER
+A company has an application hosted in an Auto Scaling group of Amazon EC2 instances across multiple Availability Zones behind an Application Load Balancer. There are several occasions where some instances are automatically terminated after failing the HTTPS health checks in the ALB and then purges all the ephemeral logs stored in the instance. A Solutions Architect must implement a solution that collects all of the application and server logs effectively. She should be able to perform a root cause analysis based on the logs, even if the Auto Scaling group immediately terminated the instance.
+What is the EASIEST way for the Architect to automate the log collection from the Amazon EC2 instances?
+B) Add a lifecycle hook to your Auto Scaling group to move instances in the Terminating state to the Terminating:Wait state to delay the termination of the unhealthy Amazon EC2 instances. Configure a CloudWatch Events rule for the EC2 Instance Terminate Successful Auto Scaling Event with an associated Lambda function. Set up the AWS Systems Manager Run Command service to run a script that collects and uploads the application logs from the instance to a CloudWatch Logs group. Resume the instance termination once all the logs are sent.
+B) Add a lifecycle hook to your Auto Scaling group to move instances in the Terminating state to the Pending:Wait state to delay the termination of the unhealthy Amazon EC2 instances. Configure a CloudWatch Events rule for the EC2 Instance-terminate Lifecycle Action Auto Scaling Event with an associated Lambda function. Set up an AWS Systems Manager Automation script that collects and uploads the application logs from the instance to a CloudWatch Logs group. Configure the solution to only resume the instance termination once all the logs were successfully sent.
+B) Add a lifecycle hook to your Auto Scaling group to move instances in the Terminating state to the Terminating:Wait state to delay the termination of the unhealthy Amazon EC2 instances. Set up AWS Step Functions to collect the application logs and send them to a CloudWatch Log group. Configure the solution to resume the instance termination as soon as all the logs were successfully sent to CloudWatch Logs.
++A) Add a lifecycle hook to your Auto Scaling group to move instances in the Terminating state to the Terminating:Wait state to delay the termination of unhealthy Amazon EC2 instances. Configure a CloudWatch Events rule for the EC2 Instance-terminate Lifecycle Action Auto Scaling Event with an associated Lambda function. Trigger the CloudWatch agent to push the application logs and then resume the instance termination once all the logs are sent to CloudWatch Logs.
+
+QUESTION_ID_PLACEHOLDER
+A healthcare company stores sensitive patient health records in their on-premises storage systems. These records must be kept indefinitely and protected from any type of modifications once they are stored. Compliance regulations mandate that the records must have granular access control and each data access must be audited at all levels. Currently, there are millions of obsolete records that are not accessed by their web application, and their on-premises storage is quickly running out of space. The Solutions Architect must design a solution to immediately move existing records to AWS and support the ever-growing number of new health records.
+Which of the following is the most suitable solution that the Solutions Architect should implement to meet the above requirements?
+B) Set up AWS Storage Gateway to move the existing health records from the on-premises network to the AWS Cloud. Launch a new Amazon S3 bucket to store existing and new records. Enable AWS CloudTrail with Management Events and Amazon S3 Object Lock in the bucket.
+B) Set up AWS Storage Gateway to move the existing health records from the on-premises network to the AWS Cloud. Launch an Amazon EBS-backed EC2 instance to store both the existing and new records. Enable Amazon S3 server access logging and S3 Object Lock in the bucket.
+B) Set up AWS DataSync to move the existing health records from the on-premises network to the AWS Cloud. Launch a new Amazon S3 bucket to store existing and new records. Enable AWS CloudTrail with Management Events and Amazon S3 Object Lock in the bucket.
++A) Set up AWS DataSync to move the existing health records from the on-premises network to the AWS Cloud. Launch a new Amazon S3 bucket to store existing and new records. Enable AWS CloudTrail with Data Events and Amazon S3 Object Lock in the bucket.
+
+QUESTION_ID_PLACEHOLDER
+A data analytics company keeps a massive volume of data that they store in their on-premises data center. To scale their storage systems, they are looking for cloud-backed storage volumes that they can mount using Internet Small Computer System Interface (iSCSI) devices from their on-premises application servers. They have an on-site data analytics application that frequently accesses the latest data subsets locally while the older data are rarely accessed. You are required to minimize the need to scale the on-premises storage infrastructure while still providing their web application with low-latency access to the data.
+Which type of AWS Storage Gateway service will you use to meet the above requirements?
+B) File Gateway
+B) Tape Gateway
+B) Volume Gateway in stored mode
++A) Volume Gateway in cached mode
+
+QUESTION_ID_PLACEHOLDER
+A client is hosting their company website on a cluster of web servers that are behind a public-facing load balancer. The client also uses Amazon Route 53 to manage their public DNS.   
+How should the client configure the DNS zone apex record to point to the load balancer?
+B) Create a CNAME record pointing to the load balancer DNS name.
++A) Create an A record aliased to the load balancer DNS name.
+B) Create an alias for CNAME record to the load balancer DNS name.
+B) Create an A record pointing to the IP address of the load balancer.
+
+QUESTION_ID_PLACEHOLDER
+An investment bank has a distributed batch processing application which is hosted in an Auto Scaling group of Spot EC2 instances with an SQS queue. You configured your components to use client-side buffering so that the calls made from the client will be buffered first and then sent as a batch request to SQS. What is a period of time during which the SQS queue prevents other consuming components from receiving and processing a message?
+B) Processing Timeout
+B) Component Timeout
+B) Receiving Timeout
++A) Visibility Timeout
+
+QUESTION_ID_PLACEHOLDER
+A multimedia company needs to deploy web services to an AWS region that they have never used before. The company currently has an IAM role for its Amazon EC2 instance that permits the instance to access Amazon DynamoDB. They want their EC2 instances in the new region to have the exact same privileges.
+What should be done to accomplish this?
+B) Create an Amazon Machine Image (AMI) of the instance and copy it to the new region.
++A) Assign the existing IAM role to instances in the new region.
+B) Duplicate the IAM role and associated policies to the new region and attach it to the instances.
+B) In the new Region, create a new IAM role and associated policies then assign it to the new instance.
+
+QUESTION_ID_PLACEHOLDER
+A Solutions Architect joined a large tech company with an existing Amazon VPC. When reviewing the Auto Scaling events, the Architect noticed that their web application is scaling up and down multiple times within the hour.
+What design change could the Architect make to optimize cost while preserving elasticity?
+B) Increase the base number of Auto Scaling instances for the Auto Scaling group
++A) Change the cooldown period of the Auto Scaling group and set the CloudWatch metric to a higher threshold
+B) Add provisioned IOPS to the instances
+B) Increase the instance type in the launch configuration
+
+QUESTION_ID_PLACEHOLDER
+A Solutions Architect is working for a fast-growing startup that just started operations during the past 3 months. They currently have an on-premises Active Directory and 10 computers. To save costs in procuring physical workstations, they decided to deploy virtual desktops for their new employees in a virtual private cloud in AWS. The new cloud infrastructure should leverage the existing security controls in AWS but can still communicate with their on-premises network.
+Which set of AWS services will the Architect use to meet these requirements?
+B) AWS Directory Services, VPN connection, and AWS Identity and Access Management
++A) AWS Directory Services, VPN connection, and Amazon Workspaces
+B) AWS Directory Services, VPN connection, and ClassicLink
+B) AWS Directory Services, VPN connection, and Amazon S3
+
+QUESTION_ID_PLACEHOLDER
+A company plans to design a highly available architecture in AWS. They have two target groups with three EC2 instances each, which are added to an Application Load Balancer. In the security group of the EC2 instance, you have verified that port 80 for HTTP is allowed. However, the instances are still showing out of service from the load balancer.
+What could be the root cause of this issue?
+B) The wrong instance type was used for the EC2 instance.
++A) The health check configuration is not properly defined.
+B) The instances are using the wrong AMI.
+B) The wrong subnet was used in your VPC
+
+QUESTION_ID_PLACEHOLDER
+A Solutions Architect is working for a multinational telecommunications company. The IT Manager wants to consolidate their log streams including the access, application, and security logs in one single system. Once consolidated, the company will analyze these logs in real-time based on heuristics. There will be some time in the future where the company will need to validate heuristics, which requires going back to data samples extracted from the last 12 hours.
+What is the best approach to meet this requirement?
++A) First, send all of the log events to Amazon Kinesis then afterwards, develop a client process to apply heuristics on the logs.
+B) First, configure Amazon Cloud Trail to receive custom logs and then use EMR to apply heuristics on the logs.
+B) First, set up an Auto Scaling group of EC2 servers then store the logs on Amazon S3 then finally, use EMR to apply heuristics on the logs.
+B) First, send all the log events to Amazon SQS then set up an Auto Scaling group of EC2 servers to consume the logs and finally, apply the heuristics.
+
+QUESTION_ID_PLACEHOLDER
+A Solutions Architect is migrating several Windows-based applications to AWS that require a scalable file system storage for high-performance computing (HPC). The storage service must have full support for the SMB protocol and Windows NTFS, Active Directory (AD) integration, and Distributed File System (DFS).
+Which of the following is the MOST suitable storage service that the Architect should use to fulfill this scenario?
+B) AWS DataSync
++A) Amazon FSx for Windows File Server
+B) Amazon S3 Glacier Deep Archive
+B) Amazon FSx for Lustre
+
+QUESTION_ID_PLACEHOLDER
+A financial company wants to store their data in Amazon S3 but at the same time, they want to store their frequently accessed data locally on their on-premises server. This is due to the fact that they do not have the option to extend their on-premises storage, which is why they are looking for a durable and scalable storage service to use in AWS.
+What is the best solution for this scenario?
+B) Use a fleet of EC2 instance with EBS volumes to store the commonly used data.
+B) Use Amazon Glacier.
+B) Use both Elasticache and S3 for frequently accessed data.
++A) Use the Amazon Storage Gateway - Cached Volumes.
+
+QUESTION_ID_PLACEHOLDER
+A company has a web-based ticketing service that utilizes Amazon SQS and a fleet of EC2 instances. The EC2 instances that consume messages from the SQS queue are configured to poll the queue as often as possible to keep end-to-end throughput as high as possible. The Solutions Architect noticed that polling the queue in tight loops is using unnecessary CPU cycles, resulting in increased operational costs due to empty responses.
+In this scenario, what should the Solutions Architect do to make the system more cost-effective?
+B) Configure Amazon SQS to use short polling by setting the ReceiveMessageWaitTimeSeconds to a number greater than zero.
++A) Configure Amazon SQS to use long polling by setting the ReceiveMessageWaitTimeSeconds to a number greater than zero.
+B) Configure Amazon SQS to use long polling by setting the ReceiveMessageWaitTimeSeconds to zero.
+B) Configure Amazon SQS to use short polling by setting the ReceiveMessageWaitTimeSeconds to zero.
+
+QUESTION_ID_PLACEHOLDER
+A web application is hosted on an EC2 instance that processes sensitive financial information which is launched in a private subnet. All of the data are stored in an Amazon S3 bucket. Financial information is accessed by users over the Internet. The security team of the company is concerned that the Internet connectivity to Amazon S3 is a security risk.
+In this scenario, what will you do to resolve this security vulnerability in the most cost-effective manner?
+B) Change the web architecture to access the financial data in S3 through an interface VPC endpoint, which is powered by AWS PrivateLink.
+B) Change the web architecture to access the financial data in your S3 bucket through a VPN connection.
++A) Change the web architecture to access the financial data through a Gateway VPC Endpoint.
+B) Change the web architecture to access the financial data hosted in your S3 bucket by creating a custom VPC endpoint service.
+
+QUESTION_ID_PLACEHOLDER
+A company has 10 TB of infrequently accessed financial data files that would need to be stored in AWS. These data would be accessed infrequently during specific weeks when they are retrieved for auditing purposes. The retrieval time is not strict as long as it does not exceed 24 hours.
+Which of the following would be a secure, durable, and cost-effective solution for this scenario?
++A) Upload the data to S3 and set a lifecycle policy to transition data to Glacier after 0 days.
+B) Upload the data to S3 then use a lifecycle policy to transfer data to S3-IA.
+B) Upload the data to S3 then use a lifecycle policy to transfer data to S3 One Zone-IA.
+B) Upload the data to Amazon FSx for Windows File Server using the Server Message Block (SMB) protocol.
+
+QUESTION_ID_PLACEHOLDER
+A local bank has an in-house application that handles sensitive financial data in a private subnet. After the data is processed by the EC2 worker instances, they will be delivered to S3 for ingestion by other services.
+How should you design this solution so that the data does not pass through the public Internet?
++A) Configure a VPC Endpoint along with a corresponding route entry that directs the data to S3.
+B) Create an Internet gateway in the public subnet with a corresponding route entry that directs the data to S3.
+B) Provision a NAT gateway in the private subnet with a corresponding route entry that directs the data to S3.
+B) Configure a Transit gateway along with a corresponding route entry that directs the data to S3.
+

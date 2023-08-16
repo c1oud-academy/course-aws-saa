@@ -1,0 +1,18 @@
+{
+    "text": "A media company hosts large volumes of archive data that are about 250 TB in size on their internal servers. They have decided to move these data to S3 because of its durability and redundancy. The company currently has a 100 Mbps dedicated line connecting their head office to the Internet.\nWhich of the following is the FASTEST and the MOST cost-effective way to import all these data to Amazon S3?",
+    "answers": [
+        {
+            "text": "Use AWS Snowmobile to transfer the data over to S3."
+        },
+        {
+            "text": "Establish an AWS Direct Connect connection then transfer the data over to S3."
+        },
+        {
+            "text": "Order multiple AWS Snowball devices to upload the files to Amazon S3.",
+            "right_answer": true
+        },
+        {
+            "text": "Upload it directly to S3"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "text": "A company deployed an online enrollment system database on a prestigious university, which is hosted in RDS. The Solutions Architect is required to monitor the database metrics in Amazon CloudWatch to ensure the availability of the enrollment system.\nWhat are the enhanced monitoring metrics that Amazon CloudWatch gathers from Amazon RDS DB instances which provide more accurate information?",
+    "answers": [
+        {
+            "text": "CPU Utilization"
+        },
+        {
+            "text": "Freeable Memory"
+        },
+        {
+            "text": "Database Connections"
+        },
+        {
+            "text": "RDS child processes.",
+            "right_answer": true
+        },
+        {
+            "text": "OS processes",
+            "right_answer": true
+        }
+    ]
+}

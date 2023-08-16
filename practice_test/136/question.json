@@ -1,0 +1,18 @@
+{
+    "text": "An organization stores and manages financial records of various companies in its on-premises data center, which is almost out of space. The management decided to move all of their existing records to a cloud storage service. All future financial records will also be stored in the cloud. For additional security, all records must be prevented from being deleted or overwritten.\nWhich of the following should you do to meet the above requirement?",
+    "answers": [
+        {
+            "text": "Use AWS Storage Gateway to establish hybrid cloud storage. Store all of your data in Amazon EBS and enable object lock."
+        },
+        {
+            "text": "Use AWS DataSync to move the data. Store all of your data in Amazon S3 and enable object lock.",
+            "right_answer": true
+        },
+        {
+            "text": "Use AWS DataSync to move the data. Store all of your data in Amazon EFS and enable object lock."
+        },
+        {
+            "text": "Use AWS Storage Gateway to establish hybrid cloud storage. Store all of your data in Amazon S3 and enable object lock."
+        }
+    ]
+}

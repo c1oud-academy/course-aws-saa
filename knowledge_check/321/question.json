@@ -1,0 +1,21 @@
+{
+    "text": "Select matching description for best practice 'Automate your environment':",
+    "answers": [
+        {
+            "text": "Ensure that your architecture can handle changes in demand."
+        },
+        {
+            "right_answer": true,
+            "text": "Where possible, automate the provisioning, termination, and configuration of resources."
+        },
+        {
+            "text": "Take advantage of the dynamically provisioned nature of cloud computing."
+        },
+        {
+            "text": "Design architectures with independent components."
+        },
+        {
+            "text": "Use the breadth of AWS services. Don't limit your infrastructure to servers."
+        }
+    ]
+}

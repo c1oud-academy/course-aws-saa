@@ -1,0 +1,31 @@
+{
+    "content_type": "test",
+    "type": "knowledge_check",
+    "title": {
+        "ru": "Knowledge check quesion 417",
+        "kk": "Knowledge check quesion 417",
+        "en": "Knowledge check quesion 417"
+    },
+    "id": "417",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "linked_type",
+        "linked_id"
+    ],
+    "linked_id": "40",
+    "linked_type": "lecture",
+    "files_list": [
+        {
+            "lang": "en",
+            "type": "metadata",
+            "path": "metadata.json"
+        },
+        {
+            "lang": "en",
+            "type": "question",
+            "path": "question.json"
+        }
+    ]
+}

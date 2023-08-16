@@ -1,0 +1,22 @@
+{
+    "text": "Select available VPC Endpoint types",
+    "answers": [
+        {
+            "text": "Interface endpoint",
+            "right_answer": true
+        },
+        {
+            "text": "Global endpoint"
+        },
+        {
+            "text": "Private endpoint"
+        },
+        {
+            "text": "Public endpoint"
+        },
+        {
+            "text": "Gateway endpoint",
+            "right_answer": true
+        }
+    ]
+}

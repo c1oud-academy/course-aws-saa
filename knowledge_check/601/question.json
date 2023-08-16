@@ -1,0 +1,18 @@
+{
+    "text": "What is the service that provides the fastest application deployment ability and the lowest infrastructure control and customization?",
+    "answers": [
+        {
+            "text": "Amazon EC2"
+        },
+        {
+            "text": "Amazon ECS"
+        },
+        {
+            "text": "AWS Elastic Beanstalk"
+        },
+        {
+            "text": "AWS Lambda",
+            "right_answer": true
+        }
+    ]
+}

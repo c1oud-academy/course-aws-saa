@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Use a fleet of EC2 instance with EBS volumes to store the commonly used data."
+        },
+        {
+            "text": "Use Amazon Glacier."
+        },
+        {
+            "text": "Use both Elasticache and S3 for frequently accessed data."
+        },
+        {
+            "text": "Use the Amazon Storage Gateway - Cached Volumes.",
+            "right_answer": true
+        }
+    ],
+    "text": "A financial company wants to store their data in Amazon S3 but at the same time, they want to store their frequently accessed data locally on their on-premises server. This is due to the fact that they do not have the option to extend their on-premises storage, which is why they are looking for a durable and scalable storage service to use in AWS.\nWhat is the best solution for this scenario?"
+}

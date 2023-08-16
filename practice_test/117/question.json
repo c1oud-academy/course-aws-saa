@@ -1,0 +1,18 @@
+{
+    "text": "A company has a requirement to move 80 TB data warehouse to the cloud. It would take 2 months to transfer the data given their current bandwidth allocation.\nWhich is the most cost-effective service that would allow you to quickly upload their data into AWS?",
+    "answers": [
+        {
+            "text": "AWS Snowmobile"
+        },
+        {
+            "text": "AWS Direct Connect"
+        },
+        {
+            "text": "Amazon S3 Multipart Upload"
+        },
+        {
+            "text": "AWS Snowball Edge",
+            "right_answer": true
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Compute",
+        "AWS Global Infrastructure"
+    ],
+    "id": "56",
+    "title": {
+        "kk": "Practice test quesion 56",
+        "ru": "Practice test quesion 56",
+        "en": "Practice test quesion 56"
+    },
+    "aws_service": [
+        "EC2",
+        "Availability Zone"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

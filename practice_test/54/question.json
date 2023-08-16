@@ -1,0 +1,18 @@
+{
+    "text": "A content management system (CMS) is hosted on a fleet of auto-scaled, On-Demand EC2 instances that use Amazon Aurora as its database. Currently, the system stores the file documents that the users upload in one of the attached EBS Volumes. Your manager noticed that the system performance is quite slow and he has instructed you to improve the architecture of the system.\nIn this scenario, what will you do to implement a scalable, high-available POSIX-compliant shared file system?",
+    "answers": [
+        {
+            "text": "Create an S3 bucket and use this as the storage for the CMS"
+        },
+        {
+            "text": "Upgrading your existing EBS volumes to Provisioned IOPS SSD Volumes"
+        },
+        {
+            "text": "Use ElastiCache"
+        },
+        {
+            "text": "Use EFS",
+            "right_answer": true
+        }
+    ]
+}

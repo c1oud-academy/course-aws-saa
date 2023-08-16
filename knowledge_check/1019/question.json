@@ -1,0 +1,21 @@
+{
+    "answers": [
+        {
+            "text": "Amazon RDS"
+        },
+        {
+            "text": "AWS SCT"
+        },
+        {
+            "text": "AWS Snowball Edge",
+            "right_answer": true
+        },
+        {
+            "text": "AWS DMS"
+        },
+        {
+            "text": "AWS S3"
+        }
+    ],
+    "text": "What is the service used with AWS DMS in case of too large database to migrate or slow internet connection?"
+}

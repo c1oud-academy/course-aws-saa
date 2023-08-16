@@ -1,0 +1,18 @@
+{
+    "text": "In a tech company that you are working for, there is a requirement to allow one IAM user to modify the configuration of one of your Elastic Load Balancers (ELB) which is used in a specific project. Each developer in your company has an individual IAM user and they usually move from one project to another.\nWhich of the following would be the best way to allow this access?",
+    "answers": [
+        {
+            "text": "Provide the user temporary access to the root account for 8 hours only. Afterwards, change the password once the activity is completed."
+        },
+        {
+            "text": "Create a new IAM Role which will be assumed by the IAM user. Attach a policy allowing access to modify the ELB and once it is done, remove the IAM role from the user.",
+            "right_answer": true
+        },
+        {
+            "text": "Create a new IAM user that has access to modify the ELB. Delete that user when the work is completed."
+        },
+        {
+            "text": "Open up the port that ELB uses in a security group and then give the user access to that security group via a policy."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A company is planning to launch an application which requires a data warehouse that will be used for their infrequently accessed data. You need to use an EBS Volume that can handle large, sequential I/O operations.\nWhich of the following is the most cost-effective storage type that you should use to meet the requirement?",
+    "answers": [
+        {
+            "text": "Cold HDD (sc1)",
+            "right_answer": true
+        },
+        {
+            "text": "Provisioned IOPS SSD (io1)"
+        },
+        {
+            "text": "EBS General Purpose SSD (gp2)"
+        },
+        {
+            "text": "Throughput Optimized HDD (st1)"
+        }
+    ]
+}

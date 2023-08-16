@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Deploy a Transit Gateway to peer connection between the instance and the S3 bucket."
+        },
+        {
+            "text": "Remove the NAT Gateway and use a Gateway VPC endpoint to access the S3 bucket from the instance.",
+            "right_answer": true
+        },
+        {
+            "text": "Re-assign the NAT Gateway to a lower EC2 instance type."
+        },
+        {
+            "text": "Replace the NAT Gateway with a NAT instance hosted on a burstable instance type."
+        }
+    ],
+    "text": "A company is running a batch job on an EC2 instance inside a private subnet. The instance gathers input data from an S3 bucket in the same region through a NAT Gateway. The company is looking for a solution that will reduce costs without imposing risks on redundancy or availability.\nWhich solution will accomplish this?"
+}

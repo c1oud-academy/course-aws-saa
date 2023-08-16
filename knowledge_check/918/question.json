@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Multi-AZ deployment",
+            "right_answer": true
+        },
+        {
+            "text": "Read Replicas"
+        },
+        {
+            "text": "Automated DB Snapshots"
+        },
+        {
+            "text": "Manual DB Snapshots"
+        }
+    ],
+    "text": "What is the Amazon RDS feature that provides high availability?"
+}

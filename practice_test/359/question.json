@@ -1,0 +1,18 @@
+{
+    "text": "A large electronics company is using Amazon Simple Storage Service to store important documents. For reporting purposes, they want to track and log every request access to their S3 buckets including the requester, bucket name, request time, request action, referrer, turnaround time, and error code information. The solution should also provide more visibility into the object-level operations of the bucket.\nWhich is the best solution among the following options that can satisfy the requirement?",
+    "answers": [
+        {
+            "text": "Enable Amazon S3 Event Notifications for PUT and POST."
+        },
+        {
+            "text": "Enable server access logging for all required Amazon S3 buckets.",
+            "right_answer": true
+        },
+        {
+            "text": "Enable AWS CloudTrail to audit all Amazon S3 bucket access."
+        },
+        {
+            "text": "Enable the Requester Pays option to track access via AWS Billing."
+        }
+    ]
+}

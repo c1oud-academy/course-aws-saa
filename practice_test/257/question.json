@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect is designing a highly available environment for an application. She plans to host the application on EC2 instances within an Auto Scaling Group. One of the conditions requires data stored on root EBS volumes to be preserved if an instance terminates.\nWhat should be done to satisfy the requirement?",
+    "answers": [
+        {
+            "text": "Use AWS DataSync to replicate root volume data to Amazon S3."
+        },
+        {
+            "text": "Configure ASG to suspend the health check process for each EC2 instance."
+        },
+        {
+            "text": "Set the value of DeleteOnTermination attribute of the EBS volumes to False.",
+            "right_answer": true
+        },
+        {
+            "text": "Enable the Termination Protection option for all EC2 instances."
+        }
+    ]
+}

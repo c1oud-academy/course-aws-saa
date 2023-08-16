@@ -1,0 +1,18 @@
+{
+    "text": "A Network Architect developed a food ordering application. The Architect needs to retrieve the instance ID, public keys, and public IP address of the EC2 server made for tagging and grouping the attributes into the internal application running on-premises.\nWhich of the following options fulfills this requirement?",
+    "answers": [
+        {
+            "text": "Instance metadata",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon Machine Image"
+        },
+        {
+            "text": "Resource tags"
+        },
+        {
+            "text": "Instance user data"
+        }
+    ]
+}

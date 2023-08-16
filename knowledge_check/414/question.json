@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "S3 Access Points"
+        },
+        {
+            "text": "IAM policies"
+        },
+        {
+            "right_answer": true,
+            "text": "Presigned URLs"
+        },
+        {
+            "text": "Access control lists (ACLs)"
+        }
+    ],
+    "text": "What is a feature to grant time-limited access to others with temporary URLs?"
+}

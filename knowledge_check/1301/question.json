@@ -1,0 +1,21 @@
+{
+    "text": "What is the service that connect on-premises network to VPC through VPN over the Internet?",
+    "answers": [
+        {
+            "text": "AWS Site-to-Site VPN",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Direct Connect (DX)"
+        },
+        {
+            "text": "VPC Peering"
+        },
+        {
+            "text": "AWS Transit Gateway"
+        },
+        {
+            "text": "VPC Endpoints"
+        }
+    ]
+}

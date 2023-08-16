@@ -1,0 +1,18 @@
+{
+    "text": "What is the service works in PaaS model?",
+    "answers": [
+        {
+            "text": "Amazon EC2"
+        },
+        {
+            "text": "Amazon ECS"
+        },
+        {
+            "text": "AWS Elastic Beanstalk",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Lambda"
+        }
+    ]
+}

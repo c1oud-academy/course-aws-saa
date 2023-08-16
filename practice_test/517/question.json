@@ -1,0 +1,18 @@
+{
+    "text": "A company launched a cryptocurrency mining server on a Reserved EC2 instance in us-east-1 region's private subnet that uses IPv6. Due to the financial data that the server contains, the system should be secured to prevent any unauthorized access and to meet the regulatory compliance requirements.\nIn this scenario, which VPC feature allows the EC2 instance to communicate to the Internet but prevents inbound traffic?",
+    "answers": [
+        {
+            "text": "NAT instances"
+        },
+        {
+            "text": "Egress-only Internet gateway",
+            "right_answer": true
+        },
+        {
+            "text": "Internet Gateway"
+        },
+        {
+            "text": "NAT Gateway"
+        }
+    ]
+}

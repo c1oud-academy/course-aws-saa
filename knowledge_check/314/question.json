@@ -1,0 +1,21 @@
+{
+    "text": "Which AWS Well-Architected Framework pillar is about measuring efficiency:",
+    "answers": [
+        {
+            "text": "Operational Excellence"
+        },
+        {
+            "text": "Security"
+        },
+        {
+            "text": "Reliability"
+        },
+        {
+            "text": "Performance Efficiency"
+        },
+        {
+            "right_answer": true,
+            "text": "Cost Optimization"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "aws_service": [
+        "AWS Region",
+        "API Gateway"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 138",
+        "en": "Practice test quesion 138",
+        "kk": "Practice test quesion 138"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "AWS Global Infrastructure",
+        "Networking & Content Delivery"
+    ],
+    "id": "138"
+}

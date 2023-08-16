@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Platform as a Service",
+            "right_answer": true
+        },
+        {
+            "text": "Pyramid as a Service"
+        },
+        {
+            "text": "Product as a Service"
+        },
+        {
+            "text": "Other"
+        }
+    ],
+    "text": "What does PaaS stand for?"
+}

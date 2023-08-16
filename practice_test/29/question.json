@@ -1,0 +1,18 @@
+{
+    "text": "A software development company is using serverless computing with AWS Lambda to build and run applications without having to set up or manage servers. They have a Lambda function that connects to a MongoDB Atlas, which is a popular Database as a Service (DBaaS) platform and also uses a third party API to fetch certain data for their application. One of the developers was instructed to create the environment variables for the MongoDB database hostname, username, and password as well as the API credentials that will be used by the Lambda function for DEV, SIT, UAT, and PROD environments.\nConsidering that the Lambda function is storing sensitive database and API credentials, how can this information be secured to prevent other developers in the team, or anyone, from seeing these credentials in plain text? Select the best option that provides maximum security.",
+    "answers": [
+        {
+            "text": "Enable SSL encryption that leverages on AWS CloudHSM to store and encrypt the sensitive information."
+        },
+        {
+            "text": "There is no need to do anything because, by default, AWS Lambda already encrypts the environment variables using the AWS Key Management Service."
+        },
+        {
+            "text": "AWS Lambda does not provide encryption for the environment variables. Deploy your code to an EC2 instance instead."
+        },
+        {
+            "text": "Create a new KMS key and use it to enable encryption helpers that leverage on AWS Key Management Service to store and encrypt the sensitive information.",
+            "right_answer": true
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "Cluster"
+        },
+        {
+            "text": "Partition"
+        },
+        {
+            "text": "Spread"
+        },
+        {
+            "text": "Standard"
+        }
+    ],
+    "text": "Which EC2 placement strategy provides low-latency and high packet-per-second network performance between instances?"
+}

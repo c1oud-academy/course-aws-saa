@@ -1,0 +1,18 @@
+{
+    "text": "A company is using Amazon S3 to store frequently accessed data. The S3 bucket is shared with external users that will upload files regularly. A Solutions Architect needs to implement a solution that will grant the bucket owner full access to all uploaded objects in the S3 bucket.\nWhat action should be done to achieve this task?",
+    "answers": [
+        {
+            "text": "Create a CORS configuration in the S3 bucket."
+        },
+        {
+            "text": "Enable the Requester Pays feature in the Amazon S3 bucket."
+        },
+        {
+            "text": "Enable server access logging and set up an IAM policy that will require the users to set the object's ACL to bucket-owner-full-control."
+        },
+        {
+            "text": "Create a bucket policy that will require the users to set the object's ACL to bucket-owner-full-control.",
+            "right_answer": true
+        }
+    ]
+}

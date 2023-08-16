@@ -1,0 +1,18 @@
+{
+    "text": "How many IP addresses reside in CIDR block 10.0.0.0/16?",
+    "answers": [
+        {
+            "text": "1"
+        },
+        {
+            "text": "16"
+        },
+        {
+            "text": "256"
+        },
+        {
+            "text": "65536",
+            "right_answer": true
+        }
+    ]
+}

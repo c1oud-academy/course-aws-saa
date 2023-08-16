@@ -1,0 +1,22 @@
+{
+    "text": "A Data Engineer is working for a litigation firm for their case history application. The engineer needs to keep track of all the cases that the firm has handled. The static assets like .jpg, .png, and .pdf files are stored in S3 for cost efficiency and high durability. As these files are critical to the business, the engineer wants to keep track of what's happening in the S3 bucket. The engineer found out that S3 has an event notification whenever a delete or write operation happens within the S3 bucket.\nWhat are the possible Event Notification destinations available for S3 buckets?",
+    "answers": [
+        {
+            "text": "SQS",
+            "right_answer": true
+        },
+        {
+            "text": "SES"
+        },
+        {
+            "text": "SWF"
+        },
+        {
+            "text": "Lambda function",
+            "right_answer": true
+        },
+        {
+            "text": "Kinesis"
+        }
+    ]
+}

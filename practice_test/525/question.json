@@ -1,0 +1,22 @@
+{
+    "text": "A cryptocurrency company wants to go global with its international money transfer app. Your project is to make sure that the database of the app is highly available in multiple regions.\nWhat are the benefits of adding Multi-AZ deployments in Amazon RDS?",
+    "answers": [
+        {
+            "text": "Increased database availability in the case of system upgrades like OS patching or DB Instance scaling.",
+            "right_answer": true
+        },
+        {
+            "text": "Provides enhanced database durability in the event of a DB instance component failure or an Availability Zone outage.",
+            "right_answer": true
+        },
+        {
+            "text": "Significantly increases the database performance."
+        },
+        {
+            "text": "Creates a primary DB Instance and synchronously replicates the data to a standby instance in a different Availability Zone (AZ) in a different region."
+        },
+        {
+            "text": "Provides SQL optimization."
+        }
+    ]
+}

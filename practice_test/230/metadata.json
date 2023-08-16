@@ -1,0 +1,35 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 230",
+        "kk": "Practice test quesion 230",
+        "ru": "Practice test quesion 230"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "230",
+    "aws_service": [
+        "VPC"
+    ],
+    "aws_group": [
+        "Networking & Content Delivery"
+    ]
+}

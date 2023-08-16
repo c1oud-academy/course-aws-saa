@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Amazon EBS General Purpose SSD (gp2)",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon EBS Provisioned IOPS SSD (io1)"
+        },
+        {
+            "text": "Amazon EBS Throughput Optimized HDD (st1)"
+        },
+        {
+            "text": "Amazon EBS Cold HDD (sc1)"
+        }
+    ],
+    "text": "A company plans to migrate a MySQL database from an on-premises data center to the AWS Cloud. This database will be used by a legacy batch application that has steady-state workloads in the morning but has its peak load at night for the end-of-day processing. You need to choose an EBS volume that can handle a maximum of 450 GB of data and can also be used as the system boot volume for your EC2 instance.\nWhich of the following is the most cost-effective storage type to use in this scenario?"
+}

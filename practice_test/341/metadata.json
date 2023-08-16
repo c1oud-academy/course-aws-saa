@@ -1,0 +1,39 @@
+{
+    "aws_service": [
+        "CloudWatch",
+        "EC2",
+        "IAM"
+    ],
+    "aws_group": [
+        "Management & Governance",
+        "Compute",
+        "Security, Identity, & Compliance"
+    ],
+    "content_type": "test",
+    "id": "341",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 341",
+        "kk": "Practice test quesion 341",
+        "ru": "Practice test quesion 341"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

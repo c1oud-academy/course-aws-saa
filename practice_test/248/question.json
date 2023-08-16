@@ -1,0 +1,18 @@
+{
+    "text": "A company has a web application that is relying entirely on slower disk-based databases, causing it to perform slowly. To improve its performance, the Solutions Architect integrated an in-memory data store to the web application using ElastiCache.\nHow does Amazon ElastiCache improve database performance?",
+    "answers": [
+        {
+            "text": "It reduces the load on your database by routing read queries from your applications to the Read Replica."
+        },
+        {
+            "text": "It securely delivers data to customers globally with low latency and high transfer speeds."
+        },
+        {
+            "text": "By caching database query results.",
+            "right_answer": true
+        },
+        {
+            "text": "It provides an in-memory cache that delivers up to 10x performance improvement from milliseconds to microseconds or even at millions of requests per second."
+        }
+    ]
+}

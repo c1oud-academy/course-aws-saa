@@ -1,0 +1,18 @@
+{
+    "text": "A tech company is currently using Auto Scaling for their web application. A new AMI now needs to be used for launching a fleet of EC2 instances.\nWhich of the following changes needs to be done?",
+    "answers": [
+        {
+            "text": "Create a new target group and launch configuration."
+        },
+        {
+            "text": "Create a new target group."
+        },
+        {
+            "text": "Do nothing. You can start directly launching EC2 instances in the Auto Scaling group with the same launch configuration."
+        },
+        {
+            "text": "Create a new launch configuration.",
+            "right_answer": true
+        }
+    ]
+}

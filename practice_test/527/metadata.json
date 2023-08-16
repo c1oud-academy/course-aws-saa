@@ -1,0 +1,42 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "S3",
+        "EBS",
+        "EC2",
+        "CloudWatch",
+        "Elastic Beanstalk",
+        "CloudTrail"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "527",
+    "aws_group": [
+        "Storage",
+        "Compute",
+        "Management & Governance"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 527",
+        "ru": "Practice test quesion 527",
+        "en": "Practice test quesion 527"
+    }
+}

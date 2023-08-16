@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect needs to set up a bastion host in Amazon VPC. It should only be accessed from the corporate data center via SSH. What is the best way to achieve this?",
+    "answers": [
+        {
+            "text": "Create a large EC2 instance with a security group which only allows access on port 22 using your own pre-configured password."
+        },
+        {
+            "text": "Create a large EC2 instance with a security group which only allows access on port 22 via the IP address of the corporate data center. Use a private key (.pem) file to connect to the bastion host."
+        },
+        {
+            "text": "Create a small EC2 instance with a security group which only allows access on port 22 using your own pre-configured password."
+        },
+        {
+            "text": "Create a small EC2 instance with a security group which only allows access on port 22 via the IP address of the corporate data center. Use a private key (.pem) file to connect to the bastion host.",
+            "right_answer": true
+        }
+    ]
+}

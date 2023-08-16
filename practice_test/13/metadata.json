@@ -1,0 +1,40 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Networking & Content Delivery",
+        "Security, Identity, & Compliance"
+    ],
+    "id": "13",
+    "title": {
+        "kk": "Practice test quesion 13",
+        "ru": "Practice test quesion 13",
+        "en": "Practice test quesion 13"
+    },
+    "aws_service": [
+        "Security Group",
+        "AWS Firewall Manager",
+        "WAF",
+        "Network Access Control Lists",
+        "VPC"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

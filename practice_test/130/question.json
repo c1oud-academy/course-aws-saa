@@ -1,0 +1,18 @@
+{
+    "text": "A company developed a meal planning application that provides meal recommendations for the week as well as the food consumption of the users. The application resides on an EC2 instance which requires access to various AWS services for its day-to-day operations.\nWhich of the following is the best way to allow the EC2 instance to access the S3 bucket and other AWS services?",
+    "answers": [
+        {
+            "text": "Store the API credentials in a bastion host."
+        },
+        {
+            "text": "Store the API credentials in the EC2 instance."
+        },
+        {
+            "text": "Create a role in IAM and assign it to the EC2 instance.",
+            "right_answer": true
+        },
+        {
+            "text": "Add the API Credentials in the Security Group and assign it to the EC2 instance."
+        }
+    ]
+}

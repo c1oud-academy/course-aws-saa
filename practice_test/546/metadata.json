@@ -1,0 +1,36 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "KMS",
+        "CloudHSM"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "546",
+    "aws_group": [
+        "Security, Identity, & Compliance"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 546",
+        "ru": "Practice test quesion 546",
+        "en": "Practice test quesion 546"
+    }
+}

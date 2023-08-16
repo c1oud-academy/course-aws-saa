@@ -1,0 +1,41 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "EC2",
+        "Availability Zone",
+        "AWS Region",
+        "bucket",
+        "S3"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "538",
+    "aws_group": [
+        "Storage",
+        "AWS Global Infrastructure",
+        "Compute"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 538",
+        "ru": "Practice test quesion 538",
+        "en": "Practice test quesion 538"
+    }
+}

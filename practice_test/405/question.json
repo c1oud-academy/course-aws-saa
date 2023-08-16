@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "No action needed. It can already be accessed from any IP address using SSH."
+        },
+        {
+            "text": "The network ACL needs to be modified to allow outbound traffic.",
+            "right_answer": true
+        },
+        {
+            "text": "Both the outbound security group and outbound network ACL need to be modified to allow outbound traffic."
+        },
+        {
+            "text": "The outbound security group needs to be modified to allow outbound traffic."
+        }
+    ],
+    "text": "An On-Demand EC2 instance is launched into a VPC subnet with the Network ACL configured to allow all inbound traffic and deny all outbound traffic. The instance\u2019s security group has an inbound rule to allow SSH from any IP address and does not have any outbound rules.\nIn this scenario, what are the changes needed to allow SSH connection to the instance?"
+}

@@ -1,0 +1,37 @@
+{
+    "aws_group": [
+        "Networking & Content Delivery",
+        "Compute"
+    ],
+    "type": "practice_test",
+    "id": "438",
+    "title": {
+        "ru": "Practice test quesion 438",
+        "kk": "Practice test quesion 438",
+        "en": "Practice test quesion 438"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "path": "metadata.json",
+            "lang": "en"
+        },
+        {
+            "type": "question",
+            "path": "question.json",
+            "lang": "en"
+        }
+    ],
+    "aws_service": [
+        "VPC",
+        "EC2"
+    ]
+}

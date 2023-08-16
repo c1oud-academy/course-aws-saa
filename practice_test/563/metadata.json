@@ -1,0 +1,38 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "Kinesis",
+        "bucket",
+        "S3"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "563",
+    "aws_group": [
+        "Storage",
+        "Analytics"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 563",
+        "ru": "Practice test quesion 563",
+        "en": "Practice test quesion 563"
+    }
+}

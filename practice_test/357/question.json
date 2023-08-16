@@ -1,0 +1,18 @@
+{
+    "text": "There are a few, easily reproducible but confidential files that your client wants to store in AWS without worrying about storage capacity. For the first month, all of these files will be accessed frequently but after that, they will rarely be accessed at all. The old files will only be accessed by developers so there is no set retrieval time requirement. However, the files under a specific corp-finance prefix in the S3 bucket will be used for post-processing that requires millisecond retrieval time.\nGiven these conditions, which of the following options would be the most cost-effective solution for your client's storage needs?",
+    "answers": [
+        {
+            "text": "Store the files in S3 then after a month, change the storage class of the bucket to S3-IA using lifecycle policy."
+        },
+        {
+            "text": "Store the files in S3 then after a month, change the storage class of the corp-finance prefix to S3-IA while the remaining go to Glacier using lifecycle policy."
+        },
+        {
+            "text": "Store the files in S3 then after a month, change the storage class of the corp-finance prefix to One Zone-IA while the remaining go to Glacier using lifecycle policy.",
+            "right_answer": true
+        },
+        {
+            "text": "Store the files in S3 then after a month, change the storage class of the bucket to Intelligent-Tiering using lifecycle policy."
+        }
+    ]
+}

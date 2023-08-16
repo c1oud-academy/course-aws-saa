@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "text": "Microsoft SQL Server",
+            "right_answer": true
+        },
+        {
+            "text": "MySQL",
+            "right_answer": true
+        },
+        {
+            "text": "MongoDB"
+        },
+        {
+            "text": "Cassandra"
+        },
+        {
+            "text": "Redis"
+        }
+    ],
+    "text": "Select examples of relational database:"
+}

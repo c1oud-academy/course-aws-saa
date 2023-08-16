@@ -1,0 +1,21 @@
+{
+    "answers": [
+        {
+            "text": "Enterprise",
+            "right_answer": true
+        },
+        {
+            "text": "Foundational"
+        },
+        {
+            "text": "Associate"
+        },
+        {
+            "text": "Professional"
+        },
+        {
+            "text": "Specialty"
+        }
+    ],
+    "text": "Select a non-existing AWS exams group:"
+}

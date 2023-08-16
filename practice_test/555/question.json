@@ -1,0 +1,22 @@
+{
+    "text": "A company requires corporate IT governance and cost oversight of all of its AWS resources across its divisions around the world. Their corporate divisions want to maintain administrative control of the discrete AWS resources they consume and ensure that those resources are separate from other divisions.\nWhich of the following options will support the autonomy of each corporate division while enabling the corporate IT to maintain governance and cost oversight?",
+    "answers": [
+        {
+            "text": "Create separate Availability Zones for each division within the corporate IT AWS account. Improve communication between the two AZs using the AWS Global Accelerator."
+        },
+        {
+            "text": "Use AWS Consolidated Billing by creating AWS Organizations to link the divisions\u2019 accounts to a parent corporate account.",
+            "right_answer": true
+        },
+        {
+            "text": "Use AWS Trusted Advisor and AWS Resource Groups Tag Editor"
+        },
+        {
+            "text": "Create separate VPCs for each division within the corporate IT AWS account. Launch an AWS Transit Gateway with equal-cost multipath routing (ECMP) and VPN tunnels for intra-VPC communication."
+        },
+        {
+            "text": "Enable IAM cross-account access for all corporate IT administrators in each child account.",
+            "right_answer": true
+        }
+    ]
+}

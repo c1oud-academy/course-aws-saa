@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Transit VPC"
+        },
+        {
+            "text": "AWS Site-to-Site VPN"
+        },
+        {
+            "text": "AWS Direct Connect",
+            "right_answer": true
+        },
+        {
+            "text": "Transit Gateway with equal-cost multipath routing (ECMP)"
+        }
+    ],
+    "text": "A company plans to implement a hybrid architecture. They need to create a dedicated connection from their Amazon Virtual Private Cloud (VPC) to their on-premises network. The connection must provide high bandwidth throughput and a more consistent network experience than Internet-based solutions.\nWhich of the following can be used to create a private connection between the VPC and the company's on-premises network?"
+}

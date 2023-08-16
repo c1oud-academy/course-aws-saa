@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "On-Demand Instances"
+        },
+        {
+            "text": "Reserved Instances"
+        },
+        {
+            "text": "Spot Instances"
+        },
+        {
+            "right_answer": true,
+            "text": "Private Instances"
+        }
+    ],
+    "text": "Select NON-existent Amazon EC2 pricing model:"
+}

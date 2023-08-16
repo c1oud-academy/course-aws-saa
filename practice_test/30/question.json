@@ -1,0 +1,22 @@
+{
+    "text": "A government agency plans to store confidential tax documents on AWS. Due to the sensitive information in the files, the Solutions Architect must restrict the data access requests made to the storage solution to a specific Amazon VPC only. The solution should also prevent the files from being deleted or overwritten to meet the regulatory requirement of having a write-once-read-many (WORM) storage model.\nWhich combination of the following options should the Architect implement?",
+    "answers": [
+        {
+            "text": "Create a new Amazon S3 bucket with the S3 Object Lock feature enabled. Store the documents in the bucket and set the Legal Hold option for object retention.",
+            "right_answer": true
+        },
+        {
+            "text": "Set up a new Amazon S3 bucket to store the tax documents and integrate it with AWS Network Firewall. Configure the Network Firewall to only accept data access requests from a specific Amazon VPC."
+        },
+        {
+            "text": "Store the tax documents in the Amazon S3 Glacier Instant Retrieval storage class to restrict fast data retrieval to a particular Amazon VPC of your choice."
+        },
+        {
+            "text": "Configure an Amazon S3 Access Point for the S3 bucket to restrict data access to a particular Amazon VPC only.",
+            "right_answer": true
+        },
+        {
+            "text": "Enable Object Lock but disable Object Versioning on the new Amazon S3 bucket to comply with the write-once-read-many (WORM) storage model requirement."
+        }
+    ]
+}

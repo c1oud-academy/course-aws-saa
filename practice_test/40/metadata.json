@@ -1,0 +1,43 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Storage",
+        "Networking & Content Delivery",
+        "Migration & Transfer"
+    ],
+    "id": "40",
+    "title": {
+        "kk": "Practice test quesion 40",
+        "ru": "Practice test quesion 40",
+        "en": "Practice test quesion 40"
+    },
+    "aws_service": [
+        "S3",
+        "Storage Gateway",
+        "VPC",
+        "AWS Snowmobile",
+        "bucket",
+        "Direct Connect",
+        "EBS"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

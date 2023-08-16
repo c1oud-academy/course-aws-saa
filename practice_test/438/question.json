@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "text": "Launch a NAT Gateway in the public subnet of each VPC."
+        },
+        {
+            "text": "Create an Egress-only Internet Gateway."
+        },
+        {
+            "text": "Set up a VPC peering connection between the VPCs.",
+            "right_answer": true
+        },
+        {
+            "text": "Deploy a VPC endpoint on each region to enable a private connection."
+        },
+        {
+            "text": "Re-configure the route table\u2019s target and destination of the instances\u2019 subnet.",
+            "right_answer": true
+        }
+    ],
+    "text": "An operations team has an application running on EC2 instances inside two custom VPCs. The VPCs are located in the Ohio and N.Virginia Region respectively. The team wants to transfer data between the instances without traversing the public internet.\nWhich combination of steps will achieve this?"
+}

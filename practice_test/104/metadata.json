@@ -1,0 +1,37 @@
+{
+    "aws_service": [
+        "S3",
+        "bucket",
+        "EBS"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 104",
+        "en": "Practice test quesion 104",
+        "kk": "Practice test quesion 104"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Storage"
+    ],
+    "id": "104"
+}

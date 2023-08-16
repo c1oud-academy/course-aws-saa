@@ -1,0 +1,22 @@
+{
+    "text": "An online learning company hosts its Microsoft .NET e-Learning application on a Windows Server in its on-premises data center. The application uses an Oracle Database Standard Edition as its backend database.\nThe company wants a high-performing solution to migrate this workload to the AWS cloud to take advantage of the cloud\u2019s high availability. The migration process should minimize development changes, and the environment should be easier to manage.\nWhich of the following options should be implemented to meet the company requirements?",
+    "answers": [
+        {
+            "text": "Use AWS Application Migration Service (AWS MGN) to migrate the on-premises Oracle database server to a new Amazon EC2 instance."
+        },
+        {
+            "text": "Rehost the on-premises .NET application to an AWS Elastic Beanstalk Multi-AZ environment which runs in multiple Availability Zones.",
+            "right_answer": true
+        },
+        {
+            "text": "Migrate the Oracle database to Amazon RDS for Oracle in a Multi-AZ deployment by using AWS Database Migration Service (AWS DMS).",
+            "right_answer": true
+        },
+        {
+            "text": "Provision and replatform the application to Amazon Elastic Container Service (Amazon ECS) with Amazon EC2 worker nodes. Use the Windows Server Amazon Machine Image (AMI) and deploy the .NET application using to the ECS cluster via the Amazon ECS Anywhere service."
+        },
+        {
+            "text": "Refactor the application to .NET Core and run it as a serverless container service using Amazon Elastic Kubernetes Service (Amazon EKS) with AWS Fargate."
+        }
+    ]
+}

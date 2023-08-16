@@ -1,0 +1,21 @@
+{
+    "text": "Select matching description for best practice 'Use caching':",
+    "answers": [
+        {
+            "text": "Match technology to the workload, not the other way around."
+        },
+        {
+            "text": "Assume everything fails. Then, design backward."
+        },
+        {
+            "text": "Take advantage of the flexibility of AWS to increase your cost efficiency."
+        },
+        {
+            "right_answer": true,
+            "text": "Caching minimizes redundant data retrieval operations, improving performance and cost."
+        },
+        {
+            "text": "Build security into every layer of your infrastructure."
+        }
+    ]
+}

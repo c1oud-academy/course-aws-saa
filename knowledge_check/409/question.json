@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "Block Public Access"
+        },
+        {
+            "text": "IAM policies"
+        },
+        {
+            "text": "Bucket policies"
+        },
+        {
+            "text": "Access control lists (ACLs)"
+        }
+    ],
+    "text": "What feature is enabled on new buckets by default to block public access in a simple way?"
+}

@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Software as a Service",
+            "right_answer": true
+        },
+        {
+            "text": "Service as a Service"
+        },
+        {
+            "text": "Solution as a Service"
+        },
+        {
+            "text": "Service as a Solution"
+        }
+    ],
+    "text": "What does SaaS stand for?"
+}

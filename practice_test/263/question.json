@@ -1,0 +1,18 @@
+{
+    "text": "A global online sports betting company has its popular web application hosted in AWS. They are planning to develop a new online portal for their new business venture and they hired you to implement the cloud architecture for a new online portal that will accept bets globally for world sports. You started to design the system with a relational database that runs on a single EC2 instance, which requires a single EBS volume that can support up to 30,000 IOPS.\nIn this scenario, which Amazon EBS volume type can you use that will meet the performance requirements of this new online portal?",
+    "answers": [
+        {
+            "text": "EBS Provisioned IOPS SSD (io1)",
+            "right_answer": true
+        },
+        {
+            "text": "EBS General Purpose SSD (gp2)"
+        },
+        {
+            "text": "EBS Throughput Optimized HDD (st1)"
+        },
+        {
+            "text": "EBS Cold HDD (sc1)"
+        }
+    ]
+}

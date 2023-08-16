@@ -1,0 +1,21 @@
+{
+    "text": "What is the mininun amount of availability zones in AWS Region?",
+    "answers": [
+        {
+            "text": "1"
+        },
+        {
+            "right_answer": true,
+            "text": "2"
+        },
+        {
+            "text": "3"
+        },
+        {
+            "text": "4"
+        },
+        {
+            "text": "5"
+        }
+    ]
+}

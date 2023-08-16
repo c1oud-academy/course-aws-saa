@@ -1,0 +1,18 @@
+{
+    "text": "What is the AWS service that generates optimization recommendations to reduce the cost and improve the performance of your workloads?",
+    "answers": [
+        {
+            "text": "Amazon EC2"
+        },
+        {
+            "text": "EC2 Image Builder"
+        },
+        {
+            "text": "AWS EC2 Optimizer"
+        },
+        {
+            "text": "AWS Compute Optimizer",
+            "right_answer": true
+        }
+    ]
+}

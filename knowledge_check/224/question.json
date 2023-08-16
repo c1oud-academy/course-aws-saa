@@ -1,0 +1,21 @@
+{
+    "answers": [
+        {
+            "text": "AWS Cloud Adoption Framework",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Cloud Adaptation Framework"
+        },
+        {
+            "text": "AWS Cloud Adoption Firewall"
+        },
+        {
+            "text": "AWS Cloud Adaptation Firewall"
+        },
+        {
+            "text": "Other"
+        }
+    ],
+    "text": "What does AWS CAF stand for?"
+}

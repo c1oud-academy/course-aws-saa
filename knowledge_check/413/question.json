@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "S3 Access Points"
+        },
+        {
+            "text": "IAM policies"
+        },
+        {
+            "text": "Presigned URLs"
+        },
+        {
+            "text": "Access control lists (ACLs)"
+        }
+    ],
+    "text": "What is a feature to configure access with names and permissions specific to each application?"
+}

@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Outputs",
+            "right_answer": true
+        },
+        {
+            "text": "Resources"
+        },
+        {
+            "text": "Parameters"
+        },
+        {
+            "text": "Mappings"
+        }
+    ],
+    "text": "An organization created a new CloudFormation template that creates 4 EC2 instances that are connected to one Elastic Load Balancer (ELB). Which section of the template should be configured to get the Domain Name Server hostname of the ELB upon the creation of the AWS stack?"
+}

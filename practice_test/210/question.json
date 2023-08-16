@@ -1,0 +1,18 @@
+{
+    "text": "A document sharing website is using AWS as its cloud infrastructure. Free users can upload a total of 5 GB data while premium users can upload as much as 5 TB. Their application uploads the user files, which can have a max file size of 1 TB, to an S3 Bucket.\nIn this scenario, what is the best way for the application to upload the large files in S3?",
+    "answers": [
+        {
+            "text": "Use AWS Snowball"
+        },
+        {
+            "text": "Use a single PUT request to upload the large file"
+        },
+        {
+            "text": "Use Multipart Upload",
+            "right_answer": true
+        },
+        {
+            "text": "Use AWS Import/Export"
+        }
+    ]
+}

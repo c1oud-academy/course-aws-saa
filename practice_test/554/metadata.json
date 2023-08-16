@@ -1,0 +1,36 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "VPC",
+        "AWS Cloud Map"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "554",
+    "aws_group": [
+        "Networking & Content Delivery"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 554",
+        "ru": "Practice test quesion 554",
+        "en": "Practice test quesion 554"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A web application, which is used by your clients around the world, is hosted in an Auto Scaling group of EC2 instances behind a Classic Load Balancer. You need to secure your application by allowing multiple domains to serve SSL traffic over the same IP address.\nWhich of the following should you do to meet the above requirement?",
+    "answers": [
+        {
+            "text": "It is not possible to allow multiple domains to serve SSL traffic over the same IP address in AWS"
+        },
+        {
+            "text": "Use Server Name Indication (SNI) on your Classic Load Balancer by adding multiple SSL certificates to allow multiple domains to serve SSL traffic."
+        },
+        {
+            "text": "Use an Elastic IP and upload multiple 3rd party certificates in your Classic Load Balancer using the AWS Certificate Manager."
+        },
+        {
+            "text": "Generate an SSL certificate with AWS Certificate Manager and create a CloudFront web distribution. Associate the certificate with your web distribution and enable the support for Server Name Indication (SNI).",
+            "right_answer": true
+        }
+    ]
+}
