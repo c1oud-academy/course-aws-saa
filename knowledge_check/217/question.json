@@ -1,0 +1,23 @@
+{
+    "answers": [
+        {
+            "text": "Trade capital expense for variable expense",
+            "right_answer": true
+        },
+        {
+            "text": "Stop wasting money on running and maintaining data centers",
+            "right_answer": true
+        },
+        {
+            "text": "Going global in minutes",
+            "right_answer": true
+        },
+        {
+            "text": "Going global in days"
+        },
+        {
+            "text": "Going global in seconds"
+        }
+    ],
+    "text": "Select advantages of cloud:"
+}

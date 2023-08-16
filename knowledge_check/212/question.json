@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "PaaS"
+        },
+        {
+            "text": "IaaS"
+        },
+        {
+            "text": "SaaS",
+            "right_answer": true
+        },
+        {
+            "text": "Other"
+        }
+    ],
+    "text": "What is the cloud service model with the least control over IT resources?"
+}

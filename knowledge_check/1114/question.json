@@ -1,0 +1,21 @@
+{
+    "text": "Which resource is being used in case we need static and public IP address?",
+    "answers": [
+        {
+            "text": "Internet Gateway"
+        },
+        {
+            "text": "Route Table"
+        },
+        {
+            "text": "Elastic IP address",
+            "right_answer": true
+        },
+        {
+            "text": "NAT Gateway"
+        },
+        {
+            "text": "Bastion host"
+        }
+    ]
+}

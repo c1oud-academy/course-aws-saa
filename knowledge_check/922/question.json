@@ -1,0 +1,21 @@
+{
+    "answers": [
+        {
+            "text": "Amazon RDS"
+        },
+        {
+            "text": "Amazon Redshift",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon Aurora"
+        },
+        {
+            "text": "Amazon DynamoDB"
+        },
+        {
+            "text": "Amazon ElastiCache"
+        }
+    ],
+    "text": "Select relational database AWS service that best suits for OLAP workloads:"
+}

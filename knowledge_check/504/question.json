@@ -1,0 +1,32 @@
+{
+    "text": "Select an existing storage classes of Amazon S3:",
+    "answers": [
+        {
+            "text": "Standard",
+            "right_answer": true
+        },
+        {
+            "text": "One Zone IA",
+            "right_answer": true
+        },
+        {
+            "text": "Glacier",
+            "right_answer": true
+        },
+        {
+            "text": "Two Zones"
+        },
+        {
+            "text": "Smart Tiering"
+        },
+        {
+            "text": "3 Zones"
+        },
+        {
+            "text": "AI"
+        },
+        {
+            "text": "Cross-Region"
+        }
+    ]
+}

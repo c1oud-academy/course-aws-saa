@@ -1,0 +1,21 @@
+{
+    "text": "Which AWS Well-Architected Framework pillar is about considering using managed services:",
+    "answers": [
+        {
+            "text": "Operational Excellence"
+        },
+        {
+            "text": "Security"
+        },
+        {
+            "text": "Reliability"
+        },
+        {
+            "text": "Performance Efficiency"
+        },
+        {
+            "right_answer": true,
+            "text": "Cost Optimization"
+        }
+    ]
+}

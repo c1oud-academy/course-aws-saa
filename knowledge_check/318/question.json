@@ -1,0 +1,21 @@
+{
+    "text": "What is the mininun amount of data centers in AWS Availailty Zone?",
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "1"
+        },
+        {
+            "text": "2"
+        },
+        {
+            "text": "3"
+        },
+        {
+            "text": "4"
+        },
+        {
+            "text": "5"
+        }
+    ]
+}

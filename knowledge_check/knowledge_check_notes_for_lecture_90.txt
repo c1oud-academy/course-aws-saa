@@ -1,0 +1,174 @@
+901
+Select examples of relational database:
++A) Microsoft SQL Server
++D) PostgreSQL
+E) MongoDB
+F) Cassandra
+G) Redis
+
+902
+Select examples of relational database:
++A) Microsoft SQL Server
++B) Oracle Database
+E) MongoDB
+F) Cassandra
+G) Redis
+
+903
+Select examples of relational database:
++C) MySQL
++D) PostgreSQL
+E) MongoDB
+F) Cassandra
+G) Redis
+
+904
+Select examples of relational database:
++B) Oracle Database
++D) PostgreSQL
+E) MongoDB
+F) Cassandra
+G) Redis
+
+905
+Select examples of relational database:
++A) Microsoft SQL Server
++C) MySQL
+E) MongoDB
+F) Cassandra
+G) Redis
+
+906
+Select examples of non-relational database:
+A) Microsoft SQL Server
+B) Oracle Database
+C) MySQL
+D) PostgreSQL
++E) MongoDB
++F) Cassandra
+
+907
+Select examples of non-relational database:
+A) Microsoft SQL Server
+B) Oracle Database
+C) MySQL
+D) PostgreSQL
++E) MongoDB
++G) Redis
+
+908
+Select examples of non-relational database:
+A) Microsoft SQL Server
+B) Oracle Database
+C) MySQL
+D) PostgreSQL
++F) Cassandra
++G) Redis
+
+909
+Select examples of relational database AWS service:
++A) Amazon RDS
++D) Amazon Redshift
+F) Amazon DynamoDB
+G) Amazon ElastiCache
+G) Amazon Neptune
+
+910
+Select examples of relational database AWS service:
++A) Amazon RDS
++E) Amazon Aurora
+F) Amazon DynamoDB
+G) Amazon ElastiCache
+G) Amazon Neptune
+
+911
+Select examples of relational database AWS service:
++D) Amazon Redshift
++E) Amazon Aurora
+F) Amazon DynamoDB
+G) Amazon ElastiCache
+G) Amazon Neptune
+
+912
+Select examples of non-relational database AWS service:
+A) Amazon RDS
+D) Amazon Redshift
+E) Amazon Aurora
++G) Amazon ElastiCache
++G) Amazon Neptune
+
+913
+Select examples of non-relational database AWS service:
+A) Amazon RDS
+D) Amazon Redshift
+E) Amazon Aurora
++F) Amazon DynamoDB
++G) Amazon Neptune
+
+914
+Select examples of non-relational database AWS service:
+A) Amazon RDS
+D) Amazon Redshift
+E) Amazon Aurora
++F) Amazon DynamoDB
++G) Amazon ElastiCache
+
+915
+What is the Amazon RDS database instance family that can burst CPU usage when needed?
++A) T family
+D) M family
+E) R family
+F) None of options
+
+916
+What is the Amazon RDS database instance family that best suits for CPU-intensive workloads?
+A) T family
++D) M family
+E) R family
+F) None of options
+
+917
+What is the Amazon RDS database instance family that best suits for memory-intensive workloads?
+A) T family
+D) M family
++E) R family
+F) None of options
+
+918
+What is the Amazon RDS feature that provides high availability?
++A) Multi-AZ deployment
+D) Read Replicas
+E) Automated DB Snapshots
+F) Manual DB Snapshots
+
+919
+What is the Amazon RDS feature that enhances DB performance?
+A) Multi-AZ deployment
++D) Read Replicas
+E) Automated DB Snapshots
+F) Manual DB Snapshots
+
+920
+Select DB engines which Amazon Aurora uses as a base:
++A) PostgreSQL
++D) MySQL
+A) Microsoft SQL Server
+B) Oracle Database
+E) MongoDB
+
+921
+Select relational database AWS service that best suits for OLTP workloads:
++A) Amazon RDS
+D) Amazon Redshift
++E) Amazon Aurora
+F) Amazon DynamoDB
+G) Amazon ElastiCache
+
+922
+Select relational database AWS service that best suits for OLAP workloads:
+A) Amazon RDS
++D) Amazon Redshift
+E) Amazon Aurora
+F) Amazon DynamoDB
+G) Amazon ElastiCache
+

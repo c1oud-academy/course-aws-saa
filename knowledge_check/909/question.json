@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "text": "Amazon RDS",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon Redshift",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon DynamoDB"
+        },
+        {
+            "text": "Amazon ElastiCache"
+        },
+        {
+            "text": "Amazon Neptune"
+        }
+    ],
+    "text": "Select examples of relational database AWS service:"
+}

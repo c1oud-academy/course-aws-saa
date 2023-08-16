@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "Cross-Origin Resource Sharing"
+        },
+        {
+            "text": "Cross-Origin Region Sharing"
+        },
+        {
+            "text": "Cross-Origin Resource Security"
+        },
+        {
+            "text": "Cross-Origin Region Security"
+        }
+    ],
+    "text": "What CORS stands for?"
+}

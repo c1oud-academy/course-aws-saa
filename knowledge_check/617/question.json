@@ -1,0 +1,19 @@
+{
+    "text": "What are the storage options that available for root volume?",
+    "answers": [
+        {
+            "text": "Instance Store",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon EBS",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon EFS"
+        },
+        {
+            "text": "Amazon FSx"
+        }
+    ]
+}

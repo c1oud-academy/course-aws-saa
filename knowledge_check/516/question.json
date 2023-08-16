@@ -1,0 +1,21 @@
+{
+    "text": "What is the feature of Amazon S3 that helps you to optimize upload of large objects by dividing into multiple parts?",
+    "answers": [
+        {
+            "text": "Lifecycle policies"
+        },
+        {
+            "text": "Multipart upload",
+            "right_answer": true
+        },
+        {
+            "text": "Transfer Acceleration"
+        },
+        {
+            "text": "AWS Snowball"
+        },
+        {
+            "text": "AWS Snowmobile"
+        }
+    ]
+}

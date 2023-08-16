@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Cluster"
+        },
+        {
+            "text": "Partition"
+        },
+        {
+            "right_answer": true,
+            "text": "Spread"
+        },
+        {
+            "text": "Standard"
+        }
+    ],
+    "text": "Which EC2 placement strategy reduces correlated hardware failure?"
+}

@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Block Public Access"
+        },
+        {
+            "text": "IAM policies"
+        },
+        {
+            "right_answer": true,
+            "text": "Bucket policies"
+        },
+        {
+            "text": "Access control lists (ACLs)"
+        }
+    ],
+    "text": "What feature helps to apply access policy on a bucket or object level?"
+}

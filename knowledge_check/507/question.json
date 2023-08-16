@@ -1,0 +1,18 @@
+{
+    "text": "What is the feature of Amazon S3 that helps you to trasnfer objects from different storage classes or delete by defining set of rules?",
+    "answers": [
+        {
+            "text": "Lifecycle policies",
+            "right_answer": true
+        },
+        {
+            "text": "IAM policies"
+        },
+        {
+            "text": "Bucket policies"
+        },
+        {
+            "text": "CORS"
+        }
+    ]
+}

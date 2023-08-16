@@ -1,0 +1,127 @@
+1301
+What is the service that connect on-premises network to VPC through VPN over the Internet?
++A) AWS Site-to-Site VPN
+D) AWS Direct Connect (DX)
+E) VPC Peering
+F) AWS Transit Gateway
+E) VPC Endpoints
+
+1302
+Select available routing options for AWS Site-to-Site VPN:
+A) Standard routing
++D) Static routing
++E) Dynamic routing
+F) Global routing
+F) Public routing
+F) Private routing
+
+1303
+Is it possible to connect multiple customer gateways to single virtual private gateway on AWS side during VPN set up?
++A) Yes
+D) No
+E) Yes, depends on virtual private gateway type
+F) Yes, depends on customer gateways types
+
+1304
+What is the service that connect on-premises network to AWS Global network directly?
+A) AWS Site-to-Site VPN
++D) AWS Direct Connect (DX)
+E) VPC Peering
+F) AWS Transit Gateway
+E) VPC Endpoints
+
+1305
+What is the service that connect directly 2 VPC?
+A) AWS Site-to-Site VPN
+D) AWS Direct Connect (DX)
++E) VPC Peering
+F) AWS Transit Gateway
+E) VPC Endpoints
+
+1306
+Select steps to be done to connect 2 VPC using VPC Peering connection
++A) Create Peering connection resource
++D) Accept connection from Acceptor VPC
++E) Configure Route tables
+F) Configure VPCs
+F) Accept connection from Requestor VPC
+
+1307
+Select statements that are true regarding VPC Peering connection
++A) Deal with private IP addresses
+A) Deal with public IP addresses
++D) Support cross-region connections
+D) Do not support cross-region connections
+E) VPC CIDR blocks can be overlapped
++E) VPC CIDR blocks can not be overlapped
+F) Support of transitive peering relationships
++F) No support of transitive peering relationships
+
+1308
+Select statements that are true regarding VPC Peering connection
++A) Deal with private IP addresses
+A) Deal with public IP addresses
++D) Supports cross-account connections
+D) Do not support cross-account connections
+E) VPC CIDR blocks can be overlapped
++E) VPC CIDR blocks can not be overlapped
+F) Support of transitive peering relationships
++F) No support of transitive peering relationships
+
+1309
+Select statements that are true regarding VPC Peering connection
++A) Deal with private IP addresses
+A) Deal with public IP addresses
++D) Supports cross-account connections
+D) Do not support cross-account connections
++D) Support cross-region connections
+D) Do not support cross-region connections
+F) Support of transitive peering relationships
++F) No support of transitive peering relationships
+
+1310
+Select statements that are true regarding VPC Peering connection
++A) Deal with private IP addresses
+A) Deal with public IP addresses
++D) Supports cross-account connections
+D) Do not support cross-account connections
++D) Support cross-region connections
+D) Do not support cross-region connections
+E) VPC CIDR blocks can be overlapped
++E) VPC CIDR blocks can not be overlapped
+
+1311
+Select statements that are true regarding VPC Peering connection
++D) Supports cross-account connections
+D) Do not support cross-account connections
++D) Support cross-region connections
+D) Do not support cross-region connections
+E) VPC CIDR blocks can be overlapped
++E) VPC CIDR blocks can not be overlapped
+F) Support of transitive peering relationships
++F) No support of transitive peering relationships
+
+1312
+What is the service that connect multiple VPCs by hub-and-spoke model?
+A) AWS Site-to-Site VPN
+D) AWS Direct Connect (DX)
+E) VPC Peering
++F) AWS Transit Gateway
+E) VPC Endpoints
+
+1313
+What is the service that connects resources in VPC with other AWS Services?
+A) AWS Site-to-Site VPN
+D) AWS Direct Connect (DX)
+E) VPC Peering
+F) AWS Transit Gateway
++E) VPC Endpoints
+
+1314
+Select available VPC Endpoint types
++A) Interface endpoint
+D) Global endpoint
+E) Private endpoint
+F) Public endpoint
++E) Gateway endpoint
+

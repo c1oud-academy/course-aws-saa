@@ -1,0 +1,22 @@
+{
+    "text": "Select main cosiderations when choosing AWS Region:",
+    "answers": [
+        {
+            "text": "Latency",
+            "right_answer": true
+        },
+        {
+            "text": "End-user device OS distribution"
+        },
+        {
+            "text": "Server availabilty"
+        },
+        {
+            "text": "Cost",
+            "right_answer": true
+        },
+        {
+            "text": "End-user age distribution"
+        }
+    ]
+}

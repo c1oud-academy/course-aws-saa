@@ -1,0 +1,31 @@
+{
+    "id": "101",
+    "title": {
+        "en": "Knowledge check quesion 101",
+        "ru": "Knowledge check quesion 101",
+        "kk": "Knowledge check quesion 101"
+    },
+    "type": "knowledge_check",
+    "linked_id": "10",
+    "linked_type": "lecture",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "linked_type",
+        "linked_id"
+    ],
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "content_type": "test"
+}

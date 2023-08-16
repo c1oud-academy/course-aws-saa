@@ -1,0 +1,18 @@
+{
+    "text": "Select true statement about default Security groups:",
+    "answers": [
+        {
+            "text": "Block all inboud and allow all outbound traffic",
+            "right_answer": true
+        },
+        {
+            "text": "Block all inboud and block all outbound traffic"
+        },
+        {
+            "text": "Allow all inboud and block all outbound traffic"
+        },
+        {
+            "text": "Allow all inboud and allow all outbound traffic"
+        }
+    ]
+}

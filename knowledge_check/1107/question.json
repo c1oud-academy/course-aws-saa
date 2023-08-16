@@ -1,0 +1,21 @@
+{
+    "text": "How many IP addresses AWS reserves in each VPC CIDR block?",
+    "answers": [
+        {
+            "text": "1"
+        },
+        {
+            "text": "2"
+        },
+        {
+            "text": "3"
+        },
+        {
+            "text": "4"
+        },
+        {
+            "text": "5",
+            "right_answer": true
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Block Public Access"
+        },
+        {
+            "text": "IAM policies"
+        },
+        {
+            "text": "Bucket policies"
+        },
+        {
+            "right_answer": true,
+            "text": "Access control lists (ACLs)"
+        }
+    ],
+    "text": "What is a legacy access control mechanism?"
+}

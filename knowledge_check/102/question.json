@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Netflix",
+            "right_answer": true
+        },
+        {
+            "text": "AWS"
+        },
+        {
+            "text": "Azure"
+        },
+        {
+            "text": "GCP"
+        }
+    ],
+    "text": "Select the company which is not a cloud provider:"
+}

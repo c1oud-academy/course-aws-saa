@@ -1,0 +1,21 @@
+{
+    "text": "What is the service that connect on-premises network to AWS Global network directly?",
+    "answers": [
+        {
+            "text": "AWS Site-to-Site VPN"
+        },
+        {
+            "text": "AWS Direct Connect (DX)",
+            "right_answer": true
+        },
+        {
+            "text": "VPC Peering"
+        },
+        {
+            "text": "AWS Transit Gateway"
+        },
+        {
+            "text": "VPC Endpoints"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "text": "Which option is NOT one of the AWS Well-Architected Framework pillars:",
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "High avalability"
+        },
+        {
+            "text": "Operational Excellence"
+        },
+        {
+            "text": "Security"
+        },
+        {
+            "text": "Reliability"
+        },
+        {
+            "text": "Performance Efficiency"
+        },
+        {
+            "text": "Cost Optimization"
+        }
+    ]
+}

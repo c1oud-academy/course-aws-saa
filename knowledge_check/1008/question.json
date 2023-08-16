@@ -1,0 +1,25 @@
+{
+    "answers": [
+        {
+            "text": "Microsoft SQL Server"
+        },
+        {
+            "text": "Oracle Database"
+        },
+        {
+            "text": "MySQL"
+        },
+        {
+            "text": "PostgreSQL"
+        },
+        {
+            "text": "Cassandra",
+            "right_answer": true
+        },
+        {
+            "text": "Redis",
+            "right_answer": true
+        }
+    ],
+    "text": "Select examples of non-relational database:"
+}

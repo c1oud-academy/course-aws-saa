@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Block Public Access"
+        },
+        {
+            "right_answer": true,
+            "text": "IAM policies"
+        },
+        {
+            "text": "Bucket policies"
+        },
+        {
+            "text": "Access control lists (ACLs)"
+        }
+    ],
+    "text": "What feature helps to authenticate user using IAM?"
+}

@@ -1,0 +1,18 @@
+{
+    "text": "What is the URL accessible from EC2 instance that shows instance userdata?",
+    "answers": [
+        {
+            "text": "http://169.254.169.254/latest/meta-data"
+        },
+        {
+            "text": "http://254.169.254.169/latest/meta-data"
+        },
+        {
+            "text": "http://169.254.169.254/latest/user-data",
+            "right_answer": true
+        },
+        {
+            "text": "http://254.169.254.169/latest/user-data"
+        }
+    ]
+}

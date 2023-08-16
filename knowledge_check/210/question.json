@@ -1,0 +1,26 @@
+{
+    "answers": [
+        {
+            "text": "PaaS",
+            "right_answer": true
+        },
+        {
+            "text": "BaaS"
+        },
+        {
+            "text": "IaaS",
+            "right_answer": true
+        },
+        {
+            "text": "ZaaS"
+        },
+        {
+            "text": "SaaS",
+            "right_answer": true
+        },
+        {
+            "text": "KaaS"
+        }
+    ],
+    "text": "Select existing cloud service models:"
+}

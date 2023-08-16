@@ -1,0 +1,18 @@
+{
+    "text": "What is the CIDR block that represents the Internet?",
+    "answers": [
+        {
+            "text": "0.0.0.0/0",
+            "right_answer": true
+        },
+        {
+            "text": "0.0.0.0/32"
+        },
+        {
+            "text": "10.0.0.0/0"
+        },
+        {
+            "text": "10.0.0.0/16"
+        }
+    ]
+}

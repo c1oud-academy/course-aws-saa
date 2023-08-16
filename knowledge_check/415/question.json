@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "SSE-S3"
+        },
+        {
+            "text": "SSE KMS"
+        },
+        {
+            "text": "CSE"
+        },
+        {
+            "right_answer": true,
+            "text": "CSE KMS"
+        }
+    ],
+    "text": "Select non-existing ecncryption option?"
+}

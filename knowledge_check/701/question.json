@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "AURI"
+        },
+        {
+            "text": "BURI"
+        },
+        {
+            "text": "FURI"
+        },
+        {
+            "right_answer": true,
+            "text": "PURI"
+        },
+        {
+            "text": "MURI"
+        }
+    ],
+    "text": "Select available Reserved Instances (RI) payment models:"
+}

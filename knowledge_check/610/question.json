@@ -1,0 +1,18 @@
+{
+    "text": "What is the AWS service that automates the creation, management, and deployment of up-to-date and compliant golden VM images?",
+    "answers": [
+        {
+            "text": "EC2"
+        },
+        {
+            "text": "EC2 Image Builder",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Marketplace"
+        },
+        {
+            "text": "EC2 AMI Builder"
+        }
+    ]
+}

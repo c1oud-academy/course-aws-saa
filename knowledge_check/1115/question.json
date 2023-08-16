@@ -1,0 +1,21 @@
+{
+    "text": "Which resource is being used in case we need to provide Internet securely for resources in private subnet?",
+    "answers": [
+        {
+            "text": "Internet Gateway"
+        },
+        {
+            "text": "Route Table"
+        },
+        {
+            "text": "Elastic IP address"
+        },
+        {
+            "text": "NAT Gateway",
+            "right_answer": true
+        },
+        {
+            "text": "Bastion host"
+        }
+    ]
+}

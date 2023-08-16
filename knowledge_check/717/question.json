@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "On-Demand Instances"
+        },
+        {
+            "right_answer": true,
+            "text": "Reserved Instances"
+        },
+        {
+            "text": "Spot Instances"
+        },
+        {
+            "text": "Dedicated Hosts"
+        }
+    ],
+    "text": "Select Amazon EC2 pricing model that best suits for predictable and steady workloads:"
+}

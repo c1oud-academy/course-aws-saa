@@ -1,0 +1,21 @@
+{
+    "text": "What is the feature of Amazon S3 that helps you to optimize upload by taking advantage of AWS edge locations distributed globally?",
+    "answers": [
+        {
+            "text": "Lifecycle policies"
+        },
+        {
+            "text": "Multipart upload"
+        },
+        {
+            "text": "Transfer Acceleration",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Snowball"
+        },
+        {
+            "text": "AWS Snowmobile"
+        }
+    ]
+}

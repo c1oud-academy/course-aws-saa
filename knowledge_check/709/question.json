@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "1 year"
+        },
+        {
+            "text": "2 years"
+        },
+        {
+            "right_answer": true,
+            "text": "3 years"
+        },
+        {
+            "text": "4 years"
+        },
+        {
+            "text": "5 years"
+        }
+    ],
+    "text": "What are available RI contract periods?"
+}

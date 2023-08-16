@@ -1,0 +1,19 @@
+{
+    "answers": [
+        {
+            "text": "Start guessing capacity"
+        },
+        {
+            "text": "Increase speed and agility",
+            "right_answer": true
+        },
+        {
+            "text": "Start spending money on running and maintaining data centers"
+        },
+        {
+            "text": "Going global in minutes",
+            "right_answer": true
+        }
+    ],
+    "text": "Select advantages of cloud:"
+}

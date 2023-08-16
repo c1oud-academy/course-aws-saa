@@ -1,0 +1,23 @@
+{
+    "text": "Select steps to be done to connect 2 VPC using VPC Peering connection",
+    "answers": [
+        {
+            "text": "Create Peering connection resource",
+            "right_answer": true
+        },
+        {
+            "text": "Accept connection from Acceptor VPC",
+            "right_answer": true
+        },
+        {
+            "text": "Configure Route tables",
+            "right_answer": true
+        },
+        {
+            "text": "Configure VPCs"
+        },
+        {
+            "text": "Accept connection from Requestor VPC"
+        }
+    ]
+}

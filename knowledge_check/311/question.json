@@ -1,0 +1,21 @@
+{
+    "text": "Which AWS Well-Architected Framework pillars addresses the ability to run and monitor systems:",
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "Operational Excellence"
+        },
+        {
+            "text": "Security"
+        },
+        {
+            "text": "Reliability"
+        },
+        {
+            "text": "Performance Efficiency"
+        },
+        {
+            "text": "Cost Optimization"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "answers": [
+        {
+            "text": "Traditional computing model",
+            "right_answer": true
+        },
+        {
+            "text": "Cloud computing model"
+        },
+        {
+            "text": "Modern computing model"
+        },
+        {
+            "text": "Ancient computing model"
+        },
+        {
+            "text": "Rain computing model"
+        },
+        {
+            "text": "Foreign computing model"
+        }
+    ],
+    "text": "Select computing model where your servers are forced to idle without load:"
+}

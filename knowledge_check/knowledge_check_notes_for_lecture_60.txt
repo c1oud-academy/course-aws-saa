@@ -1,0 +1,155 @@
+600
+What is the service that provides the highest infrastructure control and customization?
++A) Amazon EC2
+A) Amazon ECS
+A) AWS Elastic Beanstalk
+A) AWS Lambda
+
+601
+What is the service that provides the fastest application deployment ability and the lowest infrastructure control and customization?
+A) Amazon EC2
+A) Amazon ECS
+A) AWS Elastic Beanstalk
++A) AWS Lambda
+
+602
+What is the service that deals with Docker containers?
+A) Amazon EC2
++A) Amazon ECS
+A) AWS Elastic Beanstalk
+A) AWS Lambda
+
+603
+What is the service works in PaaS model?
+A) Amazon EC2
+A) Amazon ECS
++A) AWS Elastic Beanstalk
+A) AWS Lambda
+
+604
+What AMI stands for?
+A) Amazon Machine Instance
++A) Amazon Machine Image
+A) Apple Machine Instance
+A) Apple Machine Image
+
+605
+What are valid AMI sources?
++A) AWS Marketplace
++A) Community AMIs
+A) AWS AMI Store
+A) Company AMIs
+
+606
+What are valid AMI sources?
++A) My AMIs
++A) Community AMIs
+A) AWS AMI Store
+A) Company AMIs
+
+607
+What are valid AMI sources?
++A) My AMIs
++A) AWS Marketplace
+A) AWS AMI Store
+A) Company AMIs
+
+608
+Which statements are true regarding EBS-backed instances comparing Instance Store-backed instances?
++A) Boots faster
++A) Root device max size up to 16 TiB
++A) Instance can be stopped
++A) Can change instance type
+A) Boots slower
+A) Root device max size up to 10 GiB
+A) Instance can not be stopped
+A) Can not change instance type
+
+609
+Which statements are true regarding Instance Store-backed instances comparing EBS-backed instances?
+A) Boots faster
+A) Root device max size up to 16 TiB
+A) Instance can be stopped
+A) Can change instance type
++A) Boots slower
++A) Root device max size up to 10 GiB
++A) Instance can not be stopped
++A) Can not change instance type
+
+610
+What is the AWS service that automates the creation, management, and deployment of up-to-date and compliant golden VM images?
+A) EC2
++A) EC2 Image Builder
+A) AWS Marketplace
+A) EC2 AMI Builder
+
+611
+What is the instance type family part for instance type m5d.xlarge?
++A) m
+A) 5
+A) d
+A) xlarge
+
+612
+What is the instance type generation part for instance type m5d.xlarge?
+A) m
++A) 5
+A) d
+A) xlarge
+
+613
+What is the instance size part for instance type m5d.xlarge?
+A) m
+A) 5
+A) d
++A) xlarge
+
+614
+What is the AWS service that generates optimization recommendations to reduce the cost and improve the performance of your workloads?
+A) Amazon EC2
+A) EC2 Image Builder
+A) AWS EC2 Optimizer
++A) AWS Compute Optimizer
+
+615
+What is the URL accessible from EC2 instance that shows instance metadata?
++A) http://169.254.169.254/latest/meta-data
+A) http://254.169.254.169/latest/meta-data
+A) http://169.254.169.254/latest/user-data
+A) http://254.169.254.169/latest/user-data
+
+616
+What is the URL accessible from EC2 instance that shows instance userdata?
+A) http://169.254.169.254/latest/meta-data
+A) http://254.169.254.169/latest/meta-data
++A) http://169.254.169.254/latest/user-data
+A) http://254.169.254.169/latest/user-data
+
+617
+What are the storage options that available for root volume?
++A) Instance Store
++A) Amazon EBS
+A) Amazon EFS
+A) Amazon FSx
+
+618
+What are the storage options that used to share data among multiple EC2 intances?
+A) Instance Store
+A) Amazon EBS
++A) Amazon EFS
++A) Amazon FSx
+
+619
+What are the EBS volume types that can be used for root volume?
++A) General Purpose SSD (gp2)
++A) Provisioned IOPS SSD (io1)
+A) Throughput Optimized HDD (st1)
+A) Cold HDD (sc1)
+
+620
+What are the EBS volume types that can not be used for root volume?
+A) General Purpose SSD (gp2)
+A) Provisioned IOPS SSD (io1)
++A) Throughput Optimized HDD (st1)
++A) Cold HDD (sc1)
+

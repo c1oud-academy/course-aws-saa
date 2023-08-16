@@ -1,0 +1,18 @@
+{
+    "text": "What is the service that provides the highest infrastructure control and customization?",
+    "answers": [
+        {
+            "text": "Amazon EC2",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon ECS"
+        },
+        {
+            "text": "AWS Elastic Beanstalk"
+        },
+        {
+            "text": "AWS Lambda"
+        }
+    ]
+}

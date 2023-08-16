@@ -1,0 +1,25 @@
+{
+    "answers": [
+        {
+            "text": "Traditional computing model",
+            "right_answer": true
+        },
+        {
+            "text": "Cloud computing model",
+            "right_answer": true
+        },
+        {
+            "text": "Modern computing model"
+        },
+        {
+            "text": "Ancient computing model"
+        },
+        {
+            "text": "Rain computing model"
+        },
+        {
+            "text": "Foreign computing model"
+        }
+    ],
+    "text": "Select existing computing models:"
+}

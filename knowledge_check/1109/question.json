@@ -1,0 +1,12 @@
+{
+    "text": "Is it possible to create multiple subnets within one VPC?",
+    "answers": [
+        {
+            "text": "Yes",
+            "right_answer": true
+        },
+        {
+            "text": "No"
+        }
+    ]
+}

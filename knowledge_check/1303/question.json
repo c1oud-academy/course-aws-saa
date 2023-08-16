@@ -1,0 +1,18 @@
+{
+    "text": "Is it possible to connect multiple customer gateways to single virtual private gateway on AWS side during VPN set up?",
+    "answers": [
+        {
+            "text": "Yes",
+            "right_answer": true
+        },
+        {
+            "text": "No"
+        },
+        {
+            "text": "Yes, depends on virtual private gateway type"
+        },
+        {
+            "text": "Yes, depends on customer gateways types"
+        }
+    ]
+}

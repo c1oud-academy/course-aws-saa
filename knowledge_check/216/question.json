@@ -1,0 +1,26 @@
+{
+    "answers": [
+        {
+            "text": "Cloud",
+            "right_answer": true
+        },
+        {
+            "text": "Ground"
+        },
+        {
+            "text": "Hybrid",
+            "right_answer": true
+        },
+        {
+            "text": "Mixed"
+        },
+        {
+            "text": "On-premise",
+            "right_answer": true
+        },
+        {
+            "text": "Local"
+        }
+    ],
+    "text": "Select existing cloud computing deployment models:"
+}

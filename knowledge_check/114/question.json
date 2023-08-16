@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "1"
+        },
+        {
+            "text": "2",
+            "right_answer": true
+        },
+        {
+            "text": "3"
+        },
+        {
+            "text": "4"
+        }
+    ],
+    "text": "How many semesters do you need to study in order to be fully prepared for AWS Certified Solutions Architect - Associate exam with C1oud academy courses?"
+}

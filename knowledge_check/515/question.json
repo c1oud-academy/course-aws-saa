@@ -1,0 +1,28 @@
+{
+    "text": "Select statements where we do not pay for Amazon S3 usage:",
+    "answers": [
+        {
+            "text": "amount of data stored per month"
+        },
+        {
+            "text": "transfer out to other AWS Region"
+        },
+        {
+            "text": "transfer out to the Internet"
+        },
+        {
+            "text": "lifecycle transitions"
+        },
+        {
+            "text": "data retrieval requests"
+        },
+        {
+            "text": "transfer in from the Internet",
+            "right_answer": true
+        },
+        {
+            "text": "Delete and Cancel requests",
+            "right_answer": true
+        }
+    ]
+}

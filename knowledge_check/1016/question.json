@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "text": "eventually read consistency",
+            "right_answer": true
+        },
+        {
+            "text": "random read consistency"
+        },
+        {
+            "text": "strongly read consistency",
+            "right_answer": true
+        },
+        {
+            "text": "strict read consistency"
+        },
+        {
+            "text": "standard read consistency"
+        }
+    ],
+    "text": "Select read consistency options available in Amazon DynamoDB:"
+}

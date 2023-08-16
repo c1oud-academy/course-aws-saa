@@ -1,0 +1,155 @@
+1001
+Select examples of relational database:
++A) Microsoft SQL Server
++D) PostgreSQL
+E) MongoDB
+F) Cassandra
+G) Redis
+
+1002
+Select examples of relational database:
++A) Microsoft SQL Server
++B) Oracle Database
+E) MongoDB
+F) Cassandra
+G) Redis
+
+1003
+Select examples of relational database:
++C) MySQL
++D) PostgreSQL
+E) MongoDB
+F) Cassandra
+G) Redis
+
+1004
+Select examples of relational database:
++B) Oracle Database
++D) PostgreSQL
+E) MongoDB
+F) Cassandra
+G) Redis
+
+1005
+Select examples of relational database:
++A) Microsoft SQL Server
++C) MySQL
+E) MongoDB
+F) Cassandra
+G) Redis
+
+1006
+Select examples of non-relational database:
+A) Microsoft SQL Server
+B) Oracle Database
+C) MySQL
+D) PostgreSQL
++E) MongoDB
++F) Cassandra
+
+1007
+Select examples of non-relational database:
+A) Microsoft SQL Server
+B) Oracle Database
+C) MySQL
+D) PostgreSQL
++E) MongoDB
++G) Redis
+
+1008
+Select examples of non-relational database:
+A) Microsoft SQL Server
+B) Oracle Database
+C) MySQL
+D) PostgreSQL
++F) Cassandra
++G) Redis
+
+1009
+Select examples of relational database AWS service:
++A) Amazon RDS
++D) Amazon Redshift
+F) Amazon DynamoDB
+G) Amazon ElastiCache
+G) Amazon Neptune
+
+1010
+Select examples of relational database AWS service:
++A) Amazon RDS
++E) Amazon Aurora
+F) Amazon DynamoDB
+G) Amazon ElastiCache
+G) Amazon Neptune
+
+1011
+Select examples of relational database AWS service:
++D) Amazon Redshift
++E) Amazon Aurora
+F) Amazon DynamoDB
+G) Amazon ElastiCache
+G) Amazon Neptune
+
+1012
+Select examples of non-relational database AWS service:
+A) Amazon RDS
+D) Amazon Redshift
+E) Amazon Aurora
++G) Amazon ElastiCache
++G) Amazon Neptune
+
+1013
+Select examples of non-relational database AWS service:
+A) Amazon RDS
+D) Amazon Redshift
+E) Amazon Aurora
++F) Amazon DynamoDB
++G) Amazon Neptune
+
+1014
+Select examples of non-relational database AWS service:
+A) Amazon RDS
+D) Amazon Redshift
+E) Amazon Aurora
++F) Amazon DynamoDB
++G) Amazon ElastiCache
+
+1015
+What is the AWS service that provides non-relational key-value database?
+A) Amazon RDS
+D) Amazon Redshift
+E) Amazon Aurora
++F) Amazon DynamoDB
+G) Amazon ElastiCache
+
+1016
+Select read consistency options available in Amazon DynamoDB:
++A) eventually read consistency
+D) random read consistency
++E) strongly read consistency
+F) strict read consistency
+G) standard read consistency
+
+1017
+What is the AWS service that helps migrate on-premise DB to AWS?
+A) Amazon RDS
+D) AWS SCT
+E) Amazon Aurora
++F) AWS DMS
+G) AWS S3
+
+1018
+What is the tool used with AWS DMS that supports database engine change during DB migration?
+A) Global Table
++D) AWS SCT
+E) Multi-AZ deployment
+F) Read Replica
+G) AWS S3
+
+1019
+What is the service used with AWS DMS in case of too large database to migrate or slow internet connection?
+A) Amazon RDS
+D) AWS SCT
++E) AWS Snowball Edge
+F) AWS DMS
+G) AWS S3
+

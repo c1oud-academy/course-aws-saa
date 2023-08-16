@@ -1,0 +1,21 @@
+{
+    "text": "Which resource is being used in case we need to securely connect to our resources in VPC remotely?",
+    "answers": [
+        {
+            "text": "Internet Gateway"
+        },
+        {
+            "text": "Route Table"
+        },
+        {
+            "text": "Elastic IP address"
+        },
+        {
+            "text": "NAT Gateway"
+        },
+        {
+            "text": "Bastion host",
+            "right_answer": true
+        }
+    ]
+}

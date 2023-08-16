@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "T family"
+        },
+        {
+            "text": "M family"
+        },
+        {
+            "text": "R family",
+            "right_answer": true
+        },
+        {
+            "text": "None of options"
+        }
+    ],
+    "text": "What is the Amazon RDS database instance family that best suits for memory-intensive workloads?"
+}

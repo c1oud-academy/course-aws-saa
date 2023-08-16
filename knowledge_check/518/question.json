@@ -1,0 +1,21 @@
+{
+    "text": "What is the feature of Amazon S3 that helps you to enable petabyte-scale data transfer option?",
+    "answers": [
+        {
+            "text": "Lifecycle policies"
+        },
+        {
+            "text": "Multipart upload"
+        },
+        {
+            "text": "Transfer Acceleration"
+        },
+        {
+            "text": "AWS Snowball",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Snowmobile"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "text": "Which option is one of the AWS Well-Architected Framework pillars:",
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "Reliability"
+        },
+        {
+            "text": "Diaster Recovery"
+        },
+        {
+            "text": "High avalability"
+        },
+        {
+            "text": "Planning"
+        },
+        {
+            "text": "Forecasting"
+        },
+        {
+            "text": "Guessing capacity"
+        }
+    ]
+}

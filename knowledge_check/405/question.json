@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "11 9s"
+        },
+        {
+            "text": "10 9s"
+        },
+        {
+            "text": "12 9s"
+        },
+        {
+            "text": "13 9s"
+        }
+    ],
+    "text": "What is the durabilty Amazon S3 provides?"
+}

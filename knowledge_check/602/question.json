@@ -1,0 +1,18 @@
+{
+    "text": "What is the service that deals with Docker containers?",
+    "answers": [
+        {
+            "text": "Amazon EC2"
+        },
+        {
+            "text": "Amazon ECS",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Elastic Beanstalk"
+        },
+        {
+            "text": "AWS Lambda"
+        }
+    ]
+}

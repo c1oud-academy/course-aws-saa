@@ -1,0 +1,228 @@
+500
+Select an existing storage classes of Amazon S3:
++A) Standard
++A) Standard IA
++A) One Zone IA
+A) Two Zones
+A) Smart Tiering
+A) 3 Zones
+A) AI
+A) Cross-Region
+
+501
+Select an existing storage classes of Amazon S3:
++A) Standard
++A) Standard IA
++A) Glacier
+A) Two Zones
+A) Smart Tiering
+A) 3 Zones
+A) AI
+A) Cross-Region
+
+502
+Select an existing storage classes of Amazon S3:
++A) Standard
++A) Standard IA
++A) Glacier Deep Archive
+A) Two Zones
+A) Smart Tiering
+A) 3 Zones
+A) AI
+A) Cross-Region
+
+503
+Select an existing storage classes of Amazon S3:
++A) Standard
++A) Standard IA
++A) Intelligent Tiering
+A) Two Zones
+A) Smart Tiering
+A) 3 Zones
+A) AI
+A) Cross-Region
+
+504
+Select an existing storage classes of Amazon S3:
++A) Standard
++A) One Zone IA
++A) Glacier
+A) Two Zones
+A) Smart Tiering
+A) 3 Zones
+A) AI
+A) Cross-Region
+
+505
+Select an existing storage classes of Amazon S3:
++A) Standard
++A) Glacier
++A) Glacier Deep Archive
+A) Two Zones
+A) Smart Tiering
+A) 3 Zones
+A) AI
+A) Cross-Region
+
+506
+Select an existing storage classes of Amazon S3:
++A) Glacier
++A) Glacier Deep Archive
++A) Intelligent Tiering
+A) Two Zones
+A) Smart Tiering
+A) 3 Zones
+A) AI
+A) Cross-Region
+
+507
+What is the feature of Amazon S3 that helps you to trasnfer objects from different storage classes or delete by defining set of rules?
++A) Lifecycle policies
+A) IAM policies
+A) Bucket policies
+A) CORS
+
+508
+Select statements where we pay for Amazon S3 usage:
++A) amount of data stored per month
++A) transfer out to other AWS Region
+A) transfer in from the Internet
+A) transfer between S3 buckets of the same AWS Region
+A) transfer from S3 bucket to any services in the same AWS Region
+A) transfer out to Amazon CloudFront
+A) Delete and Cancel requests
+
+509
+Select statements where we pay for Amazon S3 usage:
++A) amount of data stored per month
++A) transfer out to the Internet
+A) transfer in from the Internet
+A) transfer between S3 buckets of the same AWS Region
+A) transfer from S3 bucket to any services in the same AWS Region
+A) transfer out to Amazon CloudFront
+A) Delete and Cancel requests
+
+510
+Select statements where we pay for Amazon S3 usage:
++A) amount of data stored per month
++A) lifecycle transitions
+A) transfer in from the Internet
+A) transfer between S3 buckets of the same AWS Region
+A) transfer from S3 bucket to any services in the same AWS Region
+A) transfer out to Amazon CloudFront
+A) Delete and Cancel requests
+
+511
+Select statements where we pay for Amazon S3 usage:
++A) amount of data stored per month
++A) data retrieval requests
+A) transfer in from the Internet
+A) transfer between S3 buckets of the same AWS Region
+A) transfer from S3 bucket to any services in the same AWS Region
+A) transfer out to Amazon CloudFront
+A) Delete and Cancel requests
+
+512
+Select statements where we do not pay for Amazon S3 usage:
+A) amount of data stored per month
+A) transfer out to other AWS Region
+A) transfer out to the Internet
+A) lifecycle transitions
+A) data retrieval requests
++A) transfer in from the Internet
++A) transfer between S3 buckets of the same AWS Region
+
+513
+Select statements where we do not pay for Amazon S3 usage:
+A) amount of data stored per month
+A) transfer out to other AWS Region
+A) transfer out to the Internet
+A) lifecycle transitions
+A) data retrieval requests
++A) transfer in from the Internet
++A) transfer from S3 bucket to any services in the same AWS Region
+
+514
+Select statements where we do not pay for Amazon S3 usage:
+A) amount of data stored per month
+A) transfer out to other AWS Region
+A) transfer out to the Internet
+A) lifecycle transitions
+A) data retrieval requests
++A) transfer in from the Internet
++A) transfer out to Amazon CloudFront
+
+515
+Select statements where we do not pay for Amazon S3 usage:
+A) amount of data stored per month
+A) transfer out to other AWS Region
+A) transfer out to the Internet
+A) lifecycle transitions
+A) data retrieval requests
++A) transfer in from the Internet
++A) Delete and Cancel requests
+
+516
+What is the feature of Amazon S3 that helps you to optimize upload of large objects by dividing into multiple parts?
+A) Lifecycle policies
++A) Multipart upload
+A) Transfer Acceleration
+A) AWS Snowball
+A) AWS Snowmobile
+
+517
+What is the feature of Amazon S3 that helps you to optimize upload by taking advantage of AWS edge locations distributed globally?
+A) Lifecycle policies
+A) Multipart upload
++A) Transfer Acceleration
+A) AWS Snowball
+A) AWS Snowmobile
+
+518
+What is the feature of Amazon S3 that helps you to enable petabyte-scale data transfer option?
+A) Lifecycle policies
+A) Multipart upload
+A) Transfer Acceleration
++A) AWS Snowball
+A) AWS Snowmobile
+
+519
+What is the feature of Amazon S3 that helps you to enable exabyte-scale data transfer option?
+A) Lifecycle policies
+A) Multipart upload
+A) Transfer Acceleration
+A) AWS Snowball
++A) AWS Snowmobile
+
+520
+Select main cosiderations when choosing AWS Region:
++A) Compliance
++A) Latency
+A) End-user device OS distribution
+A) Server availabilty
+A) End-user age distribution
+
+521
+Select main cosiderations when choosing AWS Region:
+A) End-user device OS distribution
+A) Server availabilty
++A) Service availability
++A) Cost
+A) End-user age distribution
+
+522
+Select main cosiderations when choosing AWS Region:
++A) Compliance
+A) End-user device OS distribution
+A) Server availabilty
++A) Service availability
+A) End-user age distribution
+
+523
+Select main cosiderations when choosing AWS Region:
++A) Latency
+A) End-user device OS distribution
+A) Server availabilty
++A) Cost
+A) End-user age distribution
+
