@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Provide permissions to the users via the AWS Resource Access Manager (RAM) service to only access EC2 instances that are used for production or development."
+        },
+        {
+            "text": "Define the tags on the UAT and production servers and add a condition to the IAM policy which allows access to specific tags.",
+            "right_answer": true
+        },
+        {
+            "text": "Launch the UAT and production instances in different Availability Zones and use Multi Factor Authentication."
+        },
+        {
+            "text": "Launch the UAT and production EC2 instances in separate VPC's connected by VPC peering."
+        }
+    ],
+    "text": "A company has a UAT and production EC2 instances running on AWS. They want to ensure that employees who are responsible for the UAT instances don\u2019t have the access to work on the production instances to minimize security risks.\nWhich of the following would be the best way to achieve this?"
+}

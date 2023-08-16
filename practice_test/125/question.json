@@ -1,0 +1,22 @@
+{
+    "text": "A Solutions Architect is building a cloud infrastructure where EC2 instances require access to various AWS services such as S3 and Redshift. The Architect will also need to provide access to system administrators so they can deploy and test their changes.\nWhich configuration should be used to ensure that the access to the resources is secured and not compromised?",
+    "answers": [
+        {
+            "text": "Assign an IAM user for each Amazon EC2 Instance."
+        },
+        {
+            "text": "Store the AWS Access Keys in ACM."
+        },
+        {
+            "text": "Enable Multi-Factor Authentication.",
+            "right_answer": true
+        },
+        {
+            "text": "Assign an IAM role to the Amazon EC2 instance.",
+            "right_answer": true
+        },
+        {
+            "text": "Store the AWS Access Keys in the EC2 instance."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A Fortune 500 company which has numerous offices and customers around the globe has hired you as their Principal Architect. You have staff and customers that upload gigabytes to terabytes of data to a centralized S3 bucket from the regional data centers, across continents, all over the world on a regular basis. At the end of the financial year, there are thousands of data being uploaded to the central S3 bucket which is in ap-southeast-2 (Sydney) region and a lot of employees are starting to complain about the slow upload times. You were instructed by the CTO to resolve this issue as soon as possible to avoid any delays in processing their global end of financial year (EOFY) reports.\nWhich feature in Amazon S3 enables fast, easy, and secure transfer of your files over long distances between your client and your Amazon S3 bucket?",
+    "answers": [
+        {
+            "text": "Transfer Acceleration",
+            "right_answer": true
+        },
+        {
+            "text": "Multipart Upload"
+        },
+        {
+            "text": "Cross-Region Replication"
+        },
+        {
+            "text": "AWS Global Accelerator"
+        }
+    ]
+}

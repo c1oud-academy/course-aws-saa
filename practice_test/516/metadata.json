@@ -1,0 +1,44 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "EC2",
+        "Storage Gateway",
+        "ECS",
+        "EFS",
+        "Elastic Container Service",
+        "DynamoDB",
+        "FSx"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "516",
+    "aws_group": [
+        "Storage",
+        "Compute",
+        "Database",
+        "Containers"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 516",
+        "ru": "Practice test quesion 516",
+        "en": "Practice test quesion 516"
+    }
+}

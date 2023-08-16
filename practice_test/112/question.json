@@ -1,0 +1,18 @@
+{
+    "text": "An organization is currently using a tape backup solution to store its application data on-premises. They plan to use a cloud storage service to preserve the backup data for up to 10 years that may be accessed about once or twice a year.\nWhich of the following is the most cost-effective option to implement this solution?",
+    "answers": [
+        {
+            "text": "Use AWS Storage Gateway to backup the data directly to Amazon S3 Glacier Deep Archive.",
+            "right_answer": true
+        },
+        {
+            "text": "Use AWS Storage Gateway to backup the data directly to Amazon S3 Glacier."
+        },
+        {
+            "text": "Order an AWS Snowball Edge appliance to import the backup directly to Amazon S3 Glacier."
+        },
+        {
+            "text": "Use Amazon S3 to store the backup data and add a lifecycle rule to transition the current version to Amazon S3 Glacier."
+        }
+    ]
+}

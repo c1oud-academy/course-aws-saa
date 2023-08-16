@@ -1,0 +1,22 @@
+{
+    "text": "A construction company has an online system that tracks all of the status and progress of their projects. The system is hosted in AWS and there is a requirement to monitor the read and write IOPs metrics for their MySQL RDS instance and send real-time alerts to their DevOps team.\nWhich of the following services in AWS can you use to meet the requirements?",
+    "answers": [
+        {
+            "text": "Amazon Simple Notification Service",
+            "right_answer": true
+        },
+        {
+            "text": "SWF"
+        },
+        {
+            "text": "CloudWatch",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon Simple Queue Service"
+        },
+        {
+            "text": "Route 53"
+        }
+    ]
+}

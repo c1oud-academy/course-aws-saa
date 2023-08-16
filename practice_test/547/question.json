@@ -1,0 +1,18 @@
+{
+    "text": "A company plans to host a movie streaming app in AWS. The chief information officer (CIO) wants to ensure that the application is highly available and scalable. The application is deployed to an Auto Scaling group of EC2 instances on multiple AZs. A load balancer must be configured to distribute incoming requests evenly to all EC2 instances across multiple Availability Zones.\nWhich of the following features should the Solutions Architect use to satisfy these criteria?",
+    "answers": [
+        {
+            "text": "Amazon VPC IP Address Manager (IPAM)"
+        },
+        {
+            "text": "AWS Direct Connect SiteLink"
+        },
+        {
+            "text": "Cross-zone load balancing",
+            "right_answer": true
+        },
+        {
+            "text": "Path-based Routing"
+        }
+    ]
+}

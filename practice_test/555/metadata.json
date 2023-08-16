@@ -1,0 +1,43 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "AWS Organizations",
+        "VPC",
+        "Trusted Advisor",
+        "IAM",
+        "Availability Zone",
+        "Global Accelerator"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "555",
+    "aws_group": [
+        "Security, Identity, & Compliance",
+        "AWS Global Infrastructure",
+        "Networking & Content Delivery",
+        "Management & Governance"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 555",
+        "ru": "Practice test quesion 555",
+        "en": "Practice test quesion 555"
+    }
+}

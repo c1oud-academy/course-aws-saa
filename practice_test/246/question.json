@@ -1,0 +1,18 @@
+{
+    "text": "A new online banking platform has been re-designed to have a microservices architecture in which complex applications are decomposed into smaller, independent services. The new platform is using Docker considering that application containers are optimal for running small, decoupled services. The new solution should remove the need to provision and manage servers, let you specify and pay for resources per application, and improve security through application isolation by design.\nWhich of the following is the MOST suitable service to use to migrate this new platform to AWS?",
+    "answers": [
+        {
+            "text": "AWS Fargate",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon EFS"
+        },
+        {
+            "text": "Amazon EBS"
+        },
+        {
+            "text": "Amazon EKS"
+        }
+    ]
+}

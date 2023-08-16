@@ -1,0 +1,42 @@
+{
+    "aws_service": [
+        "S3",
+        "Trusted Advisor",
+        "bucket",
+        "AWS Config",
+        "IAM",
+        "CloudTrail"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 129",
+        "en": "Practice test quesion 129",
+        "kk": "Practice test quesion 129"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Security, Identity, & Compliance",
+        "Storage",
+        "Management & Governance"
+    ],
+    "id": "129"
+}

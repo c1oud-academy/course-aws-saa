@@ -1,0 +1,18 @@
+{
+    "text": "A logistics company plans to automate its order management application. The company wants to use SFTP file transfer in uploading business-critical documents. Since the files are confidential, the files need to be highly available and must be encrypted at rest. The files must also be automatically deleted a month after they are created.\nWhich of the following options should be implemented to meet the company requirements with the least operation overhead?",
+    "answers": [
+        {
+            "text": "Provision an Amazon EC2 instance and install the SFTP service. Mount an encrypted EFS file system on the EC2 instance to store the uploaded files. Add a cron job to delete the files older than a month."
+        },
+        {
+            "text": "Create an Amazon S3 bucket with encryption enabled. Launch an AWS Transfer for SFTP endpoint to securely upload files to the S3 bucket. Configure an S3 lifecycle rule to delete files after a month.",
+            "right_answer": true
+        },
+        {
+            "text": "Create an Amazon S3 bucket with encryption enabled. Configure AWS Transfer for SFTP to securely upload files to the S3 bucket. Configure the retention policy on the SFTP server to delete files after a month."
+        },
+        {
+            "text": "Create an Amazon Elastic Filesystem (EFS) file system and enable encryption. Configure AWS Transfer for SFTP to securely upload files to the EFS file system. Apply an EFS lifecycle policy to delete files after 30 days."
+        }
+    ]
+}

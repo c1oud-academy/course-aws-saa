@@ -1,0 +1,35 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "IAM"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "522",
+    "aws_group": [
+        "Security, Identity, & Compliance"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 522",
+        "ru": "Practice test quesion 522",
+        "en": "Practice test quesion 522"
+    }
+}

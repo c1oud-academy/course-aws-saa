@@ -1,0 +1,18 @@
+{
+    "text": "An application is hosted in AWS Fargate and uses RDS database in Multi-AZ Deployments configuration with several Read Replicas. A Solutions Architect was instructed to ensure that all of their database credentials, API keys, and other secrets are encrypted and rotated on a regular basis to improve data security. The application should also use the latest version of the encrypted credentials when connecting to the RDS database.\nWhich of the following is the MOST appropriate solution to secure the credentials?",
+    "answers": [
+        {
+            "text": "Store the database credentials, API keys, and other secrets to AWS ACM."
+        },
+        {
+            "text": "Store the database credentials, API keys, and other secrets to Systems Manager Parameter Store each with a SecureString data type. The credentials are automatically rotated by default."
+        },
+        {
+            "text": "Store the database credentials, API keys, and other secrets in AWS KMS."
+        },
+        {
+            "text": "Use AWS Secrets Manager to store and encrypt the database credentials, API keys, and other secrets. Enable automatic rotation for all of the credentials.",
+            "right_answer": true
+        }
+    ]
+}

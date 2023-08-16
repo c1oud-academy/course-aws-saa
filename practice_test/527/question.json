@@ -1,0 +1,18 @@
+{
+    "text": "An online shopping platform has been deployed to AWS using Elastic Beanstalk. They simply uploaded their Node.js application, and Elastic Beanstalk automatically handles the details of capacity provisioning, load balancing, scaling, and application health monitoring. Since the entire deployment process is automated, the DevOps team is not sure where to get the application log files of their shopping platform.\nIn Elastic Beanstalk, where does it store the application files and server log files?",
+    "answers": [
+        {
+            "text": "Application files are stored in S3. The server log files can be optionally stored in CloudTrail or in CloudWatch Logs."
+        },
+        {
+            "text": "Application files are stored in S3. The server log files can also optionally be stored in S3 or in CloudWatch Logs.",
+            "right_answer": true
+        },
+        {
+            "text": "Application files are stored in S3. The server log files can be stored directly in Glacier or in CloudWatch Logs."
+        },
+        {
+            "text": "Application files are stored in S3. The server log files can only be stored in the attached EBS volumes of the EC2 instances, which were launched by AWS Elastic Beanstalk."
+        }
+    ]
+}

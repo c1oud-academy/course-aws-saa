@@ -1,0 +1,22 @@
+{
+    "text": "There was an incident in your production environment where the user data stored in the S3 bucket has been accidentally deleted by one of the Junior DevOps Engineers. The issue was escalated to your manager and after a few days, you were instructed to improve the security and protection of your AWS resources.\nWhat combination of the following options will protect the S3 objects in your bucket from both accidental deletion and overwriting?",
+    "answers": [
+        {
+            "text": "Enable Amazon S3 Intelligent-Tiering"
+        },
+        {
+            "text": "Enable Multi-Factor Authentication Delete",
+            "right_answer": true
+        },
+        {
+            "text": "Enable Versioning",
+            "right_answer": true
+        },
+        {
+            "text": "Disallow S3 Delete using an IAM bucket policy"
+        },
+        {
+            "text": "Provide access to S3 data strictly through pre-signed URL only"
+        }
+    ]
+}

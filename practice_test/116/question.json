@@ -1,0 +1,18 @@
+{
+    "text": "A DevOps Engineer is required to design a cloud architecture in AWS. The Engineer is planning to develop a highly available and fault-tolerant architecture that is composed of an Elastic Load Balancer and an Auto Scaling group of EC2 instances deployed across multiple Availability Zones. This will be used by an online accounting application that requires path-based routing, host-based routing, and bi-directional communication channels using WebSockets.\nWhich is the most suitable type of Elastic Load Balancer that will satisfy the given requirement?",
+    "answers": [
+        {
+            "text": "Classic Load Balancer"
+        },
+        {
+            "text": "Application Load Balancer",
+            "right_answer": true
+        },
+        {
+            "text": "Network Load Balancer"
+        },
+        {
+            "text": "Gateway Load Balancer"
+        }
+    ]
+}

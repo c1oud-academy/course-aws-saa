@@ -1,0 +1,18 @@
+{
+    "text": "One of your EC2 instances is reporting an unhealthy system status check. The operations team is looking for an easier way to monitor and repair these instances instead of fixing them manually.\nHow will you automate the monitoring and repair of the system status check failure in an AWS environment?",
+    "answers": [
+        {
+            "text": "Buy and implement a third party monitoring tool."
+        },
+        {
+            "text": "Create CloudWatch alarms that stop and start the instance based on status check alarms.",
+            "right_answer": true
+        },
+        {
+            "text": "Write a python script that queries the EC2 API for each instance status check"
+        },
+        {
+            "text": "Write a shell script that periodically shuts down and starts instances based on certain stats."
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Management & Governance",
+        "Networking & Content Delivery",
+        "Security, Identity, & Compliance"
+    ],
+    "id": "58",
+    "title": {
+        "kk": "Practice test quesion 58",
+        "ru": "Practice test quesion 58",
+        "en": "Practice test quesion 58"
+    },
+    "aws_service": [
+        "AWS Organizations",
+        "AWS License Manager",
+        "Control Tower",
+        "Resource Access Manager",
+        "Route 53"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

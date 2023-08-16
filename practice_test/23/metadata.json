@@ -1,0 +1,39 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Compute",
+        "Networking & Content Delivery"
+    ],
+    "id": "23",
+    "title": {
+        "kk": "Practice test quesion 23",
+        "ru": "Practice test quesion 23",
+        "en": "Practice test quesion 23"
+    },
+    "aws_service": [
+        "Lambda",
+        "CloudFront",
+        "Route 53",
+        "VPC"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

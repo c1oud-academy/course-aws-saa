@@ -1,0 +1,26 @@
+{
+    "answers": [
+        {
+            "text": "Choose the Availability Zone with the least number of instances, which is the us-west-1c Availability Zone in this scenario."
+        },
+        {
+            "text": "Select the instances with the oldest launch configuration.",
+            "right_answer": true
+        },
+        {
+            "text": "Select the instance that is farthest to the next billing hour."
+        },
+        {
+            "text": "Choose the Availability Zone with the most number of instances, which is the us-west-1a Availability Zone in this scenario.",
+            "right_answer": true
+        },
+        {
+            "text": "Select the instances with the most recent launch configuration."
+        },
+        {
+            "text": "Select the instance that is closest to the next billing hour.",
+            "right_answer": true
+        }
+    ],
+    "text": "An online shopping platform is hosted on an Auto Scaling group of On-Demand EC2 instances with a default Auto Scaling termination policy and no instance protection configured. The system is deployed across three Availability Zones in the US West region (us-west-1) with an Application Load Balancer in front to provide high availability and fault tolerance for the shopping platform. The us-west-1a, us-west-1b, and us-west-1c Availability Zones have 10, 8 and 7 running instances respectively. Due to the low number of incoming traffic, the scale-in operation has been triggered.\nWhich of the following will the Auto Scaling group do to determine which instance to terminate first in this scenario?"
+}

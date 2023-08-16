@@ -1,0 +1,38 @@
+{
+    "aws_service": [
+        "bucket",
+        "S3",
+        "Global Accelerator"
+    ],
+    "aws_group": [
+        "Storage",
+        "Networking & Content Delivery"
+    ],
+    "content_type": "test",
+    "id": "316",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 316",
+        "kk": "Practice test quesion 316",
+        "ru": "Practice test quesion 316"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

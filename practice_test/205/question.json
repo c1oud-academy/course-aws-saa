@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect is managing a company's AWS account of approximately 300 IAM users. They have a new company policy that requires changing the associated permissions of all 100 IAM users that control the access to Amazon S3 buckets.\nWhat will the Solutions Architect do to avoid the time-consuming task of applying the policy to each user?",
+    "answers": [
+        {
+            "text": "Create a new IAM group and then add the users that require access to the S3 bucket. Afterward, apply the policy to the IAM group.",
+            "right_answer": true
+        },
+        {
+            "text": "Create a new S3 bucket access policy with unlimited access for each IAM user."
+        },
+        {
+            "text": "Create a new policy and apply it to multiple IAM users using a shell script."
+        },
+        {
+            "text": "Create a new IAM role and add each user to the IAM role."
+        }
+    ]
+}

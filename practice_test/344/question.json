@@ -1,0 +1,18 @@
+{
+    "text": "A tech company currently has an on-premises infrastructure. They are currently running low on storage and want to have the ability to extend their storage using the AWS cloud.\nWhich AWS service can help them achieve this requirement?",
+    "answers": [
+        {
+            "text": "Amazon SQS"
+        },
+        {
+            "text": "Amazon EC2"
+        },
+        {
+            "text": "Amazon Storage Gateway",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon Elastic Block Storage"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "ICMP health check"
+        },
+        {
+            "text": "TCP health check"
+        },
+        {
+            "text": "FTP health check"
+        },
+        {
+            "text": "HTTP or HTTPS health check",
+            "right_answer": true
+        }
+    ],
+    "text": "A company has a web application hosted on a fleet of EC2 instances located in two Availability Zones that are all placed behind an Application Load Balancer. As a Solutions Architect, you have to add a health check configuration to ensure your application is highly-available.\nWhich health checks will you implement?"
+}

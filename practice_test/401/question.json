@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Use Amazon S3 Standard - Infrequent Access",
+            "right_answer": true
+        },
+        {
+            "text": "Use Amazon S3 Standard"
+        },
+        {
+            "text": "Use Amazon S3 -Intelligent Tiering"
+        },
+        {
+            "text": "Use Amazon Glacier Deep Archive"
+        }
+    ],
+    "text": "A company needs to use Amazon S3 to store irreproducible financial documents. For their quarterly reporting, the files are required to be retrieved after a period of 3 months. There will be some occasions when a surprise audit will be held, which requires access to the archived data that they need to present immediately.\nWhat will you do to satisfy this requirement in a cost-effective way?"
+}

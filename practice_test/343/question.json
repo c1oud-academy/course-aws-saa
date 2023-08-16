@@ -1,0 +1,18 @@
+{
+    "text": "A financial company instructed you to automate the recurring tasks in your department such as patch management, infrastructure selection, and data synchronization to improve their current processes. You need to have a service which can coordinate multiple AWS services into serverless workflows.\nWhich of the following is the most cost-effective service to use in this scenario?",
+    "answers": [
+        {
+            "text": "AWS Step Functions",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Lambda"
+        },
+        {
+            "text": "AWS Batch"
+        },
+        {
+            "text": "SWF"
+        }
+    ]
+}

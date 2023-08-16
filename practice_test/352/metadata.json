@@ -1,0 +1,37 @@
+{
+    "aws_service": [
+        "CloudWatch",
+        "RDS"
+    ],
+    "aws_group": [
+        "Management & Governance",
+        "Database"
+    ],
+    "content_type": "test",
+    "id": "352",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 352",
+        "kk": "Practice test quesion 352",
+        "ru": "Practice test quesion 352"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

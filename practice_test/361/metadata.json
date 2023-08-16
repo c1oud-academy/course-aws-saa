@@ -1,0 +1,40 @@
+{
+    "aws_service": [
+        "bucket",
+        "S3",
+        "EC2",
+        "CloudFormation"
+    ],
+    "aws_group": [
+        "Management & Governance",
+        "Compute",
+        "Storage"
+    ],
+    "content_type": "test",
+    "id": "361",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 361",
+        "kk": "Practice test quesion 361",
+        "ru": "Practice test quesion 361"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A company has a fleet of running Spot EC2 instances behind an Application Load Balancer. The incoming traffic comes from various users across multiple AWS regions and you would like to have the user's session shared among the fleet of instances. You are required to set up a distributed session management layer that will provide a scalable and shared data storage for the user sessions.\nWhich of the following would be the best choice to meet the requirement while still providing sub-millisecond latency for the users?",
+    "answers": [
+        {
+            "text": "ELB sticky sessions"
+        },
+        {
+            "text": "Multi-master DynamoDB"
+        },
+        {
+            "text": "Multi-AZ RDS"
+        },
+        {
+            "text": "ElastiCache in-memory caching",
+            "right_answer": true
+        }
+    ]
+}

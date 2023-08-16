@@ -1,0 +1,18 @@
+{
+    "text": "A company launched a website that accepts high-quality photos and turns them into a downloadable video montage. The website offers a free and a premium account that guarantees faster processing. All requests by both free and premium members go through a single SQS queue and then processed by a group of EC2 instances that generate the videos. The company needs to ensure that the premium users who paid for the service have higher priority than the free members.\nHow should the company re-design its architecture to address this requirement?",
+    "answers": [
+        {
+            "text": "Use Amazon Kinesis to process the photos and generate the video montage in real-time."
+        },
+        {
+            "text": "Create an SQS queue for free members and another one for premium members. Configure your EC2 instances to consume messages from the premium queue first and if it is empty, poll from the free members' SQS queue.",
+            "right_answer": true
+        },
+        {
+            "text": "Use Amazon S3 to store and process the photos and then generate the video montage afterward."
+        },
+        {
+            "text": "For the requests made by premium members, set a higher priority in the SQS queue so it will be processed first compared to the requests made by free members."
+        }
+    ]
+}

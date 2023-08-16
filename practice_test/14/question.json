@@ -1,0 +1,18 @@
+{
+    "text": "A business has recently migrated its applications to AWS. The audit team must be able to assess whether the services the company is using meet common security and regulatory standards. A solutions architect needs to provide the team with a report of all compliance-related documents for their account.\nWhich action should a solutions architect consider?",
+    "answers": [
+        {
+            "text": "Use AWS Artifact to view the security reports as well as other AWS compliance-related information.",
+            "right_answer": true
+        },
+        {
+            "text": "Run an Amazon Macie job to view the Service Organization Control (SOC), Payment Card Industry (PCI), and other compliance reports from AWS Certificate Manager (ACM)."
+        },
+        {
+            "text": "Run an Amazon Inspector assessment job to download all of the AWS compliance-related information."
+        },
+        {
+            "text": "View all of the AWS security compliance reports from AWS Security Hub."
+        }
+    ]
+}

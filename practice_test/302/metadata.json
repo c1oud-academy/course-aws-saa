@@ -1,0 +1,37 @@
+{
+    "aws_service": [
+        "RDS",
+        "DynamoDB",
+        "Aurora"
+    ],
+    "aws_group": [
+        "Database"
+    ],
+    "content_type": "test",
+    "id": "302",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 302",
+        "kk": "Practice test quesion 302",
+        "ru": "Practice test quesion 302"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

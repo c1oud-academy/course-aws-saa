@@ -1,0 +1,37 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 263",
+        "kk": "Practice test quesion 263",
+        "ru": "Practice test quesion 263"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "263",
+    "aws_service": [
+        "EC2",
+        "EBS"
+    ],
+    "aws_group": [
+        "Compute",
+        "Storage"
+    ]
+}

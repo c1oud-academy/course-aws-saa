@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "text": "Set a lifecycle policy in the bucket to transition to S3 - Standard IA after 30 days",
+            "right_answer": true
+        },
+        {
+            "text": "Set a lifecycle policy in the bucket to transition the data to S3 Glacier Deep Archive storage class after one week (7 days)."
+        },
+        {
+            "text": "Set a lifecycle policy in the bucket to transition the data to S3 - Standard IA storage class after one week (7 days)."
+        },
+        {
+            "text": "Set a lifecycle policy in the bucket to transition the data to Glacier after one week (7 days).",
+            "right_answer": true
+        },
+        {
+            "text": "Set a lifecycle policy in the bucket to transition the data to S3 - One Zone-Infrequent Access storage class after one week (7 days)."
+        }
+    ],
+    "text": "A company has both on-premises data center as well as AWS cloud infrastructure. They store their graphics, audios, videos, and other multimedia assets primarily in their on-premises storage server and use an S3 Standard storage class bucket as a backup. Their data is heavily used for only a week (7 days) but after that period, it will only be infrequently used by their customers. The Solutions Architect is instructed to save storage costs in AWS yet maintain the ability to fetch a subset of their media assets in a matter of minutes for a surprise annual data audit, which will be conducted on their cloud storage.\nWhich of the following are valid options that the Solutions Architect can implement to meet the above requirement?"
+}

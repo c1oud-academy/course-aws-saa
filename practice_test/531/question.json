@@ -1,0 +1,18 @@
+{
+    "text": "An application is using a Lambda function to process complex financial data that run for 15 minutes on average. Most invocations were successfully processed. However, you noticed that there are a few terminated invocations throughout the day, which caused data discrepancy in the application.\nWhich of the following is the most likely cause of this issue?",
+    "answers": [
+        {
+            "text": "The failed Lambda functions have been running for over 15 minutes and reached the maximum execution time.",
+            "right_answer": true
+        },
+        {
+            "text": "The failed Lambda Invocations contain a ServiceException error which means that the AWS Lambda service encountered an internal error."
+        },
+        {
+            "text": "The Lambda function contains a recursive code and has been running for over 15 minutes."
+        },
+        {
+            "text": "The concurrent execution limit has been reached."
+        }
+    ]
+}

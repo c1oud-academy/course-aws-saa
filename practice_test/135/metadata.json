@@ -1,0 +1,44 @@
+{
+    "aws_service": [
+        "Simple Notification Service",
+        "Amazon Simple Email Service",
+        "Simple Queue Service",
+        "SQS",
+        "SNS",
+        "CloudWatch",
+        "EC2"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 135",
+        "en": "Practice test quesion 135",
+        "kk": "Practice test quesion 135"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Application Integration",
+        "Management & Governance",
+        "Compute",
+        "Business Applications"
+    ],
+    "id": "135"
+}

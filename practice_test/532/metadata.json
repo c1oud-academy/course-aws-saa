@@ -1,0 +1,42 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "CloudWatch",
+        "AWS Region",
+        "Global Accelerator",
+        "EC2",
+        "Lambda"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "532",
+    "aws_group": [
+        "AWS Global Infrastructure",
+        "Compute",
+        "Networking & Content Delivery",
+        "Management & Governance"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 532",
+        "ru": "Practice test quesion 532",
+        "en": "Practice test quesion 532"
+    }
+}

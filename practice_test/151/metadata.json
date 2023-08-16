@@ -1,0 +1,43 @@
+{
+    "aws_service": [
+        "SWF",
+        "DynamoDB",
+        "VPC",
+        "SQS",
+        "RDS",
+        "EC2"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 151",
+        "en": "Practice test quesion 151",
+        "kk": "Practice test quesion 151"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Application Integration",
+        "Compute",
+        "Networking & Content Delivery",
+        "Database"
+    ],
+    "id": "151"
+}

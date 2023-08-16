@@ -1,0 +1,18 @@
+{
+    "text": "A company has a decoupled application in AWS using EC2, Auto Scaling group, S3, and SQS. The Solutions Architect designed the architecture in such a way that the EC2 instances will consume the message from the SQS queue and will automatically scale up or down based on the number of messages in the queue.\nIn this scenario, which of the following statements is false about SQS?",
+    "answers": [
+        {
+            "text": "Amazon SQS can help you build a distributed application with decoupled components."
+        },
+        {
+            "text": "Standard queues provide at-least-once delivery, which means that each message is delivered at least once."
+        },
+        {
+            "text": "Standard queues preserve the order of messages.",
+            "right_answer": true
+        },
+        {
+            "text": "FIFO queues provide exactly-once processing."
+        }
+    ]
+}

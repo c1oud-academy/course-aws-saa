@@ -1,0 +1,39 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "IAM",
+        "RDS",
+        "EC2"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "553",
+    "aws_group": [
+        "Security, Identity, & Compliance",
+        "Database",
+        "Compute"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 553",
+        "ru": "Practice test quesion 553",
+        "en": "Practice test quesion 553"
+    }
+}

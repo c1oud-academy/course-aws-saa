@@ -1,0 +1,18 @@
+{
+    "text": "A company is using a combination of API Gateway and Lambda for the web services of the online web portal that is being accessed by hundreds of thousands of clients each day. They will be announcing a new revolutionary product and it is expected that the web portal will receive a massive number of visitors all around the globe.\nHow can you protect the backend systems and applications from traffic spikes?",
+    "answers": [
+        {
+            "text": "Use throttling limits in API Gateway",
+            "right_answer": true
+        },
+        {
+            "text": "API Gateway will automatically scale and handle massive traffic spikes so you do not have to do anything."
+        },
+        {
+            "text": "Manually upgrade the EC2 instances being used by API Gateway"
+        },
+        {
+            "text": "Deploy Multi-AZ in API Gateway with Read Replica"
+        }
+    ]
+}

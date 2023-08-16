@@ -1,0 +1,43 @@
+{
+    "aws_service": [
+        "Lambda",
+        "FSx",
+        "CloudWatch",
+        "ECS",
+        "Route 53"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 124",
+        "en": "Practice test quesion 124",
+        "kk": "Practice test quesion 124"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Containers",
+        "Storage",
+        "Management & Governance",
+        "Compute",
+        "Networking & Content Delivery"
+    ],
+    "id": "124"
+}

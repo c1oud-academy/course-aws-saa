@@ -1,0 +1,18 @@
+{
+    "text": "A company plans to migrate its suite of containerized applications running on-premises to a container service in AWS. The solution must be cloud-agnostic and use an open-source platform that can automatically manage containerized workloads and services. It should also use the same configuration and tools across various production environments.\nWhat should the Solution Architect do to properly migrate and satisfy the given requirement?",
+    "answers": [
+        {
+            "text": "Migrate the application to Amazon Elastic Container Service with ECS tasks that use the AWS Fargate launch type."
+        },
+        {
+            "text": "Migrate the application to Amazon Elastic Kubernetes Service with EKS worker nodes.",
+            "right_answer": true
+        },
+        {
+            "text": "Migrate the application to Amazon Elastic Container Service with ECS tasks that use the Amazon EC2 launch type."
+        },
+        {
+            "text": "Migrate the application to Amazon Container Registry (ECR) with Amazon EC2 instance worker nodes."
+        }
+    ]
+}

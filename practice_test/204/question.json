@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect needs to deploy a mobile application that can collect votes for a popular singing competition. Millions of users from around the world will submit votes using their mobile phones. These votes must be collected and stored in a highly scalable and highly available data store which will be queried for real-time ranking.\nWhich of the following combination of services should the architect use to meet this requirement?",
+    "answers": [
+        {
+            "text": "Amazon Relational Database Service (RDS) and Amazon MQ"
+        },
+        {
+            "text": "Amazon DynamoDB and AWS AppSync",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon Redshift and AWS Mobile Hub"
+        },
+        {
+            "text": "Amazon Aurora and Amazon Cognito"
+        }
+    ]
+}

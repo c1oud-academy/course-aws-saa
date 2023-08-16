@@ -1,0 +1,43 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 261",
+        "kk": "Practice test quesion 261",
+        "ru": "Practice test quesion 261"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "261",
+    "aws_service": [
+        "Amazon Redshift",
+        "Athena",
+        "Lambda",
+        "S3",
+        "EC2",
+        "Kinesis",
+        "bucket"
+    ],
+    "aws_group": [
+        "Analytics",
+        "Compute",
+        "Storage"
+    ]
+}

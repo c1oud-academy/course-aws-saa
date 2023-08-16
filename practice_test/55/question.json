@@ -1,0 +1,22 @@
+{
+    "text": "A company plans to host a web application in an Auto Scaling group of Amazon EC2 instances. The application will be used globally by users to upload and store several types of files. Based on user trends, files that are older than 2 years must be stored in a different storage class. The Solutions Architect of the company needs to create a cost-effective and scalable solution to store the old files yet still provide durability and high availability.\nWhich of the following approach can be used to fulfill this requirement?",
+    "answers": [
+        {
+            "text": "Use Amazon EFS and create a lifecycle policy that will move the objects to Amazon EFS-IA after 2 years."
+        },
+        {
+            "text": "Use a RAID 0 storage configuration that stripes multiple Amazon EBS volumes together to store the files. Configure the Amazon Data Lifecycle Manager (DLM) to schedule snapshots of the volumes after 2 years."
+        },
+        {
+            "text": "Use Amazon EBS volumes to store the files. Configure the Amazon Data Lifecycle Manager (DLM) to schedule snapshots of the volumes after 2 years."
+        },
+        {
+            "text": "Use Amazon S3 and create a lifecycle policy that will move the objects to Amazon S3 Glacier after 2 years.",
+            "right_answer": true
+        },
+        {
+            "text": "Use Amazon S3 and create a lifecycle policy that will move the objects to Amazon S3 Standard-IA after 2 years.",
+            "right_answer": true
+        }
+    ]
+}

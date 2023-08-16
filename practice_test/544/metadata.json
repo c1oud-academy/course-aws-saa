@@ -1,0 +1,41 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "IAM",
+        "DynamoDB",
+        "S3",
+        "Lambda"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "544",
+    "aws_group": [
+        "Storage",
+        "Security, Identity, & Compliance",
+        "Database",
+        "Compute"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 544",
+        "ru": "Practice test quesion 544",
+        "en": "Practice test quesion 544"
+    }
+}

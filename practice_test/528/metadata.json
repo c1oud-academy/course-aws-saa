@@ -1,0 +1,41 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "Elastic Beanstalk",
+        "CodeDeploy",
+        "ECS",
+        "OpsWorks"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "528",
+    "aws_group": [
+        "Developer Tools",
+        "Compute",
+        "Containers",
+        "Management & Governance"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 528",
+        "ru": "Practice test quesion 528",
+        "en": "Practice test quesion 528"
+    }
+}

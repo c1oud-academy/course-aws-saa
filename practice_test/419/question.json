@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Use ECS as the container management service then set up On-Demand EC2 Instances for processing both mission-critical and non-essential batch jobs."
+        },
+        {
+            "text": "Use ECS as the container management service then set up Reserved EC2 Instances for processing both mission-critical and non-essential batch jobs."
+        },
+        {
+            "text": "Use ECS as the container management service then set up a combination of Reserved and Spot EC2 Instances for processing mission-critical and non-essential batch jobs respectively.",
+            "right_answer": true
+        },
+        {
+            "text": "Use ECS as the container management service then set up Spot EC2 Instances for processing both mission-critical and non-essential batch jobs."
+        }
+    ],
+    "text": "A company plans to deploy a Docker-based batch application in AWS. The application will be used to process both mission-critical data as well as non-essential batch jobs.\nWhich of the following is the most cost-effective option to use in implementing this architecture?"
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A startup is building an AI-based face recognition application in AWS, where they store millions of images in an S3 bucket. As the Solutions Architect, you have to ensure that each and every image uploaded to their system is stored without any issues.\nWhat is the correct indication that an object was successfully stored when you put objects in Amazon S3?",
+    "answers": [
+        {
+            "text": "You will receive an email from Amazon SNS informing you that the object is successfully stored."
+        },
+        {
+            "text": "You will receive an SMS from Amazon SNS informing you that the object is successfully stored."
+        },
+        {
+            "text": "Amazon S3 has 99.999999999% durability hence, there is no need to confirm that data was inserted."
+        },
+        {
+            "text": "HTTP 200 result code and MD5 checksum.",
+            "right_answer": true
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A travel photo sharing website is using Amazon S3 to serve high-quality photos to visitors of your website. After a few days, you found out that there are other travel websites linking and using your photos. This resulted in financial losses for your business.\nWhat is the MOST effective method to mitigate this issue?",
+    "answers": [
+        {
+            "text": "Configure your S3 bucket to remove public read access and use pre-signed URLs with expiry dates.",
+            "right_answer": true
+        },
+        {
+            "text": "Block the IP addresses of the offending websites using NACL."
+        },
+        {
+            "text": "Store and privately serve the high-quality photos on Amazon WorkDocs instead."
+        },
+        {
+            "text": "Use CloudFront distributions for your photos."
+        }
+    ]
+}

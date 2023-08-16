@@ -1,0 +1,18 @@
+{
+    "text": "A company needs to assess and audit all the configurations in their AWS account. It must enforce strict compliance by tracking all configuration changes made to any of its Amazon S3 buckets. Publicly accessible S3 buckets should also be identified automatically to avoid data breaches.\nWhich of the following options will meet this requirement?",
+    "answers": [
+        {
+            "text": "Use AWS Config to set up a rule in your AWS account.",
+            "right_answer": true
+        },
+        {
+            "text": "Use AWS CloudTrail and review the event history of your AWS account."
+        },
+        {
+            "text": "Use AWS IAM to generate a credential report."
+        },
+        {
+            "text": "Use AWS Trusted Advisor to analyze your AWS environment."
+        }
+    ]
+}

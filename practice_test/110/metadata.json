@@ -1,0 +1,38 @@
+{
+    "aws_service": [
+        "Kinesis",
+        "SNS",
+        "SQS"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 110",
+        "en": "Practice test quesion 110",
+        "kk": "Practice test quesion 110"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Application Integration",
+        "Analytics"
+    ],
+    "id": "110"
+}

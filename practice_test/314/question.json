@@ -1,0 +1,18 @@
+{
+    "text": "A media company is using Amazon EC2, ELB, and S3 for its video-sharing portal for filmmakers. They are using a standard S3 storage class to store all high-quality videos that are frequently accessed only during the first three months of posting.\nAs a Solutions Architect, what should you do if the company needs to automatically transfer or archive media data from an S3 bucket to Glacier?",
+    "answers": [
+        {
+            "text": "Use Lifecycle Policies",
+            "right_answer": true
+        },
+        {
+            "text": "Use Amazon SQS"
+        },
+        {
+            "text": "Use a custom shell script that transfers data from the S3 bucket to Glacier"
+        },
+        {
+            "text": "Use Amazon SWF"
+        }
+    ]
+}

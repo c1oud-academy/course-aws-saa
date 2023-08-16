@@ -1,0 +1,46 @@
+{
+    "aws_group": [
+        "Developer Tools",
+        "Compute",
+        "Database",
+        "Networking & Content Delivery",
+        "Management & Governance",
+        "Storage"
+    ],
+    "type": "practice_test",
+    "id": "427",
+    "title": {
+        "ru": "Practice test quesion 427",
+        "kk": "Practice test quesion 427",
+        "en": "Practice test quesion 427"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "path": "metadata.json",
+            "lang": "en"
+        },
+        {
+            "type": "question",
+            "path": "question.json",
+            "lang": "en"
+        }
+    ],
+    "aws_service": [
+        "CloudWatch",
+        "EC2",
+        "DynamoDB",
+        "API Gateway",
+        "CloudTrail",
+        "X-Ray",
+        "S3"
+    ]
+}

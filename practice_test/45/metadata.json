@@ -1,0 +1,41 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Storage",
+        "Business Applications",
+        "Networking & Content Delivery"
+    ],
+    "id": "45",
+    "title": {
+        "kk": "Practice test quesion 45",
+        "ru": "Practice test quesion 45",
+        "en": "Practice test quesion 45"
+    },
+    "aws_service": [
+        "S3",
+        "bucket",
+        "Amazon WorkDocs",
+        "NACL",
+        "CloudFront"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

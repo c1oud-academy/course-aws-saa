@@ -1,0 +1,18 @@
+{
+    "text": "An application is using a RESTful API hosted in AWS which uses Amazon API Gateway and AWS Lambda. There is a requirement to trace and analyze user requests as they travel through your Amazon API Gateway APIs to the underlying services.\nWhich of the following is the most suitable service to use to meet this requirement?",
+    "answers": [
+        {
+            "text": "VPC Flow Logs"
+        },
+        {
+            "text": "CloudTrail"
+        },
+        {
+            "text": "CloudWatch"
+        },
+        {
+            "text": "AWS X-Ray",
+            "right_answer": true
+        }
+    ]
+}

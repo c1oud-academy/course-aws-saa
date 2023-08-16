@@ -1,0 +1,18 @@
+{
+    "text": "A company is building an internal application that processes loans, accruals, and interest rates for their clients. They require a storage service that is able to handle future increases in storage capacity of up to 16 TB and can provide the lowest-latency access to their data. The web application will be hosted in a single m5ad.24xlarge Reserved EC2 instance that will process and store data to the storage service.\nWhich of the following storage services would you recommend?",
+    "answers": [
+        {
+            "text": "EFS"
+        },
+        {
+            "text": "S3"
+        },
+        {
+            "text": "Storage Gateway"
+        },
+        {
+            "text": "EBS",
+            "right_answer": true
+        }
+    ]
+}

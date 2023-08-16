@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Processing Timeout"
+        },
+        {
+            "text": "Component Timeout"
+        },
+        {
+            "text": "Receiving Timeout"
+        },
+        {
+            "text": "Visibility Timeout",
+            "right_answer": true
+        }
+    ],
+    "text": "An investment bank has a distributed batch processing application which is hosted in an Auto Scaling group of Spot EC2 instances with an SQS queue. You configured your components to use client-side buffering so that the calls made from the client will be buffered first and then sent as a batch request to SQS. What is a period of time during which the SQS queue prevents other consuming components from receiving and processing a message?"
+}

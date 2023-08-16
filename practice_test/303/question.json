@@ -1,0 +1,18 @@
+{
+    "text": "A real-time data analytics application is using AWS Lambda to process data and store results in JSON format to an S3 bucket. To speed up the existing workflow, you have to use a service where you can run sophisticated Big Data analytics on your data without moving them into a separate analytics system.\nWhich of the following group of services can you use to meet this requirement?",
+    "answers": [
+        {
+            "text": "Amazon X-Ray, Amazon Neptune, DynamoDB"
+        },
+        {
+            "text": "Amazon Glue, Glacier Select, Amazon Redshift"
+        },
+        {
+            "text": "S3 Select, Amazon Athena, Amazon Redshift Spectrum",
+            "right_answer": true
+        },
+        {
+            "text": "S3 Select, Amazon Neptune, DynamoDB DAX"
+        }
+    ]
+}

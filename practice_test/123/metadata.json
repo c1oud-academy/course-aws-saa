@@ -1,0 +1,39 @@
+{
+    "aws_service": [
+        "S3",
+        "bucket",
+        "CloudFront",
+        "Route 53"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 123",
+        "en": "Practice test quesion 123",
+        "kk": "Practice test quesion 123"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Storage",
+        "Networking & Content Delivery"
+    ],
+    "id": "123"
+}

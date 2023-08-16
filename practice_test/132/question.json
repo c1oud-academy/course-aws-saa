@@ -1,0 +1,18 @@
+{
+    "text": "A solutions architect is designing a cost-efficient, highly available storage solution for company data. One of the requirements is to ensure that the previous state of a file is preserved and retrievable if a modified version of it is uploaded. Also, to meet regulatory compliance, data over 3 years must be retained in an archive and will only be accessible once a year.\nHow should the solutions architect build the solution?",
+    "answers": [
+        {
+            "text": "Create an S3 Standard bucket and enable S3 Object Lock in governance mode."
+        },
+        {
+            "text": "Create an S3 Standard bucket with S3 Object Lock in compliance mode enabled then configure a lifecycle rule that transfers files to Amazon S3 Glacier Deep Archive after 3 years."
+        },
+        {
+            "text": "Create an S3 Standard bucket with object-level versioning enabled and configure a lifecycle rule that transfers files to Amazon S3 Glacier Deep Archive after 3 years.",
+            "right_answer": true
+        },
+        {
+            "text": "Create a One-Zone-IA bucket with object-level versioning enabled and configure a lifecycle rule that transfers files to Amazon S3 Glacier Deep Archive after 3 years."
+        }
+    ]
+}

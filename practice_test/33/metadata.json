@@ -1,0 +1,45 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Management & Governance",
+        "Security, Identity, & Compliance",
+        "Database",
+        "Containers"
+    ],
+    "id": "33",
+    "title": {
+        "kk": "Practice test quesion 33",
+        "ru": "Practice test quesion 33",
+        "en": "Practice test quesion 33"
+    },
+    "aws_service": [
+        "Amazon Keyspaces",
+        "Systems Manager",
+        "ECS",
+        "IAM",
+        "Certificate Manager",
+        "Secrets Manager",
+        "KMS",
+        "Amazon QLDB"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A company has an application that uses multiple EC2 instances located in various AWS regions such as US East (Ohio), US West (N. California), and EU (Ireland). The manager instructed the Solutions Architect to set up a latency-based routing to route incoming traffic for www.example.com to all the EC2 instances across all AWS regions.\nWhich of the following options can satisfy the given requirement?",
+    "answers": [
+        {
+            "text": "Use Route 53 to distribute the load to the multiple EC2 instances across all AWS Regions.",
+            "right_answer": true
+        },
+        {
+            "text": "Use a Network Load Balancer to distribute the load to the multiple EC2 instances across all AWS Regions."
+        },
+        {
+            "text": "Use AWS DataSync to distribute the load to the multiple EC2 instances across all AWS Regions."
+        },
+        {
+            "text": "Use an Application Load Balancer to distribute the load to the multiple EC2 instances across all AWS Regions."
+        }
+    ]
+}

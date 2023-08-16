@@ -1,0 +1,39 @@
+{
+    "aws_service": [
+        "Availability Zone",
+        "RDS",
+        "ECS"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 113",
+        "en": "Practice test quesion 113",
+        "kk": "Practice test quesion 113"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "AWS Global Infrastructure",
+        "Database",
+        "Containers"
+    ],
+    "id": "113"
+}

@@ -1,0 +1,38 @@
+{
+    "aws_service": [
+        "CloudFormation",
+        "OpsWorks",
+        "Elastic Beanstalk"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 118",
+        "en": "Practice test quesion 118",
+        "kk": "Practice test quesion 118"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Management & Governance",
+        "Compute"
+    ],
+    "id": "118"
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A company recently migrated their applications to AWS. The Solutions Architect must ensure that the applications are highly available and safe from common web security vulnerabilities.\nWhich is the most suitable AWS service to use to mitigate Distributed Denial of Service (DDoS) attacks from hitting your back-end EC2 instances?",
+    "answers": [
+        {
+            "text": "Amazon GuardDuty"
+        },
+        {
+            "text": "AWS Firewall Manager"
+        },
+        {
+            "text": "AWS Shield",
+            "right_answer": true
+        },
+        {
+            "text": "AWS WAF"
+        }
+    ]
+}

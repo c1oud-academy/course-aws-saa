@@ -1,0 +1,22 @@
+{
+    "text": "An investment bank is working with an IT team to handle the launch of the new digital wallet system. The applications will run on multiple EBS-backed EC2 instances which will store the logs, transactions, and billing statements of the user in an S3 bucket. Due to tight security and compliance requirements, the IT team is exploring options on how to safely store sensitive data on the EBS volumes and S3.\nWhich of the below options should be carried out when storing sensitive data on AWS?",
+    "answers": [
+        {
+            "text": "Enable EBS Encryption",
+            "right_answer": true
+        },
+        {
+            "text": "Migrate the EC2 instances from the public to private subnet."
+        },
+        {
+            "text": "Enable Amazon S3 Server-Side or use Client-Side Encryption",
+            "right_answer": true
+        },
+        {
+            "text": "Use AWS Shield and WAF"
+        },
+        {
+            "text": "Create an EBS Snapshot"
+        }
+    ]
+}

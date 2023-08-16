@@ -1,0 +1,18 @@
+{
+    "text": "A company plans to launch an application that tracks the GPS coordinates of delivery trucks in the country. The coordinates are transmitted from each delivery truck every five seconds. You need to design an architecture that will enable real-time processing of these coordinates from multiple consumers. The aggregated data will be analyzed in a separate reporting application.\nWhich AWS service should you use for this scenario?",
+    "answers": [
+        {
+            "text": "Amazon AppStream"
+        },
+        {
+            "text": "Amazon Simple Queue Service"
+        },
+        {
+            "text": "Amazon Kinesis",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Data Pipeline"
+        }
+    ]
+}

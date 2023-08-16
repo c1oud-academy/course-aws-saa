@@ -1,0 +1,45 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 204",
+        "kk": "Practice test quesion 204",
+        "ru": "Practice test quesion 204"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "204",
+    "aws_service": [
+        "Amazon Redshift",
+        "Cognito",
+        "Amazon MQ",
+        "AWS AppSync",
+        "Aurora",
+        "DynamoDB",
+        "RDS"
+    ],
+    "aws_group": [
+        "Security, Identity, & Compliance",
+        "Database",
+        "Analytics",
+        "Front-end Web & Mobile",
+        "Application Integration"
+    ]
+}

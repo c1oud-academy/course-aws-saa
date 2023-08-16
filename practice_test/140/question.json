@@ -1,0 +1,18 @@
+{
+    "text": "A company is running a custom application in an Auto Scaling group of Amazon EC2 instances. Several instances are failing due to insufficient swap space. The Solutions Architect has been instructed to troubleshoot the issue and effectively monitor the available swap space of each EC2 instance.\nWhich of the following options fulfills this requirement?",
+    "answers": [
+        {
+            "text": "Create a new trail in AWS CloudTrail and configure Amazon CloudWatch Logs to monitor your trail logs."
+        },
+        {
+            "text": "Enable detailed monitoring on each instance and monitor the SwapUtilization metric."
+        },
+        {
+            "text": "Install the CloudWatch agent on each instance and monitor the SwapUtilization metric.",
+            "right_answer": true
+        },
+        {
+            "text": "Create a CloudWatch dashboard and monitor the SwapUsed metric."
+        }
+    ]
+}

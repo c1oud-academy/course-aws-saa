@@ -1,0 +1,22 @@
+{
+    "text": "A media company needs to configure an Amazon S3 bucket to serve static assets for the public-facing web application. Which methods ensure that all of the objects uploaded to the S3 bucket can be read publicly all over the Internet?",
+    "answers": [
+        {
+            "text": "Configure the cross-origin resource sharing (CORS) of the S3 bucket to allow objects to be publicly accessible from all domains."
+        },
+        {
+            "text": "Configure the S3 bucket policy to set all objects to public read.",
+            "right_answer": true
+        },
+        {
+            "text": "Grant public read access to the object when uploading it using the S3 Console.",
+            "right_answer": true
+        },
+        {
+            "text": "Create an IAM role to set the objects inside the S3 bucket to public read."
+        },
+        {
+            "text": "Do nothing. Amazon S3 objects are already public by default."
+        }
+    ]
+}

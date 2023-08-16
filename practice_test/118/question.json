@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect is working for a company that uses Chef Configuration management in their data center. She needs to leverage their existing Chef recipes in AWS.\nWhich of the following services should she use?",
+    "answers": [
+        {
+            "text": "AWS Elastic Beanstalk"
+        },
+        {
+            "text": "Amazon Simple Workflow Service"
+        },
+        {
+            "text": "AWS OpsWorks",
+            "right_answer": true
+        },
+        {
+            "text": "AWS CloudFormation"
+        }
+    ]
+}

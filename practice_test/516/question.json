@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect is implementing a new High-Performance Computing (HPC) system in AWS that involves orchestrating several Amazon Elastic Container Service (Amazon ECS) tasks with an EC2 launch type that is part of an Amazon ECS cluster. The system will be frequently accessed by users around the globe and it is expected that there would be hundreds of ECS tasks running most of the time. The Architect must ensure that its storage system is optimized for high-frequency read and write operations. The output data of each ECS task is around 10 MB but the obsolete data will eventually be archived and deleted so the total storage size won\u2019t exceed 10 TB.\nWhich of the following is the MOST suitable solution that the Architect should recommend?",
+    "answers": [
+        {
+            "text": "Set up an SMB file share by creating an Amazon FSx File Gateway in Storage Gateway. Set the file share as the container mount point in the ECS task definition of the Amazon ECS cluster."
+        },
+        {
+            "text": "Launch an Amazon Elastic File System (Amazon EFS) file system with Bursting Throughput mode and set the performance mode to General Purpose. Configure the EFS file system as the container mount point in the ECS task definition of the Amazon ECS cluster."
+        },
+        {
+            "text": "Launch an Amazon DynamoDB table with Amazon DynamoDB Accelerator (DAX) and DynamoDB Streams enabled. Configure the table to be accessible by all Amazon ECS cluster instances. Set the DynamoDB table as the container mount point in the ECS task definition of the Amazon ECS cluster."
+        },
+        {
+            "text": "Launch an Amazon Elastic File System (Amazon EFS) with Provisioned Throughput mode and set the performance mode to  Max I/O. Configure the EFS file system as the container mount point in the ECS task definition of the Amazon ECS cluster.",
+            "right_answer": true
+        }
+    ]
+}

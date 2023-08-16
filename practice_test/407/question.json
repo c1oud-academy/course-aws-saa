@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "text": "Set up a geo match condition in the Application Load Balancer that blocks requests from a specific country."
+        },
+        {
+            "text": "Add another rule in the AWS WAF web ACL with a geo match condition that blocks requests that originate from a specific country.",
+            "right_answer": true
+        },
+        {
+            "text": "Using AWS WAF, create a web ACL with a rule that explicitly allows requests from approved IP addresses declared in an IP Set.",
+            "right_answer": true
+        },
+        {
+            "text": "Place a Transit Gateway in front of the VPC where the application is hosted and set up Network ACLs that block requests that originate from a specific country."
+        },
+        {
+            "text": "In the Application Load Balancer, create a listener rule that explicitly allows requests from approved IP addresses."
+        }
+    ],
+    "text": "A company has an application hosted in an Amazon ECS Cluster behind an Application Load Balancer. The Solutions Architect is building a sophisticated web filtering solution that allows or blocks web requests based on the country that the requests originate from. However, the solution should still allow specific IP addresses from that country.\nWhich combination of steps should the Architect implement to satisfy this requirement?"
+}

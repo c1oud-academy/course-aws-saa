@@ -1,0 +1,38 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 205",
+        "kk": "Practice test quesion 205",
+        "ru": "Practice test quesion 205"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "205",
+    "aws_service": [
+        "S3",
+        "bucket",
+        "IAM"
+    ],
+    "aws_group": [
+        "Security, Identity, & Compliance",
+        "Storage"
+    ]
+}

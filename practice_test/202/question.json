@@ -1,0 +1,22 @@
+{
+    "text": "An aerospace engineering company recently adopted a hybrid cloud infrastructure with AWS. One of the Solutions Architect\u2019s tasks is to launch a VPC with both public and private subnets for their EC2 instances as well as their database instances.\nWhich of the following statements are true regarding Amazon VPC subnets?",
+    "answers": [
+        {
+            "text": "Every subnet that you create is automatically associated with the main route table for the VPC.",
+            "right_answer": true
+        },
+        {
+            "text": "Each subnet maps to a single Availability Zone.",
+            "right_answer": true
+        },
+        {
+            "text": "Each subnet spans to 2 Availability Zones."
+        },
+        {
+            "text": "The allowed block size in VPC is between a /16 netmask (65,536 IP addresses) and /27 netmask (32 IP addresses)."
+        },
+        {
+            "text": "EC2 instances in a private subnet can communicate with the Internet only if they have an Elastic IP."
+        }
+    ]
+}

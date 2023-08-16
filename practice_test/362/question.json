@@ -1,0 +1,18 @@
+{
+    "text": "A company launched a global news website that is deployed to AWS and is using MySQL RDS. The website has millions of viewers from all over the world which means that the website has read-heavy database workloads. All database transactions must be ACID compliant to ensure data integrity.\nIn this scenario, which of the following is the best option to use to increase the read throughput on the MySQL database?",
+    "answers": [
+        {
+            "text": "Enable Amazon RDS Read Replicas",
+            "right_answer": true
+        },
+        {
+            "text": "Enable Multi-AZ deployments"
+        },
+        {
+            "text": "Enable Amazon RDS Standby Replicas"
+        },
+        {
+            "text": "Use SQS to queue up the requests"
+        }
+    ]
+}

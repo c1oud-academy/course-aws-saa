@@ -1,0 +1,42 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "CodeDeploy",
+        "Lambda",
+        "EC2",
+        "OpsWorks",
+        "CloudFormation",
+        "CodeCommit"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "560",
+    "aws_group": [
+        "Developer Tools",
+        "Compute",
+        "Management & Governance"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 560",
+        "ru": "Practice test quesion 560",
+        "en": "Practice test quesion 560"
+    }
+}

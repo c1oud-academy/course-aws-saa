@@ -1,0 +1,18 @@
+{
+    "text": "A company has an existing VPC which is quite unutilized for the past few months. The Business Manager instructed the Solutions Architect to integrate the company\u2019s on-premises data center and its VPC. The architect explained the list of tasks that he\u2019ll be doing and discussed the Virtual Private Network (VPN) connection. The Business Manager is not tech-savvy but he is interested to know what a VPN is and its benefits.\nWhat is one of the major advantages of having a VPN in AWS?",
+    "answers": [
+        {
+            "text": "It allows you to connect your AWS cloud resources to your on-premises data center using secure and private sessions with IP Security (IPSec) or Transport Layer Security (TLS) tunnels.",
+            "right_answer": true
+        },
+        {
+            "text": "It provides a cost-effective, hybrid connection from your VPC to your on-premises data centers which bypasses the public Internet."
+        },
+        {
+            "text": "It provides a networking connection between two VPCs which enables you to route traffic between them using private IPv4 addresses or IPv6 addresses."
+        },
+        {
+            "text": "It enables you to establish a private and dedicated network connection between your network and your VPC"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A game development company operates several virtual reality (VR) and augmented reality (AR) games which use various RESTful web APIs hosted on their on-premises data center. Due to the unprecedented growth of their company, they decided to migrate their system to AWS Cloud to scale out their resources as well to minimize costs.\nWhich of the following should you recommend as the most cost-effective and scalable solution to meet the above requirement?",
+    "answers": [
+        {
+            "text": "Set up a micro-service architecture with ECS, ECR, and Fargate."
+        },
+        {
+            "text": "Host the APIs in a static S3 web hosting bucket behind a CloudFront web distribution."
+        },
+        {
+            "text": "Use AWS Lambda and Amazon API Gateway.",
+            "right_answer": true
+        },
+        {
+            "text": "Use a Spot Fleet of Amazon EC2 instances, each with an Elastic Fabric Adapter (EFA) for more consistent latency and higher network throughput. Set up an Application Load Balancer to distribute traffic to the instances."
+        }
+    ]
+}

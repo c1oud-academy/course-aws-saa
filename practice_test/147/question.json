@@ -1,0 +1,18 @@
+{
+    "text": "All objects uploaded to an Amazon S3 bucket must be encrypted for security compliance. The bucket will use server-side encryption with Amazon S3-Managed encryption keys (SSE-S3) to encrypt data using 256-bit Advanced Encryption Standard (AES-256) block cipher.\nWhich of the following request headers must be used?",
+    "answers": [
+        {
+            "text": "x-amz-server-side-encryption-customer-key-MD5"
+        },
+        {
+            "text": "x-amz-server-side-encryption",
+            "right_answer": true
+        },
+        {
+            "text": "x-amz-server-side-encryption-customer-key"
+        },
+        {
+            "text": "x-amz-server-side-encryption-customer-algorithm"
+        }
+    ]
+}

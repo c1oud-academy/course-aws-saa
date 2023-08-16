@@ -1,0 +1,38 @@
+{
+    "aws_service": [
+        "Amazon Redshift",
+        "Kinesis",
+        "DynamoDB"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 102",
+        "en": "Practice test quesion 102",
+        "kk": "Practice test quesion 102"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Database",
+        "Analytics"
+    ],
+    "id": "102"
+}

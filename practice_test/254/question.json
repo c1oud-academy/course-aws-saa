@@ -1,0 +1,22 @@
+{
+    "text": "An online stocks trading application that stores financial data in an S3 bucket has a lifecycle policy that moves older data to Glacier every month. There is a strict compliance requirement where a surprise audit can happen at anytime and you should be able to retrieve the required data in under 15 minutes under all circumstances. Your manager instructed you to ensure that retrieval capacity is available when you need it and should handle up to 150 MB/s of retrieval throughput.\nWhich of the following should you do to meet the above requirement?",
+    "answers": [
+        {
+            "text": "Use Bulk Retrieval to access the financial data."
+        },
+        {
+            "text": "Retrieve the data using Amazon Glacier Select."
+        },
+        {
+            "text": "Specify a range, or portion, of the financial data archive to retrieve."
+        },
+        {
+            "text": "Purchase provisioned retrieval capacity.",
+            "right_answer": true
+        },
+        {
+            "text": "Use Expedited Retrieval to access the financial data.",
+            "right_answer": true
+        }
+    ]
+}

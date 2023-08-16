@@ -1,0 +1,39 @@
+{
+    "aws_service": [
+        "Step Functions",
+        "Batch",
+        "SWF",
+        "Lambda"
+    ],
+    "aws_group": [
+        "Application Integration",
+        "Compute"
+    ],
+    "content_type": "test",
+    "id": "343",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 343",
+        "kk": "Practice test quesion 343",
+        "ru": "Practice test quesion 343"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

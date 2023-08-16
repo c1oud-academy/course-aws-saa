@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect needs to set up a bastion host in the cheapest, most secure way. The Architect should be the only person that can access it via SSH.\nWhich of the following steps would satisfy this requirement?",
+    "answers": [
+        {
+            "text": "Set up a small EC2 instance and a security group that only allows access on port 22"
+        },
+        {
+            "text": "Set up a large EC2 instance and a security group that only allows access on port 22"
+        },
+        {
+            "text": "Set up a large EC2 instance and a security group that only allows access on port 22 via your IP address"
+        },
+        {
+            "text": "Set up a small EC2 instance and a security group that only allows access on port 22 via your IP address",
+            "right_answer": true
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A company recently adopted a hybrid architecture that integrates its on-premises data center to AWS cloud. You are assigned to configure the VPC and implement the required IAM users, IAM roles, IAM groups, and IAM policies.\nIn this scenario, what is the best practice when creating IAM policies?",
+    "answers": [
+        {
+            "text": "Determine what users need to do and then craft policies for them that let the users perform those tasks including additional administrative operations."
+        },
+        {
+            "text": "Grant all permissions to any EC2 user."
+        },
+        {
+            "text": "Use the principle of least privilege which means granting only the least number of people with full root access."
+        },
+        {
+            "text": "Use the principle of least privilege which means granting only the permissions required to perform a task.",
+            "right_answer": true
+        }
+    ]
+}

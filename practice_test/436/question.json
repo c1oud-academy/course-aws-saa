@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "AWS Cost Explorer"
+        },
+        {
+            "text": "AWS Trusted Advisor",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Budgets"
+        },
+        {
+            "text": "Amazon Inspector"
+        }
+    ],
+    "text": "A Solutions Architect needs to ensure that all of the AWS resources in Amazon VPC don\u2019t go beyond their respective service limits. The Architect should prepare a system that provides real-time guidance in provisioning resources that adheres to the AWS best practices.\nWhich of the following is the MOST appropriate service to use to satisfy this task?"
+}

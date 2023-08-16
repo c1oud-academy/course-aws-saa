@@ -1,0 +1,41 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "DataSync",
+        "AWS Region",
+        "EC2",
+        "Route 53"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "513",
+    "aws_group": [
+        "Migration & Transfer",
+        "AWS Global Infrastructure",
+        "Compute",
+        "Networking & Content Delivery"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 513",
+        "ru": "Practice test quesion 513",
+        "en": "Practice test quesion 513"
+    }
+}

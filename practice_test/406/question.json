@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "text": "You have to ensure that the AMI used to launch the instance no longer exists."
+        },
+        {
+            "text": "You have to ensure that the AMI used to launch the instance still exists.",
+            "right_answer": true
+        },
+        {
+            "text": "You have to ensure that the instance is in a different Availability Zone as the Auto Scaling group."
+        },
+        {
+            "text": "You have to ensure that the instance is launched in one of the Availability Zones defined in your Auto Scaling group.",
+            "right_answer": true
+        },
+        {
+            "text": "You must stop the instance first."
+        }
+    ],
+    "text": "A loan processing application is hosted in a single On-Demand EC2 instance in your VPC. To improve the scalability of your application, you have to use Auto Scaling to automatically add new EC2 instances to handle a surge of incoming requests.\nWhich of the following items should be done in order to add an existing EC2 instance to an Auto Scaling group?"
+}

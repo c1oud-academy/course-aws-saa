@@ -1,0 +1,18 @@
+{
+    "text": "An organization plans to use an AWS Direct Connect connection to establish a dedicated connection between its on-premises network and AWS. The organization needs to launch a fully managed solution that will automate and accelerate the replication of data to and from various AWS storage services.\nWhich of the following solutions would you recommend?",
+    "answers": [
+        {
+            "text": "Use an AWS Storage Gateway file gateway to store and retrieve files directly using the SMB file system protocol."
+        },
+        {
+            "text": "Use an AWS DataSync agent to rapidly move the data over the Internet."
+        },
+        {
+            "text": "Use an AWS DataSync agent to rapidly move the data over a service endpoint.",
+            "right_answer": true
+        },
+        {
+            "text": "Use an AWS Storage Gateway tape gateway to store data on virtual tape cartridges and asynchronously copy your backups to AWS."
+        }
+    ]
+}

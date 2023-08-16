@@ -1,0 +1,18 @@
+{
+    "text": "A company has developed public APIs hosted in Amazon EC2 instances behind an Elastic Load Balancer. The APIs will be used by various clients from their respective on-premises data centers. A Solutions Architect received a report that the web service clients can only access trusted IP addresses whitelisted on their firewalls.\nWhat should you do to accomplish the above requirement?",
+    "answers": [
+        {
+            "text": "Associate an Elastic IP address to an Application Load Balancer."
+        },
+        {
+            "text": "Create a CloudFront distribution whose origin points to the private IP addresses of your web servers."
+        },
+        {
+            "text": "Create an Alias Record in Route 53 which maps to the DNS name of the load balancer."
+        },
+        {
+            "text": "Associate an Elastic IP address to a Network Load Balancer.",
+            "right_answer": true
+        }
+    ]
+}

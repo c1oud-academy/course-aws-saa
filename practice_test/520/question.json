@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect designed a real-time data analytics system based on Kinesis Data Stream and Lambda. A week after the system has been deployed, the users noticed that it performed slowly as the data rate increases. The Architect identified that the performance of the Kinesis Data Streams is causing this problem.\nWhich of the following should the Architect do to improve performance?",
+    "answers": [
+        {
+            "text": "Improve the performance of the stream by decreasing the number of its shards using the MergeShard command."
+        },
+        {
+            "text": "Replace the data stream with Amazon Kinesis Data Firehose instead."
+        },
+        {
+            "text": "Increase the number of shards of the Kinesis stream by using the UpdateShardCount command.",
+            "right_answer": true
+        },
+        {
+            "text": "Implement Step Scaling to the Kinesis Data Stream."
+        }
+    ]
+}

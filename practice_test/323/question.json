@@ -1,0 +1,22 @@
+{
+    "text": "To save costs, your manager instructed you to analyze and review the setup of your AWS cloud infrastructure. You should also provide an estimate of how much your company will pay for all of the AWS resources that they are using. In this scenario, which of the following will incur costs?",
+    "answers": [
+        {
+            "text": "Using an Amazon VPC"
+        },
+        {
+            "text": "EBS Volumes attached to stopped EC2 Instances",
+            "right_answer": true
+        },
+        {
+            "text": "A stopped On-Demand EC2 Instance"
+        },
+        {
+            "text": "Public Data Set"
+        },
+        {
+            "text": "A running EC2 Instance",
+            "right_answer": true
+        }
+    ]
+}

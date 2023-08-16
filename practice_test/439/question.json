@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "EBS General Purpose SSD (gp2)"
+        },
+        {
+            "text": "EBS Provisioned IOPS SSD (io1)"
+        },
+        {
+            "text": "EBS Cold HDD (sc1)"
+        },
+        {
+            "text": "EBS Throughput Optimized HDD (st1)",
+            "right_answer": true
+        }
+    ],
+    "text": "A company needs to set up a cost-effective architecture for a log processing application that has frequently accessed, throughput-intensive workloads with large, sequential I/O operations. The application should be hosted in an already existing On-Demand EC2 instance in the VPC. You have to attach a new EBS volume that will be used by the application.\nWhich of the following is the most suitable EBS volume type that you should use in this scenario?"
+}

@@ -1,0 +1,40 @@
+{
+    "aws_service": [
+        "Cognito",
+        "DynamoDB",
+        "IAM",
+        "SNS"
+    ],
+    "aws_group": [
+        "Database",
+        "Application Integration",
+        "Security, Identity, & Compliance"
+    ],
+    "content_type": "test",
+    "id": "336",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 336",
+        "kk": "Practice test quesion 336",
+        "ru": "Practice test quesion 336"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "An application hosted in EC2 consumes messages from an SQS queue and is integrated with SNS to send out an email to you once the process is complete. The Operations team received 5 orders but after a few hours, they saw 20 email notifications in their inbox.\nWhich of the following could be the possible culprit for this issue?",
+    "answers": [
+        {
+            "text": "The web application does not have permission to consume messages in the SQS queue."
+        },
+        {
+            "text": "The web application is set for long polling so the messages are being sent twice."
+        },
+        {
+            "text": "The web application is not deleting the messages in the SQS queue after it has processed them.",
+            "right_answer": true
+        },
+        {
+            "text": "The web application is set to short polling so some messages are not being picked up"
+        }
+    ]
+}

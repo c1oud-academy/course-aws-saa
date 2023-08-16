@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Increase the base number of Auto Scaling instances for the Auto Scaling group"
+        },
+        {
+            "text": "Change the cooldown period of the Auto Scaling group and set the CloudWatch metric to a higher threshold",
+            "right_answer": true
+        },
+        {
+            "text": "Add provisioned IOPS to the instances"
+        },
+        {
+            "text": "Increase the instance type in the launch configuration"
+        }
+    ],
+    "text": "A Solutions Architect joined a large tech company with an existing Amazon VPC. When reviewing the Auto Scaling events, the Architect noticed that their web application is scaling up and down multiple times within the hour.\nWhat design change could the Architect make to optimize cost while preserving elasticity?"
+}

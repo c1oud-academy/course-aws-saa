@@ -1,0 +1,22 @@
+{
+    "text": "A company has clients all across the globe that access product files stored in several S3 buckets, which are behind each of their own CloudFront web distributions. They currently want to deliver their content to a specific client, and they need to make sure that only that client can access the data. Currently, all of their clients can access their S3 buckets directly using an S3 URL or through their CloudFront distribution. The Solutions Architect must serve the private content via CloudFront only, to secure the distribution of files.\nWhich combination of actions should the Architect implement to meet the above requirements?",
+    "answers": [
+        {
+            "text": "Use AWS Cloud Map to ensure that only their client can access the files."
+        },
+        {
+            "text": "Require the users to access the private content by using special CloudFront signed URLs or signed cookies.",
+            "right_answer": true
+        },
+        {
+            "text": "Restrict access to files in the origin by creating an origin access identity (OAI) and give it permission to read the files in the bucket.",
+            "right_answer": true
+        },
+        {
+            "text": "Use AWS App Mesh to ensure that only their client can access the files."
+        },
+        {
+            "text": "Use S3 pre-signed URLs to ensure that only their client can access the files. Remove permission to use Amazon S3 URLs to read the files for anyone else."
+        }
+    ]
+}

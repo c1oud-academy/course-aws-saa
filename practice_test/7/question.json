@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect needs to set up a relational database and come up with a disaster recovery plan to mitigate multi-region failure. The solution requires a Recovery Point Objective (RPO) of 1 second and a Recovery Time Objective (RTO) of less than 1 minute.\nWhich of the following AWS services can fulfill this requirement?",
+    "answers": [
+        {
+            "text": "Amazon Timestream"
+        },
+        {
+            "text": "Amazon Quantum Ledger Database (Amazon QLDB)"
+        },
+        {
+            "text": "Amazon RDS for PostgreSQL with cross-region read replicas"
+        },
+        {
+            "text": "Amazon Aurora Global Database",
+            "right_answer": true
+        }
+    ]
+}

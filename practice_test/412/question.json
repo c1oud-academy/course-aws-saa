@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Re-route some of the VPN connections to a secondary customer gateway device on the remote network\u2019s end."
+        },
+        {
+            "text": "Associate the VPCs to an Equal Cost Multipath Routing (ECMR)-enabled transit gateway and attach additional VPN tunnels.",
+            "right_answer": true
+        },
+        {
+            "text": "Modify the VPN configuration by increasing the number of tunnels to scale the throughput."
+        },
+        {
+            "text": "Add more virtual private gateways to a VPC and enable Equal Cost Multipath Routing (ECMR) to get higher VPN bandwidth."
+        }
+    ],
+    "text": "A company has multiple AWS Site-to-Site VPN connections placed between their VPCs and their remote network. During peak hours, many employees are experiencing slow connectivity issues, which limits their productivity. The company has asked a solutions architect to scale the throughput of the VPN connections.\nWhich solution should the architect carry out?"
+}

@@ -1,0 +1,18 @@
+{
+    "text": "The company you are working for has a set of AWS resources hosted in ap-northeast-1 region. You have been asked by your IT Manager to create an AWS CLI shell script that will call an AWS service which could create duplicate resources in another region in the event that ap-northeast-1 region fails. The duplicated resources should also contain the VPC Peering configuration and other networking components from the primary stack.\nWhich of the following AWS services could help fulfill this task?",
+    "answers": [
+        {
+            "text": "Amazon SNS"
+        },
+        {
+            "text": "Amazon LightSail"
+        },
+        {
+            "text": "Amazon SQS"
+        },
+        {
+            "text": "AWS CloudFormation",
+            "right_answer": true
+        }
+    ]
+}

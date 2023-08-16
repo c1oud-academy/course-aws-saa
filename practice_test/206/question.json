@@ -1,0 +1,18 @@
+{
+    "text": "A startup has resources deployed on the AWS Cloud. It is now going through a set of scheduled audits by an external auditing firm for compliance.\nWhich of the following services available in AWS can be utilized to help ensure the right information are present for auditing purposes?",
+    "answers": [
+        {
+            "text": "Amazon VPC"
+        },
+        {
+            "text": "Amazon CloudWatch"
+        },
+        {
+            "text": "AWS CloudTrail",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon EC2"
+        }
+    ]
+}

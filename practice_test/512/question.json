@@ -1,0 +1,22 @@
+{
+    "text": "A software development company needs to connect its on-premises infrastructure to the AWS cloud. Which of the following AWS services can you use to accomplish this?",
+    "answers": [
+        {
+            "text": "AWS Direct Connect",
+            "right_answer": true
+        },
+        {
+            "text": "IPsec VPN connection",
+            "right_answer": true
+        },
+        {
+            "text": "NAT Gateway"
+        },
+        {
+            "text": "Amazon Connect"
+        },
+        {
+            "text": "VPC Peering"
+        }
+    ]
+}

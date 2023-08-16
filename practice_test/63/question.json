@@ -1,0 +1,18 @@
+{
+    "text": "An online medical system hosted in AWS stores sensitive Personally Identifiable Information (PII) of the users in an Amazon S3 bucket. Both the master keys and the unencrypted data should never be sent to AWS to comply with the strict compliance and regulatory requirements of the company.\nWhich S3 encryption technique should the Architect use?",
+    "answers": [
+        {
+            "text": "Use S3 server-side encryption with customer provided key."
+        },
+        {
+            "text": "Use S3 client-side encryption with a KMS-managed customer master key."
+        },
+        {
+            "text": "Use S3 server-side encryption with a KMS managed key."
+        },
+        {
+            "text": "Use S3 client-side encryption with a client-side master key.",
+            "right_answer": true
+        }
+    ]
+}

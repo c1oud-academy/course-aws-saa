@@ -1,0 +1,37 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Database",
+        "Containers"
+    ],
+    "id": "52",
+    "title": {
+        "kk": "Practice test quesion 52",
+        "ru": "Practice test quesion 52",
+        "en": "Practice test quesion 52"
+    },
+    "aws_service": [
+        "DynamoDB",
+        "ECS"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

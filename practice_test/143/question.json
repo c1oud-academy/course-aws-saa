@@ -1,0 +1,18 @@
+{
+    "text": "A company is receiving semi-structured and structured data from different sources every day. The Solutions Architect plans to use big data processing frameworks to analyze vast amounts of data and access it using various business intelligence tools and standard SQL queries.\nWhich of the following provides the MOST high-performing solution that fulfills this requirement?",
+    "answers": [
+        {
+            "text": "Create an Amazon EMR cluster and store the processed data in Amazon Redshift.",
+            "right_answer": true
+        },
+        {
+            "text": "Create an Amazon EC2 instance and store the processed data in Amazon EBS."
+        },
+        {
+            "text": "Use Amazon Kinesis Data Analytics and store the processed data in Amazon DynamoDB."
+        },
+        {
+            "text": "Use AWS Glue and store the processed data in Amazon S3."
+        }
+    ]
+}

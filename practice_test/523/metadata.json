@@ -1,0 +1,38 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "bucket",
+        "S3",
+        "SNS"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "523",
+    "aws_group": [
+        "Storage",
+        "Application Integration"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 523",
+        "ru": "Practice test quesion 523",
+        "en": "Practice test quesion 523"
+    }
+}

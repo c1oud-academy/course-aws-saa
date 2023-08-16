@@ -1,0 +1,38 @@
+{
+    "aws_service": [
+        "WAF",
+        "CloudFront",
+        "Global Accelerator"
+    ],
+    "aws_group": [
+        "Security, Identity, & Compliance",
+        "Networking & Content Delivery"
+    ],
+    "content_type": "test",
+    "id": "337",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 337",
+        "kk": "Practice test quesion 337",
+        "ru": "Practice test quesion 337"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

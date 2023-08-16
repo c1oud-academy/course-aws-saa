@@ -1,0 +1,18 @@
+{
+    "text": "A company is using an Amazon RDS for MySQL 5.6 with Multi-AZ deployment enabled and several web servers across two AWS Regions. The database is currently experiencing highly dynamic reads due to the growth of the company\u2019s website. The Solutions Architect tried to test the read performance from the secondary AWS Region and noticed a notable slowdown on the SQL queries.\nWhich of the following options would provide a read replication latency of less than 1 second?",
+    "answers": [
+        {
+            "text": "Upgrade the MySQL database engine."
+        },
+        {
+            "text": "Use Amazon ElastiCache to improve database performance."
+        },
+        {
+            "text": "Migrate the existing database to Amazon Aurora and create a cross-region read replica.",
+            "right_answer": true
+        },
+        {
+            "text": "Create an Amazon RDS for MySQL read replica in the secondary AWS Region."
+        }
+    ]
+}

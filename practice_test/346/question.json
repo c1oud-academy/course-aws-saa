@@ -1,0 +1,18 @@
+{
+    "text": "A company plans to reduce the amount of data that Amazon S3 transfers to the servers in order to lower the operating costs as well as lower the latency of retrieving the data. To accomplish this, you need to use simple structured query language (SQL) statements to filter the contents of Amazon S3 objects and retrieve just the subset of data that you need.\nWhich of the following services will help you accomplish this requirement?",
+    "answers": [
+        {
+            "text": "S3 Select",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Step Functions"
+        },
+        {
+            "text": "Redshift Spectrum"
+        },
+        {
+            "text": "RDS"
+        }
+    ]
+}

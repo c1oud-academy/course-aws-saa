@@ -1,0 +1,43 @@
+{
+    "aws_service": [
+        "CloudWatch",
+        "IAM",
+        "SNS",
+        "CloudTrail",
+        "Lambda",
+        "AWS Config"
+    ],
+    "aws_group": [
+        "Management & Governance",
+        "Application Integration",
+        "Compute",
+        "Security, Identity, & Compliance"
+    ],
+    "content_type": "test",
+    "id": "331",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 331",
+        "kk": "Practice test quesion 331",
+        "ru": "Practice test quesion 331"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

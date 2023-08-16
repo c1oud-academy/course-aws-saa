@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "EC2Config"
+        },
+        {
+            "text": "Run Command",
+            "right_answer": true
+        },
+        {
+            "text": "AWS CodePipeline"
+        },
+        {
+            "text": "AWS Config"
+        }
+    ],
+    "text": "A startup launched a fleet of on-demand EC2 instances to host a massively multiplayer online role-playing game (MMORPG). The EC2 instances are configured with Auto Scaling and AWS Systems Manager.\nWhat can be used to configure the EC2 instances without having to establish an RDP or SSH connection to each instance?"
+}

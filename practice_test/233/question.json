@@ -1,0 +1,18 @@
+{
+    "text": "A company plans to use a durable storage service to store on-premises database backups to the AWS cloud. To move their backup data, they need to use a service that can store and retrieve objects through standard file storage protocols for quick recovery.\nWhich of the following options will meet this requirement?",
+    "answers": [
+        {
+            "text": "Use AWS Snowball Edge to directly backup the data in Amazon S3 Glacier."
+        },
+        {
+            "text": "Use Amazon EBS volumes to store all the backup data and attach it to an Amazon EC2 instance."
+        },
+        {
+            "text": "Use the AWS Storage Gateway volume gateway to store the backup data and directly access it using Amazon S3 API actions."
+        },
+        {
+            "text": "Use the AWS Storage Gateway file gateway to store all the backup data in Amazon S3.",
+            "right_answer": true
+        }
+    ]
+}

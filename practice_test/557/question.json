@@ -1,0 +1,18 @@
+{
+    "text": "A company plans to implement a network monitoring system in AWS. The Solutions Architect launched an EC2 instance to host the monitoring system and used CloudWatch to monitor, store, and access the log files of the instance.\nWhich of the following provides an automated way to send log data to CloudWatch Logs from the Amazon EC2 instance?",
+    "answers": [
+        {
+            "text": "CloudTrail Processing Library"
+        },
+        {
+            "text": "CloudTrail with log file validation"
+        },
+        {
+            "text": "CloudWatch Logs agent",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Transfer for SFTP"
+        }
+    ]
+}

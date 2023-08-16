@@ -1,0 +1,18 @@
+{
+    "text": "A large financial firm needs to set up a Linux bastion host to allow access to the Amazon EC2 instances running in their VPC. For security purposes, only the clients connecting from the corporate external public IP address 175.45.116.100 should have SSH access to the host.\nWhich is the best option that can meet the customer's requirement?",
+    "answers": [
+        {
+            "text": "Network ACL Inbound Rule: Protocol \u2013 UDP, Port Range \u2013 22, Source 175.45.116.100/32"
+        },
+        {
+            "text": "Security Group Inbound Rule: Protocol \u2013 UDP, Port Range \u2013 22, Source 175.45.116.100/32"
+        },
+        {
+            "text": "Security Group Inbound Rule: Protocol \u2013 TCP. Port Range \u2013 22, Source 175.45.116.100/32",
+            "right_answer": true
+        },
+        {
+            "text": "Network ACL Inbound Rule: Protocol \u2013 TCP, Port Range-22, Source 175.45.116.100/0"
+        }
+    ]
+}

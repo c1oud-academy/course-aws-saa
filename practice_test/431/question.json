@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "AWS Elastic Beanstalk"
+        },
+        {
+            "text": "AWS CloudFormation"
+        },
+        {
+            "text": "AWS CodeDeploy"
+        },
+        {
+            "text": "AWS OpsWorks",
+            "right_answer": true
+        }
+    ],
+    "text": "A Solutions Architect is setting up configuration management in an existing cloud architecture. The Architect needs to deploy and manage the EC2 instances including the other AWS resources using Chef and Puppet.\nWhich of the following is the most suitable service to use in this scenario?"
+}

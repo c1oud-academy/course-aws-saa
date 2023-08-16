@@ -1,0 +1,22 @@
+{
+    "text": "For data privacy, a healthcare company has been asked to comply with the Health Insurance Portability and Accountability Act (HIPAA). The company stores all its backups on an Amazon S3 bucket. It is required that data stored on the S3 bucket must be encrypted.\nWhat is the best option to do this?",
+    "answers": [
+        {
+            "text": "Before sending the data to Amazon S3 over HTTPS, encrypt the data locally first using your own encryption keys.",
+            "right_answer": true
+        },
+        {
+            "text": "Store the data on EBS volumes with encryption enabled instead of using Amazon S3."
+        },
+        {
+            "text": "Enable Server-Side Encryption on an S3 bucket to make use of AES-256 encryption.",
+            "right_answer": true
+        },
+        {
+            "text": "Store the data in encrypted EBS snapshots."
+        },
+        {
+            "text": "Enable Server-Side Encryption on an S3 bucket to make use of AES-128 encryption."
+        }
+    ]
+}

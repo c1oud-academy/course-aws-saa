@@ -1,0 +1,18 @@
+{
+    "text": "A global news network created a CloudFront distribution for their web application. However, you noticed that the application's origin server is being hit for each request instead of the AWS Edge locations, which serve the cached objects. The issue occurs even for the commonly requested objects.\nWhat could be a possible cause of this issue?",
+    "answers": [
+        {
+            "text": "The file sizes of the cached objects are too large for CloudFront to handle."
+        },
+        {
+            "text": "The Cache-Control max-age directive is set to zero.",
+            "right_answer": true
+        },
+        {
+            "text": "An object is only cached by Cloudfront once a successful request has been made hence, the objects were not requested before, which is why the request is still directed to the origin server."
+        },
+        {
+            "text": "There are two primary origins configured in your Amazon CloudFront Origin Group."
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "Kinesis",
+        "Data Pipeline",
+        "Simple Queue Service"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "551",
+    "aws_group": [
+        "Analytics",
+        "Application Integration"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 551",
+        "ru": "Practice test quesion 551",
+        "en": "Practice test quesion 551"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Compute",
+        "Storage"
+    ],
+    "id": "55",
+    "title": {
+        "kk": "Practice test quesion 55",
+        "ru": "Practice test quesion 55",
+        "en": "Practice test quesion 55"
+    },
+    "aws_service": [
+        "EC2",
+        "S3",
+        "EFS",
+        "EBS",
+        "S3 Glacier"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

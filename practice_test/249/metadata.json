@@ -1,0 +1,37 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 249",
+        "kk": "Practice test quesion 249",
+        "ru": "Practice test quesion 249"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "249",
+    "aws_service": [
+        "AWS Region",
+        "Route 53"
+    ],
+    "aws_group": [
+        "AWS Global Infrastructure",
+        "Networking & Content Delivery"
+    ]
+}

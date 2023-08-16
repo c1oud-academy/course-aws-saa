@@ -1,0 +1,18 @@
+{
+    "text": "A company is building an internal application that serves as a repository for images uploaded by a couple of users. Whenever a user uploads an image, it would be sent to Kinesis Data Streams for processing before it is stored in an S3 bucket. If the upload was successful, the application will return a prompt informing the user that the operation was successful. The entire processing typically takes about 5 minutes to finish.\nWhich of the following options will allow you to asynchronously process the request to the application from upload request to Kinesis, S3, and return a reply in the most cost-effective manner?",
+    "answers": [
+        {
+            "text": "Use a combination of SQS to queue the requests and then asynchronously process them using On-Demand EC2 Instances."
+        },
+        {
+            "text": "Use a combination of Lambda and Step Functions to orchestrate service components and asynchronously process the requests."
+        },
+        {
+            "text": "Use a combination of SNS to buffer the requests and then asynchronously process them using On-Demand EC2 Instances."
+        },
+        {
+            "text": "Replace the Kinesis Data Streams with an Amazon SQS queue. Create a Lambda function that will asynchronously process the requests.",
+            "right_answer": true
+        }
+    ]
+}

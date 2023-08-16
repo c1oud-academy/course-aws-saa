@@ -1,0 +1,41 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Security, Identity, & Compliance"
+    ],
+    "id": "12",
+    "title": {
+        "kk": "Practice test quesion 12",
+        "ru": "Practice test quesion 12",
+        "en": "Practice test quesion 12"
+    },
+    "aws_service": [
+        "AWS Network Firewall",
+        "GuardDuty",
+        "AWS Firewall Manager",
+        "WAF",
+        "Security Hub",
+        "AWS Audit Manager",
+        "Amazon Macie"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

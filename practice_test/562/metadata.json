@@ -1,0 +1,39 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "EC2",
+        "RDS",
+        "EBS"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "562",
+    "aws_group": [
+        "Storage",
+        "Database",
+        "Compute"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 562",
+        "ru": "Practice test quesion 562",
+        "en": "Practice test quesion 562"
+    }
+}

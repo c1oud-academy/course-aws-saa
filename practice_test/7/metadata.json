@@ -1,0 +1,38 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Database"
+    ],
+    "id": "7",
+    "title": {
+        "kk": "Practice test quesion 7",
+        "ru": "Practice test quesion 7",
+        "en": "Practice test quesion 7"
+    },
+    "aws_service": [
+        "RDS",
+        "Amazon QLDB",
+        "Aurora",
+        "Amazon Timestream"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

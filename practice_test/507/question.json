@@ -1,0 +1,18 @@
+{
+    "text": "A multinational manufacturing company has multiple accounts in AWS to separate their various departments such as finance, human resources, engineering and many others. There is a requirement to ensure that certain access to services and actions are properly controlled to comply with the security policy of the company.\nAs the Solutions Architect, which is the most suitable way to set up the multi-account AWS environment of the company?",
+    "answers": [
+        {
+            "text": "Set up a common IAM policy that can be applied across all AWS accounts."
+        },
+        {
+            "text": "Use AWS Organizations and Service Control Policies to control services on each account.",
+            "right_answer": true
+        },
+        {
+            "text": "Provide access to externally authenticated users via Identity Federation. Set up an IAM role to specify permissions for users from each department whose identity is federated from your organization or a third-party identity provider."
+        },
+        {
+            "text": "Connect all departments by setting up a cross-account access to each of the AWS accounts of the company. Create and attach IAM policies to your resources based on their respective departments to control access."
+        }
+    ]
+}

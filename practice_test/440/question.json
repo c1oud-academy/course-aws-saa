@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Failover"
+        },
+        {
+            "text": "Latency"
+        },
+        {
+            "text": "Geolocation"
+        },
+        {
+            "text": "Weighted",
+            "right_answer": true
+        }
+    ],
+    "text": "A company plans to use Route 53 instead of an ELB to load balance the incoming request to the web application. The system is deployed to two EC2 instances to which the traffic needs to be distributed. You want to set a specific percentage of traffic to go to each instance.\nWhich routing policy would you use?"
+}

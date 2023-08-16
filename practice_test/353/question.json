@@ -1,0 +1,18 @@
+{
+    "text": "A company plans to deploy an application in an Amazon EC2 instance. The application will perform the following tasks:\n1. Read large datasets from an Amazon S3 bucket.\n2. Execute multi-stage analysis on the datasets.\n3. Save the results to Amazon RDS.\nDuring multi-stage analysis, the application will store a large number of temporary files in the instance storage. As the Solutions Architect, you need to recommend the fastest storage option with high I/O performance for the temporary files.\nWhich of the following options fulfills this requirement?",
+    "answers": [
+        {
+            "text": "Configure RAID 0 in multiple instance store volumes.",
+            "right_answer": true
+        },
+        {
+            "text": "Configure RAID 1 in multiple instance store volumes."
+        },
+        {
+            "text": "Attach multiple Provisioned IOPS SSD volumes in the instance."
+        },
+        {
+            "text": "Enable Transfer Acceleration in Amazon S3."
+        }
+    ]
+}

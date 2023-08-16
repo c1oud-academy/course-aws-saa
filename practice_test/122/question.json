@@ -1,0 +1,18 @@
+{
+    "text": "A company is working with a government agency to improve traffic planning and maintenance of roadways to prevent accidents. The proposed solution is to manage the traffic infrastructure in real-time, alert traffic engineers and emergency response teams when problems are detected, and automatically change traffic signals to get emergency personnel to accident scenes faster by using sensors and smart devices.\nWhich AWS service will allow the developers of the agency to connect the smart devices to the cloud-based applications?",
+    "answers": [
+        {
+            "text": "AWS Elastic Beanstalk"
+        },
+        {
+            "text": "AWS CloudFormation"
+        },
+        {
+            "text": "AWS IoT Core",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon Elastic Container Service"
+        }
+    ]
+}

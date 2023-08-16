@@ -1,0 +1,39 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 224",
+        "kk": "Practice test quesion 224",
+        "ru": "Practice test quesion 224"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "224",
+    "aws_service": [
+        "EC2",
+        "EBS",
+        "KMS"
+    ],
+    "aws_group": [
+        "Security, Identity, & Compliance",
+        "Compute",
+        "Storage"
+    ]
+}

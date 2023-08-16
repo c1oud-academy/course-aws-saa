@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect needs to set up the required compute resources for the application which have workloads that require high, sequential read and write access to very large data sets on local storage.\nWhich of the following instance type is the most suitable one to use in this scenario?",
+    "answers": [
+        {
+            "text": "General Purpose Instances"
+        },
+        {
+            "text": "Storage Optimized Instances",
+            "right_answer": true
+        },
+        {
+            "text": "Compute Optimized Instances"
+        },
+        {
+            "text": "Memory Optimized Instances"
+        }
+    ]
+}

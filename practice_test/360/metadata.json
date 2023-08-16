@@ -1,0 +1,44 @@
+{
+    "aws_service": [
+        "Athena",
+        "bucket",
+        "Route 53",
+        "Lambda",
+        "Kinesis",
+        "CloudFront",
+        "S3"
+    ],
+    "aws_group": [
+        "Analytics",
+        "Storage",
+        "Compute",
+        "Networking & Content Delivery"
+    ],
+    "content_type": "test",
+    "id": "360",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 360",
+        "kk": "Practice test quesion 360",
+        "ru": "Practice test quesion 360"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

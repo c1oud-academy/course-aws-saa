@@ -1,0 +1,18 @@
+{
+    "text": "A fast food company is using AWS to host their online ordering system which uses an Auto Scaling group of EC2 instances deployed across multiple Availability Zones with an Application Load Balancer in front. To better handle the incoming traffic from various digital devices, you are planning to implement a new routing system where requests which have a URL of <server>/api/android are forwarded to one specific target group named 'Android-Target-Group'. Conversely, requests which have a URL of <server>/api/ios are forwarded to another separate target group named 'iOS-Target-Group'.\nHow can you implement this change in AWS?",
+    "answers": [
+        {
+            "text": "Use host conditions to define rules that forward requests to different target groups based on the hostname in the host header. This enables you to support multiple domains using a single load balancer."
+        },
+        {
+            "text": "Replace your ALB with a Network Load Balancer then use host conditions to define rules that forward requests to different target groups based on the URL in the request."
+        },
+        {
+            "text": "Replace your ALB with a Gateway Load Balancer then use path conditions to define rules that forward requests to different target groups based on the URL in the request."
+        },
+        {
+            "text": "Use path conditions to define rules that forward requests to different target groups based on the URL in the request.",
+            "right_answer": true
+        }
+    ]
+}

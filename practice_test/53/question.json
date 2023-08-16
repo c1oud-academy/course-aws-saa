@@ -1,0 +1,18 @@
+{
+    "text": "An application consists of multiple EC2 instances in private subnets in different availability zones. The application uses a single NAT Gateway for downloading software patches from the Internet to the instances. There is a requirement to protect the application from a single point of failure when the NAT Gateway encounters a failure or if its availability zone goes down.\nHow should the Solutions Architect redesign the architecture to be more highly available and cost-effective?",
+    "answers": [
+        {
+            "text": "Create three NAT Gateways in each availability zone. Configure the route table in each private subnet to ensure that instances use the NAT Gateway in the same availability zone."
+        },
+        {
+            "text": "Create two NAT Gateways in each availability zone. Configure the route table in each public subnet to ensure that instances use the NAT Gateway in the same availability zone."
+        },
+        {
+            "text": "Create a NAT Gateway in each availability zone. Configure the route table in each private subnet to ensure that instances use the NAT Gateway in the same availability zone",
+            "right_answer": true
+        },
+        {
+            "text": "Create a NAT Gateway in each availability zone. Configure the route table in each public subnet to ensure that instances use the NAT Gateway in the same availability zone."
+        }
+    ]
+}

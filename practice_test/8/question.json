@@ -1,0 +1,18 @@
+{
+    "text": "A company hosted a web application in an Auto Scaling group of EC2 instances. The IT manager is concerned about the over-provisioning of the resources that can cause higher operating costs. A Solutions Architect has been instructed to create a cost-effective solution without affecting the performance of the application.\nWhich dynamic scaling policy should be used to satisfy this requirement?",
+    "answers": [
+        {
+            "text": "Use simple scaling."
+        },
+        {
+            "text": "Use suspend and resume scaling."
+        },
+        {
+            "text": "Use scheduled scaling."
+        },
+        {
+            "text": "Use target tracking scaling.",
+            "right_answer": true
+        }
+    ]
+}

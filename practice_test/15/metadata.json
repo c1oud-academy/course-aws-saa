@@ -1,0 +1,41 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Compute",
+        "Networking & Content Delivery",
+        "Security, Identity, & Compliance"
+    ],
+    "id": "15",
+    "title": {
+        "kk": "Practice test quesion 15",
+        "ru": "Practice test quesion 15",
+        "en": "Practice test quesion 15"
+    },
+    "aws_service": [
+        "EC2",
+        "AWS Firewall Manager",
+        "AWS Network Firewall",
+        "VPC",
+        "GuardDuty"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

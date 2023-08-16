@@ -1,0 +1,40 @@
+{
+    "aws_group": [
+        "Management & Governance",
+        "Compute",
+        "Developer Tools"
+    ],
+    "type": "practice_test",
+    "id": "421",
+    "title": {
+        "ru": "Practice test quesion 421",
+        "kk": "Practice test quesion 421",
+        "en": "Practice test quesion 421"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "path": "metadata.json",
+            "lang": "en"
+        },
+        {
+            "type": "question",
+            "path": "question.json",
+            "lang": "en"
+        }
+    ],
+    "aws_service": [
+        "Systems Manager",
+        "AWS Config",
+        "CodePipeline",
+        "EC2"
+    ]
+}

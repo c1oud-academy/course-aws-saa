@@ -1,0 +1,39 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "EC2",
+        "Availability Zone",
+        "Aurora"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "549",
+    "aws_group": [
+        "Database",
+        "AWS Global Infrastructure",
+        "Compute"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 549",
+        "ru": "Practice test quesion 549",
+        "en": "Practice test quesion 549"
+    }
+}

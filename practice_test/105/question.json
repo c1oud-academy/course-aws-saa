@@ -1,0 +1,18 @@
+{
+    "text": "An insurance company utilizes SAP HANA for its day-to-day ERP operations. Since they can\u2019t migrate this database due to customer preferences, they need to integrate it with the current AWS workload in the VPC in which they are required to establish a site-to-site VPN connection.\nWhat needs to be configured outside of the VPC for them to have a successful site-to-site VPN connection?",
+    "answers": [
+        {
+            "text": "An EIP to the Virtual Private Gateway"
+        },
+        {
+            "text": "An Internet-routable IP address (static) of the customer gateway's external interface for the on-premises network",
+            "right_answer": true
+        },
+        {
+            "text": "A dedicated NAT instance in a public subnet"
+        },
+        {
+            "text": "The main route table in your VPC to route traffic through a NAT instance"
+        }
+    ]
+}

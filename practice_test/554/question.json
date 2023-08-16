@@ -1,0 +1,18 @@
+{
+    "text": "A company has a VPC for its human resource department, and another VPC located in a different region for their finance department. The Solutions Architect must redesign the architecture to allow the finance department to access all resources that are in the human resource department, and vice versa.\nWhich type of networking connection in AWS should the Solutions Architect set up to satisfy the above requirement?",
+    "answers": [
+        {
+            "text": "VPC Endpoint"
+        },
+        {
+            "text": "Inter-Region VPC Peering",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Cloud Map"
+        },
+        {
+            "text": "VPN Connection"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "EC2",
+        "EBS"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "508",
+    "aws_group": [
+        "Storage",
+        "Compute"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 508",
+        "ru": "Practice test quesion 508",
+        "en": "Practice test quesion 508"
+    }
+}

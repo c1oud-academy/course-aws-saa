@@ -1,0 +1,41 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 211",
+        "kk": "Practice test quesion 211",
+        "ru": "Practice test quesion 211"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "211",
+    "aws_service": [
+        "SQS",
+        "EC2",
+        "S3",
+        "S3 Glacier",
+        "bucket"
+    ],
+    "aws_group": [
+        "Compute",
+        "Application Integration",
+        "Storage"
+    ]
+}

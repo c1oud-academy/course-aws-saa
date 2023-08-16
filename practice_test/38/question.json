@@ -1,0 +1,18 @@
+{
+    "text": "A company wishes to query data that resides in multiple AWS accounts from a central data lake. Each account has its own Amazon S3 bucket that stores data unique to its business function. Users from different accounts must be granted access to the data lake based on their roles.\nWhich solution will minimize overhead and costs while meeting the required access patterns?",
+    "answers": [
+        {
+            "text": "Use AWS Control Tower to centrally manage each account's S3 buckets."
+        },
+        {
+            "text": "Create a scheduled Lambda function for transferring data from multiple accounts to the S3 buckets of a central account"
+        },
+        {
+            "text": "Use AWS Kinesis Firehose to consolidate data from multiple accounts into a single account."
+        },
+        {
+            "text": "Use AWS Lake Formation to consolidate data from multiple accounts into a single account.",
+            "right_answer": true
+        }
+    ]
+}

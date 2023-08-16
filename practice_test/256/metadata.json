@@ -1,0 +1,40 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 256",
+        "kk": "Practice test quesion 256",
+        "ru": "Practice test quesion 256"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "256",
+    "aws_service": [
+        "Kinesis",
+        "Amazon Redshift",
+        "S3",
+        "SQS"
+    ],
+    "aws_group": [
+        "Analytics",
+        "Application Integration",
+        "Storage"
+    ]
+}

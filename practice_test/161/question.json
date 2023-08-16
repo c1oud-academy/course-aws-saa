@@ -1,0 +1,22 @@
+{
+    "text": "An advertising company is currently working on a proof of concept project that automatically provides SEO analytics for its clients. Your company has a VPC in AWS that operates in a dual-stack mode in which IPv4 and IPv6 communication is allowed. You deployed the application to an Auto Scaling group of EC2 instances with an Application Load Balancer in front that evenly distributes the incoming traffic. You are ready to go live but you need to point your domain name (example.com) to the Application Load Balancer.\nIn Route 53, which record types will you use to point the DNS name of the Application Load Balancer?",
+    "answers": [
+        {
+            "text": "Alias with a type 'CNAME' record set"
+        },
+        {
+            "text": "Alias with a type 'A' record set",
+            "right_answer": true
+        },
+        {
+            "text": "Alias with a type of \u201cMX\u201d record set"
+        },
+        {
+            "text": "Alias with a type 'AAAA' record set",
+            "right_answer": true
+        },
+        {
+            "text": "Non-Alias with a type 'A' record set"
+        }
+    ]
+}

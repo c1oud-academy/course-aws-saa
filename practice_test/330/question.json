@@ -1,0 +1,18 @@
+{
+    "text": "A company has a distributed application in AWS that periodically processes large volumes of data across multiple instances. The Solutions Architect designed the application to recover gracefully from any instance failures. He is then required to launch the application in the most cost-effective way.\nWhich type of EC2 instance will meet this requirement?",
+    "answers": [
+        {
+            "text": "Spot Instances",
+            "right_answer": true
+        },
+        {
+            "text": "Reserved instances"
+        },
+        {
+            "text": "Dedicated instances"
+        },
+        {
+            "text": "On-Demand instances"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect identified a series of DDoS attacks while monitoring the VPC. The Architect needs to fortify the current cloud infrastructure to protect the data of the clients.\nWhich of the following is the most suitable solution to mitigate these kinds of attacks?",
+    "answers": [
+        {
+            "text": "Using the AWS Firewall Manager, set up a security layer that will prevent SYN floods, UDP reflection attacks, and other DDoS attacks."
+        },
+        {
+            "text": "A combination of Security Groups and Network Access Control Lists to only allow authorized traffic to access your VPC."
+        },
+        {
+            "text": "Use AWS Shield Advanced to detect and mitigate DDoS attacks.",
+            "right_answer": true
+        },
+        {
+            "text": "Set up a web application firewall using AWS WAF to filter, monitor, and block HTTP traffic."
+        }
+    ]
+}

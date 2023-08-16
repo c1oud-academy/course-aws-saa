@@ -1,0 +1,18 @@
+{
+    "text": "A new company policy requires IAM users to change their passwords\u2019 minimum length to 12 characters. After a random inspection, you found out that there are still employees who do not follow the policy.\nHow can you automatically check and evaluate whether the current password policy for an account complies with the company password policy?",
+    "answers": [
+        {
+            "text": "Create a rule in the Amazon CloudWatch event. Build an event pattern to match events on IAM. Set the event name to \u201cChangePassword\u201d in the event pattern. Configure SNS to send notifications to you whenever a user has made changes to his password."
+        },
+        {
+            "text": "Create a Scheduled Lambda Function that will run a custom script to check compliance against changes made to the passwords periodically."
+        },
+        {
+            "text": "Configure AWS Config to trigger an evaluation that will check the compliance for a user\u2019s password periodically.",
+            "right_answer": true
+        },
+        {
+            "text": "Create a CloudTrail trail. Filter the result by setting the attribute to \u201cEvent Name\u201d and lookup value to \u201cChangePassword\u201d. This easily gives you the list of users who have made changes to their passwords."
+        }
+    ]
+}

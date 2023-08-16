@@ -1,0 +1,43 @@
+{
+    "aws_service": [
+        "Amazon Redshift",
+        "S3",
+        "CloudFront",
+        "ElastiCache",
+        "EC2"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 137",
+        "en": "Practice test quesion 137",
+        "kk": "Practice test quesion 137"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Storage",
+        "Analytics",
+        "Compute",
+        "Networking & Content Delivery",
+        "Database"
+    ],
+    "id": "137"
+}

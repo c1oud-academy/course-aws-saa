@@ -1,0 +1,22 @@
+{
+    "text": "A telecommunications company is planning to give AWS Console access to developers. Company policy mandates the use of identity federation and role-based access control. Currently, the roles are already assigned using groups in the corporate Active Directory.\nIn this scenario, what combination of the following services can provide developers access to the AWS console?",
+    "answers": [
+        {
+            "text": "IAM Roles",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Directory Service Simple AD"
+        },
+        {
+            "text": "IAM Groups"
+        },
+        {
+            "text": "AWS Directory Service AD Connector",
+            "right_answer": true
+        },
+        {
+            "text": "Lambda"
+        }
+    ]
+}

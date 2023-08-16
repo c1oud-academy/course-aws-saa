@@ -1,0 +1,36 @@
+{
+    "aws_group": [
+        "Management & Governance"
+    ],
+    "type": "practice_test",
+    "id": "437",
+    "title": {
+        "ru": "Practice test quesion 437",
+        "kk": "Practice test quesion 437",
+        "en": "Practice test quesion 437"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "path": "metadata.json",
+            "lang": "en"
+        },
+        {
+            "type": "question",
+            "path": "question.json",
+            "lang": "en"
+        }
+    ],
+    "aws_service": [
+        "CloudWatch",
+        "CloudTrail"
+    ]
+}

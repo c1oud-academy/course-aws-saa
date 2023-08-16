@@ -1,0 +1,18 @@
+{
+    "text": "A company has several unencrypted EBS snapshots in their VPC. The Solutions Architect must ensure that all of the new EBS volumes restored from the unencrypted snapshots are automatically encrypted.\nWhat should be done to accomplish this requirement?",
+    "answers": [
+        {
+            "text": "Launch new EBS volumes and encrypt them using an asymmetric customer master key (CMK)."
+        },
+        {
+            "text": "Enable the EBS Encryption By Default feature for the AWS Region.",
+            "right_answer": true
+        },
+        {
+            "text": "Enable the EBS Encryption By Default feature for specific EBS volumes."
+        },
+        {
+            "text": "Launch new EBS volumes and specify the symmetric customer master key (CMK) for encryption."
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "type": "practice_test",
+    "aws_service": [
+        "CloudFront"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ],
+    "id": "510",
+    "aws_group": [
+        "Networking & Content Delivery"
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "kk": "Practice test quesion 510",
+        "ru": "Practice test quesion 510",
+        "en": "Practice test quesion 510"
+    }
+}

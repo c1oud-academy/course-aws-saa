@@ -1,0 +1,18 @@
+{
+    "text": "A company has a data analytics application that updates a real-time, foreign exchange dashboard and another separate application that archives data to Amazon Redshift. Both applications are configured to consume data from the same stream concurrently and independently by using Amazon Kinesis Data Streams. However, they noticed that there are a lot of occurrences where a shard iterator expires unexpectedly. Upon checking, they found out that the DynamoDB table used by Kinesis does not have enough capacity to store the lease data.\nWhich of the following is the most suitable solution to rectify this issue?",
+    "answers": [
+        {
+            "text": "Increase the write capacity assigned to the shard table.",
+            "right_answer": true
+        },
+        {
+            "text": "Upgrade the storage capacity of the DynamoDB table."
+        },
+        {
+            "text": "Enable In-Memory Acceleration with DynamoDB Accelerator (DAX)."
+        },
+        {
+            "text": "Use Amazon Kinesis Data Analytics to properly support the data analytics application instead of Kinesis Data Stream."
+        }
+    ]
+}

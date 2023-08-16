@@ -1,0 +1,37 @@
+{
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Networking & Content Delivery",
+        "Security, Identity, & Compliance"
+    ],
+    "id": "5",
+    "title": {
+        "kk": "Practice test quesion 5",
+        "ru": "Practice test quesion 5",
+        "en": "Practice test quesion 5"
+    },
+    "aws_service": [
+        "IAM",
+        "VPC"
+    ],
+    "content_type": "test",
+    "files_list": [
+        {
+            "type": "metadata",
+            "lang": "en",
+            "path": "metadata.json"
+        },
+        {
+            "type": "question",
+            "lang": "en",
+            "path": "question.json"
+        }
+    ]
+}

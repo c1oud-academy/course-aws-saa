@@ -1,0 +1,18 @@
+{
+    "text": "A Solutions Architect is hosting a website in an Amazon S3 bucket named example. The users load the website using the following URL: http://example.s3-website-us-east-1.amazonaws.com and there is a new requirement to add a JavaScript on the webpages in order to make authenticated HTTP GET requests against the same bucket by using the Amazon S3 API endpoint (example.s3.amazonaws.com). Upon testing, you noticed that the web browser blocks JavaScript from allowing those requests.\nWhich of the following options is the MOST suitable solution that you should implement for this scenario?",
+    "answers": [
+        {
+            "text": "Enable Cross-Region Replication (CRR)."
+        },
+        {
+            "text": "Enable cross-account access."
+        },
+        {
+            "text": "Enable Cross-Zone Load Balancing."
+        },
+        {
+            "text": "Enable Cross-origin resource sharing (CORS) configuration in the bucket.",
+            "right_answer": true
+        }
+    ]
+}

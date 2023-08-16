@@ -1,0 +1,18 @@
+{
+    "text": "An accounting application uses an RDS database configured with Multi-AZ deployments to improve availability. What would happen to RDS if the primary database instance fails?",
+    "answers": [
+        {
+            "text": "The canonical name record (CNAME) is switched from the primary to standby instance.",
+            "right_answer": true
+        },
+        {
+            "text": "The primary database instance will reboot."
+        },
+        {
+            "text": "A new database instance is created in the standby Availability Zone."
+        },
+        {
+            "text": "The IP address of the primary DB instance is switched to the standby DB instance."
+        }
+    ]
+}

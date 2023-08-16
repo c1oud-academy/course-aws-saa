@@ -1,0 +1,18 @@
+{
+    "text": "A computer animation film studio has a web application running on an Amazon EC2 instance. It uploads 5 GB video objects to an Amazon S3 bucket. Video uploads are taking longer than expected, which impacts the performance of your application.\nWhich method will help improve the performance of the application?",
+    "answers": [
+        {
+            "text": "Use Amazon Elastic Block Store Provisioned IOPS and an Amazon EBS-optimized instance."
+        },
+        {
+            "text": "Enable Enhanced Networking with the Elastic Network Adapter (ENA) on your EC2 Instances."
+        },
+        {
+            "text": "Use Amazon S3 Multipart Upload API.",
+            "right_answer": true
+        },
+        {
+            "text": "Leverage on Amazon CloudFront and use HTTP POST method to reduce latency."
+        }
+    ]
+}

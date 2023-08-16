@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Configure a Launch Template that automatically converts the source schema and code to match that of the target database. Then, use the AWS Database Migration Service to migrate data from the source database to the target database."
+        },
+        {
+            "text": "First, use the AWS Schema Conversion Tool to convert the source schema and application code to match that of the target database, and then use the AWS Database Migration Service to migrate data from the source database to the target database.",
+            "right_answer": true
+        },
+        {
+            "text": "Use Amazon Neptune to convert the source schema and code to match that of the target database in RDS. Use the AWS Batch to effectively migrate the data from the source database to the target database in a batch process."
+        },
+        {
+            "text": "Heterogeneous database migration is not supported in AWS. You have to transform your database first to PostgreSQL and then migrate it to RDS."
+        }
+    ],
+    "text": "A leading media company has recently adopted a hybrid cloud architecture which requires them to migrate their application servers and databases in AWS. One of their applications requires a heterogeneous database migration in which you need to transform your on-premises Oracle database to PostgreSQL in AWS. This entails a schema and code transformation before the proper data migration starts.\nWhich of the following options is the most suitable approach to migrate the database in AWS?"
+}

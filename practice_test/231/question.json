@@ -1,0 +1,18 @@
+{
+    "text": "An application needs to retrieve a subset of data from a large CSV file stored in an Amazon S3 bucket by using simple SQL expressions. The queries are made within Amazon S3 and must only return the needed data.\nWhich of the following actions should be taken?",
+    "answers": [
+        {
+            "text": "Perform an S3 Select operation based on the bucket's name and object's key.",
+            "right_answer": true
+        },
+        {
+            "text": "Perform an S3 Select operation based on the bucket's name and object tags."
+        },
+        {
+            "text": "Perform an S3 Select operation based on the bucket\u2019s name."
+        },
+        {
+            "text": "Perform an S3 Select operation based on the bucket's name and object's metadata."
+        }
+    ]
+}

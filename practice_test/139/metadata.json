@@ -1,0 +1,45 @@
+{
+    "aws_service": [
+        "S3",
+        "Lambda",
+        "SWF",
+        "bucket",
+        "SQS",
+        "SES",
+        "Kinesis"
+    ],
+    "content_type": "test",
+    "type": "practice_test",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ],
+    "title": {
+        "ru": "Practice test quesion 139",
+        "en": "Practice test quesion 139",
+        "kk": "Practice test quesion 139"
+    },
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "aws_group": [
+        "Application Integration",
+        "Storage",
+        "Analytics",
+        "Compute",
+        "Business Applications"
+    ],
+    "id": "139"
+}

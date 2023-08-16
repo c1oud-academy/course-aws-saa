@@ -1,0 +1,18 @@
+{
+    "text": "A company has an application architecture that stores both the access key ID and the secret access key in a plain text file on a custom Amazon Machine Image (AMI). The EC2 instances, which are created by using this AMI, are using the stored access keys to connect to a DynamoDB table.\nWhat should the Solutions Architect do to make the current architecture more secure?",
+    "answers": [
+        {
+            "text": "Put the access keys in an Amazon S3 bucket instead."
+        },
+        {
+            "text": "Put the access keys in Amazon Glacier instead."
+        },
+        {
+            "text": "Do nothing. The architecture is already secure because the access keys are already in the Amazon Machine Image."
+        },
+        {
+            "text": "Remove the stored access keys in the AMI. Create a new IAM role with permissions to access the DynamoDB table and assign it to the EC2 instances.",
+            "right_answer": true
+        }
+    ]
+}

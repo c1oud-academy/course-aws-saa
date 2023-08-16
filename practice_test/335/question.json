@@ -1,0 +1,18 @@
+{
+    "text": "An auto scaling group of Linux EC2 instances is created with basic monitoring enabled in CloudWatch. You noticed that your application is slow so you asked one of your engineers to check all of your EC2 instances. After checking your instances, you noticed that the auto scaling group is not launching more instances as it should be, even though the servers already have high memory usage.\nWhich of the following options should the Architect implement to solve this issue?",
+    "answers": [
+        {
+            "text": "Install the CloudWatch agent to the EC2 instances which will trigger your Auto Scaling group to scale out.",
+            "right_answer": true
+        },
+        {
+            "text": "Install AWS SDK in the EC2 instances. Create a script that will trigger the Auto Scaling event if there is high memory usage."
+        },
+        {
+            "text": "Enable detailed monitoring on the instances."
+        },
+        {
+            "text": "Modify the scaling policy to increase the threshold to scale out the number of instances."
+        }
+    ]
+}

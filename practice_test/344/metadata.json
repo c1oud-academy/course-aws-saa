@@ -1,0 +1,39 @@
+{
+    "aws_service": [
+        "SQS",
+        "EC2",
+        "Storage Gateway"
+    ],
+    "aws_group": [
+        "Application Integration",
+        "Compute",
+        "Storage"
+    ],
+    "content_type": "test",
+    "id": "344",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 344",
+        "kk": "Practice test quesion 344",
+        "ru": "Practice test quesion 344"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

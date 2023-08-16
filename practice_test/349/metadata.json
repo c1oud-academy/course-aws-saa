@@ -1,0 +1,41 @@
+{
+    "aws_service": [
+        "WAF",
+        "CloudFront",
+        "S3",
+        "IAM",
+        "bucket"
+    ],
+    "aws_group": [
+        "Storage",
+        "Security, Identity, & Compliance",
+        "Networking & Content Delivery"
+    ],
+    "content_type": "test",
+    "id": "349",
+    "type": "practice_test",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 349",
+        "kk": "Practice test quesion 349",
+        "ru": "Practice test quesion 349"
+    },
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "lang": "en",
+            "type": "metadata"
+        },
+        {
+            "path": "question.json",
+            "lang": "en",
+            "type": "question"
+        }
+    ]
+}

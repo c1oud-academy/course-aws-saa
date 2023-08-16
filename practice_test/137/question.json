@@ -1,0 +1,18 @@
+{
+    "text": "A start-up company that offers an intuitive financial data analytics service has consulted you about their AWS architecture. They have a fleet of Amazon EC2 worker instances that process financial data and then outputs reports which are used by their clients. You must store the generated report files in a durable storage. The number of files to be stored can grow over time as the start-up company is expanding rapidly overseas and hence, they also need a way to distribute the reports faster to clients located across the globe.\nWhich of the following is a cost-efficient and scalable storage option that you should use for this scenario?",
+    "answers": [
+        {
+            "text": "Use Amazon Glacier as the data storage and ElastiCache as the CDN."
+        },
+        {
+            "text": "Use Amazon S3 as the data storage and CloudFront as the CDN.",
+            "right_answer": true
+        },
+        {
+            "text": "Use Amazon Redshift as the data storage and CloudFront as the CDN."
+        },
+        {
+            "text": "Use multiple EC2 instance stores for data storage and ElastiCache as the CDN."
+        }
+    ]
+}

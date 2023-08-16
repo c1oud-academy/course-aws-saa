@@ -1,0 +1,18 @@
+{
+    "text": "An organization needs to control the access for several S3 buckets. They plan to use a gateway endpoint to allow access to trusted buckets.\nWhich of the following could help you achieve this requirement?",
+    "answers": [
+        {
+            "text": "Generate an endpoint policy for trusted VPCs."
+        },
+        {
+            "text": "Generate a bucket policy for trusted S3 buckets."
+        },
+        {
+            "text": "Generate an endpoint policy for trusted S3 buckets.",
+            "right_answer": true
+        },
+        {
+            "text": "Generate a bucket policy for trusted VPCs."
+        }
+    ]
+}

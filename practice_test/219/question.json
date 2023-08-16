@@ -1,0 +1,18 @@
+{
+    "text": "A tech startup is launching an on-demand food delivery platform using Amazon ECS cluster with an AWS Fargate serverless compute engine and Amazon Aurora. It is expected that the database read queries will significantly increase in the coming weeks ahead. A Solutions Architect recently launched two Read Replicas to the database cluster to improve the platform's scalability.\nWhich of the following is the MOST suitable configuration that the Architect should implement to load balance all of the incoming read requests equally to the two Read Replicas?",
+    "answers": [
+        {
+            "text": "Create a new Network Load Balancer to evenly distribute the read queries to the Read Replicas of the Amazon Aurora database."
+        },
+        {
+            "text": "Use the built-in Cluster endpoint of the Amazon Aurora database."
+        },
+        {
+            "text": "Use the built-in Reader endpoint of the Amazon Aurora database.",
+            "right_answer": true
+        },
+        {
+            "text": "Enable Amazon Aurora Parallel Query."
+        }
+    ]
+}

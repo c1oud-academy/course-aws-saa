@@ -1,0 +1,18 @@
+{
+    "text": "A company launched an online platform that allows people to easily buy, sell, spend, and manage their cryptocurrency. To meet the strict IT audit requirements, each of the API calls on all of the AWS resources should be properly captured and recorded. You used CloudTrail in the VPC to help you in the compliance, operational auditing, and risk auditing of your AWS account.\nIn this scenario, where does CloudTrail store all of the logs that it creates?",
+    "answers": [
+        {
+            "text": "A RDS instance"
+        },
+        {
+            "text": "DynamoDB"
+        },
+        {
+            "text": "Amazon Redshift"
+        },
+        {
+            "text": "Amazon S3",
+            "right_answer": true
+        }
+    ]
+}

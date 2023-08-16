@@ -1,0 +1,42 @@
+{
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "aws_service",
+        "aws_group"
+    ],
+    "title": {
+        "en": "Practice test quesion 247",
+        "kk": "Practice test quesion 247",
+        "ru": "Practice test quesion 247"
+    },
+    "content_type": "test",
+    "type": "practice_test",
+    "id": "247",
+    "aws_service": [
+        "DynamoDB",
+        "EC2",
+        "EBS",
+        "EMR",
+        "S3"
+    ],
+    "aws_group": [
+        "Analytics",
+        "Compute",
+        "Database",
+        "Storage"
+    ]
+}
