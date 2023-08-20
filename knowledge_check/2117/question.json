@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "Telegram-bot"
+        },
+        {
+            "text": "WhatsApp-bot"
+        },
+        {
+            "text": "AWS academy"
+        },
+        {
+            "text": "Amazon academy"
+        }
+    ],
+    "text": "What is the main platform of the course?"
+}

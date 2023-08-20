@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Telegram-bot"
+        },
+        {
+            "text": "WhatsApp-bot"
+        },
+        {
+            "right_answer": true,
+            "text": "AWS academy"
+        },
+        {
+            "text": "Amazon academy"
+        }
+    ],
+    "text": "What is the second platform of the course to pass lab works?"
+}

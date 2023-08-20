@@ -1,0 +1,19 @@
+{
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "Video activities"
+        },
+        {
+            "text": "Audio activities"
+        },
+        {
+            "text": "Photo activities"
+        },
+        {
+            "right_answer": true,
+            "text": "Test activities"
+        }
+    ],
+    "text": "Select available activity groups in AWS Certified Solutions Architect - Associate course:"
+}

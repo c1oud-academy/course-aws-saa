@@ -1,0 +1,28 @@
+{
+	"type": "lecture",
+	"id": "230",
+	"content_type": "video",
+	"property_keys": ["type", "id", "content_type"],
+	"title": {
+		"ru": "Module 8: Securing User and Application Access (part 2)",
+		"kk": "Module 8: Securing User and Application Access (part 2)",
+		"en": "Module 8: Securing User and Application Access (part 2)"
+	},
+	"files_list": [
+		{
+			"path": "metadata.json",
+			"type": "metadata",
+			"lang": "en"
+		},
+		{
+			"path": "video/ru/video.mp4",
+			"type": "video",
+			"lang": "ru"
+		},
+		{
+			"path": "presentation/presentation.en.pptx",
+			"type": "presentation",
+			"lang": "en"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "AWS Certified Cloud Practitioner"
+        },
+        {
+            "right_answer": true,
+            "text": "AWS Certified Solutions Architect - Associate"
+        },
+        {
+            "text": "AWS Certified Developer - Associate"
+        },
+        {
+            "text": "AWS Certified SysOps Administrator - Associate"
+        }
+    ],
+    "text": "What AWS exam will you be prepared for on this course?"
+}
