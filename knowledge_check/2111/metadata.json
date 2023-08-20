@@ -1,0 +1,31 @@
+{
+    "id": "2111",
+    "files_list": [
+        {
+            "path": "metadata.json",
+            "type": "metadata",
+            "lang": "en"
+        },
+        {
+            "path": "question.json",
+            "type": "question",
+            "lang": "en"
+        }
+    ],
+    "title": {
+        "ru": "Knowledge check quesion 2111",
+        "kk": "Knowledge check quesion 2111",
+        "en": "Knowledge check quesion 2111"
+    },
+    "type": "knowledge_check",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "linked_type",
+        "linked_id"
+    ],
+    "linked_type": "lecture",
+    "content_type": "test",
+    "linked_id": "210"
+}
