@@ -1,0 +1,28 @@
+{
+	"type": "lab_review",
+	"id": "220",
+	"content_type": "video",
+	"property_keys": ["type", "id", "content_type"],
+	"title": {
+		"ru": "Разбор лабораторной работы #220",
+		"kk": "Зертханалық жұмысты талдау #220",
+		"en": "Laboratory work review #220"
+	},
+	"files_list": [
+		{
+			"path": "metadata.json",
+			"type": "metadata",
+			"lang": "en"
+		},
+		{
+			"path": "video/ru/video.mp4",
+			"type": "video",
+			"lang": "ru"
+		},
+		{
+			"path": "presentation/presentation.en.pptx",
+			"type": "presentation",
+			"lang": "en"
+    }
+	]
+}
