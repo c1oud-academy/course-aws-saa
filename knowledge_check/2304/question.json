@@ -1,0 +1,18 @@
+{
+    "text": "What AWS Service which you can use to assume IAM roles?",
+    "answers": [
+        {
+            "text": "AWS STS",
+            "right_answer": true
+        },
+        {
+            "text": "AWS IAM"
+        },
+        {
+            "text": "AWS Organizations"
+        },
+        {
+            "text": "SCP"
+        }
+    ]
+}

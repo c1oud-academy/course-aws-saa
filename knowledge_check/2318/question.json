@@ -1,0 +1,18 @@
+{
+    "text": "What we usually use to meet security related aspects within specific account when using AWS Organizations?",
+    "answers": [
+        {
+            "text": "SCPs"
+        },
+        {
+            "text": "AWS IAM",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Artifact"
+        },
+        {
+            "text": "Amazon Cognito"
+        }
+    ]
+}

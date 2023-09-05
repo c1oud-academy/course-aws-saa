@@ -1,0 +1,18 @@
+{
+    "text": "Is it possible to add tags for IAM users?",
+    "answers": [
+        {
+            "text": "Yes",
+            "right_answer": true
+        },
+        {
+            "text": "No"
+        },
+        {
+            "text": "Depends on policies attached to the IAM user"
+        },
+        {
+            "text": "Depends AWS account support plan"
+        }
+    ]
+}

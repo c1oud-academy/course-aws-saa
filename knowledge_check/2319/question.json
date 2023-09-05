@@ -1,0 +1,18 @@
+{
+    "text": "What is the feature of AWS Organizations that help you centrally manage access over several accounts grouped into OU?",
+    "answers": [
+        {
+            "text": "SCPs",
+            "right_answer": true
+        },
+        {
+            "text": "PCPs"
+        },
+        {
+            "text": "GCPs"
+        },
+        {
+            "text": "CCPs"
+        }
+    ]
+}

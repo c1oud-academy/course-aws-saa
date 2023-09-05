@@ -1,0 +1,25 @@
+{
+    "text": "Select available resources in AWS IAM service:",
+    "answers": [
+        {
+            "text": "IAM Policy",
+            "right_answer": true
+        },
+        {
+            "text": "IAM Role",
+            "right_answer": true
+        },
+        {
+            "text": "IAM Service"
+        },
+        {
+            "text": "IAM Instance"
+        },
+        {
+            "text": "IAM Bucket"
+        },
+        {
+            "text": "IAM Console"
+        }
+    ]
+}

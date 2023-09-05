@@ -1,0 +1,18 @@
+{
+    "text": "Select AWS service which is used to manage all users, roles and groups in AWS Account:",
+    "answers": [
+        {
+            "text": "AWS IAM",
+            "right_answer": true
+        },
+        {
+            "text": "AWS CodeCommit"
+        },
+        {
+            "text": "AWS Trusted Advisor"
+        },
+        {
+            "text": "Amazon Inspector"
+        }
+    ]
+}

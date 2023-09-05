@@ -1,0 +1,18 @@
+{
+    "text": "What is the service that sign up and sign in your application users in AWS?",
+    "answers": [
+        {
+            "text": "AWS Organizations"
+        },
+        {
+            "text": "AWS IAM"
+        },
+        {
+            "text": "AWS Artifact"
+        },
+        {
+            "text": "Amazon Cognito",
+            "right_answer": true
+        }
+    ]
+}

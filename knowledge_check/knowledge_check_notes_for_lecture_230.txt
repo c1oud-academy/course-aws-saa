@@ -1,0 +1,135 @@
+2301
+What is the AWS service that helps you to create and manage users, groups, roles and policies?
++A) AWS IAM
+B) AWS Organizations
+C) Amazon Cognito
+D) AWS Key Management Service
+==========
+2302
+Select AWS service which is used to manage all users, roles and groups in AWS Account:
++A) AWS IAM
+B) AWS CodeCommit
+C) AWS Trusted Advisor
+D) Amazon Inspector
+==========
+2303
+What AWS Service could you use to record a history of your AWS account activity including action taken through the AWS Management Console, Command Line Tools, AWS SDKs, and AWS services?
++D) AWS CloudTrail
+D) AWS X-Ray
+A) AWS Security Hub
+B) AWS Resource Access Manager
+==========
+2304
+What AWS Service which you can use to assume IAM roles?
++D) AWS STS
+D) AWS IAM
+A) AWS Organizations
+B) SCP
+==========
+2305
+RBAC stands for:
++D) Role-based access control
+D) RDS basic access control
+A) Read-based access control
+B) Raw-bytes access control
+==========
+2306
+ABAC stands for:
++D) Attribute-based access control
+D) AWS-based access control
+A) Amzaon based access control
+B) Append bytes access control
+==========
+2307
+What is the access control approach when you attach IAM users to IAM groups and IAM group names matches department name or employee position name?
++D) RBAC
+D) MBAC
+A) TBAC
+B) ABAC
+==========
+2308
+What is the access control approach when IAM users are granted access based on own and resources tags?
+D) RBAC
+D) MBAC
+A) TBAC
++B) ABAC
+==========
+2309
+Select valid options for identity federation for extartnal authenticated users:
++D) AWS STS
++D) SAML
+A) YAML
+B) JSON
++A) Amazon Cognito
+A) AWS Organizations
+==========
+2310
+Is it possible to add tags for EC2 instance?
++D) Yes
+D) No
+A) Depends on EC2 instance type
+B) Depends AWS account support plan
+==========
+2311
+Is it possible to add tags for IAM users?
++D) Yes
+D) No
+A) Depends on policies attached to the IAM user
+B) Depends AWS account support plan
+==========
+2312
+Is it possible to add tags for IAM roles?
++D) Yes
+D) No
+A) Depends on AWS services that can assume the role
+B) Depends AWS account support plan
+==========
+2313
+What is the AWS service that helps you to centrally manage fleet of AWS accounts?
++D) AWS Organizations
+D) AWS IAM
+A) AWS Artifact
+B) Amazon Cognito
+==========
+2314
+What is the AWS native service that helps you to sign-up, sign-in, and access control of users to your web and mobile apps?
+D) AWS Organizations
+D) AWS IAM
+A) AWS Artifact
++B) Amazon Cognito
+==========
+2315
+What is the service that sign up and sign in your application users in AWS?
+D) AWS Organizations
+D) AWS IAM
+A) AWS Artifact
++B) Amazon Cognito
+==========
+2316
+What is the benefits of using AWS Organizations?
++D) Policy-based account management (SCPs)
++D) Group based account management (OUs)
++A) Consolidated billing
+B) Reserved Instances (RI)
+==========
+2317
+What do we typically use to meet security related aspects on OU level when using AWS Organizations?
++D) SCPs
+D) AWS IAM
+A) AWS Artifact
+B) Amazon Cognito
+==========
+2318
+What we usually use to meet security related aspects within specific account when using AWS Organizations?
+D) SCPs
++D) AWS IAM
+A) AWS Artifact
+B) Amazon Cognito
+==========
+2319
+What is the feature of AWS Organizations that help you centrally manage access over several accounts grouped into OU?
++D) SCPs
+D) PCPs
+A) GCPs
+B) CCPs
+==========

@@ -1,0 +1,31 @@
+{
+    "linked_id": "220",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "linked_type",
+        "linked_id"
+    ],
+    "files_list": [
+        {
+            "lang": "en",
+            "type": "metadata",
+            "path": "metadata.json"
+        },
+        {
+            "lang": "en",
+            "type": "question",
+            "path": "question.json"
+        }
+    ],
+    "content_type": "test",
+    "id": "2219",
+    "linked_type": "lecture",
+    "type": "knowledge_check",
+    "title": {
+        "kk": "Knowledge check quesion 2219",
+        "en": "Knowledge check quesion 2219",
+        "ru": "Knowledge check quesion 2219"
+    }
+}

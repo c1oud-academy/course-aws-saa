@@ -1,0 +1,25 @@
+{
+    "text": "Select possible values for \"Effect\" key in IAM policy statement:",
+    "answers": [
+        {
+            "text": "Allow",
+            "right_answer": true
+        },
+        {
+            "text": "Request"
+        },
+        {
+            "text": "Deny",
+            "right_answer": true
+        },
+        {
+            "text": "Approve"
+        },
+        {
+            "text": "OK"
+        },
+        {
+            "text": "Cancel"
+        }
+    ]
+}

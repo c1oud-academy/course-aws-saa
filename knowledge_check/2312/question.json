@@ -1,0 +1,18 @@
+{
+    "text": "Is it possible to add tags for IAM roles?",
+    "answers": [
+        {
+            "text": "Yes",
+            "right_answer": true
+        },
+        {
+            "text": "No"
+        },
+        {
+            "text": "Depends on AWS services that can assume the role"
+        },
+        {
+            "text": "Depends AWS account support plan"
+        }
+    ]
+}

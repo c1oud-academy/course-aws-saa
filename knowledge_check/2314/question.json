@@ -1,0 +1,18 @@
+{
+    "text": "What is the AWS native service that helps you to sign-up, sign-in, and access control of users to your web and mobile apps?",
+    "answers": [
+        {
+            "text": "AWS Organizations"
+        },
+        {
+            "text": "AWS IAM"
+        },
+        {
+            "text": "AWS Artifact"
+        },
+        {
+            "text": "Amazon Cognito",
+            "right_answer": true
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+2201
+What is the AWS service that helps you to create and manage users, groups, roles and policies?
++A) AWS IAM
+B) AWS Organizations
+C) Amazon Cognito
+D) AWS Key Management Service
+==========
+2202
+Select AWS service which is used to manage all users, roles and groups in AWS Account:
++A) AWS IAM
+B) AWS CodeCommit
+C) AWS Trusted Advisor
+D) Amazon Inspector
+==========
+2203
+Select available resources in AWS IAM service:
++A) IAM User
++B) IAM Group
++C) IAM Policy
++D) IAM Role
+E) IAM Service
+D) IAM Instance
+G) IAM Bucket
+H) IAM Console
+==========
+2204
+Select available resource in AWS IAM service:
++A) IAM User
+E) IAM Service
+D) IAM Instance
+G) IAM Bucket
+H) IAM Console
+==========
+2205
+Select available resource in AWS IAM service:
++B) IAM Group
+E) IAM Service
+D) IAM Instance
+G) IAM Bucket
+H) IAM Console
+==========
+2206
+Select available resource in AWS IAM service:
++C) IAM Policy
+E) IAM Service
+D) IAM Instance
+G) IAM Bucket
+H) IAM Console
+==========
+2207
+Select available resource in AWS IAM service:
++D) IAM Role
+E) IAM Service
+D) IAM Instance
+G) IAM Bucket
+H) IAM Console
+==========
+2208
+Select available resources in AWS IAM service:
++A) IAM User
++B) IAM Group
+E) IAM Service
+D) IAM Instance
+G) IAM Bucket
+H) IAM Console
+==========
+2209
+Select available resources in AWS IAM service:
++B) IAM Group
++C) IAM Policy
+E) IAM Service
+D) IAM Instance
+G) IAM Bucket
+H) IAM Console
+==========
+2210
+Select available resources in AWS IAM service:
++C) IAM Policy
++D) IAM Role
+E) IAM Service
+D) IAM Instance
+G) IAM Bucket
+H) IAM Console
+==========
+2211
+What is the file format of IAM policy document?
++C) JSON
+D) YAML
+E) HTML
+D) CSS
+G) JS
+==========
+2212
+Select valid IAM policy types:
++C) Identity-based
+D) Inline
++E) Resource-based
+D) ARN based
+G) Customer managed
+H) AWS managed
+==========
+2213
+Select valid identity-based IAM policy types:
++D) Inline
+D) ARN based
++G) Customer managed
++H) AWS managed
+A) Service managed
+B) Wildcard
+==========
+2214
+What is the only available resource-based IAM policy type?
++D) Inline
+D) ARN based
+G) Customer managed
+H) AWS managed
+A) Service managed
+B) Wildcard
+==========
+2215
+Select possible values for "Effect" key in IAM policy statement:
++D) Allow
+D) Request
++G) Deny
+H) Approve
+A) OK
+B) Cancel
+==========
+2216
+Select options with correct value for "Action" key in IAN policy statement:
++D) "s3:GetObject"
++D) ["s3:GetObject", "s3:PutObject"]
++G) "s3:PutObject"
+H) "s3-GetObject"
+A) ["s3-GetObject", "s3-PutObject"]
+B) "s3-GetObject"
+==========
+2217
+Select options with correct value for "Action" key in IAN policy statement:
++D) "s3:GetObject"
++D) ["s3:GetObject", "s3:PutObject"]
++G) "s3:PutObject"
+H) "S3GetObject"
+A) ["S3GetObject", "S3PutObject"]
+B) "S3GetObject"
+==========
+2218
+Select options with correct value for "Action" key in IAN policy statement:
++D) "s3:GetObject"
++D) ["s3:GetObject", "s3:PutObject"]
++G) "s3:PutObject"
+H) "s3 GetObject"
+A) ["s3 GetObject", "s3 PutObject"]
+B) "s3 GetObject"
+==========
+2219
+Select options with correct value for "Action" key in IAN policy statement:
++D) "s3:GetObject"
++D) ["s3:GetObject", "s3:PutObject"]
++G) "s3:PutObject"
+H) "s3=GetObject"
+A) ["s3=GetObject", "s3=PutObject"]
+B) "s3=GetObject"
+==========
+2220
+What AWS Service could you use to record a history of your AWS account activity including action taken through the AWS Management Console, Command Line Tools, AWS SDKs, and AWS services?
++D) AWS CloudTrails
+D) AWS X-Ray
+A) AWS Security Hub
+B) AWS Resource Access Manager
+==========

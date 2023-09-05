@@ -1,0 +1,20 @@
+{
+    "text": "What is the benefits of using AWS Organizations?",
+    "answers": [
+        {
+            "text": "Policy-based account management (SCPs)",
+            "right_answer": true
+        },
+        {
+            "text": "Group based account management (OUs)",
+            "right_answer": true
+        },
+        {
+            "text": "Consolidated billing",
+            "right_answer": true
+        },
+        {
+            "text": "Reserved Instances (RI)"
+        }
+    ]
+}

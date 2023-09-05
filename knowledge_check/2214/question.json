@@ -1,0 +1,24 @@
+{
+    "text": "What is the only available resource-based IAM policy type?",
+    "answers": [
+        {
+            "text": "Inline",
+            "right_answer": true
+        },
+        {
+            "text": "ARN based"
+        },
+        {
+            "text": "Customer managed"
+        },
+        {
+            "text": "AWS managed"
+        },
+        {
+            "text": "Service managed"
+        },
+        {
+            "text": "Wildcard"
+        }
+    ]
+}
