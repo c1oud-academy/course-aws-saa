@@ -1,0 +1,18 @@
+{
+    "text": "What is the AWS service that helps you to create and manage users, groups, roles and policies?",
+    "answers": [
+        {
+            "text": "AWS IAM",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Organizations"
+        },
+        {
+            "text": "Amazon Cognito"
+        },
+        {
+            "text": "AWS Key Management Service"
+        }
+    ]
+}

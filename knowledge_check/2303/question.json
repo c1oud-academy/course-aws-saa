@@ -1,0 +1,18 @@
+{
+    "text": "What AWS Service could you use to record a history of your AWS account activity including action taken through the AWS Management Console, Command Line Tools, AWS SDKs, and AWS services?",
+    "answers": [
+        {
+            "text": "AWS CloudTrail",
+            "right_answer": true
+        },
+        {
+            "text": "AWS X-Ray"
+        },
+        {
+            "text": "AWS Security Hub"
+        },
+        {
+            "text": "AWS Resource Access Manager"
+        }
+    ]
+}

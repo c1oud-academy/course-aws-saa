@@ -1,0 +1,18 @@
+{
+    "text": "What is the access control approach when IAM users are granted access based on own and resources tags?",
+    "answers": [
+        {
+            "text": "RBAC"
+        },
+        {
+            "text": "MBAC"
+        },
+        {
+            "text": "TBAC"
+        },
+        {
+            "text": "ABAC",
+            "right_answer": true
+        }
+    ]
+}

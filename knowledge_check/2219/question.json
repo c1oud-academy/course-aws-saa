@@ -1,0 +1,26 @@
+{
+    "text": "Select options with correct value for \"Action\" key in IAN policy statement:",
+    "answers": [
+        {
+            "text": "\"s3:GetObject\"",
+            "right_answer": true
+        },
+        {
+            "text": "[\"s3:GetObject\", \"s3:PutObject\"]",
+            "right_answer": true
+        },
+        {
+            "text": "\"s3:PutObject\"",
+            "right_answer": true
+        },
+        {
+            "text": "\"s3=GetObject\""
+        },
+        {
+            "text": "[\"s3=GetObject\", \"s3=PutObject\"]"
+        },
+        {
+            "text": "\"s3=GetObject\""
+        }
+    ]
+}

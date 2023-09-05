@@ -1,0 +1,26 @@
+{
+    "text": "Select valid options for identity federation for extartnal authenticated users:",
+    "answers": [
+        {
+            "text": "AWS STS",
+            "right_answer": true
+        },
+        {
+            "text": "SAML",
+            "right_answer": true
+        },
+        {
+            "text": "YAML"
+        },
+        {
+            "text": "JSON"
+        },
+        {
+            "text": "Amazon Cognito",
+            "right_answer": true
+        },
+        {
+            "text": "AWS Organizations"
+        }
+    ]
+}

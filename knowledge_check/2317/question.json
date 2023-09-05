@@ -1,0 +1,18 @@
+{
+    "text": "What do we typically use to meet security related aspects on OU level when using AWS Organizations?",
+    "answers": [
+        {
+            "text": "SCPs",
+            "right_answer": true
+        },
+        {
+            "text": "AWS IAM"
+        },
+        {
+            "text": "AWS Artifact"
+        },
+        {
+            "text": "Amazon Cognito"
+        }
+    ]
+}

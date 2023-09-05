@@ -1,0 +1,21 @@
+{
+    "text": "What is the file format of IAM policy document?",
+    "answers": [
+        {
+            "text": "JSON",
+            "right_answer": true
+        },
+        {
+            "text": "YAML"
+        },
+        {
+            "text": "HTML"
+        },
+        {
+            "text": "CSS"
+        },
+        {
+            "text": "JS"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "text": "Select valid identity-based IAM policy types:",
+    "answers": [
+        {
+            "text": "Inline",
+            "right_answer": true
+        },
+        {
+            "text": "ARN based"
+        },
+        {
+            "text": "Customer managed",
+            "right_answer": true
+        },
+        {
+            "text": "AWS managed",
+            "right_answer": true
+        },
+        {
+            "text": "Service managed"
+        },
+        {
+            "text": "Wildcard"
+        }
+    ]
+}

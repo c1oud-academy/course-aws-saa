@@ -1,0 +1,18 @@
+{
+    "text": "Is it possible to add tags for EC2 instance?",
+    "answers": [
+        {
+            "text": "Yes",
+            "right_answer": true
+        },
+        {
+            "text": "No"
+        },
+        {
+            "text": "Depends on EC2 instance type"
+        },
+        {
+            "text": "Depends AWS account support plan"
+        }
+    ]
+}

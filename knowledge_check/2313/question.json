@@ -1,0 +1,18 @@
+{
+    "text": "What is the AWS service that helps you to centrally manage fleet of AWS accounts?",
+    "answers": [
+        {
+            "text": "AWS Organizations",
+            "right_answer": true
+        },
+        {
+            "text": "AWS IAM"
+        },
+        {
+            "text": "AWS Artifact"
+        },
+        {
+            "text": "Amazon Cognito"
+        }
+    ]
+}

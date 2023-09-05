@@ -1,0 +1,25 @@
+{
+    "text": "Select valid IAM policy types:",
+    "answers": [
+        {
+            "text": "Identity-based",
+            "right_answer": true
+        },
+        {
+            "text": "Inline"
+        },
+        {
+            "text": "Resource-based",
+            "right_answer": true
+        },
+        {
+            "text": "ARN based"
+        },
+        {
+            "text": "Customer managed"
+        },
+        {
+            "text": "AWS managed"
+        }
+    ]
+}

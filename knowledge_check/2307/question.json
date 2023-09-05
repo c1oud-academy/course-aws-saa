@@ -1,0 +1,18 @@
+{
+    "text": "What is the access control approach when you attach IAM users to IAM groups and IAM group names matches department name or employee position name?",
+    "answers": [
+        {
+            "text": "RBAC",
+            "right_answer": true
+        },
+        {
+            "text": "MBAC"
+        },
+        {
+            "text": "TBAC"
+        },
+        {
+            "text": "ABAC"
+        }
+    ]
+}

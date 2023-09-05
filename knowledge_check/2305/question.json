@@ -1,0 +1,18 @@
+{
+    "text": "RBAC stands for:",
+    "answers": [
+        {
+            "text": "Role-based access control",
+            "right_answer": true
+        },
+        {
+            "text": "RDS basic access control"
+        },
+        {
+            "text": "Read-based access control"
+        },
+        {
+            "text": "Raw-bytes access control"
+        }
+    ]
+}

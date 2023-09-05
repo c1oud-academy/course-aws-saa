@@ -1,0 +1,18 @@
+{
+    "text": "ABAC stands for:",
+    "answers": [
+        {
+            "text": "Attribute-based access control",
+            "right_answer": true
+        },
+        {
+            "text": "AWS-based access control"
+        },
+        {
+            "text": "Amzaon based access control"
+        },
+        {
+            "text": "Append bytes access control"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "text": "Select available resource in AWS IAM service:",
+    "answers": [
+        {
+            "text": "IAM Group",
+            "right_answer": true
+        },
+        {
+            "text": "IAM Service"
+        },
+        {
+            "text": "IAM Instance"
+        },
+        {
+            "text": "IAM Bucket"
+        },
+        {
+            "text": "IAM Console"
+        }
+    ]
+}
