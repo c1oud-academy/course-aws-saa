@@ -1,0 +1,109 @@
+2401
+Select valid scaling types:
++A) Horizontal
++B) Vertical
+C) Diagonal
+D) Straight
+D) Curve
+==========
+2402
+What is the service that automates EC2 instances scaling?
++A) Amazon EC2 Auto Scaling
+B) AWS IAM
+C) Amazon Route 53
+D) Amazon Elastic Load Balancer
+==========
+2403
+Select valid dynamic policy types in ASG:
++D) Simple scaling
+D) Mixed scaling
++A) Step scaling
+A) Block scaling
++B) Target tracking scaling
+B) Aim tracking scaling
+==========
+2404
+Select valid dynamic policy types:
+D) Mixed scaling
++A) Step scaling
+A) Block scaling
++B) Target tracking scaling
+B) Aim tracking scaling
+==========
+2405
+Select valid dynamic policy types:
++D) Simple scaling
+D) Mixed scaling
+A) Block scaling
++B) Target tracking scaling
+B) Aim tracking scaling
+==========
+2406
+Select valid dynamic policy types:
++D) Simple scaling
+D) Mixed scaling
++A) Step scaling
+A) Block scaling
+B) Aim tracking scaling
+==========
+2407
+Select paramaters that are defined in Auto Scaling Group (ASG):
++D) Minimum capacity
++D) Maximum capacity
++D) Desired capacity
+D) Average capacity
+D) Median capacity
+D) Expected capacity
+D) Predicted capacity
+==========
+2408
+Select paramaters that are defined in Auto Scaling Group (ASG):
++D) Maximum capacity
++D) Desired capacity
+D) Average capacity
+D) Median capacity
+D) Expected capacity
+D) Predicted capacity
+==========
+2409
+Select paramaters that are defined in Auto Scaling Group (ASG):
++D) Minimum capacity
++D) Desired capacity
+D) Average capacity
+D) Median capacity
+D) Expected capacity
+D) Predicted capacity
+==========
+2410
+Select paramaters that are defined in Auto Scaling Group (ASG):
++D) Minimum capacity
++D) Maximum capacity
+D) Average capacity
+D) Median capacity
+D) Expected capacity
+D) Predicted capacity
+==========
+2411
+Changing instance type of Amazon RDS instance corresponds to:
+A) Horizontal scaling
++B) Vertical scaling
+C) Diagonal scaling
+D) Straight scaling
+D) Curve scaling
+==========
+2412
+Adding Read Replica for Primary DB instance corresponds to:
++A) Horizontal scaling
+B) Vertical scaling
+C) Diagonal scaling
+D) Straight scaling
+D) Curve scaling
+==========
+2413
+Database sharding is an example of:
++A) Horizontal scaling
+B) Vertical scaling
+C) Diagonal scaling
+D) Straight scaling
+D) Curve scaling
+==========

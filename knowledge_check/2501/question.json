@@ -1,0 +1,21 @@
+{
+    "text": "Select the most highly available system based on percentage of uptime:",
+    "answers": [
+        {
+            "text": "99.999%",
+            "right_answer": true
+        },
+        {
+            "text": "99.99%"
+        },
+        {
+            "text": "99.9%"
+        },
+        {
+            "text": "99%"
+        },
+        {
+            "text": "90%"
+        }
+    ]
+}

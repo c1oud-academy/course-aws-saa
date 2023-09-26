@@ -1,0 +1,21 @@
+{
+    "text": "Changing instance type of Amazon RDS instance corresponds to:",
+    "answers": [
+        {
+            "text": "Horizontal scaling"
+        },
+        {
+            "text": "Vertical scaling",
+            "right_answer": true
+        },
+        {
+            "text": "Diagonal scaling"
+        },
+        {
+            "text": "Straight scaling"
+        },
+        {
+            "text": "Curve scaling"
+        }
+    ]
+}

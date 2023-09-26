@@ -1,0 +1,18 @@
+{
+    "text": "What is the service that automates EC2 instances scaling?",
+    "answers": [
+        {
+            "text": "Amazon EC2 Auto Scaling",
+            "right_answer": true
+        },
+        {
+            "text": "AWS IAM"
+        },
+        {
+            "text": "Amazon Route 53"
+        },
+        {
+            "text": "Amazon Elastic Load Balancer"
+        }
+    ]
+}

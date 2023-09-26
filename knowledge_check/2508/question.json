@@ -1,0 +1,21 @@
+{
+    "text": "On which level does Amazon Route53 work?",
+    "answers": [
+        {
+            "text": "Global",
+            "right_answer": true
+        },
+        {
+            "text": "Region"
+        },
+        {
+            "text": "Availabilty Zone"
+        },
+        {
+            "text": "Subnet"
+        },
+        {
+            "text": "Instance"
+        }
+    ]
+}

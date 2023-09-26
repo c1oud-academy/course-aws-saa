@@ -1,0 +1,135 @@
+2501
+Select the most highly available system based on percentage of uptime:
++A) 99.999%
+B) 99.99%
+C) 99.9%
+D) 99%
+D) 90%
+==========
+2502
+Select the least highly available system based on percentage of uptime:
+A) 99.999%
+B) 99.99%
+C) 99.9%
+D) 99%
++D) 90%
+==========
+2503
+Select valid types of elastic load balancers (ELB):
++A) Application Load Balancer
++B) Network Load Balancer
++D) Classic Load Balancer
+C) Online Load Balancer
+D) Offline Load Balancer
+D) Modern Load Balancer
+==========
+2504
+Select valid types of elastic load balancers (ELB):
++B) Network Load Balancer
++D) Classic Load Balancer
+C) Online Load Balancer
+D) Offline Load Balancer
+D) Modern Load Balancer
+==========
+2505
+Select valid types of elastic load balancers (ELB):
++A) Application Load Balancer
++D) Classic Load Balancer
+C) Online Load Balancer
+D) Offline Load Balancer
+D) Modern Load Balancer
+==========
+2506
+Select valid types of elastic load balancers (ELB):
++A) Application Load Balancer
++B) Network Load Balancer
+C) Online Load Balancer
+D) Offline Load Balancer
+D) Modern Load Balancer
+==========
+2507
+On which level does ELB work?
+A) Global
++B) Region
+C) Availabilty Zone
+D) Subnet
+D) Instance
+==========
+2508
+On which level does Amazon Route53 work?
++A) Global
+B) Region
+C) Availabilty Zone
+D) Subnet
+D) Instance
+==========
+2509
+Which Route53 routing policy distributes incoming traffic to servers in a round robin way?
++A) Simple routing
+B) Weighted round robin routing
+C) Latency-based routing
+D) Geolocation routing
+D) Geoproximity routing
+D) Failover routing
+D) Multivalue answer routing
+==========
+2510
+Which Route53 routing policy distributes incoming traffic based on weights of targets?
+A) Simple routing
++B) Weighted round robin routing
+C) Latency-based routing
+D) Geolocation routing
+D) Geoproximity routing
+D) Failover routing
+D) Multivalue answer routing
+==========
+2511
+Which Route53 routing policy distributes incoming traffic based on latency till the targets?
+A) Simple routing
+B) Weighted round robin routing
++C) Latency-based routing
+D) Geolocation routing
+D) Geoproximity routing
+D) Failover routing
+D) Multivalue answer routing
+==========
+2512
+Which Route53 routing policy distributes incoming traffic based on the geographic location of users?
+A) Simple routing
+B) Weighted round robin routing
+C) Latency-based routing
++D) Geolocation routing
+D) Geoproximity routing
+D) Failover routing
+D) Multivalue answer routing
+==========
+2513
+Which Route53 routing policy distributes incoming traffic based on the physical distance between your users and your resources?
+A) Simple routing
+B) Weighted round robin routing
+C) Latency-based routing
+D) Geolocation routing
++D) Geoproximity routing
+D) Failover routing
+D) Multivalue answer routing
+==========
+2514
+Which Route53 routing policy distributes incoming traffic to primary (active) target and in case unhealthy primary target to secondary (passive) target?
+A) Simple routing
+B) Weighted round robin routing
+C) Latency-based routing
+D) Geolocation routing
+D) Geoproximity routing
++D) Failover routing
+D) Multivalue answer routing
+==========
+2515
+Which Route53 routing policy returns several target values to users?
+A) Simple routing
+B) Weighted round robin routing
+C) Latency-based routing
+D) Geolocation routing
+D) Geoproximity routing
+D) Failover routing
++D) Multivalue answer routing
+==========

@@ -1,0 +1,22 @@
+{
+    "text": "Select valid types of elastic load balancers (ELB):",
+    "answers": [
+        {
+            "text": "Application Load Balancer",
+            "right_answer": true
+        },
+        {
+            "text": "Network Load Balancer",
+            "right_answer": true
+        },
+        {
+            "text": "Online Load Balancer"
+        },
+        {
+            "text": "Offline Load Balancer"
+        },
+        {
+            "text": "Modern Load Balancer"
+        }
+    ]
+}

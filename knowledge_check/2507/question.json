@@ -1,0 +1,21 @@
+{
+    "text": "On which level does ELB work?",
+    "answers": [
+        {
+            "text": "Global"
+        },
+        {
+            "text": "Region",
+            "right_answer": true
+        },
+        {
+            "text": "Availabilty Zone"
+        },
+        {
+            "text": "Subnet"
+        },
+        {
+            "text": "Instance"
+        }
+    ]
+}
