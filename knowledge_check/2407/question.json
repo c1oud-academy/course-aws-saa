@@ -1,0 +1,29 @@
+{
+    "text": "Select paramaters that are defined in Auto Scaling Group (ASG):",
+    "answers": [
+        {
+            "text": "Minimum capacity",
+            "right_answer": true
+        },
+        {
+            "text": "Maximum capacity",
+            "right_answer": true
+        },
+        {
+            "text": "Desired capacity",
+            "right_answer": true
+        },
+        {
+            "text": "Average capacity"
+        },
+        {
+            "text": "Median capacity"
+        },
+        {
+            "text": "Expected capacity"
+        },
+        {
+            "text": "Predicted capacity"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "text": "Select valid scaling types:",
+    "answers": [
+        {
+            "text": "Horizontal",
+            "right_answer": true
+        },
+        {
+            "text": "Vertical",
+            "right_answer": true
+        },
+        {
+            "text": "Diagonal"
+        },
+        {
+            "text": "Straight"
+        },
+        {
+            "text": "Curve"
+        }
+    ]
+}

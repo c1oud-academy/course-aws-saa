@@ -1,0 +1,27 @@
+{
+    "text": "Which Route53 routing policy distributes incoming traffic based on weights of targets?",
+    "answers": [
+        {
+            "text": "Simple routing"
+        },
+        {
+            "text": "Weighted round robin routing",
+            "right_answer": true
+        },
+        {
+            "text": "Latency-based routing"
+        },
+        {
+            "text": "Geolocation routing"
+        },
+        {
+            "text": "Geoproximity routing"
+        },
+        {
+            "text": "Failover routing"
+        },
+        {
+            "text": "Multivalue answer routing"
+        }
+    ]
+}

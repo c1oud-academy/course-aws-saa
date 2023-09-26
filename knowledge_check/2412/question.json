@@ -1,0 +1,21 @@
+{
+    "text": "Adding Read Replica for Primary DB instance corresponds to:",
+    "answers": [
+        {
+            "text": "Horizontal scaling",
+            "right_answer": true
+        },
+        {
+            "text": "Vertical scaling"
+        },
+        {
+            "text": "Diagonal scaling"
+        },
+        {
+            "text": "Straight scaling"
+        },
+        {
+            "text": "Curve scaling"
+        }
+    ]
+}

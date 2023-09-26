@@ -1,0 +1,26 @@
+{
+    "text": "Select valid dynamic policy types in ASG:",
+    "answers": [
+        {
+            "text": "Simple scaling",
+            "right_answer": true
+        },
+        {
+            "text": "Mixed scaling"
+        },
+        {
+            "text": "Step scaling",
+            "right_answer": true
+        },
+        {
+            "text": "Block scaling"
+        },
+        {
+            "text": "Target tracking scaling",
+            "right_answer": true
+        },
+        {
+            "text": "Aim tracking scaling"
+        }
+    ]
+}

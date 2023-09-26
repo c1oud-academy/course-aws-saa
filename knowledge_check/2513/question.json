@@ -1,0 +1,27 @@
+{
+    "text": "Which Route53 routing policy distributes incoming traffic based on the physical distance between your users and your resources?",
+    "answers": [
+        {
+            "text": "Simple routing"
+        },
+        {
+            "text": "Weighted round robin routing"
+        },
+        {
+            "text": "Latency-based routing"
+        },
+        {
+            "text": "Geolocation routing"
+        },
+        {
+            "text": "Geoproximity routing",
+            "right_answer": true
+        },
+        {
+            "text": "Failover routing"
+        },
+        {
+            "text": "Multivalue answer routing"
+        }
+    ]
+}

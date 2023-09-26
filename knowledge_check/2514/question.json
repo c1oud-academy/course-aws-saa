@@ -1,0 +1,27 @@
+{
+    "text": "Which Route53 routing policy distributes incoming traffic to primary (active) target and in case unhealthy primary target to secondary (passive) target?",
+    "answers": [
+        {
+            "text": "Simple routing"
+        },
+        {
+            "text": "Weighted round robin routing"
+        },
+        {
+            "text": "Latency-based routing"
+        },
+        {
+            "text": "Geolocation routing"
+        },
+        {
+            "text": "Geoproximity routing"
+        },
+        {
+            "text": "Failover routing",
+            "right_answer": true
+        },
+        {
+            "text": "Multivalue answer routing"
+        }
+    ]
+}

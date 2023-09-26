@@ -1,0 +1,22 @@
+{
+    "text": "Select valid dynamic policy types:",
+    "answers": [
+        {
+            "text": "Simple scaling",
+            "right_answer": true
+        },
+        {
+            "text": "Mixed scaling"
+        },
+        {
+            "text": "Step scaling",
+            "right_answer": true
+        },
+        {
+            "text": "Block scaling"
+        },
+        {
+            "text": "Aim tracking scaling"
+        }
+    ]
+}

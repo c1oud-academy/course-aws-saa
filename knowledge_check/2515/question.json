@@ -1,0 +1,27 @@
+{
+    "text": "Which Route53 routing policy returns several target values to users?",
+    "answers": [
+        {
+            "text": "Simple routing"
+        },
+        {
+            "text": "Weighted round robin routing"
+        },
+        {
+            "text": "Latency-based routing"
+        },
+        {
+            "text": "Geolocation routing"
+        },
+        {
+            "text": "Geoproximity routing"
+        },
+        {
+            "text": "Failover routing"
+        },
+        {
+            "text": "Multivalue answer routing",
+            "right_answer": true
+        }
+    ]
+}
