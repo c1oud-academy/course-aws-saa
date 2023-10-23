@@ -1,0 +1,23 @@
+{
+    "answers": [
+        {
+            "text": "Time to Live (TTL)",
+            "right_answer": true
+        },
+        {
+            "text": "Change object name",
+            "right_answer": true
+        },
+        {
+            "text": "Change object tags"
+        },
+        {
+            "text": "Invalidate object",
+            "right_answer": true
+        },
+        {
+            "text": "Validate object"
+        }
+    ],
+    "text": "Select valid ways to expire content in Amazon CloudFront:"
+}

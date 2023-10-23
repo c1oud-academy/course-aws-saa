@@ -1,0 +1,18 @@
+{
+    "text": "Select AWS CloudFormation template section that can be used to store dictionaries to use later in template body:",
+    "answers": [
+        {
+            "text": "Parameters"
+        },
+        {
+            "text": "Rules"
+        },
+        {
+            "right_answer": true,
+            "text": "Mappings"
+        },
+        {
+            "text": "Resources"
+        }
+    ]
+}

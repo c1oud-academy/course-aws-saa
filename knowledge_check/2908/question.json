@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Amazon CloudFront"
+        },
+        {
+            "text": "Amazon DAX",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon ELB"
+        },
+        {
+            "text": "Amazon ElastiCache"
+        }
+    ],
+    "text": "Select native AWS service that caches Amazon DynamoDB:"
+}

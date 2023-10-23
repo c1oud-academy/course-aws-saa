@@ -1,0 +1,18 @@
+{
+    "text": "Which is the delivery mechanism for Amazon SQS?",
+    "answers": [
+        {
+            "text": "Pull mechanism",
+            "right_answer": true
+        },
+        {
+            "text": "Push mechanism"
+        },
+        {
+            "text": "Throw mechanism"
+        },
+        {
+            "text": "Save mechanism"
+        }
+    ]
+}

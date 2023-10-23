@@ -1,0 +1,22 @@
+{
+    "text": "Select main components of Amazon SQS:",
+    "answers": [
+        {
+            "text": "Producer",
+            "right_answer": true
+        },
+        {
+            "text": "Consumer",
+            "right_answer": true
+        },
+        {
+            "text": "Publisher"
+        },
+        {
+            "text": "Topic"
+        },
+        {
+            "text": "Subscriber"
+        }
+    ]
+}

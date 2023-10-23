@@ -1,0 +1,26 @@
+{
+    "text": "Select valid Amazon SQS features:",
+    "answers": [
+        {
+            "text": "Dead-letter queue",
+            "right_answer": true
+        },
+        {
+            "text": "Dead-message queue"
+        },
+        {
+            "text": "Visibility support"
+        },
+        {
+            "text": "Visibility timeout",
+            "right_answer": true
+        },
+        {
+            "text": "Long polling",
+            "right_answer": true
+        },
+        {
+            "text": "Mailing of emails"
+        }
+    ]
+}

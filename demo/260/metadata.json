@@ -1,0 +1,28 @@
+{
+	"type": "demo",
+	"id": "260",
+	"content_type": "video",
+	"property_keys": ["type", "id", "content_type"],
+	"title": {
+		"ru": "Демо #260",
+		"kk": "Демо #260",
+		"en": "Demo #260"
+	},
+	"files_list": [
+		{
+			"path": "metadata.json",
+			"type": "metadata",
+			"lang": "en"
+		},
+		{
+			"path": "video/ru/video.mp4",
+			"type": "video",
+			"lang": "ru"
+		},
+		{
+			"path": "presentation/presentation.en.pptx",
+			"type": "presentation",
+			"lang": "en"
+    }
+	]
+}

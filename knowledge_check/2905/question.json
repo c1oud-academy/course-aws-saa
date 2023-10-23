@@ -1,0 +1,21 @@
+{
+    "answers": [
+        {
+            "text": "Amazon CloudFront",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon S3"
+        },
+        {
+            "text": "Amazon EC2"
+        },
+        {
+            "text": "Amazon DynamoDB"
+        },
+        {
+            "text": "Amazon ElastiCache"
+        }
+    ],
+    "text": "Select AWS service which is Amazon global CDN:"
+}

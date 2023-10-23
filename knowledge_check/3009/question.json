@@ -1,0 +1,22 @@
+{
+    "text": "Select main components of Amazon SNS:",
+    "answers": [
+        {
+            "text": "Producer"
+        },
+        {
+            "text": "Queue"
+        },
+        {
+            "text": "Consumer"
+        },
+        {
+            "text": "Topic",
+            "right_answer": true
+        },
+        {
+            "text": "Subscriber",
+            "right_answer": true
+        }
+    ]
+}

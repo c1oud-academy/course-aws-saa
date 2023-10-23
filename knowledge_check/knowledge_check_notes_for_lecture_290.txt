@@ -1,0 +1,88 @@
+2901
+Select benefits of caching:
++A) Improves application speed
+B) Eliminates application bugs
++C) Reduces response latency
+C) Increases response latency
++D) Reduces database access time
+D) Increases database access time
+==========
+2902
+Select benefits of caching:
++A) Improves application speed
+B) Eliminates application bugs
++C) Reduces response latency
+C) Increases response latency
+D) Increases database access time
+==========
+2903
+Select benefits of caching:
++A) Improves application speed
+B) Eliminates application bugs
+C) Increases response latency
++D) Reduces database access time
+D) Increases database access time
+==========
+2904
+Select benefits of caching:
+B) Eliminates application bugs
++C) Reduces response latency
+C) Increases response latency
++D) Reduces database access time
+D) Increases database access time
+==========
+2905
+Select AWS service which is Amazon global CDN:
++A) Amazon CloudFront
+B) Amazon S3
+C) Amazon EC2
+C) Amazon DynamoDB
+D) Amazon ElastiCache
+==========
+2906
+Select valid ways to expire content in Amazon CloudFront:
++A) Time to Live (TTL)
++B) Change object name
+D) Change object tags
++D) Invalidate object
+D) Validate object
+==========
+2907
+Select AWS service that support sticky sessions functionality:
+A) Amazon CloudFront
++B) Amazon ELB
+C) Amazon EC2
+C) Amazon DynamoDB
+D) Amazon ElastiCache
+==========
+2908
+Select native AWS service that caches Amazon DynamoDB:
+A) Amazon CloudFront
++B) Amazon DAX
+C) Amazon ELB
+D) Amazon ElastiCache
+==========
+2909
+Select AWS service that provides standalone in-memory caching:
+A) Amazon CloudFront
+B) Amazon DAX
+C) Amazon ELB
++D) Amazon ElastiCache
+==========
+2910
+Select available in-memory databases available for Amazon ElastiCache:
++A) Redis
+B) Amazon DAX
++C) Memcached
+D) Apache Ignite
+D) Ehcache
+A) Amazon CloudFront
+==========
+2911
+Select valid cahing strategies:
++A) Lazy loading
++B) Write-through
+C) Read-through
+D) Hyper loading
+D) Active loading
+==========

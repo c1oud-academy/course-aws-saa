@@ -1,0 +1,18 @@
+{
+    "text": "Which AWS service provides us hundreds of AWS CloudFormation templates free of charge?",
+    "answers": [
+        {
+            "text": "AWS CloudFormation"
+        },
+        {
+            "right_answer": true,
+            "text": "AWS Quick Starts"
+        },
+        {
+            "text": "AWS Organizations"
+        },
+        {
+            "text": "AWS Control Tower"
+        }
+    ]
+}

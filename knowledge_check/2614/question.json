@@ -1,0 +1,18 @@
+{
+    "text": "Select AWS CloudFormation template section that can be used to export stack generated values to be available for other templates:",
+    "answers": [
+        {
+            "text": "Conditions"
+        },
+        {
+            "text": "Transform"
+        },
+        {
+            "text": "Resources"
+        },
+        {
+            "right_answer": true,
+            "text": "Outputs"
+        }
+    ]
+}

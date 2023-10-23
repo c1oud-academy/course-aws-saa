@@ -1,0 +1,18 @@
+{
+    "text": "Select AWS CloudFormation template section that can be used to indicate conditions:",
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "Conditions"
+        },
+        {
+            "text": "Transform"
+        },
+        {
+            "text": "Resources"
+        },
+        {
+            "text": "Outputs"
+        }
+    ]
+}

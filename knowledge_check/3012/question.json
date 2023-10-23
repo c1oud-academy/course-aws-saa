@@ -1,0 +1,18 @@
+{
+    "text": "Which is the delivery mechanism for Amazon SNS?",
+    "answers": [
+        {
+            "text": "Pull mechanism"
+        },
+        {
+            "text": "Push mechanism",
+            "right_answer": true
+        },
+        {
+            "text": "Throw mechanism"
+        },
+        {
+            "text": "Save mechanism"
+        }
+    ]
+}
