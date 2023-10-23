@@ -1,0 +1,118 @@
+3001
+Select main components of Amazon SQS:
++A) Producer
++B) Queue
++C) Consumer
+C) Publisher
+D) Topic
+D) Subscriber
+==========
+3002
+Select main components of Amazon SQS:
++B) Queue
++C) Consumer
+C) Publisher
+D) Topic
+D) Subscriber
+==========
+3003
+Select main components of Amazon SQS:
++A) Producer
++C) Consumer
+C) Publisher
+D) Topic
+D) Subscriber
+==========
+3004
+Select main components of Amazon SQS:
++A) Producer
++B) Queue
+C) Publisher
+D) Topic
+D) Subscriber
+==========
+3005
+Which is the delivery mechanism for Amazon SQS?
++A) Pull mechanism
+B) Push mechanism
+C) Throw mechanism
+C) Save mechanism
+==========
+3006
+Select valid Amazon SQS queue types:
++A) Standard
+B) Normal
+C) Reduced redundancy
++C) FIFO
+C) LIFO
+C) FILO
+==========
+3007
+Select valid Amazon SQS features:
++A) Dead-letter queue
+B) Dead-message queue
+C) Visibility support
++C) Visibility timeout
++C) Long polling
+C) Mailing of emails
+==========
+3008
+Select main components of Amazon SNS:
+A) Producer
+B) Queue
+C) Consumer
++C) Publisher
++D) Topic
++D) Subscriber
+==========
+3009
+Select main components of Amazon SNS:
+A) Producer
+B) Queue
+C) Consumer
++D) Topic
++D) Subscriber
+==========
+3010
+Select main components of Amazon SNS:
+A) Producer
+B) Queue
+C) Consumer
++C) Publisher
++D) Subscriber
+==========
+3011
+Select main components of Amazon SNS:
+A) Producer
+B) Queue
+C) Consumer
++C) Publisher
++D) Topic
+==========
+3012
+Which is the delivery mechanism for Amazon SNS?
+A) Pull mechanism
++B) Push mechanism
+C) Throw mechanism
+C) Save mechanism
+==========
+3013
+Select supported by Amazon SNS transport protocols:
++A) Email
++B) HTTP and HTTPS
+B) HTTP only
+B) HTTPS only
++C) SMS
+C) MMS
++D) SQS queues
++D) Lambda functions
+D) WhatsApp
+D) Telegram
+==========
+3014
+Which is the service that provides managed Apache ActiveMQ in AWS?
++A) Amazon MQ
+B) Amazon SQS
+C) Amazon SNS
+C) RabbitMQ
+==========

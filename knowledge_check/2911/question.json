@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "text": "Lazy loading",
+            "right_answer": true
+        },
+        {
+            "text": "Write-through",
+            "right_answer": true
+        },
+        {
+            "text": "Read-through"
+        },
+        {
+            "text": "Hyper loading"
+        },
+        {
+            "text": "Active loading"
+        }
+    ],
+    "text": "Select valid cahing strategies:"
+}

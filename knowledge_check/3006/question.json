@@ -1,0 +1,25 @@
+{
+    "text": "Select valid Amazon SQS queue types:",
+    "answers": [
+        {
+            "text": "Standard",
+            "right_answer": true
+        },
+        {
+            "text": "Normal"
+        },
+        {
+            "text": "Reduced redundancy"
+        },
+        {
+            "text": "FIFO",
+            "right_answer": true
+        },
+        {
+            "text": "LIFO"
+        },
+        {
+            "text": "FILO"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+	"type": "lecture",
+	"id": "300",
+	"content_type": "video",
+	"property_keys": ["type", "id", "content_type"],
+	"title": {
+		"ru": "Module 12: Building Decoupled Architectures",
+		"kk": "Module 12: Building Decoupled Architectures",
+		"en": "Module 12: Building Decoupled Architectures"
+	},
+	"files_list": [
+		{
+			"path": "metadata.json",
+			"type": "metadata",
+			"lang": "en"
+		},
+		{
+			"path": "video/ru/video.mp4",
+			"type": "video",
+			"lang": "ru"
+		},
+		{
+			"path": "presentation/presentation.en.pptx",
+			"type": "presentation",
+			"lang": "en"
+		}
+	]
+}

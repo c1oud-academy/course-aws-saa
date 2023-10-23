@@ -1,0 +1,22 @@
+{
+    "text": "Select available template syntax supported by AWS CloudFormation:",
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "JSON"
+        },
+        {
+            "right_answer": true,
+            "text": "YAML"
+        },
+        {
+            "text": "TXT"
+        },
+        {
+            "text": "HTML"
+        },
+        {
+            "text": "CSS"
+        }
+    ]
+}

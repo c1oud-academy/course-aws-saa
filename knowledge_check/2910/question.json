@@ -1,0 +1,25 @@
+{
+    "answers": [
+        {
+            "text": "Redis",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon DAX"
+        },
+        {
+            "text": "Memcached",
+            "right_answer": true
+        },
+        {
+            "text": "Apache Ignite"
+        },
+        {
+            "text": "Ehcache"
+        },
+        {
+            "text": "Amazon CloudFront"
+        }
+    ],
+    "text": "Select available in-memory databases available for Amazon ElastiCache:"
+}

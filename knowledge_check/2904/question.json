@@ -1,0 +1,22 @@
+{
+    "answers": [
+        {
+            "text": "Eliminates application bugs"
+        },
+        {
+            "text": "Reduces response latency",
+            "right_answer": true
+        },
+        {
+            "text": "Increases response latency"
+        },
+        {
+            "text": "Reduces database access time",
+            "right_answer": true
+        },
+        {
+            "text": "Increases database access time"
+        }
+    ],
+    "text": "Select benefits of caching:"
+}

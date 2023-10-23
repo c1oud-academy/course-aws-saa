@@ -1,0 +1,18 @@
+{
+    "text": "Select AWS CloudFormation template section that can be used to add template related info in free text form:",
+    "answers": [
+        {
+            "text": "AWSTemplateFormatVersion"
+        },
+        {
+            "right_answer": true,
+            "text": "Description"
+        },
+        {
+            "text": "Metadata"
+        },
+        {
+            "text": "Resources"
+        }
+    ]
+}

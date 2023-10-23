@@ -1,0 +1,40 @@
+{
+    "text": "Select supported by Amazon SNS transport protocols:",
+    "answers": [
+        {
+            "text": "Email",
+            "right_answer": true
+        },
+        {
+            "text": "HTTP and HTTPS",
+            "right_answer": true
+        },
+        {
+            "text": "HTTP only"
+        },
+        {
+            "text": "HTTPS only"
+        },
+        {
+            "text": "SMS",
+            "right_answer": true
+        },
+        {
+            "text": "MMS"
+        },
+        {
+            "text": "SQS queues",
+            "right_answer": true
+        },
+        {
+            "text": "Lambda functions",
+            "right_answer": true
+        },
+        {
+            "text": "WhatsApp"
+        },
+        {
+            "text": "Telegram"
+        }
+    ]
+}

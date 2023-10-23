@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "text": "Amazon CloudFront"
+        },
+        {
+            "text": "Amazon DAX"
+        },
+        {
+            "text": "Amazon ELB"
+        },
+        {
+            "text": "Amazon ElastiCache",
+            "right_answer": true
+        }
+    ],
+    "text": "Select AWS service that provides standalone in-memory caching:"
+}

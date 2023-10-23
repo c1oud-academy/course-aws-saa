@@ -1,0 +1,31 @@
+{
+    "title": {
+        "kk": "Knowledge check quesion 2908",
+        "ru": "Knowledge check quesion 2908",
+        "en": "Knowledge check quesion 2908"
+    },
+    "type": "knowledge_check",
+    "files_list": [
+        {
+            "type": "metadata",
+            "path": "metadata.json",
+            "lang": "en"
+        },
+        {
+            "type": "question",
+            "path": "question.json",
+            "lang": "en"
+        }
+    ],
+    "linked_type": "lecture",
+    "linked_id": "290",
+    "property_keys": [
+        "type",
+        "id",
+        "content_type",
+        "linked_type",
+        "linked_id"
+    ],
+    "content_type": "test",
+    "id": "2908"
+}

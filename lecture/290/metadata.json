@@ -1,0 +1,28 @@
+{
+	"type": "lecture",
+	"id": "290",
+	"content_type": "video",
+	"property_keys": ["type", "id", "content_type"],
+	"title": {
+		"ru": "Module 11: Caching Content",
+		"kk": "Module 11: Caching Content",
+		"en": "Module 11: Caching Content"
+	},
+	"files_list": [
+		{
+			"path": "metadata.json",
+			"type": "metadata",
+			"lang": "en"
+		},
+		{
+			"path": "video/ru/video.mp4",
+			"type": "video",
+			"lang": "ru"
+		},
+		{
+			"path": "presentation/presentation.en.pptx",
+			"type": "presentation",
+			"lang": "en"
+		}
+	]
+}

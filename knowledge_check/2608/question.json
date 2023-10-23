@@ -1,0 +1,18 @@
+{
+    "text": "Select AWS CloudFormation template section that can be used to customize page with parameters during stack creation in AWS Management Console:",
+    "answers": [
+        {
+            "text": "AWSTemplateFormatVersion"
+        },
+        {
+            "text": "Description"
+        },
+        {
+            "right_answer": true,
+            "text": "Metadata"
+        },
+        {
+            "text": "Resources"
+        }
+    ]
+}

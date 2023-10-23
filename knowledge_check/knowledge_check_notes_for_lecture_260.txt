@@ -1,0 +1,99 @@
+2601
+Select AWS service that deals with infrastructure as code (IaC):
++A) AWS CloudFormation
+B) Amazon Redshift
+C) AWS Organizations
+D) AWS Control Tower
+==========
+2602
+Select available template syntax supported by AWS CloudFormation:
++A) JSON
++B) YAML
+C) TXT
+D) HTML
+D) CSS
+==========
+2603
+Which AWS service provides us hundreds of AWS CloudFormation templates free of charge?
+A) AWS CloudFormation
++B) AWS Quick Starts
+C) AWS Organizations
+D) AWS Control Tower
+==========
+2604
+Select AWS CloudFormation template mandatory section:
+A) AWSTemplateFormatVersion
+B) Description
+C) Metadata
++D) Resources
+==========
+2605
+Select AWS CloudFormation template mandatory section:
+D) Parameters
+D) Rules
+D) Mappings
++D) Resources
+==========
+2606
+Select AWS CloudFormation template mandatory section:
+D) Conditions
+D) Transform
++D) Resources
+D) Outputs
+==========
+2607
+Select AWS CloudFormation template section that can be used to add template related info in free text form:
+A) AWSTemplateFormatVersion
++B) Description
+C) Metadata
+D) Resources
+==========
+2608
+Select AWS CloudFormation template section that can be used to customize page with parameters during stack creation in AWS Management Console:
+A) AWSTemplateFormatVersion
+B) Description
++C) Metadata
+D) Resources
+==========
+2609
+Select AWS CloudFormation template section that can be used to indicate input data for stack creation:
++D) Parameters
+D) Rules
+D) Mappings
+D) Resources
+==========
+2610
+Select AWS CloudFormation template section that can be used to validate template parameters:
+D) Parameters
++D) Rules
+D) Mappings
+D) Resources
+==========
+2611
+Select AWS CloudFormation template section that can be used to store dictionaries to use later in template body:
+D) Parameters
+D) Rules
++D) Mappings
+D) Resources
+==========
+2612
+Select AWS CloudFormation template section that can be used to indicate conditions:
++D) Conditions
+D) Transform
+D) Resources
+D) Outputs
+==========
+2613
+Select AWS CloudFormation template section that can be used to describe resources:
+D) Conditions
+D) Transform
++D) Resources
+D) Outputs
+==========
+2614
+Select AWS CloudFormation template section that can be used to export stack generated values to be available for other templates:
+D) Conditions
+D) Transform
+D) Resources
++D) Outputs
+==========

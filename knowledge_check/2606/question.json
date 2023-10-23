@@ -1,0 +1,18 @@
+{
+    "text": "Select AWS CloudFormation template mandatory section:",
+    "answers": [
+        {
+            "text": "Conditions"
+        },
+        {
+            "text": "Transform"
+        },
+        {
+            "right_answer": true,
+            "text": "Resources"
+        },
+        {
+            "text": "Outputs"
+        }
+    ]
+}

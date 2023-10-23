@@ -1,0 +1,18 @@
+{
+    "text": "Which is the service that provides managed Apache ActiveMQ in AWS?",
+    "answers": [
+        {
+            "text": "Amazon MQ",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon SQS"
+        },
+        {
+            "text": "Amazon SNS"
+        },
+        {
+            "text": "RabbitMQ"
+        }
+    ]
+}

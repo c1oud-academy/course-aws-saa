@@ -1,0 +1,21 @@
+{
+    "answers": [
+        {
+            "text": "Amazon CloudFront"
+        },
+        {
+            "text": "Amazon ELB",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon EC2"
+        },
+        {
+            "text": "Amazon DynamoDB"
+        },
+        {
+            "text": "Amazon ElastiCache"
+        }
+    ],
+    "text": "Select AWS service that support sticky sessions functionality:"
+}

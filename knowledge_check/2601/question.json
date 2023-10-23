@@ -1,0 +1,18 @@
+{
+    "text": "Select AWS service that deals with infrastructure as code (IaC):",
+    "answers": [
+        {
+            "right_answer": true,
+            "text": "AWS CloudFormation"
+        },
+        {
+            "text": "Amazon Redshift"
+        },
+        {
+            "text": "AWS Organizations"
+        },
+        {
+            "text": "AWS Control Tower"
+        }
+    ]
+}
