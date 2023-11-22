@@ -1,0 +1,28 @@
+{
+	"type": "lecture",
+	"id": "330",
+	"content_type": "video",
+	"property_keys": ["type", "id", "content_type"],
+	"title": {
+		"ru": "Module 14: Planning for Disaster",
+		"kk": "Module 14: Planning for Disaster",
+		"en": "Module 14: Planning for Disaster"
+	},
+	"files_list": [
+		{
+			"path": "metadata.json",
+			"type": "metadata",
+			"lang": "en"
+		},
+		{
+			"path": "video/ru/video.mp4",
+			"type": "video",
+			"lang": "ru"
+		},
+		{
+			"path": "presentation/presentation.en.pptx",
+			"type": "presentation",
+			"lang": "en"
+		}
+	]
+}

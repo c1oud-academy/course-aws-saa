@@ -1,0 +1,92 @@
+3401
+What AWS exam will you be prepared for on this course?
+A) AWS Certified Cloud Practitioner
++B) AWS Certified Solutions Architect - Associate
+C) AWS Certified Developer - Associate
+D) AWS Certified SysOps Administrator - Associate
+==========
+3402
+What does AWS stand for?
++A) Amazon Web Services
+B) Amazon Web Site
+C) Apple Web Site
+D) Apple Web Services
+==========
+3403
+Select the company which is not a cloud provider:
++A) Netflix
+B) AWS
+C) Azure
+D) GCP
+==========
+3404
+Select a non-existing AWS exams group:
++A) Enterprise
+B) Foundational
+C) Associate
+D) Professional
+E) Specialty
+==========
+3405
+What is TRUE about AWS Certified Solutions Architect - Associate Exam?
++A) Exam format is a Test
++B) You are given 130 mins to complete the test
++C) There are 65 questions
+E) There are only multiple choice questions
+==========
+3406
+What is TRUE about AWS Certified Solutions Architect - Associate Exam?
+A) Exam format is in written form
++B) You are given 130 mins to complete the test
++C) There are 65 questions
++D) You can pass the exam online or offline in test center
+==========
+3407
+What is TRUE about AWS Certified Solutions Architect - Associate Exam?
+A) Exam format is in written form
++B) You are given 130 mins to complete the test
++C) There are 65 questions
+E) There are only multiple choice questions
+==========
+3408
+What is TRUE about AWS Certified Solutions Architect - Associate Exam?
+A) Exam format is in written form
+B) You are given 60 mins to complete the test
++C) There are 65 questions
++E) There are two types of questions: multiple choice and multiple response
+==========
+3409
+What is FALSE about AWS Certified Solutions Architect - Associate Exam?
+A) Exam format is a Test
+B) You are given 130 mins to complete the test
+C) There are 65 questions
++E) There are only multiple choice questions
+==========
+3410
+What is FALSE about AWS Certified Solutions Architect - Associate Exam?
++A) Exam format is in written form
+B) You are given 130 mins to complete the test
+C) There are 65 questions
+D) You can pass exam online or offline in test center
+==========
+3411
+What is FALSE about AWS Certified Solutions Architect - Associate Exam?
++A) Exam format is in written form
+B) You are given 130 mins to complete the test
+C) There are 65 questions
++E) There are only multiple choice questions
+==========
+3412
+What is FALSE about AWS Certified Solutions Architect - Associate Exam?
++A) Exam format is in written form
++B) You are given 60 mins to complete the test
+C) There are 65 questions
+E) There are two types of questions: multiple choice and multiple response
+==========
+3413
+What is the option/accommodation available for non-native English specialists? ESL (“English as a Second Language”)
+A) ESL +10
+B) ESL +20
++C) ESL +30
+D) ESL +40
+==========
