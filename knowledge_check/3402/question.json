@@ -1,0 +1,18 @@
+{
+    "text": "What does AWS stand for?",
+    "answers": [
+        {
+            "text": "Amazon Web Services",
+            "right_answer": true
+        },
+        {
+            "text": "Amazon Web Site"
+        },
+        {
+            "text": "Apple Web Site"
+        },
+        {
+            "text": "Apple Web Services"
+        }
+    ]
+}

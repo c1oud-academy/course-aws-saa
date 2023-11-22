@@ -1,0 +1,19 @@
+{
+    "text": "What is FALSE about AWS Certified Solutions Architect - Associate Exam?",
+    "answers": [
+        {
+            "text": "Exam format is in written form",
+            "right_answer": true
+        },
+        {
+            "text": "You are given 60 mins to complete the test",
+            "right_answer": true
+        },
+        {
+            "text": "There are 65 questions"
+        },
+        {
+            "text": "There are two types of questions: multiple choice and multiple response"
+        }
+    ]
+}
