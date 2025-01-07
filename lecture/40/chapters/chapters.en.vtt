@@ -1,0 +1,49 @@
+WEBVTT
+
+00:00:00.000 --> 00:01:14.000
+Introduction
+
+00:01:14.000 --> 00:04:13.000
+Section 1 
+
+00:04:13.000 --> 00:07:49.000
+Section 2
+
+00:07:49.000 --> 00:09:59.000
+Amazon S3 benefits
+
+00:09:59.000 --> 00:10:59.000
+Use case 1
+
+00:10:59.000 --> 00:14:57.000
+Securing Amazon S3 buckets and objects
+
+00:14:57.000 --> 00:16:05.000 
+Three general approaches to configuring access
+
+00:16:05.000 --> 00:18:25.000
+Consider encrypting objects in Amazon S3
+
+00:18:25.000 --> 00:21:45.000
+Use case 2
+
+00:21:45.000 --> 00:23:45.000
+Versioning
+
+00:23:45.000 --> 00:24:37.000
+CORS
+
+00:24:37.000 --> 00:26:00.000
+Use case 3
+
+00:26:00.000 --> 00:27:53.000
+Use case 4
+
+00:27:53.000 --> 00:29:48.000
+Amazon S3 data consistency model
+
+00:29:48.000 --> 00:31:37.000
+Section 2 key takeaways
+
+00:31:37.000 --> 00:32:06.000
+Module summary
