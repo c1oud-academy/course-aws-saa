@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:00.000 --> 00:01:15.000
+Introduction
+
+00:01:16.000 --> 00:03:20.000
+Section 1
+
+00:03:20.000 --> 00:10:58.518
+Section 2
+
+00:10:58.518 --> 00:12:14.000
+Amazon EC2 use cases
+
+00:12:14.000 --> 00:14:30.000
+Provisioning an EC2 instance
+
+00:14:30.000 --> 00:14:51.000
+Section 2 key takeaways
+
+00:14:51.000 --> 00:24:12.000
+Section 3
+
+00:24:12.000 --> 00:27:24.000
+Amazon EC2 instance lifecycle
+
+00:27:24.000 --> 00:30:40.000
+Creating a new AMI
+
+00:30:40.000 --> 00:30:50.000
+Section 3 key takeaways
+
+00:30:50.000 --> 00:35:42.020
+Section 4
+
+00:35:42.020 --> 00:36:55.218
+Choosing an instance type
+
+00:36:55.218 --> 00:37:49.008
+AWS Compute Optimizer
+
+00:37:49.008 --> 00:41:40.020
+Section 5
+
+00:41:40.020 --> 00:46:54.020
+Configuring an EC2 instance
+
+00:46:54.020 --> 00:57:16.020
+Section 6
+
+00:57:16.020 --> 00:58:14.020
+Module summary
