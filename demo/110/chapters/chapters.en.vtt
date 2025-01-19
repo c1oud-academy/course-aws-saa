@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.990 --> 00:02:36.320
+Introduction
+
+00:02:36.320 --> 00:04:48.800
+Create VPC
+
+00:04:48.800 --> 00:06:20.440
+Create public subnet
+
+00:06:20.440 --> 00:08:17.600
+Create Internet gateway
+
+00:08:17.600 --> 00:10:48.740
+Create route table
+
+00:10:48.740 --> 00:12:45.460
+Steps for private subnet
+
+00:12:45.460 --> 00:13:53.800
+Create NAT gateway
+
+00:13:53.800 --> 00:16:11.960
+Create route table
+
+00:16:11.960 --> 00:17:03.240
+Summary

@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.000 --> 00:01:12.000
+Introduction
+
+00:01:12.000 --> 00:03:59.000
+Section 1
+
+00:04:01.000 --> 00:09:30.000
+Section 2
+
+00:09:30.000 --> 00:14:32.000 
+Database types
+
+00:14:32.000 --> 00:15:05.000
+Section 2 key takeaways
+
+00:15:05.000 --> 00:15:29.000
+Section 3
+
+00:15:29.000 --> 00:18:32.000
+Advantage of managed AWS database services 
+
+00:18:34.000 --> 00:20:59.000
+Amazon RDS characteristics
+
+00:20:59.000 --> 00:22:38.000
+Database instance sizing
+
+00:22:38.000 --> 00:25:39.840
+Multi-AZ deployment
+
+00:25:41.840 --> 00:28:35.960
+Read replicas for performance
+
+00:28:35.960 --> 00:33:40.400
+Amazon Aurora
+
+00:33:42.400 --> 00:34:29.040
+Module summary
