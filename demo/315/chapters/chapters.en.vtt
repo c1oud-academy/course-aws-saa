@@ -1,0 +1,19 @@
+WEBVTT
+
+00:00:00.990 --> 00:00:15.920
+Introduction
+
+00:00:15.920 --> 00:05:46.600
+Creation of S3 buckets
+
+00:05:46.600 --> 00:10:45.440
+Creation of Lambda function
+
+00:10:45.440 --> 00:30:20.880
+Testing Lambda trigger from S3
+
+00:30:20.880 --> 00:32:19.720
+Final Lambda function testing	
+
+00:32:19.720 --> 00:33:05.760
+Summary
